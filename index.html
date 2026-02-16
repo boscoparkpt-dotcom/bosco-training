@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BoscoTri">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a1a2e' width='100' height='100' rx='20'/><text y='65' x='50' text-anchor='middle' font-size='50'>🏊</text></svg>">
+<title>BoscoTri Training</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#1a1a2e;color:#eee;padding:16px 16px 40px;max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none}
+h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing:1px}
+.subtitle{text-align:center;font-size:13px;color:#888;margin-bottom:16px}
+.phase{text-align:center;font-size:11px;color:#f97316;font-weight:700;letter-spacing:2px;margin-bottom:8px;text-transform:uppercase}
+.today-badge{text-align:center;margin-bottom:14px}
+.today-badge span{background:#f97316;color:#fff;font-size:11px;padding:3px 12px;border-radius:20px;font-weight:600}
+.day-card{background:#16213e;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
+.day-card.today{border-color:#f97316;box-shadow:0 0 12px rgba(249,115,22,.15)}
+.day-card.completed{opacity:.6}
+.day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.day-header:active{background:#1e3a5f}
+.day-left{display:flex;align-items:center;gap:10px}
+.day-icon{font-size:20px}
+.day-name{font-weight:700;font-size:15px}
+.day-date{font-size:11px;color:#666;display:block}
+.day-sport{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:700;letter-spacing:.5px}
+.swim{background:#0ea5e9;color:#fff}
+.bike{background:#22c55e;color:#fff}
+.run{background:#f97316;color:#fff}
+.rest{background:#6b7280;color:#fff}
+.arrow{font-size:16px;color:#555;transition:transform .2s;margin-left:8px}
+.day-card.open .arrow{transform:rotate(90deg)}
+.day-details{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 16px}
+.day-card.open .day-details{max-height:500px;padding:0 16px 14px}
+.workout-title{font-size:15px;font-weight:700;margin-bottom:6px;color:#fff}
+.workout-meta{font-size:12px;color:#999;margin-bottom:8px}
+.workout-sets{font-size:13px;line-height:1.7;color:#ccc;margin-bottom:4px}
+.workout-sets li{margin-bottom:2px;list-style:none;padding-left:18px;position:relative}
+.workout-sets li::before{content:"\25B8";position:absolute;left:0;color:#f97316;font-size:11px;top:1px}
+.equipment{font-size:11px;color:#777;margin-top:8px;padding-top:8px;border-top:1px solid #1e3a5f;display:flex;flex-wrap:wrap;gap:4px}
+.equipment span{background:#1e3a5f;padding:2px 8px;border-radius:10px}
+.note{font-size:12px;color:#f59e0b;margin-top:6px;font-style:italic}
+.weekly-summary{background:#16213e;border-radius:14px;padding:16px;margin-top:20px;border:1px solid #1e3a5f}
+.weekly-summary h3{font-size:13px;margin-bottom:6px;color:#f97316;letter-spacing:1px;text-transform:uppercase}
+.weekly-summary p{font-size:13px;color:#999;line-height:1.6}
+.race-banner{background:linear-gradient(135deg,#f97316,#dc2626);border-radius:14px;padding:14px 16px;margin-bottom:16px;text-align:center}
+.race-banner .race-name{font-weight:700;font-size:14px;color:#fff}
+.race-banner .race-date{font-size:12px;color:rgba(255,255,255,.8)}
+.race-banner .race-countdown{font-size:20px;font-weight:800;color:#fff;margin-top:4px}
+</style>
+</head>
+<body>
+
+<h1>BOSCO'S TRAINING</h1>
+<div class="phase">Phase 1: Base Building</div>
+<div class="subtitle">Week 1 — Feb 16-22, 2026</div>
+
+<div class="race-banner">
+  <div class="race-name">Jones Beach 70.3</div>
+  <div class="race-date">September 2026</div>
+  <div class="race-countdown" id="countdown"></div>
+</div>
+
+<div class="day-card" id="day-1" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Monday</span><span class="day-date">Feb 16</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">2,000 yd — Drills Focus</div>
+    <div class="workout-meta">~50 min | Easy effort | Solo AM</div>
+    <ul class="workout-sets">
+      <li>500 yd Warm Up — easy free, no equipment</li>
+      <li>4x100 w/ snorkel — catch-up drill</li>
+      <li>4x100 w/ paddles — moderate effort, feel the catch</li>
+      <li>4x50 kick w/ fins — streamline, arms extended</li>
+      <li>200 yd Cool Down w/ pull buoy</li>
+    </ul>
+    <div class="equipment"><span>Snorkel</span><span>Paddles</span><span>Fins</span><span>Pull Buoy</span></div>
+    <div class="note">+ 8 PM coaching session in the evening</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-2" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Tuesday</span><span class="day-date">Feb 17</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">Group Trail Run</div>
+    <div class="workout-meta">45-50 min | Easy | Group</div>
+    <ul class="workout-sets">
+      <li>Conversational pace throughout</li>
+      <li>Follow the group — terrain/distance will vary</li>
+      <li>Keep effort easy, save legs for Thursday</li>
+    </ul>
+    <div class="note">Group session — distance/pace may vary</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-3" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🚴</span><div><span class="day-name">Wednesday</span><span class="day-date">Feb 18</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport bike">BIKE</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">Indoor Bike — Easy Spin</div>
+    <div class="workout-meta">45 min | Easy | Zwift / Trainer</div>
+    <ul class="workout-sets">
+      <li>10 min warm up — easy spin, legs loose</li>
+      <li>25 min steady — cadence 85-95 rpm, light gear</li>
+      <li>10 min cool down — easy spin</li>
+    </ul>
+    <div class="equipment"><span>Tacx Neo 3M</span><span>Zwift optional</span></div>
+    <div class="note">Cadence work — smooth pedaling, don't grind</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-4" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Thursday</span><span class="day-date">Feb 19</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">Group Interval Run</div>
+    <div class="workout-meta">~45-50 min | Moderate-Hard | Group</div>
+    <ul class="workout-sets">
+      <li>1 mi Warm Up — easy jog</li>
+      <li>6x400m @ 5K pace (~7:00-7:15/mi)</li>
+      <li>200m recovery jog between reps</li>
+      <li>1 mi Cool Down — easy jog</li>
+    </ul>
+    <div class="note">Group session — coach may adjust. Focus on form at speed.</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-5" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Friday</span><span class="day-date">Feb 20</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">2,200 yd — Endurance + Build</div>
+    <div class="workout-meta">~55 min | Easy-Moderate | Solo AM</div>
+    <ul class="workout-sets">
+      <li>400 yd Warm Up — easy free</li>
+      <li>6x150 build (easy → moderate → strong by 50)</li>
+      <li>4x100 pull w/ buoy + paddles — steady</li>
+      <li>200 yd Cool Down — easy choice stroke</li>
+    </ul>
+    <div class="equipment"><span>Pull Buoy</span><span>Paddles</span></div>
+    <div class="note">Apply coaching cues from Monday's session</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-6" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🚴</span><div><span class="day-name">Saturday</span><span class="day-date">Feb 21</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport bike">BIKE</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">Outdoor Ride — Steady Aerobic</div>
+    <div class="workout-meta">18-20 mi | Easy-Moderate | Solo or Group</div>
+    <ul class="workout-sets">
+      <li>First 3-4 mi — easy warm up, settle in</li>
+      <li>Main set — steady aerobic, 80-85% FTP</li>
+      <li>Practice fueling: gel every 45 min + water</li>
+      <li>Last 2 mi — easy cool down spin</li>
+    </ul>
+    <div class="equipment"><span>Road Bike</span><span>Gels</span><span>Water Bottle</span></div>
+    <div class="note">BIKE PRIORITY — practice race nutrition!</div>
+  </div>
+</div>
+
+<div class="day-card" id="day-7" onclick="this.classList.toggle('open')">
+  <div class="day-header">
+    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Sunday</span><span class="day-date">Feb 22</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
+  </div>
+  <div class="day-details">
+    <div class="workout-title">Long Run — Easy</div>
+    <div class="workout-meta">10 mi | Easy | Group or Solo</div>
+    <ul class="workout-sets">
+      <li>Conversational pace — target ~9:15-9:30/mi</li>
+      <li>Practice fueling: gel at mile 4 and 7</li>
+      <li>Carry water this time!</li>
+      <li>Monitor L ankle — back off if needed</li>
+    </ul>
+    <div class="note">Day after long ride — legs may feel heavy. Good brick prep.</div>
+  </div>
+</div>
+
+<div class="weekly-summary">
+  <h3>Week 1 Summary</h3>
+  <p>Swim 2x (4,200 yd) · Bike 2x (indoor + outdoor) · Run 3x (trail + intervals + long)<br><br>
+  Focus: Build routine, nail the schedule, practice fueling. Keep efforts controlled — it's Week 1.</p>
+</div>
+
+<script>
+// Race countdown
+const raceDate = new Date('2026-09-01');
+function updateCountdown() {
+  const now = new Date();
+  const diff = raceDate - now;
+  const days = Math.floor(diff / (1000*60*60*24));
+  document.getElementById('countdown').textContent = days + ' days to go';
+}
+updateCountdown();
+
+// Highlight today
+const days = ['day-7','day-1','day-2','day-3','day-4','day-5','day-6'];
+const today = new Date().getDay();
+const todayEl = document.getElementById(days[today]);
+if(todayEl){todayEl.classList.add('today');todayEl.classList.add('open')}
+</script>
+
+</body>
+</html>
