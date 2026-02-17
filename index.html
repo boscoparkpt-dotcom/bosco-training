@@ -15,11 +15,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing:1px}
 .subtitle{text-align:center;font-size:13px;color:#888;margin-bottom:16px}
 .phase{text-align:center;font-size:11px;color:#f97316;font-weight:700;letter-spacing:2px;margin-bottom:8px;text-transform:uppercase}
-.today-badge{text-align:center;margin-bottom:14px}
-.today-badge span{background:#f97316;color:#fff;font-size:11px;padding:3px 12px;border-radius:20px;font-weight:600}
 .day-card{background:#16213e;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
 .day-card.today{border-color:#f97316;box-shadow:0 0 12px rgba(249,115,22,.15)}
-.day-card.completed{opacity:.6}
+.day-card.completed{opacity:.5}
+.day-card.completed .day-header::after{content:"✓";color:#22c55e;font-size:16px;margin-left:6px}
+.day-card.injury{border-color:#ef4444;box-shadow:0 0 8px rgba(239,68,68,.15)}
 .day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .day-header:active{background:#1e3a5f}
 .day-left{display:flex;align-items:center;gap:10px}
@@ -31,6 +31,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
 .bike{background:#22c55e;color:#fff}
 .run{background:#f97316;color:#fff}
 .rest{background:#6b7280;color:#fff}
+.changed{background:#a855f7;color:#fff}
 .arrow{font-size:16px;color:#555;transition:transform .2s;margin-left:8px}
 .day-card.open .arrow{transform:rotate(90deg)}
 .day-details{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 16px}
@@ -43,6 +44,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
 .equipment{font-size:11px;color:#777;margin-top:8px;padding-top:8px;border-top:1px solid #1e3a5f;display:flex;flex-wrap:wrap;gap:4px}
 .equipment span{background:#1e3a5f;padding:2px 8px;border-radius:10px}
 .note{font-size:12px;color:#f59e0b;margin-top:6px;font-style:italic}
+.injury-note{font-size:12px;color:#ef4444;margin-top:6px;font-style:italic}
 .weekly-summary{background:#16213e;border-radius:14px;padding:16px;margin-top:20px;border:1px solid #1e3a5f}
 .weekly-summary h3{font-size:13px;margin-bottom:6px;color:#f97316;letter-spacing:1px;text-transform:uppercase}
 .weekly-summary p{font-size:13px;color:#999;line-height:1.6}
@@ -50,6 +52,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
 .race-banner .race-name{font-weight:700;font-size:14px;color:#fff}
 .race-banner .race-date{font-size:12px;color:rgba(255,255,255,.8)}
 .race-banner .race-countdown{font-size:20px;font-weight:800;color:#fff;margin-top:4px}
+.change-tag{font-size:10px;background:#a855f7;color:#fff;padding:2px 6px;border-radius:8px;margin-left:6px;vertical-align:middle}
 </style>
 </head>
 <body>
@@ -64,40 +67,43 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
   <div class="race-countdown" id="countdown"></div>
 </div>
 
-<div class="day-card" id="day-1" onclick="this.classList.toggle('open')">
+<div class="day-card completed injury" id="day-1" onclick="this.classList.toggle('open')">
   <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Monday</span><span class="day-date">Feb 16</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="arrow">›</span></div>
+    <div class="day-left"><span class="day-icon">🩹</span><div><span class="day-name">Monday</span><span class="day-date">Feb 16</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport rest">REST</span><span class="day-sport swim" style="margin-left:4px">PM SWIM</span><span class="arrow">›</span></div>
   </div>
   <div class="day-details">
-    <div class="workout-title">2,000 yd — Drills Focus</div>
-    <div class="workout-meta">~50 min | Easy effort | Solo AM</div>
+    <div class="workout-title">AM: Rest (Knee Injury) + PM: Coaching Session</div>
+    <div class="workout-meta">PM: 900 yd | 1:23 | RPE 3 | Coach Paul Capuzzo #CMC</div>
     <ul class="workout-sets">
-      <li>500 yd Warm Up — easy free, no equipment</li>
-      <li>4x100 w/ snorkel — catch-up drill</li>
-      <li>4x100 w/ paddles — moderate effort, feel the catch</li>
-      <li>4x50 kick w/ fins — streamline, arms extended</li>
-      <li>200 yd Cool Down w/ pull buoy</li>
+      <li>AM: L knee pain — VMO inferior/medial insertion. Icing + rest.</li>
+      <li>PM: Technical cues + drills to sharpen form</li>
+      <li>Streamline breakthrough — hit 1:20-1:40/100yd</li>
+      <li>Lots of 50yd drill reps with long rest</li>
+      <li>Knee felt fine in water</li>
     </ul>
-    <div class="equipment"><span>Snorkel</span><span>Paddles</span><span>Fins</span><span>Pull Buoy</span></div>
-    <div class="note">+ 8 PM coaching session in the evening</div>
+    <div class="injury-note">L knee: VMO irritation from 13mi run. Onset overnight. Resolved by PM.</div>
+    <div class="note">Coach email with detailed cues coming tomorrow.</div>
   </div>
 </div>
 
 <div class="day-card" id="day-2" onclick="this.classList.toggle('open')">
   <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Tuesday</span><span class="day-date">Feb 17</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
+    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Tuesday</span><span class="day-date">Feb 17</span></div></div>
+    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="change-tag">CHANGED</span><span class="arrow">›</span></div>
   </div>
   <div class="day-details">
-    <div class="workout-title">Group Trail Run</div>
-    <div class="workout-meta">45-50 min | Easy | Group</div>
+    <div class="workout-title">2,000 yd — Drill Focus (Moved from Mon)</div>
+    <div class="workout-meta">~50 min | Easy effort | Solo AM</div>
     <ul class="workout-sets">
-      <li>Conversational pace throughout</li>
-      <li>Follow the group — terrain/distance will vary</li>
-      <li>Keep effort easy, save legs for Thursday</li>
+      <li>500 yd Warm Up — easy free, focus on streamline</li>
+      <li>4x100 w/ snorkel — catch-up drill, apply coaching cues</li>
+      <li>4x100 w/ paddles — feel the catch, streamline position</li>
+      <li>4x50 kick w/ fins — streamline, arms extended</li>
+      <li>200 yd Cool Down w/ pull buoy</li>
     </ul>
-    <div class="note">Group session — distance/pace may vary</div>
+    <div class="equipment"><span>Snorkel</span><span>Paddles</span><span>Fins</span><span>Pull Buoy</span></div>
+    <div class="note">Trail run cancelled. Focus on reinforcing coaching cues from last night's session.</div>
   </div>
 </div>
 
@@ -115,7 +121,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
       <li>10 min cool down — easy spin</li>
     </ul>
     <div class="equipment"><span>Tacx Neo 3M</span><span>Zwift optional</span></div>
-    <div class="note">Cadence work — smooth pedaling, don't grind</div>
+    <div class="note">First session back on legs post-knee. Assess how knee feels on bike. Keep easy.</div>
   </div>
 </div>
 
@@ -133,7 +139,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
       <li>200m recovery jog between reps</li>
       <li>1 mi Cool Down — easy jog</li>
     </ul>
-    <div class="note">Group session — coach may adjust. Focus on form at speed.</div>
+    <div class="note">Knee check: if still bothering, scale down or substitute bike/swim.</div>
   </div>
 </div>
 
@@ -152,7 +158,7 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
       <li>200 yd Cool Down — easy choice stroke</li>
     </ul>
     <div class="equipment"><span>Pull Buoy</span><span>Paddles</span></div>
-    <div class="note">Apply coaching cues from Monday's session</div>
+    <div class="note">Apply coaching cues. Will update with specific drills after coach email.</div>
   </div>
 </div>
 
@@ -187,20 +193,20 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
       <li>Conversational pace — target ~9:15-9:30/mi</li>
       <li>Practice fueling: gel at mile 4 and 7</li>
       <li>Carry water this time!</li>
-      <li>Monitor L ankle — back off if needed</li>
+      <li>Monitor L ankle + knee — back off if needed</li>
     </ul>
-    <div class="note">Day after long ride — legs may feel heavy. Good brick prep.</div>
+    <div class="note">Day after long ride — legs may feel heavy. Good brick prep. Monitor knee carefully.</div>
   </div>
 </div>
 
 <div class="weekly-summary">
-  <h3>Week 1 Summary</h3>
-  <p>Swim 2x (4,200 yd) · Bike 2x (indoor + outdoor) · Run 3x (trail + intervals + long)<br><br>
-  Focus: Build routine, nail the schedule, practice fueling. Keep efforts controlled — it's Week 1.</p>
+  <h3>Week 1 Summary (Updated)</h3>
+  <p>Swim 3x (coaching + 2,000yd drill + 2,200yd) · Bike 2x (indoor + outdoor) · Run 2x (intervals + long)<br><br>
+  Changes: Mon swim → rest (knee) + PM coaching. Tue trail run → swim drill. Extra swim session this week.<br><br>
+  Focus: Apply coaching cues, protect the knee, build routine.</p>
 </div>
 
 <script>
-// Race countdown
 const raceDate = new Date('2026-09-01');
 function updateCountdown() {
   const now = new Date();
@@ -210,11 +216,10 @@ function updateCountdown() {
 }
 updateCountdown();
 
-// Highlight today
 const days = ['day-7','day-1','day-2','day-3','day-4','day-5','day-6'];
 const today = new Date().getDay();
 const todayEl = document.getElementById(days[today]);
-if(todayEl){todayEl.classList.add('today');todayEl.classList.add('open')}
+if(todayEl && !todayEl.classList.contains('completed')){todayEl.classList.add('today');todayEl.classList.add('open')}
 </script>
 
 </body>
