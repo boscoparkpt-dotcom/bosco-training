@@ -1,0 +1,200 @@
+{
+  "athlete": "Bosco",
+  "phase": "Phase 1: Base Building",
+  "week": 1,
+  "weekDates": "Feb 16-22, 2026",
+  "races": [
+    {
+      "name": "Jones Beach 70.3",
+      "date": "2026-09-01",
+      "type": "Half Ironman"
+    },
+    {
+      "name": "Big Apple Tri",
+      "date": "2026-10-04",
+      "type": "Olympic"
+    }
+  ],
+  "days": [
+    {
+      "id": "day-1",
+      "name": "Monday",
+      "date": "Feb 16",
+      "sport": "rest",
+      "sportLabel": "REST",
+      "secondSport": "swim",
+      "secondSportLabel": "PM SWIM",
+      "completed": true,
+      "injury": true,
+      "changed": false,
+      "workout": {
+        "title": "AM: Rest (Knee Injury) + PM: Coaching Session",
+        "meta": "PM: 900 yd | 1:23 | RPE 3 | Coach Paul Capuzzo #CMC",
+        "sets": [
+          "AM: L knee pain - VMO inferior/medial insertion. Icing + rest.",
+          "PM: Technical cues + drills to sharpen form",
+          "Streamline breakthrough - hit 1:20-1:40/100yd",
+          "Lots of 50yd drill reps with long rest",
+          "Knee felt fine in water"
+        ],
+        "equipment": [],
+        "note": "Knee improved by afternoon. Major streamline breakthrough in coaching."
+      }
+    },
+    {
+      "id": "day-2",
+      "name": "Tuesday",
+      "date": "Feb 17",
+      "sport": "swim",
+      "sportLabel": "SWIM",
+      "completed": false,
+      "injury": false,
+      "changed": true,
+      "workout": {
+        "title": "2,000 yd - Drill Focus (Moved from Mon)",
+        "meta": "~50 min | Easy effort | Solo AM",
+        "sets": [
+          "500 yd Warm Up - easy free, focus on streamline",
+          "4x100 w/ snorkel - catch-up drill, apply coaching cues",
+          "4x100 w/ paddles - feel the catch, streamline position",
+          "4x50 kick w/ fins - streamline, arms extended",
+          "200 yd Cool Down w/ pull buoy"
+        ],
+        "equipment": [
+          "Snorkel",
+          "Paddles",
+          "Fins",
+          "Pull Buoy"
+        ],
+        "note": "Trail run cancelled. Focus on reinforcing coaching cues from last night's session."
+      }
+    },
+    {
+      "id": "day-3",
+      "name": "Wednesday",
+      "date": "Feb 18",
+      "sport": "bike",
+      "sportLabel": "BIKE",
+      "completed": false,
+      "injury": false,
+      "changed": false,
+      "workout": {
+        "title": "Indoor Ride - Steady Aerobic",
+        "meta": "45-60 min | Easy-Moderate | Zwift or Trainer",
+        "sets": [
+          "10 min easy warm up, settle in",
+          "30-40 min steady aerobic, 75-80% FTP",
+          "5 min easy cool down spin"
+        ],
+        "equipment": [
+          "Trainer/Zwift"
+        ],
+        "note": "Monitor knee - if any discomfort, reduce intensity or switch to easy spin."
+      }
+    },
+    {
+      "id": "day-4",
+      "name": "Thursday",
+      "date": "Feb 19",
+      "sport": "run",
+      "sportLabel": "RUN",
+      "completed": false,
+      "injury": false,
+      "changed": false,
+      "workout": {
+        "title": "Easy Run + Strides",
+        "meta": "30-40 min | Easy | Solo",
+        "sets": [
+          "Easy conversational pace throughout",
+          "Last 10 min: 4-6 x 20sec strides with full recovery",
+          "Focus on form - light feet, quick turnover",
+          "Monitor L knee and ankle"
+        ],
+        "equipment": [],
+        "note": "First run since Sunday's long run. Keep it easy, focus on form over pace."
+      }
+    },
+    {
+      "id": "day-5",
+      "name": "Friday",
+      "date": "Feb 20",
+      "sport": "swim",
+      "sportLabel": "SWIM",
+      "completed": false,
+      "injury": false,
+      "changed": false,
+      "workout": {
+        "title": "2,200 yd - Endurance + Build",
+        "meta": "~55 min | Endurance-Moderate | Solo AM",
+        "sets": [
+          "400 yd Warm Up - easy free",
+          "4x150 Build (easy > moderate > strong by 50)",
+          "4x100 pull w/ buoy + paddles - steady",
+          "200 yd Cool Down - easy choice stroke"
+        ],
+        "equipment": [
+          "Pull Buoy",
+          "Paddles"
+        ],
+        "note": "Apply coaching cues. Will update with specific drills after coach email."
+      }
+    },
+    {
+      "id": "day-6",
+      "name": "Saturday",
+      "date": "Feb 21",
+      "sport": "bike",
+      "sportLabel": "BIKE",
+      "completed": false,
+      "injury": false,
+      "changed": false,
+      "workout": {
+        "title": "Outdoor Ride - Steady Aerobic",
+        "meta": "18-20 mi | Easy-Moderate | Solo or Group",
+        "sets": [
+          "First 3-4 mi - easy warm up, settle in",
+          "Main set - steady aerobic, 80-85% FTP",
+          "Practice fueling: gel every 45 min + water",
+          "Last 2 mi - easy cool down spin"
+        ],
+        "equipment": [
+          "Road Bike",
+          "Gels",
+          "Water Bottle"
+        ],
+        "note": "BIKE PRIORITY - practice race nutrition!"
+      }
+    },
+    {
+      "id": "day-7",
+      "name": "Sunday",
+      "date": "Feb 22",
+      "sport": "run",
+      "sportLabel": "RUN",
+      "completed": false,
+      "injury": false,
+      "changed": false,
+      "workout": {
+        "title": "Long Run - Easy",
+        "meta": "~10 mi | Easy | Group or Solo",
+        "sets": [
+          "Conversational pace - target ~9:15-9:30/mi",
+          "Practice fueling: gel at mile 4 and 7",
+          "Carry water this time!",
+          "Monitor L ankle + knee - back off if needed"
+        ],
+        "equipment": [
+          "Gels",
+          "Water"
+        ],
+        "note": "Day after long ride - legs may feel heavy. Good brick prep. Monitor knee carefully."
+      }
+    }
+  ],
+  "weeklySummary": {
+    "title": "Week 1 Summary (Updated)",
+    "content": "Swim 3x (coaching + 2,000yd drill + 2,200yd) - Bike 2x (indoor + outdoor) - Run 2x (intervals + long)",
+    "changes": "Changes: Mon swim > rest (knee) + PM coaching. Tue trail run > swim drill. Extra swim session this week.",
+    "focus": "Focus: Apply coaching cues, protect the knee, build routine."
+  }
+}
