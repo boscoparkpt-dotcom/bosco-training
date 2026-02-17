@@ -6,20 +6,23 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="BoscoTri">
-<meta name="theme-color" content="#1a1a2e">
-<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a1a2e' width='100' height='100' rx='20'/><text y='65' x='50' text-anchor='middle' font-size='50'>🏊</text></svg>">
+<meta name="theme-color" content="#0a1a2e">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48cmVjdCBmaWxsPSclMjMxYTFhMmUnIHdpZHRoPScxMDAnIGhlaWdodD0nMTAwJyByeD0nMjAnLz48dGV4dCB5PSc4NScgeD0nNTAnIGZvbnQtc2l6ZT0nNTAnIHRleHQtYW5jaG9yPSdtaWRkbGUnPvCfj4o8L3RleHQ+PC9zdmc+">
 <title>BoscoTri Training</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#1a1a2e;color:#eee;padding:16px 16px 40px;max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none}
-h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing:1px}
-.subtitle{text-align:center;font-size:13px;color:#888;margin-bottom:16px}
-.phase{text-align:center;font-size:11px;color:#f97316;font-weight:700;letter-spacing:2px;margin-bottom:8px;text-transform:uppercase}
-.day-card{background:#16213e;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a1a2e;padding:16px 16px 40px;color:#fff;max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none}
+.subtitle{font-size:12px;text-align:center;color:#f97316;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:2px}
+.week-label{text-align:center;font-size:13px;color:#8899aa;margin-bottom:8px}
+.race-banner{background:linear-gradient(135deg,#f97316,#dc2626);border-radius:14px;padding:14px 16px;margin-bottom:16px;text-align:center}
+.race-banner .race-name{font-weight:700;font-size:14px;color:#fff}
+.race-banner .race-date{font-size:12px;color:rgba(255,255,255,.85)}
+.race-banner .race-countdown{font-size:20px;font-weight:800;color:#fff;margin-top:4px}
+.day-card{background:#16213b;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
 .day-card.today{border-color:#f97316;box-shadow:0 0 12px rgba(249,115,22,.15)}
 .day-card.completed{opacity:.5}
-.day-card.completed .day-header::after{content:"✓";color:#22c55e;font-size:16px;margin-left:6px}
-.day-card.injury{border-color:#ef4444;box-shadow:0 0 8px rgba(239,68,68,.15)}
+.day-card.completed .day-header::after{content:"✓";color:#22c55e;font-size:16px;margin-left:8px}
+.day-card.injury{border-color:#f44444;box-shadow:0 0 8px rgba(239,68,68,.15)}
 .day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .day-header:active{background:#1e3a5f}
 .day-left{display:flex;align-items:center;gap:10px}
@@ -28,199 +31,141 @@ h1{font-size:22px;text-align:center;padding:16px 0 4px;color:#fff;letter-spacing
 .day-date{font-size:11px;color:#666;display:block}
 .day-sport{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:700;letter-spacing:.5px}
 .swim{background:#0ea5e9;color:#fff}
-.bike{background:#22c55e;color:#fff}
-.run{background:#f97316;color:#fff}
+.bike{background:#a2c256;color:#fff}
+.run{background:#f97316;color:#ff}
 .rest{background:#6b7280;color:#fff}
 .changed{background:#a855f7;color:#fff}
 .arrow{font-size:16px;color:#555;transition:transform .2s;margin-left:8px}
 .day-card.open .arrow{transform:rotate(90deg)}
 .day-details{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 16px}
 .day-card.open .day-details{max-height:500px;padding:0 16px 14px}
-.workout-title{font-size:15px;font-weight:700;margin-bottom:6px;color:#fff}
+.workout-title{font-size:15px;font-weight:700;margin-bottom:4px;color:#fff}
 .workout-meta{font-size:12px;color:#999;margin-bottom:8px}
 .workout-sets{font-size:13px;line-height:1.7;color:#ccc;margin-bottom:4px}
-.workout-sets li{margin-bottom:2px;list-style:none;padding-left:18px;position:relative}
-.workout-sets li::before{content:"\25B8";position:absolute;left:0;color:#f97316;font-size:11px;top:1px}
-.equipment{font-size:11px;color:#777;margin-top:8px;padding-top:8px;border-top:1px solid #1e3a5f;display:flex;flex-wrap:wrap;gap:4px}
+.workout-sets li{margin-bottom:2px;list-style:none;padding-left:16px;position:relative}
+.workout-sets li::before{content:"›";position:absolute;left:0;color:#f97316;font-size:11px;top:1px}
+.equipment{font-size:11px;color:#777;margin-top:6px;border-top:1px solid #1e3a5f;display:flex;flex-wrap:wrap;gap:4px;padding-top:6px}
 .equipment span{background:#1e3a5f;padding:2px 8px;border-radius:10px}
-.note{font-size:12px;color:#f59e0b;margin-top:6px;font-style:italic}
-.injury-note{font-size:12px;color:#ef4444;margin-top:6px;font-style:italic}
-.weekly-summary{background:#16213e;border-radius:14px;padding:16px;margin-top:20px;border:1px solid #1e3a5f}
-.weekly-summary h3{font-size:13px;margin-bottom:6px;color:#f97316;letter-spacing:1px;text-transform:uppercase}
+.note{font-size:12px;color:#9e9eb0;margin-top:8px;font-style:italic}
+.injury-note{font-size:12px;color:#ef4444;margin-top:8px;font-style:italic}
+.weekly-summary{background:#16213b;border-radius:14px;padding:16px;margin-top:20px;border:1px solid #1e3a5f}
+.weekly-summary h3{font-size:13px;margin-bottom:8px;color:#f97316;letter-spacing:1px;text-transform:uppercase}
 .weekly-summary p{font-size:13px;color:#999;line-height:1.6}
-.race-banner{background:linear-gradient(135deg,#f97316,#dc2626);border-radius:14px;padding:14px 16px;margin-bottom:16px;text-align:center}
-.race-banner .race-name{font-weight:700;font-size:14px;color:#fff}
-.race-banner .race-date{font-size:12px;color:rgba(255,255,255,.8)}
-.race-banner .race-countdown{font-size:20px;font-weight:800;color:#fff;margin-top:4px}
 .change-tag{font-size:10px;background:#a855f7;color:#fff;padding:2px 6px;border-radius:8px;margin-left:6px;vertical-align:middle}
+.badge-row{display:flex;align-items:center;gap:6px}
+#loading{text-align:center;padding:40px;color:#666}
 </style>
 </head>
 <body>
 
-<h1>BOSCO'S TRAINING</h1>
-<div class="phase">Phase 1: Base Building</div>
-<div class="subtitle">Week 1 — Feb 16-22, 2026</div>
-
-<div class="race-banner">
-  <div class="race-name">Jones Beach 70.3</div>
-  <div class="race-date">September 2026</div>
-  <div class="race-countdown" id="countdown"></div>
-</div>
-
-<div class="day-card completed injury" id="day-1" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🩹</span><div><span class="day-name">Monday</span><span class="day-date">Feb 16</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport rest">REST</span><span class="day-sport swim" style="margin-left:4px">PM SWIM</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">AM: Rest (Knee Injury) + PM: Coaching Session</div>
-    <div class="workout-meta">PM: 900 yd | 1:23 | RPE 3 | Coach Paul Capuzzo #CMC</div>
-    <ul class="workout-sets">
-      <li>AM: L knee pain — VMO inferior/medial insertion. Icing + rest.</li>
-      <li>PM: Technical cues + drills to sharpen form</li>
-      <li>Streamline breakthrough — hit 1:20-1:40/100yd</li>
-      <li>Lots of 50yd drill reps with long rest</li>
-      <li>Knee felt fine in water</li>
-    </ul>
-    <div class="injury-note">L knee: VMO irritation from 13mi run. Onset overnight. Resolved by PM.</div>
-    <div class="note">Coach email with detailed cues coming tomorrow.</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-2" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Tuesday</span><span class="day-date">Feb 17</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="change-tag">CHANGED</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">2,000 yd — Drill Focus (Moved from Mon)</div>
-    <div class="workout-meta">~50 min | Easy effort | Solo AM</div>
-    <ul class="workout-sets">
-      <li>500 yd Warm Up — easy free, focus on streamline</li>
-      <li>4x100 w/ snorkel — catch-up drill, apply coaching cues</li>
-      <li>4x100 w/ paddles — feel the catch, streamline position</li>
-      <li>4x50 kick w/ fins — streamline, arms extended</li>
-      <li>200 yd Cool Down w/ pull buoy</li>
-    </ul>
-    <div class="equipment"><span>Snorkel</span><span>Paddles</span><span>Fins</span><span>Pull Buoy</span></div>
-    <div class="note">Trail run cancelled. Focus on reinforcing coaching cues from last night's session.</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-3" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🚴</span><div><span class="day-name">Wednesday</span><span class="day-date">Feb 18</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport bike">BIKE</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">Indoor Bike — Easy Spin</div>
-    <div class="workout-meta">45 min | Easy | Zwift / Trainer</div>
-    <ul class="workout-sets">
-      <li>10 min warm up — easy spin, legs loose</li>
-      <li>25 min steady — cadence 85-95 rpm, light gear</li>
-      <li>10 min cool down — easy spin</li>
-    </ul>
-    <div class="equipment"><span>Tacx Neo 3M</span><span>Zwift optional</span></div>
-    <div class="note">First session back on legs post-knee. Assess how knee feels on bike. Keep easy.</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-4" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Thursday</span><span class="day-date">Feb 19</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">Group Interval Run</div>
-    <div class="workout-meta">~45-50 min | Moderate-Hard | Group</div>
-    <ul class="workout-sets">
-      <li>1 mi Warm Up — easy jog</li>
-      <li>6x400m @ 5K pace (~7:00-7:15/mi)</li>
-      <li>200m recovery jog between reps</li>
-      <li>1 mi Cool Down — easy jog</li>
-    </ul>
-    <div class="note">Knee check: if still bothering, scale down or substitute bike/swim.</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-5" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏊</span><div><span class="day-name">Friday</span><span class="day-date">Feb 20</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport swim">SWIM</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">2,200 yd — Endurance + Build</div>
-    <div class="workout-meta">~55 min | Easy-Moderate | Solo AM</div>
-    <ul class="workout-sets">
-      <li>400 yd Warm Up — easy free</li>
-      <li>6x150 build (easy → moderate → strong by 50)</li>
-      <li>4x100 pull w/ buoy + paddles — steady</li>
-      <li>200 yd Cool Down — easy choice stroke</li>
-    </ul>
-    <div class="equipment"><span>Pull Buoy</span><span>Paddles</span></div>
-    <div class="note">Apply coaching cues. Will update with specific drills after coach email.</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-6" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🚴</span><div><span class="day-name">Saturday</span><span class="day-date">Feb 21</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport bike">BIKE</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">Outdoor Ride — Steady Aerobic</div>
-    <div class="workout-meta">18-20 mi | Easy-Moderate | Solo or Group</div>
-    <ul class="workout-sets">
-      <li>First 3-4 mi — easy warm up, settle in</li>
-      <li>Main set — steady aerobic, 80-85% FTP</li>
-      <li>Practice fueling: gel every 45 min + water</li>
-      <li>Last 2 mi — easy cool down spin</li>
-    </ul>
-    <div class="equipment"><span>Road Bike</span><span>Gels</span><span>Water Bottle</span></div>
-    <div class="note">BIKE PRIORITY — practice race nutrition!</div>
-  </div>
-</div>
-
-<div class="day-card" id="day-7" onclick="this.classList.toggle('open')">
-  <div class="day-header">
-    <div class="day-left"><span class="day-icon">🏃</span><div><span class="day-name">Sunday</span><span class="day-date">Feb 22</span></div></div>
-    <div style="display:flex;align-items:center"><span class="day-sport run">RUN</span><span class="arrow">›</span></div>
-  </div>
-  <div class="day-details">
-    <div class="workout-title">Long Run — Easy</div>
-    <div class="workout-meta">10 mi | Easy | Group or Solo</div>
-    <ul class="workout-sets">
-      <li>Conversational pace — target ~9:15-9:30/mi</li>
-      <li>Practice fueling: gel at mile 4 and 7</li>
-      <li>Carry water this time!</li>
-      <li>Monitor L ankle + knee — back off if needed</li>
-    </ul>
-    <div class="note">Day after long ride — legs may feel heavy. Good brick prep. Monitor knee carefully.</div>
-  </div>
-</div>
-
-<div class="weekly-summary">
-  <h3>Week 1 Summary (Updated)</h3>
-  <p>Swim 3x (coaching + 2,000yd drill + 2,200yd) · Bike 2x (indoor + outdoor) · Run 2x (intervals + long)<br><br>
-  Changes: Mon swim → rest (knee) + PM coaching. Tue trail run → swim drill. Extra swim session this week.<br><br>
-  Focus: Apply coaching cues, protect the knee, build routine.</p>
-</div>
+<h1 style="text-align:center;font-size:22px;margin-bottom:2px">BOSCO'S TRAINING</h1>
+<div id="app"><div id="loading">Loading training data...</div></div>
 
 <script>
-const raceDate = new Date('2026-09-01');
-function updateCountdown() {
-  const now = new Date();
-  const diff = raceDate - now;
-  const days = Math.floor(diff / (1000*60*60*24));
-  document.getElementById('countdown').textContent = days + ' days to go';
+const DATA_URL = 'data.json';
+
+function getIcon(sport) {
+  const icons = {swim:'🏊',bike:'🚴',run:'🏃',rest:'🌙'};
+  return icons[sport] || '💪';
 }
-updateCountdown();
 
-const days = ['day-7','day-1','day-2','day-3','day-4','day-5','day-6'];
-const today = new Date().getDay();
-const todayEl = document.getElementById(days[today]);
-if(todayEl && !todayEl.classList.contains('completed')){todayEl.classList.add('today');todayEl.classList.add('open')}
+function daysUntil(dateStr) {
+  const diff = new Date(dateStr) - new Date();
+  return Math.floor(diff / (1000*60*60*24));
+}
+
+function isToday(dateStr, year) {
+  const now = new Date();
+  const months = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+  const parts = dateStr.split(' ');
+  const m = months[parts[0]];
+  const d = parseInt(parts[1]);
+  return now.getMonth() === m && now.getDate() === d;
+}
+
+function renderApp(data) {
+  const app = document.getElementById('app');
+  let html = '';
+
+  // Phase + Week
+  html += `<div class="subtitle">${data.phase}</div>`;
+  html += `<div class="week-label">Week ${data.week} — ${data.weekDates}</div>`;
+
+  // Race banner
+  if (data.races && data.races.length > 0) {
+    const r = data.races[0];
+    html += `<div class="race-banner">
+      <div class="race-name">${r.name}</div>
+      <div class="race-date">${r.type} · ${r.date.split('-')[0]}</div>
+      <div class="race-countdown">${daysUntil(r.date)} days to go</div>
+    </div>`;
+  }
+
+  // Day cards
+  data.days.forEach(day => {
+    const todayClass = isToday(day.date, 2026) ? ' today' : '';
+    const completedClass = day.completed ? ' completed' : '';
+    const injuryClass = day.injury ? ' injury' : '';
+    const openClass = isToday(day.date, 2026) ? ' open' : '';
+
+    html += `<div class="day-card${todayClass}${completedClass}${injuryClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
+    html += `<div class="day-header">`;
+    html += `<div class="day-left"><span class="day-icon">${getIcon(day.sport)}</span><div><span class="day-name">${day.name}</span><span class="day-date">${day.date}</span></div></div>`;
+    html += `<div class="badge-row">`;
+    html += `<span class="day-sport ${day.sport}">${day.sportLabel}</span>`;
+    if (day.secondSportLabel) {
+      html += `<span class="day-sport ${day.secondSport}">${day.secondSportLabel}</span>`;
+    }
+    if (day.changed) {
+      html += `<span class="day-sport changed">CHANGED</span>`;
+    }
+    html += `<span class="arrow">›</span></div>`;
+    html += `</div>`; // end header
+
+    html += `<div class="day-details">`;
+    const w = day.workout;
+    html += `<div class="workout-title">${w.title}</div>`;
+    html += `<div class="workout-meta">${w.meta}</div>`;
+    if (w.sets && w.sets.length > 0) {
+      html += `<ul class="workout-sets">`;
+      w.sets.forEach(s => { html += `<li>${s}</li>`; });
+      html += `</ul>`;
+    }
+    if (w.equipment && w.equipment.length > 0) {
+      html += `<div class="equipment">`;
+      w.equipment.forEach(e => { html += `<span>${e}</span>`; });
+      html += `</div>`;
+    }
+    if (w.note) {
+      const noteClass = day.injury ? 'injury-note' : 'note';
+      html += `<div class="${noteClass}">${w.note}</div>`;
+    }
+    html += `</div>`; // end details
+    html += `</div>`; // end card
+  });
+
+  // Weekly summary
+  if (data.weeklySummary) {
+    const ws = data.weeklySummary;
+    html += `<div class="weekly-summary">`;
+    html += `<h3>${ws.title}</h3>`;
+    html += `<p>${ws.content}</p>`;
+    if (ws.changes) html += `<p style="margin-top:8px">${ws.changes}</p>`;
+    if (ws.focus) html += `<p style="margin-top:8px">${ws.focus}</p>`;
+    html += `</div>`;
+  }
+
+  app.innerHTML = html;
+}
+
+// Load data
+fetch(DATA_URL + '?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => renderApp(data))
+  .catch(err => {
+    document.getElementById('app').innerHTML = '<p style="color:#f44;text-align:center;padding:40px">Failed to load training data. Pull to refresh.</p>';
+    console.error(err);
+  });
 </script>
-
 </body>
 </html>
