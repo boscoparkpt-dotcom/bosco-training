@@ -47,71 +47,64 @@
       "date": "Feb 17",
       "sport": "swim",
       "sportLabel": "SWIM",
-      "completed": false,
+      "completed": true,
       "injury": false,
       "changed": true,
       "workout": {
-        "title": "2,000 yd - Drill Focus (Moved from Mon)",
-        "meta": "~50 min | Easy effort | Solo AM",
+        "title": "Morning Swim - 1,675 yd",
+        "meta": "32:28 | Avg HR 130 | Max HR 174 | Strava",
         "sets": [
-          "500 yd Warm Up - easy free, focus on streamline",
-          "4x100 w/ snorkel - catch-up drill, apply coaching cues",
-          "4x100 w/ paddles - feel the catch, streamline position",
-          "4x50 kick w/ fins - streamline, arms extended",
-          "200 yd Cool Down w/ pull buoy"
+          "1,675 yd total (1,532m)",
+          "Focused on streamline cues from coaching",
+          "Applied drill work from Monday PM session"
         ],
-        "equipment": [
-          "Snorkel",
-          "Paddles",
-          "Fins",
-          "Pull Buoy"
-        ],
-        "note": "Trail run cancelled. Focus on reinforcing coaching cues from last night's session."
+        "equipment": [],
+        "note": "Solid session applying coaching cues. HR stayed controlled."
       }
     },
     {
       "id": "day-3",
       "name": "Wednesday",
       "date": "Feb 18",
-      "sport": "bike",
-      "sportLabel": "BIKE",
+      "sport": "rest",
+      "sportLabel": "SKIPPED",
       "completed": false,
       "injury": false,
-      "changed": false,
+      "changed": true,
       "workout": {
-        "title": "Indoor Ride - Steady Aerobic",
-        "meta": "45-60 min | Easy-Moderate | Zwift or Trainer",
+        "title": "Indoor Ride - Skipped",
+        "meta": "Planned: 45-60 min Zwift",
         "sets": [
-          "10 min easy warm up, settle in",
-          "30-40 min steady aerobic, 75-80% FTP",
-          "5 min easy cool down spin"
+          "Originally planned indoor ride",
+          "Skipped due to schedule"
         ],
-        "equipment": [
-          "Trainer/Zwift"
-        ],
-        "note": "Monitor knee - if any discomfort, reduce intensity or switch to easy spin."
+        "equipment": [],
+        "note": "Will make up bike volume later in the week if possible."
       }
     },
     {
       "id": "day-4",
       "name": "Thursday",
       "date": "Feb 19",
-      "sport": "run",
-      "sportLabel": "RUN",
+      "sport": "swim",
+      "sportLabel": "SWIM",
       "completed": false,
       "injury": false,
-      "changed": false,
+      "changed": true,
       "workout": {
-        "title": "Easy Run + Strides",
-        "meta": "30-40 min | Easy | Solo",
+        "title": "AM Swim - FORM Goggles Test",
+        "meta": "~2,000 yd | Easy-Moderate | Solo AM",
         "sets": [
-          "Easy conversational pace throughout",
-          "Last 10 min: 4-6 x 20sec strides with full recovery",
-          "Focus on form - light feet, quick turnover",
-          "Monitor L knee and ankle"
+          "First swim with FORM smart goggles!",
+          "400 yd Warm Up - test display, get comfortable",
+          "4x200 steady - watch pace/stroke metrics live",
+          "4x100 build - use real-time feedback",
+          "200 yd Cool Down - easy free"
         ],
-        "equipment": [],
-        "note": "First run since Sunday's long run. Keep it easy, focus on form over pace."
+        "equipment": [
+          "FORM Smart Goggles"
+        ],
+        "note": "New FORM subscription started today. Focus on learning the display and getting baseline metrics."
       }
     },
     {
@@ -193,8 +186,8 @@
   ],
   "weeklySummary": {
     "title": "Week 1 Summary (Updated)",
-    "content": "Swim 3x (coaching + 2,000yd drill + 2,200yd) - Bike 2x (indoor + outdoor) - Run 2x (intervals + long)",
-    "changes": "Changes: Mon swim > rest (knee) + PM coaching. Tue trail run > swim drill. Extra swim session this week.",
-    "focus": "Focus: Apply coaching cues, protect the knee, build routine."
+    "content": "Swim 4x (coaching + 1,675yd + FORM test + 2,200yd) - Bike 1x (outdoor Sat) - Run 1x (long Sun)",
+    "changes": "Changes: Wed indoor bike skipped. Thu run > swim (FORM goggles debut!). Extra swim focus this week.",
+    "focus": "Focus: FORM goggles setup, maintain swim momentum, protect the knee."
   }
 }
