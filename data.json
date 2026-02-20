@@ -21,7 +21,7 @@
       "weeklySummary": {
         "title": "Week 1 Summary (Updated)",
         "content": "Swim 3x (coaching + 1,675yd + FORM 2,300yd) - Run 2x (Fri easy + Sun 11mi Garmin Coach) - Bike 1x (Sat outdoor)",
-        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri swim → easy run. Sun upgraded to Garmin Coach 11mi progressive.",
+        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri swim \u2192 easy run. Sun upgraded to Garmin Coach 11mi progressive.",
         "focus": "Focus: FORM goggles debut, Garmin Coach integration, Sunday long run is the key session."
       },
       "days": [
@@ -209,9 +209,9 @@
       "startDate": "2026-02-23",
       "weeklySummary": {
         "title": "Week 2 Plan",
-        "content": "Swim 2x (Tue + Thu) - Run 2x (Wed easy + Sun long) - Bike 2x (Mon spin + Sat outdoor)",
+        "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Focus: Build on Week 1 base. Add second bike session. Continue FORM goggles integration."
+        "focus": "Phase 1: Base Building"
       },
       "days": [
         {
@@ -219,25 +219,19 @@
           "name": "Monday",
           "date": "Feb 23",
           "isoDate": "2026-02-23",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Recovery Spin - Easy",
-            "meta": "30-40 min | Zwift | Easy",
+            "title": "SWIM: 2200yd",
+            "meta": "Form drills",
             "sets": [
-              "Easy recovery spin after Sunday long run",
-              "Keep HR under 130",
-              "Light cadence work - 85-90 RPM",
-              "Stretch well after"
+              "500 WU, 10x100 swim, 4x50 drill, 200 CD"
             ],
-            "equipment": [
-              "Zwift",
-              "Trainer"
-            ],
-            "note": "Active recovery day. Keep it truly easy."
+            "equipment": [],
+            "note": ""
           }
         },
         {
@@ -245,26 +239,17 @@
           "name": "Tuesday",
           "date": "Feb 24",
           "isoDate": "2026-02-24",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Technique Swim + FORM Goggles",
-            "meta": "2,000-2,400 yd | Moderate | FORM",
-            "sets": [
-              "200 warm-up easy",
-              "4x100 drill/swim by 50 (catch-up, fingertip drag)",
-              "6x100 on 2:00 - hold 1:30-1:40 pace",
-              "4x50 kick with board",
-              "200 cool-down easy"
-            ],
-            "equipment": [
-              "FORM Smart Goggles",
-              "Kickboard"
-            ],
-            "note": "Continue building with FORM goggles. Focus on consistent 100 splits."
+            "title": "GROUP TRAIL RUN",
+            "meta": "50 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
           }
         },
         {
@@ -272,24 +257,19 @@
           "name": "Wednesday",
           "date": "Feb 25",
           "isoDate": "2026-02-25",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "bike",
+          "sportLabel": "BIKE",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Garmin Coach: Easy Run",
-            "meta": "3-4 mi | Easy | Garmin Coach",
+            "title": "BIKE (Indoor)",
+            "meta": "50 min",
             "sets": [
-              "Follow Garmin Coach prompts",
-              "Conversational pace throughout",
-              "Focus on cadence and form",
-              "Monitor knee - stop if any discomfort"
+              "Include 4x3min tempo efforts"
             ],
-            "equipment": [
-              "Garmin Watch"
-            ],
-            "note": "Mid-week easy run. Stay aerobic, protect the legs for Sunday."
+            "equipment": [],
+            "note": ""
           }
         },
         {
@@ -297,26 +277,20 @@
           "name": "Thursday",
           "date": "Feb 26",
           "isoDate": "2026-02-26",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Endurance Swim",
-            "meta": "2,200-2,600 yd | Moderate | FORM",
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
             "sets": [
-              "300 warm-up (100 swim/100 kick/100 pull)",
-              "Main: 3x300 on 6:00 - steady effort",
-              "4x100 descend 1-4",
-              "200 pull with buoy",
-              "200 cool-down"
+              "5x800m @ 10K pace",
+              "CD 1mi"
             ],
-            "equipment": [
-              "FORM Smart Goggles",
-              "Pull Buoy"
-            ],
-            "note": "Building endurance in the water. Keep strokes smooth and efficient."
+            "equipment": [],
+            "note": ""
           }
         },
         {
@@ -324,21 +298,17 @@
           "name": "Friday",
           "date": "Feb 27",
           "isoDate": "2026-02-27",
-          "sport": "rest",
-          "sportLabel": "REST",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Rest / Active Recovery",
-            "meta": "Off or light stretching",
-            "sets": [
-              "Full rest or light yoga/stretching",
-              "Foam roll legs if needed",
-              "Hydrate well - big weekend ahead"
-            ],
+            "title": "SWIM: 2400yd",
+            "meta": "400 WU, 4x200 build, 6x100 descend, 200 CD",
+            "sets": [],
             "equipment": [],
-            "note": "Pre-weekend rest day. Stay fresh for Saturday bike + Sunday long run."
+            "note": ""
           }
         },
         {
@@ -352,21 +322,13 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Outdoor Ride - Building Endurance",
-            "meta": "20-25 mi | Easy-Moderate | Solo or Group",
+            "title": "BIKE (Outdoor)",
+            "meta": "22-24 mi easy",
             "sets": [
-              "5 mi warm-up - easy spin",
-              "10-15 mi steady state - 80% FTP",
-              "Practice nutrition: gel every 45 min",
-              "5 mi cool-down - easy spin",
-              "Work on aero position comfort"
+              "Practice nutrition"
             ],
-            "equipment": [
-              "Road Bike",
-              "Gels",
-              "Water Bottles x2"
-            ],
-            "note": "Longer ride this week. Building toward 40+ mile rides. Practice aero position."
+            "equipment": [],
+            "note": ""
           }
         },
         {
@@ -380,21 +342,4479 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Garmin Coach: Long Run",
-            "meta": "12-14 mi | Easy-Moderate | Garmin Coach | Central Park",
+            "title": "LONG RUN",
+            "meta": "11 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Mar 2-8, 2026",
+      "startDate": "2026-03-02",
+      "weeklySummary": {
+        "title": "Week 3 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w3-day-1",
+          "name": "Monday",
+          "date": "Mar 2",
+          "isoDate": "2026-03-02",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2400yd",
+            "meta": "500 WU, 5x200 @ moderate, 4x100 kick, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-2",
+          "name": "Tuesday",
+          "date": "Mar 3",
+          "isoDate": "2026-03-03",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "55 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-3",
+          "name": "Wednesday",
+          "date": "Mar 4",
+          "isoDate": "2026-03-04",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "55 min",
             "sets": [
-              "Follow Garmin Coach progressive plan",
-              "Start easy, build through miles",
-              "Fuel: gel every 4mi + water at fountains",
-              "Central Park loops - use hills for strength",
-              "Target: beat last week's long run distance"
+              "5x3min tempo, 2min recovery"
             ],
-            "equipment": [
-              "Gels",
-              "Water",
-              "Garmin Watch"
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-4",
+          "name": "Thursday",
+          "date": "Mar 5",
+          "isoDate": "2026-03-05",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x1000m @ 10K pace",
+              "CD 1mi"
             ],
-            "note": "Week's key session. Building long run distance. Previous long run was Week 1 (11mi target). Respect the body but push gently."
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-5",
+          "name": "Friday",
+          "date": "Mar 6",
+          "isoDate": "2026-03-06",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2600yd",
+            "meta": "400 WU, 3x300 build, 6x100 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-6",
+          "name": "Saturday",
+          "date": "Mar 7",
+          "isoDate": "2026-03-07",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "25-28 mi",
+            "sets": [
+              "Steady aerobic effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w3-day-7",
+          "name": "Sunday",
+          "date": "Mar 8",
+          "isoDate": "2026-03-08",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "12 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Mar 9-15, 2026",
+      "startDate": "2026-03-09",
+      "weeklySummary": {
+        "title": "Week 4 Plan",
+        "content": "Swim 1x - Bike 2x - Run 2x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w4-day-1",
+          "name": "Monday",
+          "date": "Mar 9",
+          "isoDate": "2026-03-09",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST DAY",
+            "meta": "Stretch, foam roll",
+            "sets": [
+              "Mobility work"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-2",
+          "name": "Tuesday",
+          "date": "Mar 10",
+          "isoDate": "2026-03-10",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "40 min easy",
+            "sets": [
+              "Recovery week"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-3",
+          "name": "Wednesday",
+          "date": "Mar 11",
+          "isoDate": "2026-03-11",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2000yd",
+            "meta": "Easy technique",
+            "sets": [
+              "500 WU, 8x100 drill, 200 CD"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-4",
+          "name": "Thursday",
+          "date": "Mar 12",
+          "isoDate": "2026-03-12",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "Easy 40 min",
+            "sets": [
+              "No intervals"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-5",
+          "name": "Friday",
+          "date": "Mar 13",
+          "isoDate": "2026-03-13",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "40 min easy spin",
+            "sets": [
+              "Recovery ride"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-6",
+          "name": "Saturday",
+          "date": "Mar 14",
+          "isoDate": "2026-03-14",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "18-20 mi easy",
+            "sets": [
+              "Social pace"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w4-day-7",
+          "name": "Sunday",
+          "date": "Mar 15",
+          "isoDate": "2026-03-15",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or EASY SWIM",
+            "meta": "1500yd technique",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Mar 16-22, 2026",
+      "startDate": "2026-03-16",
+      "weeklySummary": {
+        "title": "Week 5 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w5-day-1",
+          "name": "Monday",
+          "date": "Mar 16",
+          "isoDate": "2026-03-16",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2800yd",
+            "meta": "500 WU, 6x200 @ moderate, 4x100 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-2",
+          "name": "Tuesday",
+          "date": "Mar 17",
+          "isoDate": "2026-03-17",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "55-60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-3",
+          "name": "Wednesday",
+          "date": "Mar 18",
+          "isoDate": "2026-03-18",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "60 min",
+            "sets": [
+              "6x4min sweet spot efforts"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-4",
+          "name": "Thursday",
+          "date": "Mar 19",
+          "isoDate": "2026-03-19",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "3x1 mile @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-5",
+          "name": "Friday",
+          "date": "Mar 20",
+          "isoDate": "2026-03-20",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3000yd",
+            "meta": "400 WU, 2x400 moderate, 6x100 descend, 4x50 sprint, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-6",
+          "name": "Saturday",
+          "date": "Mar 21",
+          "isoDate": "2026-03-21",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "28-30 mi",
+            "sets": [
+              "Practice race nutrition"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w5-day-7",
+          "name": "Sunday",
+          "date": "Mar 22",
+          "isoDate": "2026-03-22",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "12 mi",
+            "sets": [
+              "Last 3 mi at HM effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Mar 23-29, 2026",
+      "startDate": "2026-03-23",
+      "weeklySummary": {
+        "title": "Week 6 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w6-day-1",
+          "name": "Monday",
+          "date": "Mar 23",
+          "isoDate": "2026-03-23",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3000yd",
+            "meta": "500 WU, 4x300 build, 6x100 @ threshold, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-2",
+          "name": "Tuesday",
+          "date": "Mar 24",
+          "isoDate": "2026-03-24",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-3",
+          "name": "Wednesday",
+          "date": "Mar 25",
+          "isoDate": "2026-03-25",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "65 min",
+            "sets": [
+              "3x8min sweet spot",
+              "3min recovery"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-4",
+          "name": "Thursday",
+          "date": "Mar 26",
+          "isoDate": "2026-03-26",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "6x800m @ 10K pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-5",
+          "name": "Friday",
+          "date": "Mar 27",
+          "isoDate": "2026-03-27",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3200yd",
+            "meta": "400 WU, 5x300 moderate, 4x100 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-6",
+          "name": "Saturday",
+          "date": "Mar 28",
+          "isoDate": "2026-03-28",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "32-35 mi",
+            "sets": [
+              "Steady effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w6-day-7",
+          "name": "Sunday",
+          "date": "Mar 29",
+          "isoDate": "2026-03-29",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "13 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Mar 30 - Apr 5, 2026",
+      "startDate": "2026-03-30",
+      "weeklySummary": {
+        "title": "Week 7 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w7-day-1",
+          "name": "Monday",
+          "date": "Mar 30",
+          "isoDate": "2026-03-30",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3200yd",
+            "meta": "500 WU, 3x400 @ moderate, 8x100 descend, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-2",
+          "name": "Tuesday",
+          "date": "Mar 31",
+          "isoDate": "2026-03-31",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-3",
+          "name": "Wednesday",
+          "date": "Apr 1",
+          "isoDate": "2026-04-01",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "70 min",
+            "sets": [
+              "4x8min sweet spot",
+              "Cadence drills"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-4",
+          "name": "Thursday",
+          "date": "Apr 2",
+          "isoDate": "2026-04-02",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "2x2 mile @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-5",
+          "name": "Friday",
+          "date": "Apr 3",
+          "isoDate": "2026-04-03",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3400yd",
+            "meta": "400 WU, 2x500 moderate, 6x100 pull, 4x50 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-6",
+          "name": "Saturday",
+          "date": "Apr 4",
+          "isoDate": "2026-04-04",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "35-38 mi",
+            "sets": [
+              "Include rolling hills"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w7-day-7",
+          "name": "Sunday",
+          "date": "Apr 5",
+          "isoDate": "2026-04-05",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "13-14 mi",
+            "sets": [
+              "Easy pace"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Apr 6-12, 2026",
+      "startDate": "2026-04-06",
+      "weeklySummary": {
+        "title": "Week 8 Plan",
+        "content": "Swim 1x - Bike 2x - Run 2x",
+        "changes": "",
+        "focus": "Phase 1: Base Building"
+      },
+      "days": [
+        {
+          "id": "w8-day-1",
+          "name": "Monday",
+          "date": "Apr 6",
+          "isoDate": "2026-04-06",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST DAY",
+            "meta": "Mobility, foam roll",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-2",
+          "name": "Tuesday",
+          "date": "Apr 7",
+          "isoDate": "2026-04-07",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "40 min easy",
+            "sets": [
+              "Recovery"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-3",
+          "name": "Wednesday",
+          "date": "Apr 8",
+          "isoDate": "2026-04-08",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2400yd",
+            "meta": "Technique focus",
+            "sets": [
+              "Easy effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-4",
+          "name": "Thursday",
+          "date": "Apr 9",
+          "isoDate": "2026-04-09",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "40 min easy",
+            "sets": [
+              "No hard efforts"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-5",
+          "name": "Friday",
+          "date": "Apr 10",
+          "isoDate": "2026-04-10",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "40 min easy",
+            "sets": [
+              "Recovery spin"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-6",
+          "name": "Saturday",
+          "date": "Apr 11",
+          "isoDate": "2026-04-11",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "20-22 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w8-day-7",
+          "name": "Sunday",
+          "date": "Apr 12",
+          "isoDate": "2026-04-12",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or YOGA",
+            "meta": "Active recovery",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "Apr 13-19, 2026",
+      "startDate": "2026-04-13",
+      "weeklySummary": {
+        "title": "Week 9 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w9-day-1",
+          "name": "Monday",
+          "date": "Apr 13",
+          "isoDate": "2026-04-13",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3400yd",
+            "meta": "500 WU, 5x300 @ T-pace, 6x100 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-2",
+          "name": "Tuesday",
+          "date": "Apr 14",
+          "isoDate": "2026-04-14",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min moderate",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-3",
+          "name": "Wednesday",
+          "date": "Apr 15",
+          "isoDate": "2026-04-15",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "75 min",
+            "sets": [
+              "3x10min @ threshold",
+              "4min recovery"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-4",
+          "name": "Thursday",
+          "date": "Apr 16",
+          "isoDate": "2026-04-16",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "5x1000m @ 10K pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-5",
+          "name": "Friday",
+          "date": "Apr 17",
+          "isoDate": "2026-04-17",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3600yd",
+            "meta": "400 WU, 3x500 build, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-6",
+          "name": "Saturday",
+          "date": "Apr 18",
+          "isoDate": "2026-04-18",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 35mi + Run 2mi",
+            "meta": "Easy transition practice",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w9-day-7",
+          "name": "Sunday",
+          "date": "Apr 19",
+          "isoDate": "2026-04-19",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "14 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "Apr 20-26, 2026",
+      "startDate": "2026-04-20",
+      "weeklySummary": {
+        "title": "Week 10 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w10-day-1",
+          "name": "Monday",
+          "date": "Apr 20",
+          "isoDate": "2026-04-20",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3600yd",
+            "meta": "500 WU, 4x400 moderate, 8x100 descend, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-2",
+          "name": "Tuesday",
+          "date": "Apr 21",
+          "isoDate": "2026-04-21",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-3",
+          "name": "Wednesday",
+          "date": "Apr 22",
+          "isoDate": "2026-04-22",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "80 min",
+            "sets": [
+              "4x10min sweet spot",
+              "Hill simulation"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-4",
+          "name": "Thursday",
+          "date": "Apr 23",
+          "isoDate": "2026-04-23",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "3x1.5mi @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-5",
+          "name": "Friday",
+          "date": "Apr 24",
+          "isoDate": "2026-04-24",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3800yd",
+            "meta": "400 WU, 2x600 moderate, 6x150 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-6",
+          "name": "Saturday",
+          "date": "Apr 25",
+          "isoDate": "2026-04-25",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "38-40 mi",
+            "sets": [
+              "Route with hills"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w10-day-7",
+          "name": "Sunday",
+          "date": "Apr 26",
+          "isoDate": "2026-04-26",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "14 mi",
+            "sets": [
+              "Negative split last 4mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "Apr 27 - May 3, 2026",
+      "startDate": "2026-04-27",
+      "weeklySummary": {
+        "title": "Week 11 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w11-day-1",
+          "name": "Monday",
+          "date": "Apr 27",
+          "isoDate": "2026-04-27",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3800yd",
+            "meta": "500 WU, 6x300 @ threshold, 4x100 kick, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-2",
+          "name": "Tuesday",
+          "date": "Apr 28",
+          "isoDate": "2026-04-28",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60-65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-3",
+          "name": "Wednesday",
+          "date": "Apr 29",
+          "isoDate": "2026-04-29",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "80 min",
+            "sets": [
+              "2x15min tempo",
+              "Cadence 85-95rpm"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-4",
+          "name": "Thursday",
+          "date": "Apr 30",
+          "isoDate": "2026-04-30",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x1200m @ 10K-HM",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-5",
+          "name": "Friday",
+          "date": "May 1",
+          "isoDate": "2026-05-01",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4000yd",
+            "meta": "400 WU, 1x800 steady, 4x200 build, 6x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-6",
+          "name": "Saturday",
+          "date": "May 2",
+          "isoDate": "2026-05-02",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 40mi + Run 3mi",
+            "meta": "Practice T2 transition",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w11-day-7",
+          "name": "Sunday",
+          "date": "May 3",
+          "isoDate": "2026-05-03",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "15 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "May 4-10, 2026",
+      "startDate": "2026-05-04",
+      "weeklySummary": {
+        "title": "Week 12 Plan",
+        "content": "Swim 1x - Bike 2x - Run 2x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w12-day-1",
+          "name": "Monday",
+          "date": "May 4",
+          "isoDate": "2026-05-04",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST DAY",
+            "meta": "Mobility work",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-2",
+          "name": "Tuesday",
+          "date": "May 5",
+          "isoDate": "2026-05-05",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "40 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-3",
+          "name": "Wednesday",
+          "date": "May 6",
+          "isoDate": "2026-05-06",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2800yd",
+            "meta": "Easy technique",
+            "sets": [
+              "Drill focus"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-4",
+          "name": "Thursday",
+          "date": "May 7",
+          "isoDate": "2026-05-07",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "40 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-5",
+          "name": "Friday",
+          "date": "May 8",
+          "isoDate": "2026-05-08",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "45 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-6",
+          "name": "Saturday",
+          "date": "May 9",
+          "isoDate": "2026-05-09",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "25 mi easy",
+            "sets": [
+              "Social ride"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w12-day-7",
+          "name": "Sunday",
+          "date": "May 10",
+          "isoDate": "2026-05-10",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or EASY SWIM",
+            "meta": "2000yd",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "May 11-17, 2026",
+      "startDate": "2026-05-11",
+      "weeklySummary": {
+        "title": "Week 13 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w13-day-1",
+          "name": "Monday",
+          "date": "May 11",
+          "isoDate": "2026-05-11",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4000yd",
+            "meta": "500 WU, 3x500 @ moderate, 8x100 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-2",
+          "name": "Tuesday",
+          "date": "May 12",
+          "isoDate": "2026-05-12",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-3",
+          "name": "Wednesday",
+          "date": "May 13",
+          "isoDate": "2026-05-13",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "85 min",
+            "sets": [
+              "3x12min threshold",
+              "Hill repeats"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-4",
+          "name": "Thursday",
+          "date": "May 14",
+          "isoDate": "2026-05-14",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "6x800m @ 5K-10K",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-5",
+          "name": "Friday",
+          "date": "May 15",
+          "isoDate": "2026-05-15",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4200yd",
+            "meta": "Open water prep",
+            "sets": [
+              "Sighting drills in pool"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-6",
+          "name": "Saturday",
+          "date": "May 16",
+          "isoDate": "2026-05-16",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 42-45mi + Run 3mi",
+            "meta": "Race nutrition practice",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w13-day-7",
+          "name": "Sunday",
+          "date": "May 17",
+          "isoDate": "2026-05-17",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "15 mi",
+            "sets": [
+              "Goal HM pace last 5mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "phase": "Phase 2: Build 1",
+      "weekDates": "May 18-24, 2026",
+      "startDate": "2026-05-18",
+      "weeklySummary": {
+        "title": "Week 14 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 2: Build 1"
+      },
+      "days": [
+        {
+          "id": "w14-day-1",
+          "name": "Monday",
+          "date": "May 18",
+          "isoDate": "2026-05-18",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4200yd",
+            "meta": "500 WU, 2x700 steady, 6x150 build, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-2",
+          "name": "Tuesday",
+          "date": "May 19",
+          "isoDate": "2026-05-19",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-3",
+          "name": "Wednesday",
+          "date": "May 20",
+          "isoDate": "2026-05-20",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "90 min",
+            "sets": [
+              "4x12min sweet spot",
+              "Race cadence"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-4",
+          "name": "Thursday",
+          "date": "May 21",
+          "isoDate": "2026-05-21",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "2x2mi @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-5",
+          "name": "Friday",
+          "date": "May 22",
+          "isoDate": "2026-05-22",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS if available",
+            "meta": "3000yd open water",
+            "sets": [
+              "Practice sighting, drafting"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-6",
+          "name": "Saturday",
+          "date": "May 23",
+          "isoDate": "2026-05-23",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "45 mi",
+            "sets": [
+              "Long steady ride"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w14-day-7",
+          "name": "Sunday",
+          "date": "May 24",
+          "isoDate": "2026-05-24",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "13 mi easy",
+            "sets": [
+              "Recovery week mindset"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "May 25-31, 2026",
+      "startDate": "2026-05-25",
+      "weeklySummary": {
+        "title": "Week 15 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w15-day-1",
+          "name": "Monday",
+          "date": "May 25",
+          "isoDate": "2026-05-25",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4400yd",
+            "meta": "500 WU, 4x500 @ race pace, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-2",
+          "name": "Tuesday",
+          "date": "May 26",
+          "isoDate": "2026-05-26",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-3",
+          "name": "Wednesday",
+          "date": "May 27",
+          "isoDate": "2026-05-27",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "90 min",
+            "sets": [
+              "3x15min @ race effort",
+              "Aero position practice"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-4",
+          "name": "Thursday",
+          "date": "May 28",
+          "isoDate": "2026-05-28",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "5x1000m @ 10K",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-5",
+          "name": "Friday",
+          "date": "May 29",
+          "isoDate": "2026-05-29",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3200yd",
+            "sets": [
+              "Race simulation: mass start practice"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-6",
+          "name": "Saturday",
+          "date": "May 30",
+          "isoDate": "2026-05-30",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 48mi + Run 4mi",
+            "meta": "Race nutrition plan",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w15-day-7",
+          "name": "Sunday",
+          "date": "May 31",
+          "isoDate": "2026-05-31",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "15 mi",
+            "sets": [
+              "Easy effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "Jun 1-7, 2026",
+      "startDate": "2026-06-01",
+      "weeklySummary": {
+        "title": "Week 16 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w16-day-1",
+          "name": "Monday",
+          "date": "Jun 1",
+          "isoDate": "2026-06-01",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4400yd",
+            "meta": "500 WU, 2x800 moderate, 6x200 build, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-2",
+          "name": "Tuesday",
+          "date": "Jun 2",
+          "isoDate": "2026-06-02",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-3",
+          "name": "Wednesday",
+          "date": "Jun 3",
+          "isoDate": "2026-06-03",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "95 min",
+            "sets": [
+              "2x20min threshold",
+              "Aero position"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-4",
+          "name": "Thursday",
+          "date": "Jun 4",
+          "isoDate": "2026-06-04",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "3x2mi @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-5",
+          "name": "Friday",
+          "date": "Jun 5",
+          "isoDate": "2026-06-05",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3400yd",
+            "sets": [
+              "Sighting + drafting"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-6",
+          "name": "Saturday",
+          "date": "Jun 6",
+          "isoDate": "2026-06-06",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "50-52 mi",
+            "sets": [
+              "Race route simulation if possible"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w16-day-7",
+          "name": "Sunday",
+          "date": "Jun 7",
+          "isoDate": "2026-06-07",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "15-16 mi",
+            "sets": [
+              "Goal pace last 5K"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "Jun 8-14, 2026",
+      "startDate": "2026-06-08",
+      "weeklySummary": {
+        "title": "Week 17 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w17-day-1",
+          "name": "Monday",
+          "date": "Jun 8",
+          "isoDate": "2026-06-08",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4600yd",
+            "meta": "500 WU, 3x600 @ T-pace, 6x150 pull, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-2",
+          "name": "Tuesday",
+          "date": "Jun 9",
+          "isoDate": "2026-06-09",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60-65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-3",
+          "name": "Wednesday",
+          "date": "Jun 10",
+          "isoDate": "2026-06-10",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "100 min",
+            "sets": [
+              "3x15min race effort",
+              "Nutrition practice"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-4",
+          "name": "Thursday",
+          "date": "Jun 11",
+          "isoDate": "2026-06-11",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x1200m @ 10K",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-5",
+          "name": "Friday",
+          "date": "Jun 12",
+          "isoDate": "2026-06-12",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3600yd",
+            "sets": [
+              "Race pace continuous"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-6",
+          "name": "Saturday",
+          "date": "Jun 13",
+          "isoDate": "2026-06-13",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 52mi + Run 5mi",
+            "meta": "Full race nutrition test",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w17-day-7",
+          "name": "Sunday",
+          "date": "Jun 14",
+          "isoDate": "2026-06-14",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "16 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "Jun 15-21, 2026",
+      "startDate": "2026-06-15",
+      "weeklySummary": {
+        "title": "Week 18 Plan",
+        "content": "Swim 1x - Bike 2x - Run 2x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w18-day-1",
+          "name": "Monday",
+          "date": "Jun 15",
+          "isoDate": "2026-06-15",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST DAY",
+            "meta": "Mobility, massage",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-2",
+          "name": "Tuesday",
+          "date": "Jun 16",
+          "isoDate": "2026-06-16",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "40 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-3",
+          "name": "Wednesday",
+          "date": "Jun 17",
+          "isoDate": "2026-06-17",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3000yd",
+            "meta": "Easy technique",
+            "sets": [
+              "Open water skills"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-4",
+          "name": "Thursday",
+          "date": "Jun 18",
+          "isoDate": "2026-06-18",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "40 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-5",
+          "name": "Friday",
+          "date": "Jun 19",
+          "isoDate": "2026-06-19",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "50 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-6",
+          "name": "Saturday",
+          "date": "Jun 20",
+          "isoDate": "2026-06-20",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "28-30 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w18-day-7",
+          "name": "Sunday",
+          "date": "Jun 21",
+          "isoDate": "2026-06-21",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or EASY SWIM",
+            "meta": "2000yd",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "Jun 22-28, 2026",
+      "startDate": "2026-06-22",
+      "weeklySummary": {
+        "title": "Week 19 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w19-day-1",
+          "name": "Monday",
+          "date": "Jun 22",
+          "isoDate": "2026-06-22",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4600yd",
+            "meta": "500 WU, 2x1000 @ race effort, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-2",
+          "name": "Tuesday",
+          "date": "Jun 23",
+          "isoDate": "2026-06-23",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-3",
+          "name": "Wednesday",
+          "date": "Jun 24",
+          "isoDate": "2026-06-24",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "100 min",
+            "sets": [
+              "2x20min @ race effort",
+              "Aero drills"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-4",
+          "name": "Thursday",
+          "date": "Jun 25",
+          "isoDate": "2026-06-25",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "3x2mi @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-5",
+          "name": "Friday",
+          "date": "Jun 26",
+          "isoDate": "2026-06-26",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3800yd",
+            "sets": [
+              "Race simulation"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-6",
+          "name": "Saturday",
+          "date": "Jun 27",
+          "isoDate": "2026-06-27",
+          "sport": "run",
+          "sportLabel": "RACE DAY",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 54-56mi + Run 5mi",
+            "meta": "FULL BIKE DISTANCE",
+            "sets": [
+              "Race day rehearsal"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w19-day-7",
+          "name": "Sunday",
+          "date": "Jun 28",
+          "isoDate": "2026-06-28",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "13 mi easy",
+            "sets": [
+              "Recovery from brick"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "phase": "Phase 3: Build 2",
+      "weekDates": "Jun 29 - Jul 5, 2026",
+      "startDate": "2026-06-29",
+      "weeklySummary": {
+        "title": "Week 20 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 3: Build 2"
+      },
+      "days": [
+        {
+          "id": "w20-day-1",
+          "name": "Monday",
+          "date": "Jun 29",
+          "isoDate": "2026-06-29",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4800yd",
+            "meta": "500 WU, 3x700 @ moderate, 6x150 build, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-2",
+          "name": "Tuesday",
+          "date": "Jun 30",
+          "isoDate": "2026-06-30",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-3",
+          "name": "Wednesday",
+          "date": "Jul 1",
+          "isoDate": "2026-07-01",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "90 min",
+            "sets": [
+              "3x12min threshold",
+              "Maintain form"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-4",
+          "name": "Thursday",
+          "date": "Jul 2",
+          "isoDate": "2026-07-02",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "5x1000m @ 10K",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-5",
+          "name": "Friday",
+          "date": "Jul 3",
+          "isoDate": "2026-07-03",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3600yd",
+            "sets": [
+              "Pace practice"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-6",
+          "name": "Saturday",
+          "date": "Jul 4",
+          "isoDate": "2026-07-04",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "50 mi",
+            "sets": [
+              "Steady race effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w20-day-7",
+          "name": "Sunday",
+          "date": "Jul 5",
+          "isoDate": "2026-07-05",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "16 mi",
+            "sets": [
+              "Goal HM effort last 10K"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "phase": "Phase 4: Peak",
+      "weekDates": "Jul 6-12, 2026",
+      "startDate": "2026-07-06",
+      "weeklySummary": {
+        "title": "Week 21 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 4: Peak"
+      },
+      "days": [
+        {
+          "id": "w21-day-1",
+          "name": "Monday",
+          "date": "Jul 6",
+          "isoDate": "2026-07-06",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4800yd",
+            "meta": "500 WU, 4x600 @ race pace, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-2",
+          "name": "Tuesday",
+          "date": "Jul 7",
+          "isoDate": "2026-07-07",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "65 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-3",
+          "name": "Wednesday",
+          "date": "Jul 8",
+          "isoDate": "2026-07-08",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "100 min",
+            "sets": [
+              "2x25min @ race effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-4",
+          "name": "Thursday",
+          "date": "Jul 9",
+          "isoDate": "2026-07-09",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x1 mile @ HM pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-5",
+          "name": "Friday",
+          "date": "Jul 10",
+          "isoDate": "2026-07-10",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "4000yd",
+            "sets": [
+              "Race simulation with wetsuit"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-6",
+          "name": "Saturday",
+          "date": "Jul 11",
+          "isoDate": "2026-07-11",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 56mi + Run 6mi",
+            "meta": "RACE SIMULATION",
+            "sets": [
+              "Full nutrition plan"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w21-day-7",
+          "name": "Sunday",
+          "date": "Jul 12",
+          "isoDate": "2026-07-12",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "13 mi easy",
+            "sets": [
+              "Recovery"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "phase": "Phase 4: Peak",
+      "weekDates": "Jul 13-19, 2026",
+      "startDate": "2026-07-13",
+      "weeklySummary": {
+        "title": "Week 22 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 4: Peak"
+      },
+      "days": [
+        {
+          "id": "w22-day-1",
+          "name": "Monday",
+          "date": "Jul 13",
+          "isoDate": "2026-07-13",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 5000yd",
+            "meta": "500 WU, 2x1000 steady, 6x200 build, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-2",
+          "name": "Tuesday",
+          "date": "Jul 14",
+          "isoDate": "2026-07-14",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "60 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-3",
+          "name": "Wednesday",
+          "date": "Jul 15",
+          "isoDate": "2026-07-15",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "90 min",
+            "sets": [
+              "3x15min race effort",
+              "Final big bike"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-4",
+          "name": "Thursday",
+          "date": "Jul 16",
+          "isoDate": "2026-07-16",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "6x800m @ 10K pace",
+              "Sharp session"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-5",
+          "name": "Friday",
+          "date": "Jul 17",
+          "isoDate": "2026-07-17",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3800yd",
+            "sets": [
+              "Confidence swim, steady"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-6",
+          "name": "Saturday",
+          "date": "Jul 18",
+          "isoDate": "2026-07-18",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "50-55 mi",
+            "sets": [
+              "Last long ride",
+              "Race nutrition"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w22-day-7",
+          "name": "Sunday",
+          "date": "Jul 19",
+          "isoDate": "2026-07-19",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "14 mi",
+            "sets": [
+              "Last long run",
+              "Goal pace progression"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "phase": "Phase 4: Peak",
+      "weekDates": "Jul 20-26, 2026",
+      "startDate": "2026-07-20",
+      "weeklySummary": {
+        "title": "Week 23 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 4: Peak"
+      },
+      "days": [
+        {
+          "id": "w23-day-1",
+          "name": "Monday",
+          "date": "Jul 20",
+          "isoDate": "2026-07-20",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4600yd",
+            "meta": "500 WU, 3x500 @ race effort, 6x100 easy, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-2",
+          "name": "Tuesday",
+          "date": "Jul 21",
+          "isoDate": "2026-07-21",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "55 min",
+            "sets": [
+              "Start volume reduction"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-3",
+          "name": "Wednesday",
+          "date": "Jul 22",
+          "isoDate": "2026-07-22",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "80 min",
+            "sets": [
+              "2x15min @ race effort",
+              "Volume down"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-4",
+          "name": "Thursday",
+          "date": "Jul 23",
+          "isoDate": "2026-07-23",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x800m @ 10K",
+              "CD 1mi",
+              "Sharp not long"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-5",
+          "name": "Friday",
+          "date": "Jul 24",
+          "isoDate": "2026-07-24",
+          "sport": "swim",
+          "sportLabel": "OWS",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM OWS",
+            "meta": "3200yd",
+            "sets": [
+              "Easy confidence swim"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-6",
+          "name": "Saturday",
+          "date": "Jul 25",
+          "isoDate": "2026-07-25",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 40mi + Run 4mi",
+            "meta": "Reduced volume brick",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w23-day-7",
+          "name": "Sunday",
+          "date": "Jul 26",
+          "isoDate": "2026-07-26",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 10 mi easy",
+            "meta": "Volume reduction",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "phase": "Phase 4: Peak",
+      "weekDates": "Jul 27 - Aug 2, 2026",
+      "startDate": "2026-07-27",
+      "weeklySummary": {
+        "title": "Week 24 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 4: Peak"
+      },
+      "days": [
+        {
+          "id": "w24-day-1",
+          "name": "Monday",
+          "date": "Jul 27",
+          "isoDate": "2026-07-27",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 4000yd",
+            "meta": "500 WU, 4x400 moderate, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-2",
+          "name": "Tuesday",
+          "date": "Jul 28",
+          "isoDate": "2026-07-28",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "50 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-3",
+          "name": "Wednesday",
+          "date": "Jul 29",
+          "isoDate": "2026-07-29",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "70 min",
+            "sets": [
+              "3x10min @ race effort",
+              "Stay sharp"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-4",
+          "name": "Thursday",
+          "date": "Jul 30",
+          "isoDate": "2026-07-30",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x600m @ 5K pace",
+              "CD 1mi",
+              "Speed stimulus"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-5",
+          "name": "Friday",
+          "date": "Jul 31",
+          "isoDate": "2026-07-31",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3000yd",
+            "meta": "Easy + race pace mix",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-6",
+          "name": "Saturday",
+          "date": "Aug 1",
+          "isoDate": "2026-08-01",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "35 mi",
+            "sets": [
+              "Medium ride, controlled"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w24-day-7",
+          "name": "Sunday",
+          "date": "Aug 2",
+          "isoDate": "2026-08-02",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "LONG RUN",
+            "meta": "10-11 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "phase": "Phase 5: Taper",
+      "weekDates": "Aug 3-9, 2026",
+      "startDate": "2026-08-03",
+      "weeklySummary": {
+        "title": "Week 25 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 5: Taper"
+      },
+      "days": [
+        {
+          "id": "w25-day-1",
+          "name": "Monday",
+          "date": "Aug 3",
+          "isoDate": "2026-08-03",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3200yd",
+            "meta": "400 WU, 4x300 @ race pace, 4x100 easy, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-2",
+          "name": "Tuesday",
+          "date": "Aug 4",
+          "isoDate": "2026-08-04",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "45 min easy",
+            "sets": [
+              "Legs fresh"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-3",
+          "name": "Wednesday",
+          "date": "Aug 5",
+          "isoDate": "2026-08-05",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "60 min",
+            "sets": [
+              "3x8min @ race effort",
+              "Sharp not tired"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-4",
+          "name": "Thursday",
+          "date": "Aug 6",
+          "isoDate": "2026-08-06",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x400m @ 5K pace",
+              "CD 1mi",
+              "SHORT + FAST"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-5",
+          "name": "Friday",
+          "date": "Aug 7",
+          "isoDate": "2026-08-07",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2400yd",
+            "meta": "Easy + 4x100 race pace",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-6",
+          "name": "Saturday",
+          "date": "Aug 8",
+          "isoDate": "2026-08-08",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 30mi + Run 3mi",
+            "meta": "Easy effort, mental rehearsal",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w25-day-7",
+          "name": "Sunday",
+          "date": "Aug 9",
+          "isoDate": "2026-08-09",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 8 mi easy",
+            "meta": "",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "phase": "Phase 5: Taper",
+      "weekDates": "Aug 10-16, 2026",
+      "startDate": "2026-08-10",
+      "weeklySummary": {
+        "title": "Week 26 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Phase 5: Taper"
+      },
+      "days": [
+        {
+          "id": "w26-day-1",
+          "name": "Monday",
+          "date": "Aug 10",
+          "isoDate": "2026-08-10",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2400yd",
+            "meta": "Easy technique",
+            "sets": [
+              "Relaxed effort"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-2",
+          "name": "Tuesday",
+          "date": "Aug 11",
+          "isoDate": "2026-08-11",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "35 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-3",
+          "name": "Wednesday",
+          "date": "Aug 12",
+          "isoDate": "2026-08-12",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "45 min",
+            "sets": [
+              "3x5min @ race effort",
+              "Opener"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-4",
+          "name": "Thursday",
+          "date": "Aug 13",
+          "isoDate": "2026-08-13",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "30 min easy",
+            "sets": [
+              "Short strides x 4"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-5",
+          "name": "Friday",
+          "date": "Aug 14",
+          "isoDate": "2026-08-14",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2000yd",
+            "meta": "Easy + 6x50 race pace",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-6",
+          "name": "Saturday",
+          "date": "Aug 15",
+          "isoDate": "2026-08-15",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "20 mi easy",
+            "sets": [
+              "Gear check ride"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w26-day-7",
+          "name": "Sunday",
+          "date": "Aug 16",
+          "isoDate": "2026-08-16",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 5 mi easy",
+            "meta": "Shakeout",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "phase": "Phase 5: Taper",
+      "weekDates": "Aug 17-23, 2026",
+      "startDate": "2026-08-17",
+      "weeklySummary": {
+        "title": "Week 27 Plan",
+        "content": "Swim 2x - Bike 1x - Run 3x",
+        "changes": "",
+        "focus": "Phase 5: Taper"
+      },
+      "days": [
+        {
+          "id": "w27-day-1",
+          "name": "Monday",
+          "date": "Aug 17",
+          "isoDate": "2026-08-17",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 1500yd",
+            "meta": "Easy technique",
+            "sets": [
+              "Visualization"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-2",
+          "name": "Tuesday",
+          "date": "Aug 18",
+          "isoDate": "2026-08-18",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 20 min easy",
+            "meta": "Short strides x 4",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-3",
+          "name": "Wednesday",
+          "date": "Aug 19",
+          "isoDate": "2026-08-19",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "30 min easy",
+            "sets": [
+              "Opener: 3x2min race pace"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-4",
+          "name": "Thursday",
+          "date": "Aug 20",
+          "isoDate": "2026-08-20",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST",
+            "meta": "Gear prep, nutrition prep",
+            "sets": [
+              "Mental rehearsal"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-5",
+          "name": "Friday",
+          "date": "Aug 21",
+          "isoDate": "2026-08-21",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 1000yd easy",
+            "meta": "Or rest",
+            "sets": [
+              "Travel day if needed"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-6",
+          "name": "Saturday",
+          "date": "Aug 22",
+          "isoDate": "2026-08-22",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SHAKEOUT",
+            "meta": "15 min easy jog",
+            "sets": [
+              "10 min easy spin",
+              "Gear check"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w27-day-7",
+          "name": "Sunday",
+          "date": "Aug 23",
+          "isoDate": "2026-08-23",
+          "sport": "run",
+          "sportLabel": "RACE DAY",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
+            "meta": "JONES BEACH 70.3",
+            "sets": [
+              "TRUST YOUR TRAINING!"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "phase": "Post-Race & Big Apple Prep",
+      "weekDates": "Aug 24-30, 2026",
+      "startDate": "2026-08-24",
+      "weeklySummary": {
+        "title": "Week 28 Plan",
+        "content": "Swim 1x - Bike 1x - Run 2x",
+        "changes": "",
+        "focus": "Post-Race & Big Apple Prep"
+      },
+      "days": [
+        {
+          "id": "w28-day-1",
+          "name": "Monday",
+          "date": "Aug 24",
+          "isoDate": "2026-08-24",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST",
+            "meta": "Celebrate! \ud83c\udf89",
+            "sets": [
+              "Easy walk only"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-2",
+          "name": "Tuesday",
+          "date": "Aug 25",
+          "isoDate": "2026-08-25",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or EASY WALK",
+            "meta": "20-30 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-3",
+          "name": "Wednesday",
+          "date": "Aug 26",
+          "isoDate": "2026-08-26",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 1500yd",
+            "meta": "Easy recovery",
+            "sets": [
+              "Gentle movement"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-4",
+          "name": "Thursday",
+          "date": "Aug 27",
+          "isoDate": "2026-08-27",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "EASY RUN",
+            "meta": "20-25 min",
+            "sets": [
+              "See how body feels"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-5",
+          "name": "Friday",
+          "date": "Aug 28",
+          "isoDate": "2026-08-28",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or YOGA",
+            "meta": "",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-6",
+          "name": "Saturday",
+          "date": "Aug 29",
+          "isoDate": "2026-08-29",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "EASY BIKE",
+            "meta": "30-40 min spin",
+            "sets": [
+              "Recovery"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w28-day-7",
+          "name": "Sunday",
+          "date": "Aug 30",
+          "isoDate": "2026-08-30",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "EASY RUN",
+            "meta": "30 min",
+            "sets": [
+              "Gentle"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "phase": "Post-Race & Big Apple Prep",
+      "weekDates": "Aug 31 - Sep 6, 2026",
+      "startDate": "2026-08-31",
+      "weeklySummary": {
+        "title": "Week 29 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Post-Race & Big Apple Prep"
+      },
+      "days": [
+        {
+          "id": "w29-day-1",
+          "name": "Monday",
+          "date": "Aug 31",
+          "isoDate": "2026-08-31",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2000yd",
+            "meta": "Easy technique",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-2",
+          "name": "Tuesday",
+          "date": "Sep 1",
+          "isoDate": "2026-09-01",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "40 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-3",
+          "name": "Wednesday",
+          "date": "Sep 2",
+          "isoDate": "2026-09-02",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "45 min easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-4",
+          "name": "Thursday",
+          "date": "Sep 3",
+          "isoDate": "2026-09-03",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP RUN",
+            "meta": "40 min easy",
+            "sets": [
+              "Rebuilding"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-5",
+          "name": "Friday",
+          "date": "Sep 4",
+          "isoDate": "2026-09-04",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2200yd",
+            "meta": "Mix of easy + moderate",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-6",
+          "name": "Saturday",
+          "date": "Sep 5",
+          "isoDate": "2026-09-05",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "20 mi easy",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w29-day-7",
+          "name": "Sunday",
+          "date": "Sep 6",
+          "isoDate": "2026-09-06",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 8 mi easy",
+            "meta": "",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "phase": "Post-Race & Big Apple Prep",
+      "weekDates": "Sep 7-13, 2026",
+      "startDate": "2026-09-07",
+      "weeklySummary": {
+        "title": "Week 30 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Post-Race & Big Apple Prep"
+      },
+      "days": [
+        {
+          "id": "w30-day-1",
+          "name": "Monday",
+          "date": "Sep 7",
+          "isoDate": "2026-09-07",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2800yd",
+            "meta": "500 WU, 4x300 @ Olympic race pace, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-2",
+          "name": "Tuesday",
+          "date": "Sep 8",
+          "isoDate": "2026-09-08",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "50 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-3",
+          "name": "Wednesday",
+          "date": "Sep 9",
+          "isoDate": "2026-09-09",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "60 min",
+            "sets": [
+              "3x8min @ Olympic effort",
+              "Higher intensity, shorter"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-4",
+          "name": "Thursday",
+          "date": "Sep 10",
+          "isoDate": "2026-09-10",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "5x800m @ 10K pace",
+              "CD 1mi"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-5",
+          "name": "Friday",
+          "date": "Sep 11",
+          "isoDate": "2026-09-11",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 3000yd",
+            "meta": "Race pace practice",
+            "sets": [
+              "Olympic distance focus"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-6",
+          "name": "Saturday",
+          "date": "Sep 12",
+          "isoDate": "2026-09-12",
+          "sport": "bike",
+          "sportLabel": "BRICK",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BRICK: Bike 25mi + Run 3mi",
+            "meta": "Olympic race pace",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w30-day-7",
+          "name": "Sunday",
+          "date": "Sep 13",
+          "isoDate": "2026-09-13",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 10 mi",
+            "meta": "Last 3mi at HM effort",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "phase": "Post-Race & Big Apple Prep",
+      "weekDates": "Sep 14-20, 2026",
+      "startDate": "2026-09-14",
+      "weeklySummary": {
+        "title": "Week 31 Plan",
+        "content": "Swim 2x - Bike 2x - Run 3x",
+        "changes": "",
+        "focus": "Post-Race & Big Apple Prep"
+      },
+      "days": [
+        {
+          "id": "w31-day-1",
+          "name": "Monday",
+          "date": "Sep 14",
+          "isoDate": "2026-09-14",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2800yd",
+            "meta": "400 WU, 3x400 @ race pace, 4x100 fast, 200 CD",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-2",
+          "name": "Tuesday",
+          "date": "Sep 15",
+          "isoDate": "2026-09-15",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP TRAIL RUN",
+            "meta": "50 min",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-3",
+          "name": "Wednesday",
+          "date": "Sep 16",
+          "isoDate": "2026-09-16",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "55 min",
+            "sets": [
+              "3x8min @ threshold",
+              "Speed work"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-4",
+          "name": "Thursday",
+          "date": "Sep 17",
+          "isoDate": "2026-09-17",
+          "sport": "run",
+          "sportLabel": "GROUP RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "GROUP INTERVAL RUN",
+            "meta": "WU 1mi",
+            "sets": [
+              "4x1000m @ 10K",
+              "CD 1mi",
+              "Sharp"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-5",
+          "name": "Friday",
+          "date": "Sep 18",
+          "isoDate": "2026-09-18",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2400yd",
+            "meta": "Easy + race pace 6x100",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-6",
+          "name": "Saturday",
+          "date": "Sep 19",
+          "isoDate": "2026-09-19",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Outdoor)",
+            "meta": "22 mi",
+            "sets": [
+              "Race effort sections"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w31-day-7",
+          "name": "Sunday",
+          "date": "Sep 20",
+          "isoDate": "2026-09-20",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 8 mi easy",
+            "meta": "",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "phase": "Post-Race & Big Apple Prep",
+      "weekDates": "Sep 21-27, 2026",
+      "startDate": "2026-09-21",
+      "weeklySummary": {
+        "title": "Week 32 Plan",
+        "content": "Swim 2x - Bike 1x - Run 3x",
+        "changes": "",
+        "focus": "Post-Race & Big Apple Prep"
+      },
+      "days": [
+        {
+          "id": "w32-day-1",
+          "name": "Monday",
+          "date": "Sep 21",
+          "isoDate": "2026-09-21",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 2000yd",
+            "meta": "Easy + 4x100 race pace",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-2",
+          "name": "Tuesday",
+          "date": "Sep 22",
+          "isoDate": "2026-09-22",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "RUN 30 min easy",
+            "meta": "Strides x 4",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-3",
+          "name": "Wednesday",
+          "date": "Sep 23",
+          "isoDate": "2026-09-23",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "BIKE (Indoor)",
+            "meta": "40 min",
+            "sets": [
+              "3x5min race effort opener"
+            ],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-4",
+          "name": "Thursday",
+          "date": "Sep 24",
+          "isoDate": "2026-09-24",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "REST or EASY WALK",
+            "meta": "",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-5",
+          "name": "Friday",
+          "date": "Sep 25",
+          "isoDate": "2026-09-25",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SWIM: 1500yd easy",
+            "meta": "Visualize race",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-6",
+          "name": "Saturday",
+          "date": "Sep 26",
+          "isoDate": "2026-09-26",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "SHAKEOUT",
+            "meta": "15 min jog + 10 min spin",
+            "sets": [],
+            "equipment": [],
+            "note": ""
+          }
+        },
+        {
+          "id": "w32-day-7",
+          "name": "Sunday",
+          "date": "Sep 27",
+          "isoDate": "2026-09-27",
+          "sport": "run",
+          "sportLabel": "RACE DAY",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
+            "meta": "BIG APPLE TRI",
+            "sets": [
+              "Olympic Distance",
+              "HAVE FUN!"
+            ],
+            "equipment": [],
+            "note": ""
           }
         }
       ]
