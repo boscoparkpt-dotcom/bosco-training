@@ -1,8 +1,5 @@
 {
   "athlete": "Bosco",
-  "phase": "Phase 1: Base Building",
-  "week": 1,
-  "weekDates": "Feb 16-22, 2026",
   "races": [
     {
       "name": "Jones Beach 70.3",
@@ -15,179 +12,392 @@
       "type": "Olympic"
     }
   ],
-  "days": [
+  "weeks": [
     {
-      "id": "day-1",
-      "name": "Monday",
-      "date": "Feb 16",
-      "sport": "rest",
-      "sportLabel": "REST",
-      "secondSport": "swim",
-      "secondSportLabel": "PM SWIM",
-      "completed": true,
-      "injury": true,
-      "changed": false,
-      "workout": {
-        "title": "AM: Rest (Knee Injury) + PM: Coaching Session",
-        "meta": "PM: 900 yd | 1:23 | RPE 3 | Coach Paul Capuzzo #CMC",
-        "sets": [
-          "AM: L knee pain - VMO inferior/medial insertion. Icing + rest.",
-          "PM: Technical cues + drills to sharpen form",
-          "Streamline breakthrough - hit 1:20-1:40/100yd",
-          "Lots of 50yd drill reps with long rest",
-          "Knee felt fine in water"
-        ],
-        "equipment": [],
-        "note": "Knee improved by afternoon. Major streamline breakthrough in coaching."
-      }
+      "week": 1,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Feb 16-22, 2026",
+      "startDate": "2026-02-16",
+      "weeklySummary": {
+        "title": "Week 1 Summary (Updated)",
+        "content": "Swim 3x (coaching + 1,675yd + FORM 2,300yd) - Run 2x (Fri easy + Sun 11mi Garmin Coach) - Bike 1x (Sat outdoor)",
+        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri swim → easy run. Sun upgraded to Garmin Coach 11mi progressive.",
+        "focus": "Focus: FORM goggles debut, Garmin Coach integration, Sunday long run is the key session."
+      },
+      "days": [
+        {
+          "id": "w1-day-1",
+          "name": "Monday",
+          "date": "Feb 16",
+          "isoDate": "2026-02-16",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "secondSport": "swim",
+          "secondSportLabel": "PM SWIM",
+          "completed": true,
+          "injury": true,
+          "changed": false,
+          "workout": {
+            "title": "AM: Rest (Knee Injury) + PM: Coaching Session",
+            "meta": "PM: 900 yd | 1:23 | RPE 3 | Coach Paul Capuzzo #CMC",
+            "sets": [
+              "AM: L knee pain - VMO inferior/medial insertion. Icing + rest.",
+              "PM: Technical cues + drills to sharpen form",
+              "Streamline breakthrough - hit 1:20-1:40/100yd",
+              "Lots of 50yd drill reps with long rest",
+              "Knee felt fine in water"
+            ],
+            "equipment": [],
+            "note": "Knee improved by afternoon. Major streamline breakthrough in coaching."
+          }
+        },
+        {
+          "id": "w1-day-2",
+          "name": "Tuesday",
+          "date": "Feb 17",
+          "isoDate": "2026-02-17",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": true,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "Morning Swim - 1,675 yd",
+            "meta": "32:28 | Avg HR 130 | Max HR 174 | Strava",
+            "sets": [
+              "1,675 yd total (1,532m)",
+              "Focused on streamline cues from coaching",
+              "Applied drill work from Monday PM session"
+            ],
+            "equipment": [],
+            "note": "Solid session applying coaching cues. HR stayed controlled."
+          }
+        },
+        {
+          "id": "w1-day-3",
+          "name": "Wednesday",
+          "date": "Feb 18",
+          "isoDate": "2026-02-18",
+          "sport": "rest",
+          "sportLabel": "SKIPPED",
+          "completed": false,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "Indoor Ride - Skipped",
+            "meta": "Planned: 45-60 min Zwift",
+            "sets": [
+              "Originally planned indoor ride",
+              "Skipped due to schedule"
+            ],
+            "equipment": [],
+            "note": "Will make up bike volume later in the week if possible."
+          }
+        },
+        {
+          "id": "w1-day-4",
+          "name": "Thursday",
+          "date": "Feb 19",
+          "isoDate": "2026-02-19",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": true,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "AM Swim - FORM Goggles Debut",
+            "meta": "2,300 yd (2,103m) | 41:28 | 518 cal | Strava/FORM",
+            "sets": [
+              "First swim with FORM smart goggles!",
+              "Technique focus / Moderate intensity",
+              "Mix of 50s, 100s, and 200s with rest intervals",
+              "HR not recorded (FORM Gen 1 limitation - no built-in sensor)",
+              "Garmin recorded separately: Avg HR 139 / Max HR 157"
+            ],
+            "equipment": [
+              "FORM Smart Goggles",
+              "Garmin Watch"
+            ],
+            "note": "FORM goggles debut! Real-time pace display worked great. HR doesn't sync underwater on Gen 1 (Bluetooth limitation). Solid 2,300 yd session."
+          }
+        },
+        {
+          "id": "w1-day-5",
+          "name": "Friday",
+          "date": "Feb 20",
+          "isoDate": "2026-02-20",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "Easy Recovery Run",
+            "meta": "~3 mi | Easy | Solo",
+            "sets": [
+              "Conversational pace throughout",
+              "Garmin Coach has Hill Repeats today - saving legs for Sunday long run instead",
+              "Focus on form: cadence, posture, relaxed shoulders",
+              "Walk breaks OK if needed"
+            ],
+            "equipment": [],
+            "note": "Light shakeout run. Keep it easy - Sunday's 11mi long run is the priority this week."
+          }
+        },
+        {
+          "id": "w1-day-6",
+          "name": "Saturday",
+          "date": "Feb 21",
+          "isoDate": "2026-02-21",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Outdoor Ride - Steady Aerobic",
+            "meta": "18-20 mi | Easy-Moderate | Solo or Group",
+            "sets": [
+              "First 3-4 mi - easy warm up, settle in",
+              "Main set - steady aerobic, 80-85% FTP",
+              "Practice fueling: gel every 45 min + water",
+              "Last 2 mi - easy cool down spin"
+            ],
+            "equipment": [
+              "Road Bike",
+              "Gels",
+              "Water Bottle"
+            ],
+            "note": "BIKE PRIORITY - practice race nutrition!"
+          }
+        },
+        {
+          "id": "w1-day-7",
+          "name": "Sunday",
+          "date": "Feb 22",
+          "isoDate": "2026-02-22",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Garmin Coach: Hilly Progressive Long Run @ Central Park",
+            "meta": "11-18 mi | Progressive | Garmin Coach W5 | Central Park",
+            "sets": [
+              "Central Park loops - hilly terrain fits Garmin Coach perfectly",
+              "Start with Garmin Coach 11mi progressive (follow watch prompts)",
+              "If feeling good, extend to 2 laps (12mi) or 3 laps (18mi)",
+              "Progressive pace: start easy, build through each lap",
+              "Fuel: gel every 4mi + water at fountains",
+              "Listen to your body - OK to stop at any point"
+            ],
+            "equipment": [
+              "Gels",
+              "Water",
+              "Garmin Watch"
+            ],
+            "note": "Week's key session! Central Park hilly course. Minimum 11mi (Garmin Coach), stretch goal 18mi (3 laps). PR longest run is 13.1mi - respect that. Back off if knee acts up."
+          }
+        }
+      ]
     },
     {
-      "id": "day-2",
-      "name": "Tuesday",
-      "date": "Feb 17",
-      "sport": "swim",
-      "sportLabel": "SWIM",
-      "completed": true,
-      "injury": false,
-      "changed": true,
-      "workout": {
-        "title": "Morning Swim - 1,675 yd",
-        "meta": "32:28 | Avg HR 130 | Max HR 174 | Strava",
-        "sets": [
-          "1,675 yd total (1,532m)",
-          "Focused on streamline cues from coaching",
-          "Applied drill work from Monday PM session"
-        ],
-        "equipment": [],
-        "note": "Solid session applying coaching cues. HR stayed controlled."
-      }
-    },
-    {
-      "id": "day-3",
-      "name": "Wednesday",
-      "date": "Feb 18",
-      "sport": "rest",
-      "sportLabel": "SKIPPED",
-      "completed": false,
-      "injury": false,
-      "changed": true,
-      "workout": {
-        "title": "Indoor Ride - Skipped",
-        "meta": "Planned: 45-60 min Zwift",
-        "sets": [
-          "Originally planned indoor ride",
-          "Skipped due to schedule"
-        ],
-        "equipment": [],
-        "note": "Will make up bike volume later in the week if possible."
-      }
-    },
-    {
-      "id": "day-4",
-      "name": "Thursday",
-      "date": "Feb 19",
-      "sport": "swim",
-      "sportLabel": "SWIM",
-      "completed": false,
-      "injury": false,
-      "changed": true,
-      "workout": {
-        "title": "AM Swim - FORM Goggles Test",
-        "meta": "~2,000 yd | Easy-Moderate | Solo AM",
-        "sets": [
-          "First swim with FORM smart goggles!",
-          "400 yd Warm Up - test display, get comfortable",
-          "4x200 steady - watch pace/stroke metrics live",
-          "4x100 build - use real-time feedback",
-          "200 yd Cool Down - easy free"
-        ],
-        "equipment": [
-          "FORM Smart Goggles"
-        ],
-        "note": "New FORM subscription started today. Focus on learning the display and getting baseline metrics."
-      }
-    },
-    {
-      "id": "day-5",
-      "name": "Friday",
-      "date": "Feb 20",
-      "sport": "swim",
-      "sportLabel": "SWIM",
-      "completed": false,
-      "injury": false,
-      "changed": false,
-      "workout": {
-        "title": "2,200 yd - Endurance + Build",
-        "meta": "~55 min | Endurance-Moderate | Solo AM",
-        "sets": [
-          "400 yd Warm Up - easy free",
-          "4x150 Build (easy > moderate > strong by 50)",
-          "4x100 pull w/ buoy + paddles - steady",
-          "200 yd Cool Down - easy choice stroke"
-        ],
-        "equipment": [
-          "Pull Buoy",
-          "Paddles"
-        ],
-        "note": "Apply coaching cues. Will update with specific drills after coach email."
-      }
-    },
-    {
-      "id": "day-6",
-      "name": "Saturday",
-      "date": "Feb 21",
-      "sport": "bike",
-      "sportLabel": "BIKE",
-      "completed": false,
-      "injury": false,
-      "changed": false,
-      "workout": {
-        "title": "Outdoor Ride - Steady Aerobic",
-        "meta": "18-20 mi | Easy-Moderate | Solo or Group",
-        "sets": [
-          "First 3-4 mi - easy warm up, settle in",
-          "Main set - steady aerobic, 80-85% FTP",
-          "Practice fueling: gel every 45 min + water",
-          "Last 2 mi - easy cool down spin"
-        ],
-        "equipment": [
-          "Road Bike",
-          "Gels",
-          "Water Bottle"
-        ],
-        "note": "BIKE PRIORITY - practice race nutrition!"
-      }
-    },
-    {
-      "id": "day-7",
-      "name": "Sunday",
-      "date": "Feb 22",
-      "sport": "run",
-      "sportLabel": "RUN",
-      "completed": false,
-      "injury": false,
-      "changed": false,
-      "workout": {
-        "title": "Long Run - Easy",
-        "meta": "~10 mi | Easy | Group or Solo",
-        "sets": [
-          "Conversational pace - target ~9:15-9:30/mi",
-          "Practice fueling: gel at mile 4 and 7",
-          "Carry water this time!",
-          "Monitor L ankle + knee - back off if needed"
-        ],
-        "equipment": [
-          "Gels",
-          "Water"
-        ],
-        "note": "Day after long ride - legs may feel heavy. Good brick prep. Monitor knee carefully."
-      }
+      "week": 2,
+      "phase": "Phase 1: Base Building",
+      "weekDates": "Feb 23 - Mar 1, 2026",
+      "startDate": "2026-02-23",
+      "weeklySummary": {
+        "title": "Week 2 Plan",
+        "content": "Swim 2x (Tue + Thu) - Run 2x (Wed easy + Sun long) - Bike 2x (Mon spin + Sat outdoor)",
+        "changes": "",
+        "focus": "Focus: Build on Week 1 base. Add second bike session. Continue FORM goggles integration."
+      },
+      "days": [
+        {
+          "id": "w2-day-1",
+          "name": "Monday",
+          "date": "Feb 23",
+          "isoDate": "2026-02-23",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Recovery Spin - Easy",
+            "meta": "30-40 min | Zwift | Easy",
+            "sets": [
+              "Easy recovery spin after Sunday long run",
+              "Keep HR under 130",
+              "Light cadence work - 85-90 RPM",
+              "Stretch well after"
+            ],
+            "equipment": [
+              "Zwift",
+              "Trainer"
+            ],
+            "note": "Active recovery day. Keep it truly easy."
+          }
+        },
+        {
+          "id": "w2-day-2",
+          "name": "Tuesday",
+          "date": "Feb 24",
+          "isoDate": "2026-02-24",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Technique Swim + FORM Goggles",
+            "meta": "2,000-2,400 yd | Moderate | FORM",
+            "sets": [
+              "200 warm-up easy",
+              "4x100 drill/swim by 50 (catch-up, fingertip drag)",
+              "6x100 on 2:00 - hold 1:30-1:40 pace",
+              "4x50 kick with board",
+              "200 cool-down easy"
+            ],
+            "equipment": [
+              "FORM Smart Goggles",
+              "Kickboard"
+            ],
+            "note": "Continue building with FORM goggles. Focus on consistent 100 splits."
+          }
+        },
+        {
+          "id": "w2-day-3",
+          "name": "Wednesday",
+          "date": "Feb 25",
+          "isoDate": "2026-02-25",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Garmin Coach: Easy Run",
+            "meta": "3-4 mi | Easy | Garmin Coach",
+            "sets": [
+              "Follow Garmin Coach prompts",
+              "Conversational pace throughout",
+              "Focus on cadence and form",
+              "Monitor knee - stop if any discomfort"
+            ],
+            "equipment": [
+              "Garmin Watch"
+            ],
+            "note": "Mid-week easy run. Stay aerobic, protect the legs for Sunday."
+          }
+        },
+        {
+          "id": "w2-day-4",
+          "name": "Thursday",
+          "date": "Feb 26",
+          "isoDate": "2026-02-26",
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Endurance Swim",
+            "meta": "2,200-2,600 yd | Moderate | FORM",
+            "sets": [
+              "300 warm-up (100 swim/100 kick/100 pull)",
+              "Main: 3x300 on 6:00 - steady effort",
+              "4x100 descend 1-4",
+              "200 pull with buoy",
+              "200 cool-down"
+            ],
+            "equipment": [
+              "FORM Smart Goggles",
+              "Pull Buoy"
+            ],
+            "note": "Building endurance in the water. Keep strokes smooth and efficient."
+          }
+        },
+        {
+          "id": "w2-day-5",
+          "name": "Friday",
+          "date": "Feb 27",
+          "isoDate": "2026-02-27",
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Rest / Active Recovery",
+            "meta": "Off or light stretching",
+            "sets": [
+              "Full rest or light yoga/stretching",
+              "Foam roll legs if needed",
+              "Hydrate well - big weekend ahead"
+            ],
+            "equipment": [],
+            "note": "Pre-weekend rest day. Stay fresh for Saturday bike + Sunday long run."
+          }
+        },
+        {
+          "id": "w2-day-6",
+          "name": "Saturday",
+          "date": "Feb 28",
+          "isoDate": "2026-02-28",
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Outdoor Ride - Building Endurance",
+            "meta": "20-25 mi | Easy-Moderate | Solo or Group",
+            "sets": [
+              "5 mi warm-up - easy spin",
+              "10-15 mi steady state - 80% FTP",
+              "Practice nutrition: gel every 45 min",
+              "5 mi cool-down - easy spin",
+              "Work on aero position comfort"
+            ],
+            "equipment": [
+              "Road Bike",
+              "Gels",
+              "Water Bottles x2"
+            ],
+            "note": "Longer ride this week. Building toward 40+ mile rides. Practice aero position."
+          }
+        },
+        {
+          "id": "w2-day-7",
+          "name": "Sunday",
+          "date": "Mar 1",
+          "isoDate": "2026-03-01",
+          "sport": "run",
+          "sportLabel": "RUN",
+          "completed": false,
+          "injury": false,
+          "changed": false,
+          "workout": {
+            "title": "Garmin Coach: Long Run",
+            "meta": "12-14 mi | Easy-Moderate | Garmin Coach | Central Park",
+            "sets": [
+              "Follow Garmin Coach progressive plan",
+              "Start easy, build through miles",
+              "Fuel: gel every 4mi + water at fountains",
+              "Central Park loops - use hills for strength",
+              "Target: beat last week's long run distance"
+            ],
+            "equipment": [
+              "Gels",
+              "Water",
+              "Garmin Watch"
+            ],
+            "note": "Week's key session. Building long run distance. Previous long run was Week 1 (11mi target). Respect the body but push gently."
+          }
+        }
+      ]
     }
-  ],
-  "weeklySummary": {
-    "title": "Week 1 Summary (Updated)",
-    "content": "Swim 4x (coaching + 1,675yd + FORM test + 2,200yd) - Bike 1x (outdoor Sat) - Run 1x (long Sun)",
-    "changes": "Changes: Wed indoor bike skipped. Thu run > swim (FORM goggles debut!). Extra swim focus this week.",
-    "focus": "Focus: FORM goggles setup, maintain swim momentum, protect the knee."
-  }
+  ]
 }

@@ -12,16 +12,34 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a1a2e;padding:16px 16px 40px;color:#fff;max-width:500px;margin:0 auto;-webkit-user-select:none;user-select:none}
+
+/* View Tabs */
+.view-tabs{display:flex;background:#16213b;border-radius:12px;padding:3px;margin-bottom:14px;border:1px solid #1e3a5f}
+.view-tab{flex:1;text-align:center;padding:8px 0;font-size:13px;font-weight:700;border-radius:10px;cursor:pointer;transition:all .2s;color:#667;letter-spacing:.5px;-webkit-tap-highlight-color:transparent}
+.view-tab.active{background:#f97316;color:#fff}
+.view-tab:not(.active):active{background:#1e3a5f}
+
+/* Nav Bar */
+.nav-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.nav-btn{width:40px;height:40px;border-radius:50%;background:#16213b;border:1px solid #1e3a5f;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.nav-btn:active{background:#1e3a5f}
+.nav-btn:disabled{opacity:.3;cursor:default}
+.nav-title{font-size:15px;font-weight:700;text-align:center;flex:1}
+.now-badge{display:inline-block;background:#f97316;color:#fff;font-size:10px;font-weight:800;padding:2px 8px;border-radius:8px;margin-left:8px;vertical-align:middle;letter-spacing:.5px}
+
+/* Shared */
 .subtitle{font-size:12px;text-align:center;color:#f97316;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin-bottom:2px}
 .week-label{text-align:center;font-size:13px;color:#8899aa;margin-bottom:8px}
 .race-banner{background:linear-gradient(135deg,#f97316,#dc2626);border-radius:14px;padding:14px 16px;margin-bottom:16px;text-align:center}
 .race-banner .race-name{font-weight:700;font-size:14px;color:#fff}
 .race-banner .race-date{font-size:12px;color:rgba(255,255,255,.85)}
 .race-banner .race-countdown{font-size:20px;font-weight:800;color:#fff;margin-top:4px}
+
+/* Day Cards */
 .day-card{background:#16213b;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
 .day-card.today{border-color:#f97316;box-shadow:0 0 12px rgba(249,115,22,.15)}
 .day-card.completed{opacity:.5}
-.day-card.completed .day-header::after{content:"✓";color:#22c55e;font-size:16px;margin-left:8px}
+.day-card.completed .day-header::after{content:"\2713";color:#22c55e;font-size:16px;margin-left:8px}
 .day-card.injury{border-color:#f44444;box-shadow:0 0 8px rgba(239,68,68,.15)}
 .day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .day-header:active{background:#1e3a5f}
@@ -32,18 +50,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .day-sport{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:700;letter-spacing:.5px}
 .swim{background:#0ea5e9;color:#fff}
 .bike{background:#a2c256;color:#fff}
-.run{background:#f97316;color:#ff}
+.run{background:#f97316;color:#fff}
 .rest{background:#6b7280;color:#fff}
 .changed{background:#a855f7;color:#fff}
 .arrow{font-size:16px;color:#555;transition:transform .2s;margin-left:8px}
 .day-card.open .arrow{transform:rotate(90deg)}
 .day-details{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 16px}
-.day-card.open .day-details{max-height:500px;padding:0 16px 14px}
+.day-card.open .day-details{max-height:600px;padding:0 16px 14px}
 .workout-title{font-size:15px;font-weight:700;margin-bottom:4px;color:#fff}
 .workout-meta{font-size:12px;color:#999;margin-bottom:8px}
 .workout-sets{font-size:13px;line-height:1.7;color:#ccc;margin-bottom:4px}
 .workout-sets li{margin-bottom:2px;list-style:none;padding-left:16px;position:relative}
-.workout-sets li::before{content:"›";position:absolute;left:0;color:#f97316;font-size:11px;top:1px}
+.workout-sets li::before{content:"\203A";position:absolute;left:0;color:#f97316;font-size:11px;top:1px}
 .equipment{font-size:11px;color:#777;margin-top:6px;border-top:1px solid #1e3a5f;display:flex;flex-wrap:wrap;gap:4px;padding-top:6px}
 .equipment span{background:#1e3a5f;padding:2px 8px;border-radius:10px}
 .note{font-size:12px;color:#9e9eb0;margin-top:8px;font-style:italic}
@@ -53,6 +71,36 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .weekly-summary p{font-size:13px;color:#999;line-height:1.6}
 .change-tag{font-size:10px;background:#a855f7;color:#fff;padding:2px 6px;border-radius:8px;margin-left:6px;vertical-align:middle}
 .badge-row{display:flex;align-items:center;gap:6px}
+
+/* Daily View - expanded card */
+.daily-view .day-card{border-width:2px}
+.daily-view .day-card .day-details{max-height:600px;padding:0 16px 14px}
+.daily-view .day-card .arrow{display:none}
+.daily-view .day-icon{font-size:36px}
+.daily-view .day-name{font-size:18px}
+.empty-state{text-align:center;padding:40px 20px;color:#556;font-size:14px}
+.empty-state .empty-icon{font-size:48px;margin-bottom:12px;opacity:.5}
+
+/* Monthly Calendar */
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-bottom:12px}
+.cal-header{font-size:11px;color:#556;text-align:center;padding:4px 0;font-weight:700}
+.cal-cell{background:#16213b;border-radius:10px;min-height:52px;padding:4px;text-align:center;cursor:pointer;border:2px solid transparent;transition:all .15s;-webkit-tap-highlight-color:transparent;position:relative}
+.cal-cell:active{background:#1e3a5f}
+.cal-cell.empty{background:transparent;cursor:default}
+.cal-cell.empty:active{background:transparent}
+.cal-cell .cal-date{font-size:12px;font-weight:700;color:#889;margin-bottom:2px}
+.cal-cell .cal-icon{font-size:16px}
+.cal-cell.today{border-color:#f97316;box-shadow:0 0 8px rgba(249,115,22,.2)}
+.cal-cell.today .cal-date{color:#f97316}
+.cal-cell.selected{background:#1e3a5f}
+.cal-cell.sport-swim{border-color:#0ea5e9}
+.cal-cell.sport-bike{border-color:#a2c256}
+.cal-cell.sport-run{border-color:#f97316}
+.cal-cell.sport-rest{border-color:#6b7280}
+.cal-cell.today.sport-swim,.cal-cell.today.sport-bike,.cal-cell.today.sport-run{border-color:#f97316}
+.cal-cell.completed{opacity:.6}
+.cal-detail{margin-top:8px}
+
 #loading{text-align:center;padding:40px;color:#666}
 </style>
 </head>
@@ -64,104 +112,388 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 <script>
 const DATA_URL = 'data.json';
 
+// ── State ──
+const state = {
+  view: 'week',       // day | week | month
+  weekIdx: 0,         // index into weeks[]
+  dayDate: null,       // ISO date string for daily view
+  monthDate: null,     // "YYYY-MM" for month view
+  selectedDate: null,  // ISO date tapped in calendar
+  data: null
+};
+
+// ── Helpers ──
 function getIcon(sport) {
-  const icons = {swim:'🏊',bike:'🚴',run:'🏃',rest:'🌙'};
-  return icons[sport] || '💪';
+  const icons = {swim:'\u{1F3CA}',bike:'\u{1F6B4}',run:'\u{1F3C3}',rest:'\u{1F319}'};
+  return icons[sport] || '\u{1F4AA}';
 }
 
 function daysUntil(dateStr) {
-  const diff = new Date(dateStr) - new Date();
-  return Math.floor(diff / (1000*60*60*24));
+  const diff = new Date(dateStr + 'T00:00:00') - new Date();
+  return Math.max(0, Math.ceil(diff / (1000*60*60*24)));
 }
 
-function isToday(dateStr, year) {
-  const now = new Date();
-  const months = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
-  const parts = dateStr.split(' ');
-  const m = months[parts[0]];
-  const d = parseInt(parts[1]);
-  return now.getMonth() === m && now.getDate() === d;
+function todayISO() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
 }
 
-function renderApp(data) {
+function parseISO(s) { const p=s.split('-'); return new Date(+p[0],+p[1]-1,+p[2]); }
+
+function formatLongDate(iso) {
+  const d = parseISO(iso);
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate();
+}
+
+function formatMonthYear(ym) {
+  const [y,m] = ym.split('-').map(Number);
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return months[m-1] + ' ' + y;
+}
+
+function allDays() {
+  const days = [];
+  if (!state.data) return days;
+  state.data.weeks.forEach(w => w.days.forEach(d => days.push(d)));
+  return days;
+}
+
+function findDayByDate(iso) {
+  return allDays().find(d => d.isoDate === iso) || null;
+}
+
+function allDates() {
+  return allDays().map(d => d.isoDate);
+}
+
+function isCurrentWeek(week) {
+  const today = todayISO();
+  return week.days.some(d => d.isoDate === today);
+}
+
+// ── Hash Persistence ──
+function readHash() {
+  const h = location.hash.slice(1);
+  if (h === 'day' || h === 'week' || h === 'month') state.view = h;
+}
+
+function writeHash() {
+  location.hash = state.view;
+}
+
+// ── Init State ──
+function initState() {
+  const today = todayISO();
+  const weeks = state.data.weeks;
+
+  // Find current week
+  let cwIdx = weeks.findIndex(w => isCurrentWeek(w));
+  if (cwIdx === -1) cwIdx = 0;
+  state.weekIdx = cwIdx;
+  state.dayDate = today;
+
+  const td = new Date();
+  state.monthDate = td.getFullYear() + '-' + String(td.getMonth()+1).padStart(2,'0');
+  state.selectedDate = null;
+
+  readHash();
+}
+
+// ── Render Dispatch ──
+function render() {
   const app = document.getElementById('app');
   let html = '';
 
-  // Phase + Week
-  html += `<div class="subtitle">${data.phase}</div>`;
-  html += `<div class="week-label">Week ${data.week} — ${data.weekDates}</div>`;
+  // View tabs
+  html += renderTabs();
 
-  // Race banner
-  if (data.races && data.races.length > 0) {
-    const r = data.races[0];
-    html += `<div class="race-banner">
-      <div class="race-name">${r.name}</div>
-      <div class="race-date">${r.type} · ${r.date.split('-')[0]}</div>
-      <div class="race-countdown">${daysUntil(r.date)} days to go</div>
-    </div>`;
-  }
+  // Race banner (always shown)
+  html += renderRaceBanner();
 
-  // Day cards
-  data.days.forEach(day => {
-    const todayClass = isToday(day.date, 2026) ? ' today' : '';
-    const completedClass = day.completed ? ' completed' : '';
-    const injuryClass = day.injury ? ' injury' : '';
-    const openClass = isToday(day.date, 2026) ? ' open' : '';
-
-    html += `<div class="day-card${todayClass}${completedClass}${injuryClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
-    html += `<div class="day-header">`;
-    html += `<div class="day-left"><span class="day-icon">${getIcon(day.sport)}</span><div><span class="day-name">${day.name}</span><span class="day-date">${day.date}</span></div></div>`;
-    html += `<div class="badge-row">`;
-    html += `<span class="day-sport ${day.sport}">${day.sportLabel}</span>`;
-    if (day.secondSportLabel) {
-      html += `<span class="day-sport ${day.secondSport}">${day.secondSportLabel}</span>`;
-    }
-    if (day.changed) {
-      html += `<span class="day-sport changed">CHANGED</span>`;
-    }
-    html += `<span class="arrow">›</span></div>`;
-    html += `</div>`; // end header
-
-    html += `<div class="day-details">`;
-    const w = day.workout;
-    html += `<div class="workout-title">${w.title}</div>`;
-    html += `<div class="workout-meta">${w.meta}</div>`;
-    if (w.sets && w.sets.length > 0) {
-      html += `<ul class="workout-sets">`;
-      w.sets.forEach(s => { html += `<li>${s}</li>`; });
-      html += `</ul>`;
-    }
-    if (w.equipment && w.equipment.length > 0) {
-      html += `<div class="equipment">`;
-      w.equipment.forEach(e => { html += `<span>${e}</span>`; });
-      html += `</div>`;
-    }
-    if (w.note) {
-      const noteClass = day.injury ? 'injury-note' : 'note';
-      html += `<div class="${noteClass}">${w.note}</div>`;
-    }
-    html += `</div>`; // end details
-    html += `</div>`; // end card
-  });
-
-  // Weekly summary
-  if (data.weeklySummary) {
-    const ws = data.weeklySummary;
-    html += `<div class="weekly-summary">`;
-    html += `<h3>${ws.title}</h3>`;
-    html += `<p>${ws.content}</p>`;
-    if (ws.changes) html += `<p style="margin-top:8px">${ws.changes}</p>`;
-    if (ws.focus) html += `<p style="margin-top:8px">${ws.focus}</p>`;
-    html += `</div>`;
-  }
+  if (state.view === 'day') html += renderDailyView();
+  else if (state.view === 'week') html += renderWeeklyView();
+  else if (state.view === 'month') html += renderMonthlyView();
 
   app.innerHTML = html;
+  writeHash();
 }
 
-// Load data
+// ── View Tabs ──
+function renderTabs() {
+  const tabs = ['day','week','month'];
+  let h = '<div class="view-tabs">';
+  tabs.forEach(t => {
+    const active = state.view === t ? ' active' : '';
+    const label = t.charAt(0).toUpperCase() + t.slice(1);
+    h += `<div class="view-tab${active}" onclick="switchView('${t}')">${label}</div>`;
+  });
+  h += '</div>';
+  return h;
+}
+
+function switchView(v) {
+  state.view = v;
+
+  // Sync: if switching to week from day, jump to the week containing dayDate
+  if (v === 'week' && state.dayDate) {
+    const idx = state.data.weeks.findIndex(w => w.days.some(d => d.isoDate === state.dayDate));
+    if (idx !== -1) state.weekIdx = idx;
+  }
+  // If switching to day from week, pick first day of current week (or today if in week)
+  if (v === 'day') {
+    const week = state.data.weeks[state.weekIdx];
+    const today = todayISO();
+    const todayInWeek = week.days.find(d => d.isoDate === today);
+    state.dayDate = todayInWeek ? today : week.days[0].isoDate;
+  }
+  // If switching to month from day, sync month
+  if (v === 'month' && state.dayDate) {
+    state.monthDate = state.dayDate.slice(0,7);
+  }
+
+  render();
+}
+
+// ── Race Banner ──
+function renderRaceBanner() {
+  const races = state.data.races;
+  if (!races || !races.length) return '';
+  const r = races[0];
+  return `<div class="race-banner">
+    <div class="race-name">${r.name}</div>
+    <div class="race-date">${r.type} \u00B7 ${r.date.split('-')[0]}</div>
+    <div class="race-countdown">${daysUntil(r.date)} days to go</div>
+  </div>`;
+}
+
+// ── Day Card HTML (shared) ──
+function renderDayCard(day, forceOpen) {
+  const today = todayISO();
+  const isToday = day.isoDate === today;
+  const todayClass = isToday ? ' today' : '';
+  const completedClass = day.completed ? ' completed' : '';
+  const injuryClass = day.injury ? ' injury' : '';
+  const openClass = (forceOpen || isToday) ? ' open' : '';
+
+  let h = `<div class="day-card${todayClass}${completedClass}${injuryClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
+  h += `<div class="day-header">`;
+  h += `<div class="day-left"><span class="day-icon">${getIcon(day.sport)}</span><div><span class="day-name">${day.name}</span><span class="day-date">${day.date}</span></div></div>`;
+  h += `<div class="badge-row">`;
+  h += `<span class="day-sport ${day.sport}">${day.sportLabel}</span>`;
+  if (day.secondSportLabel) {
+    h += `<span class="day-sport ${day.secondSport}">${day.secondSportLabel}</span>`;
+  }
+  if (day.changed) {
+    h += `<span class="day-sport changed">CHANGED</span>`;
+  }
+  h += `<span class="arrow">\u203A</span></div>`;
+  h += `</div>`;
+
+  h += `<div class="day-details">`;
+  const w = day.workout;
+  h += `<div class="workout-title">${w.title}</div>`;
+  h += `<div class="workout-meta">${w.meta}</div>`;
+  if (w.sets && w.sets.length) {
+    h += `<ul class="workout-sets">`;
+    w.sets.forEach(s => { h += `<li>${s}</li>`; });
+    h += `</ul>`;
+  }
+  if (w.equipment && w.equipment.length) {
+    h += `<div class="equipment">`;
+    w.equipment.forEach(e => { h += `<span>${e}</span>`; });
+    h += `</div>`;
+  }
+  if (w.note) {
+    const noteClass = day.injury ? 'injury-note' : 'note';
+    h += `<div class="${noteClass}">${w.note}</div>`;
+  }
+  h += `</div></div>`;
+  return h;
+}
+
+// ── DAILY VIEW ──
+function renderDailyView() {
+  const all = allDays();
+  const idx = all.findIndex(d => d.isoDate === state.dayDate);
+  const day = idx !== -1 ? all[idx] : null;
+  const hasPrev = idx > 0;
+  const hasNext = idx < all.length - 1;
+
+  let h = '<div class="daily-view">';
+
+  // Nav bar
+  h += `<div class="nav-bar">`;
+  h += `<button class="nav-btn" onclick="navDay(-1)" ${!hasPrev?'disabled':''}>\u2039</button>`;
+  h += `<div class="nav-title">${day ? formatLongDate(day.isoDate) : state.dayDate}</div>`;
+  h += `<button class="nav-btn" onclick="navDay(1)" ${!hasNext?'disabled':''}>\u203A</button>`;
+  h += `</div>`;
+
+  if (day) {
+    h += renderDayCard(day, true);
+  } else {
+    h += `<div class="empty-state"><div class="empty-icon">\u{1F319}</div><div>No workout scheduled</div></div>`;
+  }
+
+  h += '</div>';
+  return h;
+}
+
+function navDay(dir) {
+  const all = allDays();
+  const idx = all.findIndex(d => d.isoDate === state.dayDate);
+  const next = idx + dir;
+  if (next >= 0 && next < all.length) {
+    state.dayDate = all[next].isoDate;
+    render();
+  }
+}
+
+// ── WEEKLY VIEW ──
+function renderWeeklyView() {
+  const weeks = state.data.weeks;
+  const week = weeks[state.weekIdx];
+  const hasPrev = state.weekIdx > 0;
+  const hasNext = state.weekIdx < weeks.length - 1;
+  const isCurrent = isCurrentWeek(week);
+
+  let h = '';
+
+  // Phase label
+  h += `<div class="subtitle">${week.phase}</div>`;
+
+  // Nav bar
+  h += `<div class="nav-bar">`;
+  h += `<button class="nav-btn" onclick="navWeek(-1)" ${!hasPrev?'disabled':''}>\u2039</button>`;
+  h += `<div class="nav-title">Week ${week.week} \u2014 ${week.weekDates}${isCurrent ? '<span class="now-badge">NOW</span>' : ''}</div>`;
+  h += `<button class="nav-btn" onclick="navWeek(1)" ${!hasNext?'disabled':''}>\u203A</button>`;
+  h += `</div>`;
+
+  // Day cards
+  week.days.forEach(day => { h += renderDayCard(day, false); });
+
+  // Weekly summary
+  if (week.weeklySummary) {
+    const ws = week.weeklySummary;
+    h += `<div class="weekly-summary">`;
+    h += `<h3>${ws.title}</h3>`;
+    h += `<p>${ws.content}</p>`;
+    if (ws.changes) h += `<p style="margin-top:8px">${ws.changes}</p>`;
+    if (ws.focus) h += `<p style="margin-top:8px">${ws.focus}</p>`;
+    h += `</div>`;
+  }
+
+  return h;
+}
+
+function navWeek(dir) {
+  const next = state.weekIdx + dir;
+  if (next >= 0 && next < state.data.weeks.length) {
+    state.weekIdx = next;
+    render();
+  }
+}
+
+// ── MONTHLY VIEW ──
+function renderMonthlyView() {
+  const [year, month] = state.monthDate.split('-').map(Number);
+  const today = todayISO();
+
+  // Month nav bounds
+  const dates = allDates();
+  const minMonth = dates.length ? dates[0].slice(0,7) : state.monthDate;
+  const maxMonth = dates.length ? dates[dates.length-1].slice(0,7) : state.monthDate;
+  const hasPrev = state.monthDate > minMonth;
+  const hasNext = state.monthDate < maxMonth;
+
+  let h = '';
+
+  // Nav bar
+  h += `<div class="nav-bar">`;
+  h += `<button class="nav-btn" onclick="navMonth(-1)" ${!hasPrev?'disabled':''}>\u2039</button>`;
+  h += `<div class="nav-title">${formatMonthYear(state.monthDate)}</div>`;
+  h += `<button class="nav-btn" onclick="navMonth(1)" ${!hasNext?'disabled':''}>\u203A</button>`;
+  h += `</div>`;
+
+  // Calendar grid
+  h += '<div class="cal-grid">';
+
+  // Headers (Mon-Sun)
+  const dayLabels = ['M','T','W','T','F','S','S'];
+  dayLabels.forEach(l => { h += `<div class="cal-header">${l}</div>`; });
+
+  // First day of month
+  const firstDay = new Date(year, month-1, 1);
+  let startDow = firstDay.getDay(); // 0=Sun
+  startDow = startDow === 0 ? 6 : startDow - 1; // convert to Mon=0
+
+  // Empty cells before month starts
+  for (let i = 0; i < startDow; i++) {
+    h += '<div class="cal-cell empty"></div>';
+  }
+
+  // Days of month
+  const daysInMonth = new Date(year, month, 0).getDate();
+  for (let d = 1; d <= daysInMonth; d++) {
+    const iso = year + '-' + String(month).padStart(2,'0') + '-' + String(d).padStart(2,'0');
+    const dayData = findDayByDate(iso);
+    const isToday = iso === today;
+    const isSelected = iso === state.selectedDate;
+
+    let classes = 'cal-cell';
+    if (!dayData) classes += ' empty';
+    if (isToday) classes += ' today';
+    if (isSelected) classes += ' selected';
+    if (dayData) {
+      classes += ` sport-${dayData.sport}`;
+      if (dayData.completed) classes += ' completed';
+    }
+
+    h += `<div class="${classes}" onclick="selectCalDay('${iso}')">`;
+    h += `<div class="cal-date">${d}</div>`;
+    if (dayData) h += `<div class="cal-icon">${getIcon(dayData.sport)}</div>`;
+    h += '</div>';
+  }
+
+  h += '</div>'; // end cal-grid
+
+  // Selected day detail
+  if (state.selectedDate) {
+    const selDay = findDayByDate(state.selectedDate);
+    if (selDay) {
+      h += '<div class="cal-detail">';
+      h += renderDayCard(selDay, true);
+      h += '</div>';
+    }
+  }
+
+  return h;
+}
+
+function selectCalDay(iso) {
+  state.selectedDate = state.selectedDate === iso ? null : iso;
+  render();
+}
+
+function navMonth(dir) {
+  const [y,m] = state.monthDate.split('-').map(Number);
+  let ny = y, nm = m + dir;
+  if (nm < 1) { nm = 12; ny--; }
+  if (nm > 12) { nm = 1; ny++; }
+  state.monthDate = ny + '-' + String(nm).padStart(2,'0');
+  state.selectedDate = null;
+  render();
+}
+
+// ── Load Data ──
 fetch(DATA_URL + '?v=' + Date.now())
   .then(r => r.json())
-  .then(data => renderApp(data))
+  .then(data => {
+    state.data = data;
+    initState();
+    render();
+  })
   .catch(err => {
     document.getElementById('app').innerHTML = '<p style="color:#f44;text-align:center;padding:40px">Failed to load training data. Pull to refresh.</p>';
     console.error(err);
