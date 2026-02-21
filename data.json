@@ -149,26 +149,49 @@
           "name": "Saturday",
           "date": "Feb 21",
           "isoDate": "2026-02-21",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "strength",
+          "sportLabel": "STRENGTH",
+          "secondSport": "swim",
+          "secondSportLabel": "PM SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Outdoor Ride - Steady Aerobic",
-            "meta": "18-20 mi | Easy-Moderate | Solo or Group",
+            "title": "Gym Strength (Lunch) + Evening Swim",
+            "meta": "40-50 min strength | Gym | PM swim session",
             "sets": [
-              "First 3-4 mi - easy warm up, settle in",
-              "Main set - steady aerobic, 80-85% FTP",
-              "Practice fueling: gel every 45 min + water",
-              "Last 2 mi - easy cool down spin"
+              "── WARM-UP (5 min) ──",
+              "5 min bike or row easy, dynamic stretches",
+              "",
+              "── A. LOWER BODY — Stability & Posterior Chain (15 min) ──",
+              "Single-leg RDL (DB) — 3x10 each | Hamstrings + ankle stability",
+              "Bulgarian split squat — 3x10 each | Light-moderate weight",
+              "Single-leg calf raise (slow 3s eccentric) — 3x12 each | Post tib maintenance",
+              "Leg press (single leg) — 3x12 each | Moderate load, control",
+              "",
+              "── B. CORE (10 min) ──",
+              "Cable Pallof press — 3x10 each | Anti-rotation for swim/bike",
+              "Dead bugs — 3x10 each side | Slow, controlled",
+              "Cable chops (high to low) — 3x10 each | Rotational control",
+              "Hanging knee raises — 3x12",
+              "",
+              "── C. UPPER BODY — Swim Support (10 min) ──",
+              "Cable lat pulldown — 3x12 | Swim pull pattern",
+              "Cable face pulls — 3x15 | Shoulder health",
+              "DB bent-over row — 3x10 each | Posture + posterior chain",
+              "Cable external rotation — 3x12 each | Rotator cuff prehab",
+              "",
+              "── D. COOLDOWN (5 min) ──",
+              "Foam roll quads, calves, lats",
+              "Hip flexor stretch, ankle mobility"
             ],
             "equipment": [
-              "Road Bike",
-              "Gels",
-              "Water Bottle"
+              "Dumbbells",
+              "Cable Machine",
+              "Leg Press",
+              "Foam Roller"
             ],
-            "note": "BIKE PRIORITY - practice race nutrition!"
+            "note": "Bike skipped today. Legs moderate — long run tomorrow. Posterior chain + ankle stability emphasis for post tib history. Evening swim to follow."
           }
         },
         {
