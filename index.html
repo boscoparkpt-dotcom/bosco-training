@@ -7,6 +7,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="BoscoTri">
 <meta name="theme-color" content="#0a1a2e">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48cmVjdCBmaWxsPSclMjMxYTFhMmUnIHdpZHRoPScxMDAnIGhlaWdodD0nMTAwJyByeD0nMjAnLz48dGV4dCB5PSc4NScgeD0nNTAnIGZvbnQtc2l6ZT0nNTAnIHRleHQtYW5jaG9yPSdtaWRkbGUnPvCfj4o8L3RleHQ+PC9zdmc+">
 <title>BoscoTri Training</title>
 <style>
@@ -489,8 +492,28 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-fetch(DATA_URL + '?v=' + Date.now())
-  .then(r => r.json())
+const BUILT_VERSION = 2;
+
+function fetchData() {
+  return fetch(DATA_URL + '?v=' + Date.now())
+    .then(r => r.json());
+}
+
+function refreshData() {
+  fetchData().then(data => {
+    // If version bumped, HTML/CSS may have changed — full reload
+    if (data.version && data.version !== BUILT_VERSION) {
+      location.reload();
+      return;
+    }
+    // Otherwise just update data and re-render
+    state.data = data;
+    render();
+  }).catch(() => {});
+}
+
+// Initial load
+fetchData()
   .then(data => {
     state.data = data;
     initState();
@@ -500,6 +523,14 @@ fetch(DATA_URL + '?v=' + Date.now())
     document.getElementById('app').innerHTML = '<p style="color:#f44;text-align:center;padding:40px">Failed to load training data. Pull to refresh.</p>';
     console.error(err);
   });
+
+// Auto-update: refresh data when app comes back to foreground
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && state.data) refreshData();
+});
+
+// Also check every 5 minutes while open
+setInterval(() => { if (state.data) refreshData(); }, 5 * 60 * 1000);
 </script>
 </body>
 </html>
