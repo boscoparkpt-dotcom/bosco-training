@@ -75,10 +75,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .weekly-summary p{font-size:13px;color:#999;line-height:1.6}
 .weekly-recap{background:linear-gradient(135deg,#16213b,#1a2744);border-radius:14px;padding:16px;margin-top:12px;border:1px solid #22c55e33}
 .weekly-recap h3{font-size:13px;margin-bottom:10px;color:#22c55e;letter-spacing:1px;text-transform:uppercase}
-.weekly-recap .recap-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
-.weekly-recap .stat{background:#0a1a2e;border-radius:10px;padding:10px;text-align:center}
-.weekly-recap .stat .stat-val{font-size:18px;font-weight:800;color:#fff}
-.weekly-recap .stat .stat-label{font-size:10px;color:#889;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.weekly-recap .recap-bars{margin-bottom:14px}
+.weekly-recap .bar-row{display:flex;align-items:center;margin-bottom:6px}
+.weekly-recap .bar-label{width:70px;font-size:12px;font-weight:700;color:#aab;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}
+.weekly-recap .bar-track{flex:1;height:28px;background:#0a1a2e;border-radius:8px;overflow:hidden;position:relative}
+.weekly-recap .bar-fill{height:100%;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;transition:width .6s ease;min-width:0}
+.weekly-recap .bar-fill.swim{background:linear-gradient(90deg,#0ea5e9,#38bdf8)}
+.weekly-recap .bar-fill.bike{background:linear-gradient(90deg,#84cc16,#a3e635)}
+.weekly-recap .bar-fill.run{background:linear-gradient(90deg,#f97316,#fb923c)}
+.weekly-recap .bar-fill.strength{background:linear-gradient(90deg,#a855f7,#c084fc)}
+.weekly-recap .bar-fill.rest{background:linear-gradient(90deg,#6b7280,#9ca3af)}
+.weekly-recap .bar-val{font-size:12px;font-weight:800;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+.weekly-recap .bar-val-outside{font-size:12px;font-weight:800;color:#889;margin-left:8px}
+.weekly-recap .recap-totals{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.weekly-recap .recap-total{background:#0a1a2e;border-radius:10px;padding:8px 12px;text-align:center;flex:1;min-width:70px}
+.weekly-recap .recap-total .stat-val{font-size:16px;font-weight:800;color:#fff}
+.weekly-recap .recap-total .stat-label{font-size:9px;color:#889;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
 .weekly-recap .recap-highlights{font-size:13px;color:#ccc;line-height:1.7}
 .weekly-recap .recap-highlights li{margin-bottom:4px;list-style:none;padding-left:16px;position:relative}
 .weekly-recap .recap-highlights li::before{content:"\2022";position:absolute;left:0;color:#22c55e;font-size:14px;top:0}
@@ -404,10 +416,27 @@ function renderWeeklyView() {
     const wr = week.weeklyRecap;
     h += `<div class="weekly-recap">`;
     h += `<h3>${wr.title}</h3>`;
-    if (wr.stats && wr.stats.length) {
-      h += `<div class="recap-stats">`;
-      wr.stats.forEach(s => {
-        h += `<div class="stat"><div class="stat-val">${s.value}</div><div class="stat-label">${s.label}</div></div>`;
+    if (wr.bars && wr.bars.length) {
+      const maxBar = Math.max(...wr.bars.map(b => b.count));
+      h += `<div class="recap-bars">`;
+      wr.bars.forEach(b => {
+        const pct = maxBar > 0 ? Math.round((b.count / maxBar) * 100) : 0;
+        const showInside = pct >= 25;
+        h += `<div class="bar-row">`;
+        h += `<div class="bar-label">${b.label}</div>`;
+        h += `<div class="bar-track">`;
+        h += `<div class="bar-fill ${b.sport}" style="width:${pct}%">`;
+        if (showInside) h += `<span class="bar-val">${b.count}x</span>`;
+        h += `</div></div>`;
+        if (!showInside && b.count > 0) h += `<span class="bar-val-outside">${b.count}x</span>`;
+        h += `</div>`;
+      });
+      h += `</div>`;
+    }
+    if (wr.totals && wr.totals.length) {
+      h += `<div class="recap-totals">`;
+      wr.totals.forEach(t => {
+        h += `<div class="recap-total"><div class="stat-val">${t.value}</div><div class="stat-label">${t.label}</div></div>`;
       });
       h += `</div>`;
     }
@@ -525,7 +554,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 6;
+const BUILT_VERSION = 7;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())
