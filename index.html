@@ -554,7 +554,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 7;
+const BUILT_VERSION = 8;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())
@@ -574,9 +574,13 @@ function refreshData() {
   }).catch(() => {});
 }
 
-// Initial load
+// Initial load — check version on first load too
 fetchData()
   .then(data => {
+    if (data.version && data.version !== BUILT_VERSION && !location.search.includes('refresh=')) {
+      window.location.href = window.location.pathname + '?refresh=' + Date.now();
+      return;
+    }
     state.data = data;
     initState();
     render();
