@@ -73,6 +73,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .weekly-summary{background:#16213b;border-radius:14px;padding:16px;margin-top:20px;border:1px solid #1e3a5f}
 .weekly-summary h3{font-size:13px;margin-bottom:8px;color:#f97316;letter-spacing:1px;text-transform:uppercase}
 .weekly-summary p{font-size:13px;color:#999;line-height:1.6}
+.weekly-recap{background:linear-gradient(135deg,#16213b,#1a2744);border-radius:14px;padding:16px;margin-top:12px;border:1px solid #22c55e33}
+.weekly-recap h3{font-size:13px;margin-bottom:10px;color:#22c55e;letter-spacing:1px;text-transform:uppercase}
+.weekly-recap .recap-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.weekly-recap .stat{background:#0a1a2e;border-radius:10px;padding:10px;text-align:center}
+.weekly-recap .stat .stat-val{font-size:18px;font-weight:800;color:#fff}
+.weekly-recap .stat .stat-label{font-size:10px;color:#889;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.weekly-recap .recap-highlights{font-size:13px;color:#ccc;line-height:1.7}
+.weekly-recap .recap-highlights li{margin-bottom:4px;list-style:none;padding-left:16px;position:relative}
+.weekly-recap .recap-highlights li::before{content:"\2022";position:absolute;left:0;color:#22c55e;font-size:14px;top:0}
+.weekly-recap .recap-note{font-size:12px;color:#f97316;margin-top:10px;font-style:italic;border-top:1px solid #1e3a5f;padding-top:8px}
 .change-tag{font-size:10px;background:#a855f7;color:#fff;padding:2px 6px;border-radius:8px;margin-left:6px;vertical-align:middle}
 .badge-row{display:flex;align-items:center;gap:6px}
 
@@ -389,6 +399,29 @@ function renderWeeklyView() {
     h += `</div>`;
   }
 
+  // Weekly recap
+  if (week.weeklyRecap) {
+    const wr = week.weeklyRecap;
+    h += `<div class="weekly-recap">`;
+    h += `<h3>${wr.title}</h3>`;
+    if (wr.stats && wr.stats.length) {
+      h += `<div class="recap-stats">`;
+      wr.stats.forEach(s => {
+        h += `<div class="stat"><div class="stat-val">${s.value}</div><div class="stat-label">${s.label}</div></div>`;
+      });
+      h += `</div>`;
+    }
+    if (wr.highlights && wr.highlights.length) {
+      h += `<ul class="recap-highlights">`;
+      wr.highlights.forEach(item => { h += `<li>${item}</li>`; });
+      h += `</ul>`;
+    }
+    if (wr.lookAhead) {
+      h += `<div class="recap-note">${wr.lookAhead}</div>`;
+    }
+    h += `</div>`;
+  }
+
   return h;
 }
 
@@ -492,7 +525,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 4;
+const BUILT_VERSION = 5;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())

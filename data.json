@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "athlete": "Bosco",
   "races": [
     {
@@ -24,6 +24,28 @@
         "content": "Swim 4x (coaching 900yd + 1,675yd + FORM 2,300yd + Sat PM ~1,200yd) — Run 1x (Sun 13.79mi Central Park!) — Strength 1x (Sat lunch 26min) — Bike 0x",
         "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri run skipped. Sat bike → strength + swim (R calf cramp, swim cut short). Sun long run completed despite heavy legs.",
         "focus": "Highlights: 13.79mi long run (new longest!) with 25 PRs at Central Park. FORM goggles debut. Need to prioritize bike next week. Watch L ankle."
+      },
+      "weeklyRecap": {
+        "title": "Week 1 Recap",
+        "stats": [
+          {"label": "Sessions", "value": "7"},
+          {"label": "Swim", "value": "4x"},
+          {"label": "Run", "value": "1x"},
+          {"label": "Bike", "value": "1x"},
+          {"label": "Strength", "value": "1x"},
+          {"label": "Total Swim", "value": "6,075 yd"},
+          {"label": "Long Run", "value": "13.79 mi"},
+          {"label": "PRs", "value": "25"}
+        ],
+        "highlights": [
+          "13.79 mi long run at Central Park — new longest training run! 25 PRs despite heavy legs",
+          "FORM smart goggles debut — real-time pace display worked great",
+          "Swim coaching breakthrough: streamline cues, 1:20-1:40/100yd range",
+          "First strength session (lower body) — learned to space calf raises from swim days (R calf cramp)",
+          "Zwift recovery ride — good active recovery, legs flushed",
+          "Bike training volume = 0 (only recovery ride) — biggest gap to address"
+        ],
+        "lookAhead": "Week 2 priorities: Get bike training in (indoor or outdoor). Watch L ankle (ongoing lateral pain, no swelling). Keep swim momentum with FORM goggles."
       },
       "days": [
         {
