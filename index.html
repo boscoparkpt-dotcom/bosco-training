@@ -60,7 +60,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .arrow{font-size:16px;color:#555;transition:transform .2s;margin-left:8px}
 .day-card.open .arrow{transform:rotate(90deg)}
 .day-details{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 16px}
-.day-card.open .day-details{max-height:600px;padding:0 16px 14px}
+.day-card.open .day-details{max-height:3000px;padding:0 16px 14px}
 .workout-title{font-size:15px;font-weight:700;margin-bottom:4px;color:#fff}
 .workout-meta{font-size:12px;color:#999;margin-bottom:8px}
 .workout-sets{font-size:13px;line-height:1.7;color:#ccc;margin-bottom:4px}
@@ -88,7 +88,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 /* Daily View - expanded card */
 .daily-view .day-card{border-width:2px}
-.daily-view .day-card .day-details{max-height:600px;padding:0 16px 14px}
+.daily-view .day-card .day-details{max-height:3000px;padding:0 16px 14px}
 .daily-view .day-card .arrow{display:none}
 .daily-view .day-icon{font-size:36px}
 .daily-view .day-name{font-size:18px}
@@ -525,7 +525,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 5;
+const BUILT_VERSION = 6;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())
@@ -536,7 +536,7 @@ function refreshData() {
   fetchData().then(data => {
     // If version bumped, HTML/CSS may have changed — full reload
     if (data.version && data.version !== BUILT_VERSION) {
-      location.reload();
+      window.location.href = window.location.pathname + '?refresh=' + Date.now();
       return;
     }
     // Otherwise just update data and re-render
