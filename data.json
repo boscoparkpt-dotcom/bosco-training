@@ -188,13 +188,16 @@
           "isoDate": "2026-02-22",
           "sport": "run",
           "sportLabel": "RUN",
+          "secondSport": "bike",
+          "secondSportLabel": "PM BIKE",
           "completed": true,
           "injury": true,
           "changed": false,
           "workout": {
-            "title": "Morning 13 Before the Blizzard — Central Park",
-            "meta": "13.79 mi (22.2 km) | 2:14:21 | 9:44/mi | Avg HR 162 | 25 PRs! | Strava",
+            "title": "Morning 13 Before the Blizzard + PM Recovery Ride",
+            "meta": "Run: 13.79 mi | 2:14:21 | 25 PRs! | Bike: 4.44 mi Zwift | 20 min | Strava",
             "sets": [
+              "── AM RUN — Central Park (9:04 AM) ──",
               "13.79 mi — new longest training run!",
               "2:14:21 moving time | 2:15:53 elapsed",
               "Avg pace: 9:44/mi | Max speed: 6:32/mi",
@@ -203,12 +206,20 @@
               "Avg cadence: 87.6 spm",
               "25 PRs! 183 achievements!",
               "Legs heavy from yesterday's strength — wanted to stop but pushed through",
-              "L ankle aching post-run"
+              "",
+              "── PM RECOVERY RIDE — Zwift (12:17 AM) ──",
+              "Zwift: Whole Lotta Lava in Watopia",
+              "4.44 mi (7.1 km) | 20:48",
+              "Avg power: 112W | Max: 211W",
+              "Avg HR: 127 | Max HR: 136 | Suffer score: 8",
+              "Cadence: 77 rpm | Perfect recovery effort"
             ],
             "equipment": [
-              "Garmin tactix 8"
+              "Garmin tactix 8",
+              "Tacx Neo 3M",
+              "Zwift"
             ],
-            "note": "Gutted it out. Legs were heavy from Saturday strength + swim. HR ran high (avg 162) for a long run — fatigue elevated it. Despite feeling terrible, crushed 25 PRs on a hilly Central Park course. New longest training run at 13.79 mi. POST-RUN: L ankle aching — ongoing issue, bony tenderness below ATFL, no swelling/bruising, pain at terminal stance/toe off (lateral). Consistent pattern, not worsening. Likely chronic biomechanical irritation (sinus tarsi / peroneal tubercle area), not stress fracture. Lower body (quads, hamstrings, glutes) very tight/sore. Monitor ankle through base building phase."
+            "note": "Gutted it out on the run — legs heavy from Saturday strength. HR ran high (avg 162). Despite feeling terrible, crushed 25 PRs on hilly Central Park. New longest training run at 13.79 mi. Late night Zwift recovery ride to flush legs — perfect easy spin (HR 127, suffer 8). L ANKLE: ongoing bony tenderness below ATFL, pain at terminal stance/toe off (lateral), no swelling/bruising. Consistent chronic pattern. Lower body very tight/sore (quads, hamstrings, glutes). Monitor ankle through base building."
           }
         }
       ]
