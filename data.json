@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "athlete": "Bosco",
   "races": [
     {
@@ -20,10 +20,10 @@
       "weekDates": "Feb 16-22, 2026",
       "startDate": "2026-02-16",
       "weeklySummary": {
-        "title": "Week 1 Summary (Updated)",
-        "content": "Swim 3x (coaching + 1,675yd + FORM 2,300yd) - Run 2x (Fri easy + Sun 11mi Garmin Coach) - Bike 1x (Sat outdoor)",
-        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri swim \u2192 easy run. Sun upgraded to Garmin Coach 11mi progressive.",
-        "focus": "Focus: FORM goggles debut, Garmin Coach integration, Sunday long run is the key session."
+        "title": "Week 1 Summary (Final)",
+        "content": "Swim 4x (coaching 900yd + 1,675yd + FORM 2,300yd + Sat PM ~1,200yd) — Run 1x (Sun 13.79mi Central Park!) — Strength 1x (Sat lunch 26min) — Bike 0x",
+        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri run skipped. Sat bike → strength + swim (R calf cramp, swim cut short). Sun long run completed despite heavy legs.",
+        "focus": "Highlights: 13.79mi long run (new longest!) with 25 PRs at Central Park. FORM goggles debut. Need to prioritize bike next week. Watch L ankle."
       },
       "days": [
         {
@@ -154,45 +154,31 @@
           "sportLabel": "STRENGTH",
           "secondSport": "swim",
           "secondSportLabel": "PM SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Gym Strength (Lunch) + Evening Swim",
-            "meta": "40-50 min strength | Gym | PM swim session",
+            "title": "Lunch Strength + Evening Swim (cut short)",
+            "meta": "Strength: 26 min | Avg HR 125 | Max HR 156 | Swim: ~1,200 yd | 20 min | Strava",
             "sets": [
-              "── WARM-UP (5 min) ──",
-              "5 min bike or row easy, dynamic stretches",
+              "── STRENGTH (12:58 PM, 26 min) ──",
+              "Lower body focus only — skipped core & upper body",
+              "Single-leg RDL (DB)",
+              "Calf raises",
+              "Leg press",
+              "Split squats",
               "",
-              "── A. LOWER BODY — Stability & Posterior Chain (15 min) ──",
-              "Single-leg RDL (DB) — 3x10 each | Hamstrings + ankle stability",
-              "Bulgarian split squat — 3x10 each | Light-moderate weight",
-              "Single-leg calf raise (slow 3s eccentric) — 3x12 each | Post tib maintenance",
-              "Leg press (single leg) — 3x12 each | Moderate load, control",
-              "",
-              "── B. CORE (10 min) ──",
-              "Cable Pallof press — 3x10 each | Anti-rotation for swim/bike",
-              "Dead bugs — 3x10 each side | Slow, controlled",
-              "Cable chops (high to low) — 3x10 each | Rotational control",
-              "Hanging knee raises — 3x12",
-              "",
-              "── C. UPPER BODY — Swim Support (10 min) ──",
-              "Cable lat pulldown — 3x12 | Swim pull pattern",
-              "Cable face pulls — 3x15 | Shoulder health",
-              "DB bent-over row — 3x10 each | Posture + posterior chain",
-              "Cable external rotation — 3x12 each | Rotator cuff prehab",
-              "",
-              "── D. COOLDOWN (5 min) ──",
-              "Foam roll quads, calves, lats",
-              "Hip flexor stretch, ankle mobility"
+              "── PM SWIM (7:50 PM, ~1,200 yd) ──",
+              "FORM goggles: 1,097m | 20:17 moving | 27:03 elapsed",
+              "Garmin: 1,189m | Avg HR 151 | Max HR 171",
+              "R calf cramped mid-swim — had to stop early",
+              "Likely from calf raises earlier in the day"
             ],
             "equipment": [
-              "Dumbbells",
-              "Cable Machine",
-              "Leg Press",
-              "Foam Roller"
+              "Garmin tactix 8",
+              "FORM Goggles"
             ],
-            "note": "Bike skipped today. Legs moderate — long run tomorrow. Posterior chain + ankle stability emphasis for post tib history. Evening swim to follow."
+            "note": "Bike skipped. Strength was lower body only (~26 min). Swim cut short due to R calf cramp from calf raises earlier. Lesson: space out calf work and swim, or skip calf raises on swim days."
           }
         },
         {
@@ -202,26 +188,27 @@
           "isoDate": "2026-02-22",
           "sport": "run",
           "sportLabel": "RUN",
-          "completed": false,
-          "injury": false,
+          "completed": true,
+          "injury": true,
           "changed": false,
           "workout": {
-            "title": "Garmin Coach: Hilly Progressive Long Run @ Central Park",
-            "meta": "11-18 mi | Progressive | Garmin Coach W5 | Central Park",
+            "title": "Morning 13 Before the Blizzard — Central Park",
+            "meta": "13.79 mi (22.2 km) | 2:14:21 | 9:44/mi | Avg HR 162 | 25 PRs! | Strava",
             "sets": [
-              "Central Park loops - hilly terrain fits Garmin Coach perfectly",
-              "Start with Garmin Coach 11mi progressive (follow watch prompts)",
-              "If feeling good, extend to 2 laps (12mi) or 3 laps (18mi)",
-              "Progressive pace: start easy, build through each lap",
-              "Fuel: gel every 4mi + water at fountains",
-              "Listen to your body - OK to stop at any point"
+              "13.79 mi — new longest training run!",
+              "2:14:21 moving time | 2:15:53 elapsed",
+              "Avg pace: 9:44/mi | Max speed: 6:32/mi",
+              "Avg HR: 162 | Max HR: 182 | Suffer score: 317",
+              "Elevation: 203m (666 ft) — Central Park hills",
+              "Avg cadence: 87.6 spm",
+              "25 PRs! 183 achievements!",
+              "Legs heavy from yesterday's strength — wanted to stop but pushed through",
+              "L ankle aching post-run"
             ],
             "equipment": [
-              "Gels",
-              "Water",
-              "Garmin Watch"
+              "Garmin tactix 8"
             ],
-            "note": "Week's key session! Central Park hilly course. Minimum 11mi (Garmin Coach), stretch goal 18mi (3 laps). PR longest run is 13.1mi - respect that. Back off if knee acts up."
+            "note": "Gutted it out. Legs were heavy from Saturday strength + swim. HR ran high (avg 162) for a long run — fatigue elevated it. L ankle aching afterward — monitor closely. Despite feeling terrible, crushed 25 PRs on a hilly Central Park course. New longest training run at 13.79 mi."
           }
         }
       ]
