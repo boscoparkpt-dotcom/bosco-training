@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "athlete": "Bosco",
   "races": [
     {
@@ -208,7 +208,7 @@
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Gutted it out. Legs were heavy from Saturday strength + swim. HR ran high (avg 162) for a long run — fatigue elevated it. L ankle aching afterward — monitor closely. Despite feeling terrible, crushed 25 PRs on a hilly Central Park course. New longest training run at 13.79 mi."
+            "note": "Gutted it out. Legs were heavy from Saturday strength + swim. HR ran high (avg 162) for a long run — fatigue elevated it. Despite feeling terrible, crushed 25 PRs on a hilly Central Park course. New longest training run at 13.79 mi. POST-RUN: L ankle aching — ongoing issue, bony tenderness below ATFL, no swelling/bruising, pain at terminal stance/toe off (lateral). Consistent pattern, not worsening. Likely chronic biomechanical irritation (sinus tarsi / peroneal tubercle area), not stress fracture. Lower body (quads, hamstrings, glutes) very tight/sore. Monitor ankle through base building phase."
           }
         }
       ]
