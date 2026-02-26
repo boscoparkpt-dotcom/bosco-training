@@ -295,7 +295,7 @@
       "days": [
         {
           "id": "w2-day-1",
-          "name": "Sunday",
+          "name": "Monday",
           "date": "Feb 23",
           "isoDate": "2026-02-23",
           "sport": "bike",
@@ -323,7 +323,7 @@
         },
         {
           "id": "w2-day-2",
-          "name": "Monday",
+          "name": "Tuesday",
           "date": "Feb 24",
           "isoDate": "2026-02-24",
           "sport": "rest",
@@ -343,7 +343,7 @@
         },
         {
           "id": "w2-day-3",
-          "name": "Tuesday",
+          "name": "Wednesday",
           "date": "Feb 25",
           "isoDate": "2026-02-25",
           "sport": "run",
@@ -369,7 +369,7 @@
         },
         {
           "id": "w2-day-4",
-          "name": "Wednesday",
+          "name": "Thursday",
           "date": "Feb 26",
           "isoDate": "2026-02-26",
           "sport": "swim",
@@ -395,7 +395,7 @@
         },
         {
           "id": "w2-day-5",
-          "name": "Thursday",
+          "name": "Friday",
           "date": "Feb 27",
           "isoDate": "2026-02-27",
           "sport": "bike",
@@ -421,7 +421,7 @@
         },
         {
           "id": "w2-day-6",
-          "name": "Friday",
+          "name": "Saturday",
           "date": "Feb 28",
           "isoDate": "2026-02-28",
           "sport": "run",
@@ -446,7 +446,7 @@
         },
         {
           "id": "w2-day-7",
-          "name": "Saturday",
+          "name": "Sunday",
           "date": "Mar 1",
           "isoDate": "2026-03-01",
           "sport": "rest",
@@ -482,7 +482,7 @@
       "days": [
         {
           "id": "w3-day-1",
-          "name": "Sunday",
+          "name": "Monday",
           "date": "Mar 2",
           "isoDate": "2026-03-02",
           "sport": "swim",
@@ -507,7 +507,7 @@
         },
         {
           "id": "w3-day-2",
-          "name": "Monday",
+          "name": "Tuesday",
           "date": "Mar 3",
           "isoDate": "2026-03-03",
           "sport": "bike",
@@ -533,7 +533,7 @@
         },
         {
           "id": "w3-day-3",
-          "name": "Tuesday",
+          "name": "Wednesday",
           "date": "Mar 4",
           "isoDate": "2026-03-04",
           "sport": "strength",
@@ -558,7 +558,7 @@
         },
         {
           "id": "w3-day-4",
-          "name": "Wednesday",
+          "name": "Thursday",
           "date": "Mar 5",
           "isoDate": "2026-03-05",
           "sport": "swim",
@@ -583,7 +583,7 @@
         },
         {
           "id": "w3-day-5",
-          "name": "Thursday",
+          "name": "Friday",
           "date": "Mar 6",
           "isoDate": "2026-03-06",
           "sport": "run",
@@ -608,7 +608,7 @@
         },
         {
           "id": "w3-day-6",
-          "name": "Friday",
+          "name": "Saturday",
           "date": "Mar 7",
           "isoDate": "2026-03-07",
           "sport": "bike",
@@ -634,7 +634,7 @@
         },
         {
           "id": "w3-day-7",
-          "name": "Saturday",
+          "name": "Sunday",
           "date": "Mar 8",
           "isoDate": "2026-03-08",
           "sport": "rest",
