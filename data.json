@@ -28,17 +28,49 @@
       "weeklyRecap": {
         "title": "Week 1 Recap",
         "bars": [
-          {"label": "Swim", "sport": "swim", "count": 4},
-          {"label": "Run", "sport": "run", "count": 1},
-          {"label": "Bike", "sport": "bike", "count": 1},
-          {"label": "Strength", "sport": "strength", "count": 1},
-          {"label": "Rest", "sport": "rest", "count": 0}
+          {
+            "label": "Swim",
+            "sport": "swim",
+            "count": 4
+          },
+          {
+            "label": "Run",
+            "sport": "run",
+            "count": 1
+          },
+          {
+            "label": "Bike",
+            "sport": "bike",
+            "count": 1
+          },
+          {
+            "label": "Strength",
+            "sport": "strength",
+            "count": 1
+          },
+          {
+            "label": "Rest",
+            "sport": "rest",
+            "count": 0
+          }
         ],
         "totals": [
-          {"label": "Sessions", "value": "7"},
-          {"label": "Swim", "value": "6,075 yd"},
-          {"label": "Long Run", "value": "13.79 mi"},
-          {"label": "PRs", "value": "25"}
+          {
+            "label": "Sessions",
+            "value": "7"
+          },
+          {
+            "label": "Swim",
+            "value": "6,075 yd"
+          },
+          {
+            "label": "Long Run",
+            "value": "13.79 mi"
+          },
+          {
+            "label": "PRs",
+            "value": "25"
+          }
         ],
         "highlights": [
           "13.79 mi long run at Central Park — new longest training run! 25 PRs despite heavy legs",
@@ -255,145 +287,183 @@
       "weekDates": "Feb 23 - Mar 1, 2026",
       "startDate": "2026-02-23",
       "weeklySummary": {
-        "title": "Week 2 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
-        "changes": "",
-        "focus": "Phase 1: Base Building"
+        "title": "Week 2 — Adjusted",
+        "content": "Swim 1x · Bike 2x · Run 2x · Strength 0x",
+        "changes": "Blizzard disrupted Sun-Mon. Tempo run swapped for bike Wed. Plan adjusted for remaining days.",
+        "focus": "Phase 1: Base Building — Bike volume priority"
       },
       "days": [
         {
           "id": "w2-day-1",
-          "name": "Monday",
+          "name": "Sunday",
           "date": "Feb 23",
           "isoDate": "2026-02-23",
-          "sport": "swim",
-          "sportLabel": "SWIM",
-          "completed": false,
+          "sport": "bike",
+          "sportLabel": "ZWIFT",
+          "secondSport": "workout",
+          "secondSportLabel": "SNOW",
+          "completed": true,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 2200yd",
-            "meta": "Form drills",
+            "title": "Zwift Recovery Ride + Snow Shoveling",
+            "meta": "7.15 km (4.4 mi) | 20:48 | 112W avg | HR 127 avg | Suffer 8",
             "sets": [
-              "500 WU, 10x100 swim, 4x50 drill, 200 CD"
+              "Zwift: Easy Hour on Whole Lotta Lava — 20:48, 20.6 km/h, 70m elev",
+              "Recovery intensity — Fat 63.5% / Carb 36.5%",
+              "Snow shoveling: 68 min, HR avg 115, max 150",
+              "Unplanned low-intensity cardio from blizzard cleanup"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Zwift",
+              "Garmin tactix 8"
+            ],
+            "note": "Blizzard day. Light Zwift spin + extended snow shoveling. Good active recovery volume."
           }
         },
         {
           "id": "w2-day-2",
-          "name": "Tuesday",
+          "name": "Monday",
           "date": "Feb 24",
           "isoDate": "2026-02-24",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
-          "completed": false,
+          "sport": "rest",
+          "sportLabel": "REST",
+          "completed": true,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "50 min easy",
-            "sets": [],
+            "title": "Rest Day (Post-Blizzard)",
+            "meta": "No activity recorded",
+            "sets": [
+              "Unplanned rest — snow aftermath + recovery from long week 1"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "Full rest after 7-session Week 1 + snow shoveling Sunday."
           }
         },
         {
           "id": "w2-day-3",
-          "name": "Wednesday",
+          "name": "Tuesday",
           "date": "Feb 25",
           "isoDate": "2026-02-25",
-          "sport": "bike",
-          "sportLabel": "BIKE",
-          "completed": false,
+          "sport": "run",
+          "sportLabel": "TEMPO RUN",
+          "completed": true,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "50 min",
+            "title": "Tempo 2 Miles + Sauna",
+            "meta": "3.76 mi | 37:16 | HR 166 avg / 188 max | Suffer 105",
             "sets": [
-              "Include 4x3min tempo efforts"
+              "Warm-up: 1.25 mi @ 5.5-6.5 mph (10:05/mi, HR 153)",
+              "Tempo mi 1: 8:23/mi @ 7.7-8 mph (HR 176)",
+              "Tempo mi 2: 8:31/mi @ 7.7-8 mph (HR 181)",
+              "Cool-down: 0.75 mi easy (HR 158)",
+              "Post-run sauna recovery"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Quality tempo session. HR drifted to 181 on 2nd tempo mile — watch cardiac drift on longer efforts. Sauna = good recovery."
           }
         },
         {
           "id": "w2-day-4",
-          "name": "Thursday",
+          "name": "Wednesday",
           "date": "Feb 26",
           "isoDate": "2026-02-26",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
-          "completed": false,
-          "injury": false,
-          "changed": false,
-          "workout": {
-            "title": "GROUP INTERVAL RUN",
-            "meta": "WU 1mi",
-            "sets": [
-              "5x800m @ 10K pace",
-              "CD 1mi"
-            ],
-            "equipment": [],
-            "note": ""
-          }
-        },
-        {
-          "id": "w2-day-5",
-          "name": "Friday",
-          "date": "Feb 27",
-          "isoDate": "2026-02-27",
           "sport": "swim",
           "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 2400yd",
-            "meta": "400 WU, 4x200 build, 6x100 descend, 200 CD",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "Swim — Coach Session 2,000-2,200 yd",
+            "meta": "Target: 2,000-2,200 yd | Pace 1:30-1:40/100yd",
+            "sets": [
+              "Warm-up: 400 yd easy free",
+              "Main: 8x100 yd @ 1:35 pace, 15s rest",
+              "Drill: 4x50 yd catch-up drill",
+              "Cool-down: 200 yd easy",
+              "Focus: streamline cues from Coach Paul"
+            ],
+            "equipment": [
+              "FORM smart goggles"
+            ],
+            "note": "First swim of Week 2. Maintain coaching cues from Week 1 breakthrough."
+          }
+        },
+        {
+          "id": "w2-day-5",
+          "name": "Thursday",
+          "date": "Feb 27",
+          "isoDate": "2026-02-27",
+          "sport": "bike",
+          "sportLabel": "ZWIFT",
+          "completed": false,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "Zwift Endurance Ride — 45 min Z2",
+            "meta": "Target: 45 min | HR 130-145 (Z2) | RPE 4-5",
+            "sets": [
+              "Warm-up: 10 min easy spin, gradually raise HR to Z2",
+              "Main: 30 min steady Z2 (HR 130-145), cadence 85-95 rpm",
+              "Cool-down: 5 min easy spin",
+              "Goal: bike aerobic base — biggest gap from Week 1"
+            ],
+            "equipment": [
+              "Zwift",
+              "Garmin tactix 8"
+            ],
+            "note": "Priority session. Bike volume was nearly zero in Week 1. Start building base."
           }
         },
         {
           "id": "w2-day-6",
-          "name": "Saturday",
+          "name": "Friday",
           "date": "Feb 28",
           "isoDate": "2026-02-28",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "run",
+          "sportLabel": "EASY RUN",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "22-24 mi easy",
+            "title": "Easy Run — 4-5 mi Z2",
+            "meta": "Target: 4-5 mi | HR 140-155 (Z2) | Flat terrain only",
             "sets": [
-              "Practice nutrition"
+              "4-5 mi easy pace (10:00-10:30/mi)",
+              "Flat route only — protect L ankle (sinus tarsi)",
+              "If ankle flares, cut to 3 mi and walk home",
+              "No hills, no speed work"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Keep it easy. L ankle monitoring. Two days after tempo — should feel recovered."
           }
         },
         {
           "id": "w2-day-7",
-          "name": "Sunday",
+          "name": "Saturday",
           "date": "Mar 1",
           "isoDate": "2026-03-01",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "11 mi easy",
-            "sets": [],
+            "title": "Rest / Active Recovery",
+            "meta": "Full rest or light stretching",
+            "sets": [
+              "Complete rest or 15-20 min gentle stretching",
+              "Foam roll quads, calves, IT band if needed",
+              "Prep for Week 3 bike focus"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "Recovery day. 출산 준비 시간 확보."
           }
         }
       ]
@@ -404,15 +474,15 @@
       "weekDates": "Mar 2-8, 2026",
       "startDate": "2026-03-02",
       "weeklySummary": {
-        "title": "Week 3 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 3 — Bike Volume Up",
+        "content": "Swim 2x · Bike 2x · Run 2x · Strength 1x",
         "changes": "",
-        "focus": "Phase 1: Base Building"
+        "focus": "Phase 1: Base Building — Close the bike gap, maintain swim/run"
       },
       "days": [
         {
           "id": "w3-day-1",
-          "name": "Monday",
+          "name": "Sunday",
           "date": "Mar 2",
           "isoDate": "2026-03-02",
           "sport": "swim",
@@ -421,126 +491,166 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "SWIM: 2400yd",
-            "meta": "500 WU, 5x200 @ moderate, 4x100 kick, 200 CD",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "Swim — 2,200 yd Speed + Steady",
+            "meta": "Target: 2,200 yd | Mix of steady + speed",
+            "sets": [
+              "Warm-up: 400 yd easy free",
+              "Main 1: 4x200 yd steady @ 1:35/100yd, 20s rest",
+              "Main 2: 8x50 yd fast @ 1:15-1:20/100yd, 15s rest",
+              "Cool-down: 200 yd easy"
+            ],
+            "equipment": [
+              "FORM smart goggles"
+            ],
+            "note": "Speed work mixed with steady volume. Use FORM for pace feedback."
           }
         },
         {
           "id": "w3-day-2",
-          "name": "Tuesday",
+          "name": "Monday",
           "date": "Mar 3",
           "isoDate": "2026-03-03",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "bike",
+          "sportLabel": "ZWIFT",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "55 min easy",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "Zwift Tempo Intervals — 50 min",
+            "meta": "Target: 50 min | 3x10 min sweet spot | RPE 6-7",
+            "sets": [
+              "Warm-up: 10 min easy spin",
+              "Main: 3x10 min @ sweet spot (FTP 85-95%), 5 min easy between",
+              "Cool-down: 5 min easy spin",
+              "Focus: sustained power, smooth pedaling"
+            ],
+            "equipment": [
+              "Zwift",
+              "Garmin tactix 8"
+            ],
+            "note": "First real bike quality session. Sweet spot = sustainable intensity for base building."
           }
         },
         {
           "id": "w3-day-3",
-          "name": "Wednesday",
+          "name": "Tuesday",
           "date": "Mar 4",
           "isoDate": "2026-03-04",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "strength",
+          "sportLabel": "STRENGTH",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "55 min",
+            "title": "Strength — Lower Body + Core",
+            "meta": "25-30 min | RPE 5-6",
             "sets": [
-              "5x3min tempo, 2min recovery"
+              "Squats: 3x10",
+              "RDL: 3x10",
+              "Step-ups: 3x8 each",
+              "Calf raises: 3x15 (NOT day before swim)",
+              "Planks: 3x45s",
+              "Dead bugs: 3x10 each"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Calf raises OK here — swim is 2 days away. Keep weights moderate, focus on form."
           }
         },
         {
           "id": "w3-day-4",
-          "name": "Thursday",
+          "name": "Wednesday",
           "date": "Mar 5",
           "isoDate": "2026-03-05",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
-          "completed": false,
-          "injury": false,
-          "changed": false,
-          "workout": {
-            "title": "GROUP INTERVAL RUN",
-            "meta": "WU 1mi",
-            "sets": [
-              "4x1000m @ 10K pace",
-              "CD 1mi"
-            ],
-            "equipment": [],
-            "note": ""
-          }
-        },
-        {
-          "id": "w3-day-5",
-          "name": "Friday",
-          "date": "Mar 6",
-          "isoDate": "2026-03-06",
           "sport": "swim",
           "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 2600yd",
-            "meta": "400 WU, 3x300 build, 6x100 pull, 200 CD",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "Swim — Coach Session 2,200-2,500 yd",
+            "meta": "Target: 2,200-2,500 yd | Coach Paul",
+            "sets": [
+              "Follow Coach Paul programming",
+              "Expected: drill work + main set + technique focus",
+              "Target pace range: 1:25-1:40/100yd",
+              "Push total volume toward 2,500 if feeling good"
+            ],
+            "equipment": [
+              "FORM smart goggles"
+            ],
+            "note": "Coach-led session. Apply Week 1-2 streamline cues."
+          }
+        },
+        {
+          "id": "w3-day-5",
+          "name": "Thursday",
+          "date": "Mar 6",
+          "isoDate": "2026-03-06",
+          "sport": "run",
+          "sportLabel": "TEMPO RUN",
+          "completed": false,
+          "injury": false,
+          "changed": true,
+          "workout": {
+            "title": "Tempo Run — 5 mi total (3 mi tempo)",
+            "meta": "Target: 5 mi | Tempo 8:15-8:30/mi | HR < 175",
+            "sets": [
+              "Warm-up: 1 mi easy (10:00/mi)",
+              "Tempo: 3 mi @ 8:15-8:30/mi — hold HR under 175",
+              "Cool-down: 1 mi easy",
+              "Flat route, watch L ankle"
+            ],
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Progress from W2 tempo (2 mi → 3 mi). Key: keep HR under 175, avoid W2 drift to 181."
           }
         },
         {
           "id": "w3-day-6",
-          "name": "Saturday",
+          "name": "Friday",
           "date": "Mar 7",
           "isoDate": "2026-03-07",
           "sport": "bike",
-          "sportLabel": "BIKE",
+          "sportLabel": "ZWIFT",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "25-28 mi",
+            "title": "Zwift Long Ride — 60 min Z2",
+            "meta": "Target: 60 min | HR 130-145 | Cadence 85-95",
             "sets": [
-              "Steady aerobic effort"
+              "Warm-up: 10 min easy",
+              "Main: 45 min steady Z2, cadence 85-95 rpm",
+              "Cool-down: 5 min easy spin",
+              "Longest bike session of the block — build endurance"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Zwift",
+              "Garmin tactix 8"
+            ],
+            "note": "Longest bike session yet. Priority: time in saddle > power."
           }
         },
         {
           "id": "w3-day-7",
-          "name": "Sunday",
+          "name": "Saturday",
           "date": "Mar 8",
           "isoDate": "2026-03-08",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "12 mi easy",
-            "sets": [],
+            "title": "Rest Day",
+            "meta": "Full rest",
+            "sets": [
+              "Complete rest",
+              "Recovery: foam roll, stretch if needed"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "End of Week 3. Recover before Week 4."
           }
         }
       ]
@@ -4121,7 +4231,7 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
+            "title": "🏊 🚴 🏃 RACE DAY",
             "meta": "JONES BEACH 70.3",
             "sets": [
               "TRUST YOUR TRAINING!"
@@ -4156,7 +4266,7 @@
           "changed": false,
           "workout": {
             "title": "REST",
-            "meta": "Celebrate! \ud83c\udf89",
+            "meta": "Celebrate! 🎉",
             "sets": [
               "Easy walk only"
             ],
@@ -4854,7 +4964,7 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
+            "title": "🏊 🚴 🏃 RACE DAY",
             "meta": "BIG APPLE TRI",
             "sets": [
               "Olympic Distance",
