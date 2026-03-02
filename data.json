@@ -287,10 +287,43 @@
       "weekDates": "Feb 23 - Mar 1, 2026",
       "startDate": "2026-02-23",
       "weeklySummary": {
-        "title": "Week 2 — Adjusted",
-        "content": "Swim 1x · Bike 2x · Run 2x · Strength 0x",
-        "changes": "Blizzard disrupted Sun-Mon. Tempo run swapped for bike Wed. Plan adjusted for remaining days.",
-        "focus": "Phase 1: Base Building — Bike volume priority"
+        "title": "Week 2 — Illness + 5K PR",
+        "content": "Bike 1x · Run 2x (tempo + 5K race) · Sick 3 days · Rest 1x",
+        "changes": "Blizzard Mon, sick Thu-Sat. Swim/bike/strength skipped. Rallied for NYRR 5K Sunday.",
+        "focus": "Highlight: 5K PR (23:21) despite 3 sick days. All running PRs smashed."
+      },
+      "weeklyRecap": {
+        "title": "Week 2 Recap",
+        "bars": [
+          {
+            "label": "Run",
+            "sport": "run",
+            "count": 2
+          },
+          {
+            "label": "Bike",
+            "sport": "bike",
+            "count": 1
+          },
+          {
+            "label": "Sick",
+            "sport": "rest",
+            "count": 3
+          }
+        ],
+        "totals": [
+          {"label": "Sessions", "value": "3"},
+          {"label": "Run Miles", "value": "7.7 mi"},
+          {"label": "5K PR", "value": "23:21"},
+          {"label": "PRs Set", "value": "5"}
+        ],
+        "highlights": [
+          "🏆 NYRR Washington Heights 5K — 23:21 (7:32/mi) ALL-TIME PR",
+          "Perfect negative split: 7:46 → 7:31 → 7:24 → 6:56 kick",
+          "All PRs: 5K, 2mi, 1mi, 1K, 1/2mi",
+          "Battled through illness — 3 sick days before race"
+        ],
+        "lookAhead": "Week 3: Recovery from illness. Rebuild swim/bike volume. Don't rush back."
       },
       "days": [
         {
@@ -372,25 +405,20 @@
           "name": "Thursday",
           "date": "Feb 26",
           "isoDate": "2026-02-26",
-          "sport": "swim",
-          "sportLabel": "SWIM",
-          "completed": false,
+          "sport": "rest",
+          "sportLabel": "SICK",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim — Coach Session 2,000-2,200 yd",
-            "meta": "Target: 2,000-2,200 yd | Pace 1:30-1:40/100yd",
+            "title": "Sick Day — No Training",
+            "meta": "Illness onset — full rest",
             "sets": [
-              "Warm-up: 400 yd easy free",
-              "Main: 8x100 yd @ 1:35 pace, 15s rest",
-              "Drill: 4x50 yd catch-up drill",
-              "Cool-down: 200 yd easy",
-              "Focus: streamline cues from Coach Paul"
+              "Sick — unable to work or train",
+              "Planned swim session skipped"
             ],
-            "equipment": [
-              "FORM smart goggles"
-            ],
-            "note": "First swim of Week 2. Maintain coaching cues from Week 1 breakthrough."
+            "equipment": [],
+            "note": "Illness hit hard. Full rest, medication, hydration."
           }
         },
         {
@@ -398,25 +426,20 @@
           "name": "Friday",
           "date": "Feb 27",
           "isoDate": "2026-02-27",
-          "sport": "bike",
-          "sportLabel": "ZWIFT",
-          "completed": false,
+          "sport": "rest",
+          "sportLabel": "SICK",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Zwift Endurance Ride — 45 min Z2",
-            "meta": "Target: 45 min | HR 130-145 (Z2) | RPE 4-5",
+            "title": "Sick Day — No Training",
+            "meta": "Illness — full rest",
             "sets": [
-              "Warm-up: 10 min easy spin, gradually raise HR to Z2",
-              "Main: 30 min steady Z2 (HR 130-145), cadence 85-95 rpm",
-              "Cool-down: 5 min easy spin",
-              "Goal: bike aerobic base — biggest gap from Week 1"
+              "Sick — unable to work or train",
+              "Planned Zwift session skipped"
             ],
-            "equipment": [
-              "Zwift",
-              "Garmin tactix 8"
-            ],
-            "note": "Priority session. Bike volume was nearly zero in Week 1. Start building base."
+            "equipment": [],
+            "note": "Continued rest. Medication + hydration."
           }
         },
         {
@@ -424,24 +447,21 @@
           "name": "Saturday",
           "date": "Feb 28",
           "isoDate": "2026-02-28",
-          "sport": "run",
-          "sportLabel": "EASY RUN",
-          "completed": false,
+          "sport": "rest",
+          "sportLabel": "SICK",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Easy Run — 4-5 mi Z2",
-            "meta": "Target: 4-5 mi | HR 140-155 (Z2) | Flat terrain only",
+            "title": "Sick Day — Recovery",
+            "meta": "Recovering — rest + medication",
             "sets": [
-              "4-5 mi easy pace (10:00-10:30/mi)",
-              "Flat route only — protect L ankle (sinus tarsi)",
-              "If ankle flares, cut to 3 mi and walk home",
-              "No hills, no speed work"
+              "Feeling better after rest and medication",
+              "Planned easy run skipped",
+              "Race prep for tomorrow's NYRR 5K"
             ],
-            "equipment": [
-              "Garmin tactix 8"
-            ],
-            "note": "Keep it easy. L ankle monitoring. Two days after tempo — should feel recovered."
+            "equipment": [],
+            "note": "Turning corner. Resting up for 5K race tomorrow."
           }
         },
         {
@@ -449,21 +469,26 @@
           "name": "Sunday",
           "date": "Mar 1",
           "isoDate": "2026-03-01",
-          "sport": "rest",
-          "sportLabel": "REST",
-          "completed": false,
+          "sport": "run",
+          "sportLabel": "5K RACE",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Rest / Active Recovery",
-            "meta": "Full rest or light stretching",
+            "title": "NYRR Washington Heights 5K",
+            "meta": "3.13 mi | 23:21 (7:32/mi) | HR 184 avg / 198 max | Suffer 99",
             "sets": [
-              "Complete rest or 15-20 min gentle stretching",
-              "Foam roll quads, calves, IT band if needed",
-              "Prep for Week 3 bike focus"
+              "Warm-up: 0.80 mi jog to start (7:55, HR 157)",
+              "Mile 1: 7:46/mi (HR 171) — controlled start",
+              "Mile 2: 7:31/mi (HR 186) — building",
+              "Mile 3: 7:24/mi (HR 193) — strong push",
+              "Final 0.1: 6:56/mi kick to finish",
+              "⭐ ALL-TIME PRs: 5K (23:21), 1mi (7:12), 2mi (14:52), 1K (4:21), 1/2mi (3:22)"
             ],
-            "equipment": [],
-            "note": "Recovery day. 출산 준비 시간 확보."
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Perfect negative split execution post-illness. All PRs from 400m+ smashed. 67m elevation gain — hilly course. Raced smart despite 3 sick days."
           }
         }
       ]
