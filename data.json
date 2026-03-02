@@ -8,6 +8,11 @@
       "type": "Half Ironman"
     },
     {
+      "name": "United NYC Half",
+      "date": "2026-03-15",
+      "type": "Half Marathon"
+    },
+    {
       "name": "Big Apple Tri",
       "date": "2026-10-10",
       "type": "Olympic"
@@ -499,10 +504,10 @@
       "weekDates": "Mar 2-8, 2026",
       "startDate": "2026-03-02",
       "weeklySummary": {
-        "title": "Week 3 — Bike Volume Up",
-        "content": "Swim 2x · Bike 2x · Run 2x · Strength 1x",
-        "changes": "",
-        "focus": "Phase 1: Base Building — Close the bike gap, maintain swim/run"
+        "title": "Week 3 — Half Marathon Prep",
+        "content": "Run 3x · Swim 2x · Rest 2x",
+        "changes": "Adjusted for post-illness recovery + United NYC Half (Mar 15). Running focus, bike paused.",
+        "focus": "Build back running legs. Key session: Thu 6-7mi at half pace."
       },
       "days": [
         {
@@ -510,24 +515,22 @@
           "name": "Monday",
           "date": "Mar 2",
           "isoDate": "2026-03-02",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Swim — 2,200 yd Speed + Steady",
-            "meta": "Target: 2,200 yd | Mix of steady + speed",
+            "title": "Rest — Post-Race Recovery",
+            "meta": "Full rest | 5K race yesterday",
             "sets": [
-              "Warm-up: 400 yd easy free",
-              "Main 1: 4x200 yd steady @ 1:35/100yd, 20s rest",
-              "Main 2: 8x50 yd fast @ 1:15-1:20/100yd, 15s rest",
-              "Cool-down: 200 yd easy"
+              "Full rest after 5K race (HR max 198)",
+              "Hydration focus — still recovering from illness",
+              "Foam roll legs if sore",
+              "Light walking OK"
             ],
-            "equipment": [
-              "FORM smart goggles"
-            ],
-            "note": "Speed work mixed with steady volume. Use FORM for pace feedback."
+            "equipment": [],
+            "note": "Day after 5K race + still recovering from illness. Complete rest non-negotiable."
           }
         },
         {
@@ -535,25 +538,24 @@
           "name": "Tuesday",
           "date": "Mar 3",
           "isoDate": "2026-03-03",
-          "sport": "bike",
-          "sportLabel": "ZWIFT",
+          "sport": "run",
+          "sportLabel": "EASY RUN",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Zwift Tempo Intervals — 50 min",
-            "meta": "Target: 50 min | 3x10 min sweet spot | RPE 6-7",
+            "title": "Easy Run — 4 mi Recovery",
+            "meta": "4 mi | 9:30-10:00/mi | HR < 155",
             "sets": [
-              "Warm-up: 10 min easy spin",
-              "Main: 3x10 min @ sweet spot (FTP 85-95%), 5 min easy between",
-              "Cool-down: 5 min easy spin",
-              "Focus: sustained power, smooth pedaling"
+              "4 mi easy, flat route",
+              "Pace: 9:30-10:00/mi — no faster",
+              "HR cap: 155 — if it creeps up, slow down",
+              "Check: how do legs feel post-5K?"
             ],
             "equipment": [
-              "Zwift",
               "Garmin tactix 8"
             ],
-            "note": "First real bike quality session. Sweet spot = sustainable intensity for base building."
+            "note": "First run back post-illness + 5K. Body status check. Keep it truly easy."
           }
         },
         {
@@ -561,24 +563,24 @@
           "name": "Wednesday",
           "date": "Mar 4",
           "isoDate": "2026-03-04",
-          "sport": "strength",
-          "sportLabel": "STRENGTH",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Strength — Lower Body + Core",
-            "meta": "25-30 min | RPE 5-6",
+            "title": "Swim — 2,200 yd Steady",
+            "meta": "2,200 yd | Steady pace | Active recovery",
             "sets": [
-              "Squats: 3x10",
-              "RDL: 3x10",
-              "Step-ups: 3x8 each",
-              "Calf raises: 3x15 (NOT day before swim)",
-              "Planks: 3x45s",
-              "Dead bugs: 3x10 each"
+              "Warm-up: 400 yd easy free",
+              "Main: 6x200 yd steady @ 1:35/100yd, 20s rest",
+              "Drill: 4x50 yd catch-up drill",
+              "Cool-down: 200 yd easy"
             ],
-            "equipment": [],
-            "note": "Calf raises OK here — swim is 2 days away. Keep weights moderate, focus on form."
+            "equipment": [
+              "FORM smart goggles"
+            ],
+            "note": "Active recovery between runs. Steady effort, no speed sets. Legs rest while building swim volume."
           }
         },
         {
@@ -586,24 +588,25 @@
           "name": "Thursday",
           "date": "Mar 5",
           "isoDate": "2026-03-05",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "run",
+          "sportLabel": "HALF PACE",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim — Coach Session 2,200-2,500 yd",
-            "meta": "Target: 2,200-2,500 yd | Coach Paul",
+            "title": "Medium Long Run — 6-7 mi @ Half Pace",
+            "meta": "6-7 mi | 9:00-9:15/mi | HR < 170 | KEY SESSION",
             "sets": [
-              "Follow Coach Paul programming",
-              "Expected: drill work + main set + technique focus",
-              "Target pace range: 1:25-1:40/100yd",
-              "Push total volume toward 2,500 if feeling good"
+              "Warm-up: 1 mi easy (10:00/mi)",
+              "Main: 4-5 mi @ 9:00-9:15/mi (target half pace)",
+              "Cool-down: 1 mi easy",
+              "HR cap: 170 — if higher, slow down",
+              "⚡ Week's key run — half marathon pace rehearsal"
             ],
             "equipment": [
-              "FORM smart goggles"
+              "Garmin tactix 8"
             ],
-            "note": "Coach-led session. Apply Week 1-2 streamline cues."
+            "note": "Most important run this week. Find half marathon rhythm. Flat route, protect L ankle. If feeling bad, cut to 5 mi total."
           }
         },
         {
@@ -611,24 +614,24 @@
           "name": "Friday",
           "date": "Mar 6",
           "isoDate": "2026-03-06",
-          "sport": "run",
-          "sportLabel": "TEMPO RUN",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Tempo Run — 5 mi total (3 mi tempo)",
-            "meta": "Target: 5 mi | Tempo 8:15-8:30/mi | HR < 175",
+            "title": "Swim — 2,200-2,500 yd Steady",
+            "meta": "2,200-2,500 yd | Steady effort",
             "sets": [
-              "Warm-up: 1 mi easy (10:00/mi)",
-              "Tempo: 3 mi @ 8:15-8:30/mi — hold HR under 175",
-              "Cool-down: 1 mi easy",
-              "Flat route, watch L ankle"
+              "Warm-up: 400 yd easy free",
+              "Main: 8x200 yd steady @ 1:30-1:40/100yd, 15s rest",
+              "Cool-down: 200 yd easy",
+              "Push to 2,500 if feeling good"
             ],
             "equipment": [
-              "Garmin tactix 8"
+              "FORM smart goggles"
             ],
-            "note": "Progress from W2 tempo (2 mi → 3 mi). Key: keep HR under 175, avoid W2 drift to 181."
+            "note": "Day after key run — swim for active recovery. Volume OK, keep intensity steady."
           }
         },
         {
@@ -636,25 +639,24 @@
           "name": "Saturday",
           "date": "Mar 7",
           "isoDate": "2026-03-07",
-          "sport": "bike",
-          "sportLabel": "ZWIFT",
+          "sport": "run",
+          "sportLabel": "SHAKEOUT",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Zwift Long Ride — 60 min Z2",
-            "meta": "Target: 60 min | HR 130-145 | Cadence 85-95",
+            "title": "Shakeout Run — 3 mi + Strides",
+            "meta": "3 mi easy + 4x20s strides | RPE 3-4",
             "sets": [
-              "Warm-up: 10 min easy",
-              "Main: 45 min steady Z2, cadence 85-95 rpm",
-              "Cool-down: 5 min easy spin",
-              "Longest bike session of the block — build endurance"
+              "2.5 mi easy jog (10:00/mi)",
+              "4x20s strides (smooth, not sprinting) with 60s walk between",
+              "0.5 mi cool-down jog",
+              "Strides = leg turnover, NOT speed work"
             ],
             "equipment": [
-              "Zwift",
               "Garmin tactix 8"
             ],
-            "note": "Longest bike session yet. Priority: time in saddle > power."
+            "note": "Keep legs moving. Strides open up stride length and remind neuromuscular system. Nothing hard."
           }
         },
         {
@@ -669,27 +671,28 @@
           "changed": true,
           "workout": {
             "title": "Rest Day",
-            "meta": "Full rest",
+            "meta": "Full rest — taper week starts tomorrow",
             "sets": [
               "Complete rest",
-              "Recovery: foam roll, stretch if needed"
+              "Foam roll, stretch if needed",
+              "Hydration + carb loading mindset begins"
             ],
             "equipment": [],
-            "note": "End of Week 3. Recover before Week 4."
+            "note": "Rest before taper week. United NYC Half in 7 days."
           }
         }
       ]
     },
     {
       "week": 4,
-      "phase": "Phase 1: Base Building",
+      "phase": "Race Week Taper",
       "weekDates": "Mar 9-15, 2026",
       "startDate": "2026-03-09",
       "weeklySummary": {
-        "title": "Week 4 Plan",
-        "content": "Swim 1x - Bike 2x - Run 2x",
-        "changes": "",
-        "focus": "Phase 1: Base Building"
+        "title": "Week 4 — Taper → United NYC Half",
+        "content": "Run 2x (easy only) · Swim 1x · Rest 4x",
+        "changes": "Full taper for United NYC Half Marathon (Mar 15). Minimal volume, fresh legs priority.",
+        "focus": "🏁 RACE WEEK. Stay fresh, stay healthy, trust the training."
       },
       "days": [
         {
@@ -701,15 +704,17 @@
           "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "REST DAY",
-            "meta": "Stretch, foam roll",
+            "title": "Rest Day",
+            "meta": "Full rest — taper week",
             "sets": [
-              "Mobility work"
+              "Full rest",
+              "Light stretching or foam roll if needed",
+              "Hydration: 2-3L water throughout day"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Taper week begins. Do nothing hard. Trust the fitness you have."
           }
         },
         {
@@ -718,18 +723,23 @@
           "date": "Mar 10",
           "isoDate": "2026-03-10",
           "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sportLabel": "EASY RUN",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "40 min easy",
+            "title": "Easy Run — 3 mi Shake-Out",
+            "meta": "3 mi | 9:30-10:00/mi | HR < 150",
             "sets": [
-              "Recovery week"
+              "3 mi easy, flat",
+              "Pace: 9:30-10:00/mi — conversational",
+              "2x20s strides at end (smooth, relaxed)",
+              "Just keep legs ticking over"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Taper run. Short and easy. Resist the urge to go fast."
           }
         },
         {
@@ -741,15 +751,20 @@
           "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 2000yd",
-            "meta": "Easy technique",
+            "title": "Swim — 1,500-2,000 yd Easy",
+            "meta": "1,500-2,000 yd | Easy technique | Active recovery",
             "sets": [
-              "500 WU, 8x100 drill, 200 CD"
+              "Warm-up: 400 yd easy free",
+              "Main: 6x150 yd steady @ 1:35-1:40/100yd, 15s rest",
+              "Drill: 4x50 yd catch-up drill",
+              "Cool-down: 200 yd easy"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "FORM smart goggles"
+            ],
+            "note": "Last swim before race. Easy effort. Flush out legs, stay loose."
           }
         },
         {
@@ -758,18 +773,23 @@
           "date": "Mar 12",
           "isoDate": "2026-03-12",
           "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sportLabel": "SHAKEOUT",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP RUN",
-            "meta": "Easy 40 min",
+            "title": "Shakeout Run — 2 mi + Strides",
+            "meta": "2 mi easy + 4x20s strides | Last run before race",
             "sets": [
-              "No intervals"
+              "1.5 mi easy jog (10:00/mi)",
+              "4x20s strides (smooth, controlled) with 60s walk",
+              "0.5 mi cool-down jog",
+              "This is the LAST run before race day"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "Final shakeout. Strides for neuromuscular activation. Nothing more. Race in 3 days."
           }
         },
         {
@@ -777,19 +797,22 @@
           "name": "Friday",
           "date": "Mar 13",
           "isoDate": "2026-03-13",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "40 min easy spin",
+            "title": "Rest — Pre-Race",
+            "meta": "Full rest | Race in 2 days",
             "sets": [
-              "Recovery ride"
+              "Complete rest — no exercise",
+              "Carb loading: increase carb intake (rice, pasta, bread)",
+              "Hydration: sip water throughout day",
+              "Lay out race gear, check weather forecast"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Two days out. Rest, eat well, prep gear. No last-minute fitness to gain."
           }
         },
         {
@@ -797,19 +820,23 @@
           "name": "Saturday",
           "date": "Mar 14",
           "isoDate": "2026-03-14",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "rest",
+          "sportLabel": "PRE-RACE",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "18-20 mi easy",
+            "title": "Pre-Race Day",
+            "meta": "Rest + Race Prep",
             "sets": [
-              "Social pace"
+              "15 min easy walk if antsy — nothing more",
+              "Carb loading dinner (familiar food only)",
+              "Hydration: 2L+ water, stop by 8pm",
+              "Lay out everything: bib, shoes, gels, layers",
+              "Set alarm, plan logistics, sleep early"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Nothing new on race day. Eat what you know. Wear what you know. Sleep early."
           }
         },
         {
@@ -817,17 +844,27 @@
           "name": "Sunday",
           "date": "Mar 15",
           "isoDate": "2026-03-15",
-          "sport": "rest",
-          "sportLabel": "REST",
+          "sport": "run",
+          "sportLabel": "🏁 RACE",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "REST or EASY SWIM",
-            "meta": "1500yd technique",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "🏁 United NYC Half Marathon",
+            "meta": "13.1 mi | Target: sub-2:00 (9:00-9:15/mi)",
+            "sets": [
+              "Goal: sub-2:00 (9:00-9:15/mi avg)",
+              "Mile 1-3: 9:15-9:30 — HOLD BACK, don't get swept up",
+              "Mile 4-8: 9:00-9:15 — settle into rhythm",
+              "Mile 9-11: 9:00 — maintain, don't fade",
+              "Mile 12-13.1: whatever's left — kick if possible",
+              "HR cap miles 1-8: < 175. After mile 8: race it.",
+              "Fuel: gel at mile 5 and mile 9, water at every station"
+            ],
+            "equipment": [
+              "Garmin tactix 8"
+            ],
+            "note": "First half marathon. Conservative start, negative split strategy. Post-illness — respect the body. TRUST YOUR TRAINING."
           }
         }
       ]
