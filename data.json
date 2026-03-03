@@ -851,20 +851,20 @@
           "changed": true,
           "workout": {
             "title": "🏁 United NYC Half Marathon",
-            "meta": "13.1 mi | Target: sub-2:00 (9:00-9:15/mi)",
+            "meta": "13.1 mi | Target: sub-1:53 (8:35/mi avg)",
             "sets": [
-              "Goal: sub-2:00 (9:00-9:15/mi avg)",
-              "Mile 1-3: 9:15-9:30 — HOLD BACK, don't get swept up",
-              "Mile 4-8: 9:00-9:15 — settle into rhythm",
-              "Mile 9-11: 9:00 — maintain, don't fade",
-              "Mile 12-13.1: whatever's left — kick if possible",
+              "Goal: sub-1:53 (8:35/mi avg)",
+              "Mile 1-4: 8:40-8:45 — HOLD BACK, don't get swept up",
+              "Mile 5-8: 8:30-8:35 — settle into rhythm",
+              "Mile 9-12: 8:25-8:30 — maintain, don't fade",
+              "Mile 12-13.1: 7:30 kick — empty the tank",
               "HR cap miles 1-8: < 175. After mile 8: race it.",
               "Fuel: gel at mile 5 and mile 9, water at every station"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "First half marathon. Conservative start, negative split strategy. Post-illness — respect the body. TRUST YOUR TRAINING."
+            "note": "Negative split strategy. Post-illness — respect the body but race hard. PR is 1:46, aim sub-1:53 this time. TRUST YOUR TRAINING."
           }
         }
       ]
