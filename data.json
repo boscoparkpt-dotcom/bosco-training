@@ -591,24 +591,27 @@
           "date": "Mar 5",
           "isoDate": "2026-03-05",
           "sport": "run",
-          "sportLabel": "HALF PACE",
-          "completed": false,
+          "sportLabel": "EASY RUN",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Medium Long Run — 6-7 mi @ Half Pace",
-            "meta": "6-7 mi | 9:00-9:15/mi | HR < 170 | KEY SESSION",
+            "title": "Easy Run — 4.2 mi (Z2 Attempt)",
+            "meta": "4.23 mi | 45:00 | 10:38/mi | HR 157 avg / 174 max",
             "sets": [
-              "Warm-up: 1 mi easy (10:00/mi)",
-              "Main: 4-5 mi @ 9:00-9:15/mi (target half pace)",
-              "Cool-down: 1 mi easy",
-              "HR cap: 170 — if higher, slow down",
-              "⚡ Week's key run — half marathon pace rehearsal"
+              "Planned 6-7mi half pace → cut to 4.2mi easy",
+              "Mile 1: 9:33/mi (HR 155)",
+              "Mile 2: 10:24/mi (HR 164)",
+              "Mile 3: 11:11/mi (HR 155)",
+              "Mile 4: 11:22/mi (HR 154)",
+              "Tried to find Z2 — mostly stayed in Z3",
+              "⚠️ Chest discomfort mid-run (resolved after stopping)",
+              "3 days protein shake only → energy crash"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Most important run this week. Find half marathon rhythm. Flat route, protect L ankle. If feeling bad, cut to 5 mi total."
+            "note": "Couldn't hold half pace — glycogen depleted from 3-day Switch On diet phase 1. Chest discomfort during run (likely electrolyte imbalance). No running until symptoms fully clear."
           }
         },
         {
