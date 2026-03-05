@@ -564,24 +564,25 @@
           "name": "Wednesday",
           "date": "Mar 4",
           "isoDate": "2026-03-04",
-          "sport": "swim",
-          "sportLabel": "SWIM",
-          "completed": false,
+          "sport": "run",
+          "sportLabel": "EASY RUN",
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim — 2,200 yd Steady",
-            "meta": "2,200 yd | Steady pace | Active recovery",
+            "title": "Easy Run — 4 mi Between Patients",
+            "meta": "4.04 mi | 39:02 | 9:39/mi | HR 162 avg / 190 max",
             "sets": [
-              "Warm-up: 400 yd easy free",
-              "Main: 6x200 yd steady @ 1:35/100yd, 20s rest",
-              "Drill: 4x50 yd catch-up drill",
-              "Cool-down: 200 yd easy"
+              "Mile 1: 10:10/mi (HR 152) — easy start",
+              "Mile 2: 9:38/mi (HR 163)",
+              "Mile 3: 9:40/mi (HR 165)",
+              "Mile 4: 9:08/mi (HR 170) — slight pickup",
+              "HR still elevated post-illness — easy effort felt harder than usual"
             ],
             "equipment": [
-              "FORM smart goggles"
+              "Garmin tactix 8"
             ],
-            "note": "Active recovery between runs. Steady effort, no speed sets."
+            "note": "First run back since 5K race. Squeezed in between patients. HR higher than expected for easy pace — still recovering. Good to get miles in."
           }
         },
         {
