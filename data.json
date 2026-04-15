@@ -26,8 +26,8 @@
       "startDate": "2026-02-16",
       "weeklySummary": {
         "title": "Week 1 Summary (Final)",
-        "content": "Swim 4x (coaching 900yd + 1,675yd + FORM 2,300yd + Sat PM ~1,200yd) — Run 1x (Sun 13.79mi Central Park!) — Strength 1x (Sat lunch 26min) — Bike 0x",
-        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri run skipped. Sat bike → strength + swim (R calf cramp, swim cut short). Sun long run completed despite heavy legs.",
+        "content": "Swim 4x (coaching 900yd + 1,675yd + FORM 2,300yd + Sat PM ~1,200yd) \u2014 Run 1x (Sun 13.79mi Central Park!) \u2014 Strength 1x (Sat lunch 26min) \u2014 Bike 0x",
+        "changes": "Changes: Wed bike skipped. Thu swim w/ FORM. Fri run skipped. Sat bike \u2192 strength + swim (R calf cramp, swim cut short). Sun long run completed despite heavy legs.",
         "focus": "Highlights: 13.79mi long run (new longest!) with 25 PRs at Central Park. FORM goggles debut. Need to prioritize bike next week. Watch L ankle."
       },
       "weeklyRecap": {
@@ -78,12 +78,12 @@
           }
         ],
         "highlights": [
-          "13.79 mi long run at Central Park — new longest training run! 25 PRs despite heavy legs",
-          "FORM smart goggles debut — real-time pace display worked great",
+          "13.79 mi long run at Central Park \u2014 new longest training run! 25 PRs despite heavy legs",
+          "FORM smart goggles debut \u2014 real-time pace display worked great",
           "Swim coaching breakthrough: streamline cues, 1:20-1:40/100yd range",
-          "First strength session (lower body) — learned to space calf raises from swim days (R calf cramp)",
-          "Zwift recovery ride — good active recovery, legs flushed",
-          "Bike training volume = 0 (only recovery ride) — biggest gap to address"
+          "First strength session (lower body) \u2014 learned to space calf raises from swim days (R calf cramp)",
+          "Zwift recovery ride \u2014 good active recovery, legs flushed",
+          "Bike training volume = 0 (only recovery ride) \u2014 biggest gap to address"
         ],
         "lookAhead": "Week 2 priorities: Get bike training in (indoor or outdoor). Watch L ankle (ongoing lateral pain, no swelling). Keep swim momentum with FORM goggles."
       },
@@ -223,17 +223,17 @@
             "title": "Lunch Strength + Evening Swim (cut short)",
             "meta": "Strength: 26 min | Avg HR 125 | Max HR 156 | Swim: ~1,200 yd | 20 min | Strava",
             "sets": [
-              "── STRENGTH (12:58 PM, 26 min) ──",
-              "Lower body focus only — skipped core & upper body",
+              "\u2500\u2500 STRENGTH (12:58 PM, 26 min) \u2500\u2500",
+              "Lower body focus only \u2014 skipped core & upper body",
               "Single-leg RDL (DB)",
               "Calf raises",
               "Leg press",
               "Split squats",
               "",
-              "── PM SWIM (7:50 PM, ~1,200 yd) ──",
+              "\u2500\u2500 PM SWIM (7:50 PM, ~1,200 yd) \u2500\u2500",
               "FORM goggles: 1,097m | 20:17 moving | 27:03 elapsed",
               "Garmin: 1,189m | Avg HR 151 | Max HR 171",
-              "R calf cramped mid-swim — had to stop early",
+              "R calf cramped mid-swim \u2014 had to stop early",
               "Likely from calf raises earlier in the day"
             ],
             "equipment": [
@@ -259,17 +259,17 @@
             "title": "Morning 13 Before the Blizzard + PM Recovery Ride",
             "meta": "Run: 13.79 mi | 2:14:21 | 25 PRs! | Bike: 4.44 mi Zwift | 20 min | Strava",
             "sets": [
-              "── AM RUN — Central Park (9:04 AM) ──",
-              "13.79 mi — new longest training run!",
+              "\u2500\u2500 AM RUN \u2014 Central Park (9:04 AM) \u2500\u2500",
+              "13.79 mi \u2014 new longest training run!",
               "2:14:21 moving time | 2:15:53 elapsed",
               "Avg pace: 9:44/mi | Max speed: 6:32/mi",
               "Avg HR: 162 | Max HR: 182 | Suffer score: 317",
-              "Elevation: 203m (666 ft) — Central Park hills",
+              "Elevation: 203m (666 ft) \u2014 Central Park hills",
               "Avg cadence: 87.6 spm",
               "25 PRs! 183 achievements!",
-              "Legs heavy from yesterday's strength — wanted to stop but pushed through",
+              "Legs heavy from yesterday's strength \u2014 wanted to stop but pushed through",
               "",
-              "── PM RECOVERY RIDE — Zwift (12:17 AM) ──",
+              "\u2500\u2500 PM RECOVERY RIDE \u2014 Zwift (12:17 AM) \u2500\u2500",
               "Zwift: Whole Lotta Lava in Watopia",
               "4.44 mi (7.1 km) | 20:48",
               "Avg power: 112W | Max: 211W",
@@ -281,7 +281,7 @@
               "Tacx Neo 3M",
               "Zwift"
             ],
-            "note": "Gutted it out on the run — legs heavy from Saturday strength. HR ran high (avg 162). Despite feeling terrible, crushed 25 PRs on hilly Central Park. New longest training run at 13.79 mi. Late night Zwift recovery ride to flush legs — perfect easy spin (HR 127, suffer 8). L ANKLE: ongoing bony tenderness below ATFL, pain at terminal stance/toe off (lateral), no swelling/bruising. Consistent chronic pattern. Lower body very tight/sore (quads, hamstrings, glutes). Monitor ankle through base building."
+            "note": "Gutted it out on the run \u2014 legs heavy from Saturday strength. HR ran high (avg 162). Despite feeling terrible, crushed 25 PRs on hilly Central Park. New longest training run at 13.79 mi. Late night Zwift recovery ride to flush legs \u2014 perfect easy spin (HR 127, suffer 8). L ANKLE: ongoing bony tenderness below ATFL, pain at terminal stance/toe off (lateral), no swelling/bruising. Consistent chronic pattern. Lower body very tight/sore (quads, hamstrings, glutes). Monitor ankle through base building."
           }
         }
       ]
@@ -292,8 +292,8 @@
       "weekDates": "Feb 23 - Mar 1, 2026",
       "startDate": "2026-02-23",
       "weeklySummary": {
-        "title": "Week 2 — Illness + 5K PR",
-        "content": "Bike 1x · Run 2x (tempo + 5K race) · Sick 3 days · Rest 1x",
+        "title": "Week 2 \u2014 Illness + 5K PR",
+        "content": "Bike 1x \u00b7 Run 2x (tempo + 5K race) \u00b7 Sick 3 days \u00b7 Rest 1x",
         "changes": "Blizzard Mon, sick Thu-Sat. Swim/bike/strength skipped. Rallied for NYRR 5K Sunday.",
         "focus": "Highlight: 5K PR (23:21) despite 3 sick days. All running PRs smashed."
       },
@@ -317,16 +317,28 @@
           }
         ],
         "totals": [
-          {"label": "Sessions", "value": "3"},
-          {"label": "Run Miles", "value": "7.7 mi"},
-          {"label": "5K PR", "value": "23:21"},
-          {"label": "PRs Set", "value": "5"}
+          {
+            "label": "Sessions",
+            "value": "3"
+          },
+          {
+            "label": "Run Miles",
+            "value": "7.7 mi"
+          },
+          {
+            "label": "5K PR",
+            "value": "23:21"
+          },
+          {
+            "label": "PRs Set",
+            "value": "5"
+          }
         ],
         "highlights": [
-          "🏆 NYRR Washington Heights 5K — 23:21 (7:32/mi) ALL-TIME PR",
-          "Perfect negative split: 7:46 → 7:31 → 7:24 → 6:56 kick",
+          "\ud83c\udfc6 NYRR Washington Heights 5K \u2014 23:21 (7:32/mi) ALL-TIME PR",
+          "Perfect negative split: 7:46 \u2192 7:31 \u2192 7:24 \u2192 6:56 kick",
           "All PRs: 5K, 2mi, 1mi, 1K, 1/2mi",
-          "Battled through illness — 3 sick days before race"
+          "Battled through illness \u2014 3 sick days before race"
         ],
         "lookAhead": "Week 3: Recovery from illness. Rebuild swim/bike volume. Don't rush back."
       },
@@ -347,8 +359,8 @@
             "title": "Zwift Recovery Ride + Snow Shoveling",
             "meta": "7.15 km (4.4 mi) | 20:48 | 112W avg | HR 127 avg | Suffer 8",
             "sets": [
-              "Zwift: Easy Hour on Whole Lotta Lava — 20:48, 20.6 km/h, 70m elev",
-              "Recovery intensity — Fat 63.5% / Carb 36.5%",
+              "Zwift: Easy Hour on Whole Lotta Lava \u2014 20:48, 20.6 km/h, 70m elev",
+              "Recovery intensity \u2014 Fat 63.5% / Carb 36.5%",
               "Snow shoveling: 68 min, HR avg 115, max 150",
               "Unplanned low-intensity cardio from blizzard cleanup"
             ],
@@ -373,7 +385,7 @@
             "title": "Rest Day (Post-Blizzard)",
             "meta": "No activity recorded",
             "sets": [
-              "Unplanned rest — snow aftermath + recovery from long week 1"
+              "Unplanned rest \u2014 snow aftermath + recovery from long week 1"
             ],
             "equipment": [],
             "note": "Full rest after 7-session Week 1 + snow shoveling Sunday."
@@ -402,7 +414,7 @@
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Quality tempo session. HR drifted to 181 on 2nd tempo mile — watch cardiac drift on longer efforts. Sauna = good recovery."
+            "note": "Quality tempo session. HR drifted to 181 on 2nd tempo mile \u2014 watch cardiac drift on longer efforts. Sauna = good recovery."
           }
         },
         {
@@ -416,10 +428,10 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Sick Day — No Training",
-            "meta": "Illness onset — full rest",
+            "title": "Sick Day \u2014 No Training",
+            "meta": "Illness onset \u2014 full rest",
             "sets": [
-              "Sick — unable to work or train",
+              "Sick \u2014 unable to work or train",
               "Planned swim session skipped"
             ],
             "equipment": [],
@@ -437,10 +449,10 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Sick Day — No Training",
-            "meta": "Illness — full rest",
+            "title": "Sick Day \u2014 No Training",
+            "meta": "Illness \u2014 full rest",
             "sets": [
-              "Sick — unable to work or train",
+              "Sick \u2014 unable to work or train",
               "Planned Zwift session skipped"
             ],
             "equipment": [],
@@ -458,8 +470,8 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Sick Day — Recovery",
-            "meta": "Recovering — rest + medication",
+            "title": "Sick Day \u2014 Recovery",
+            "meta": "Recovering \u2014 rest + medication",
             "sets": [
               "Feeling better after rest and medication",
               "Planned easy run skipped",
@@ -484,16 +496,16 @@
             "meta": "3.13 mi | 23:21 (7:32/mi) | HR 184 avg / 198 max | Suffer 99",
             "sets": [
               "Warm-up: 0.80 mi jog to start (7:55, HR 157)",
-              "Mile 1: 7:46/mi (HR 171) — controlled start",
-              "Mile 2: 7:31/mi (HR 186) — building",
-              "Mile 3: 7:24/mi (HR 193) — strong push",
+              "Mile 1: 7:46/mi (HR 171) \u2014 controlled start",
+              "Mile 2: 7:31/mi (HR 186) \u2014 building",
+              "Mile 3: 7:24/mi (HR 193) \u2014 strong push",
               "Final 0.1: 6:56/mi kick to finish",
-              "⭐ ALL-TIME PRs: 5K (23:21), 1mi (7:12), 2mi (14:52), 1K (4:21), 1/2mi (3:22)"
+              "\u2b50 ALL-TIME PRs: 5K (23:21), 1mi (7:12), 2mi (14:52), 1K (4:21), 1/2mi (3:22)"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Perfect negative split execution post-illness. All PRs from 400m+ smashed. 67m elevation gain — hilly course. Raced smart despite 3 sick days."
+            "note": "Perfect negative split execution post-illness. All PRs from 400m+ smashed. 67m elevation gain \u2014 hilly course. Raced smart despite 3 sick days."
           }
         }
       ]
@@ -504,8 +516,8 @@
       "weekDates": "Mar 2-8, 2026",
       "startDate": "2026-03-02",
       "weeklySummary": {
-        "title": "Week 3 — Half Marathon Prep",
-        "content": "Run 3x · Swim 2x · Rest 2x",
+        "title": "Week 3 \u2014 Half Marathon Prep",
+        "content": "Run 3x \u00b7 Swim 2x \u00b7 Rest 2x",
         "changes": "Adjusted for post-illness recovery + United NYC Half (Mar 15). Running focus, bike paused.",
         "focus": "Build back running legs. Key session: Thu 6-7mi at half pace."
       },
@@ -521,11 +533,11 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Rest — Post-Race Recovery",
+            "title": "Rest \u2014 Post-Race Recovery",
             "meta": "Full rest | 5K race yesterday",
             "sets": [
               "Full rest after 5K race (HR max 198)",
-              "Hydration focus — still recovering from illness",
+              "Hydration focus \u2014 still recovering from illness",
               "Foam roll legs if sore",
               "Light walking OK"
             ],
@@ -544,10 +556,10 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Evening Swim — 1,625 yd",
+            "title": "Evening Swim \u2014 1,625 yd",
             "meta": "1,625 yd | 31:43 | HR 141 avg / 185 max",
             "sets": [
-              "Planned easy run 4mi skipped — still sick",
+              "Planned easy run 4mi skipped \u2014 still sick",
               "Swam instead: 1,625 yd in 31:43",
               "HR avg 141, max 185",
               "Couldn't run but got in the water"
@@ -570,19 +582,19 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Easy Run — 4 mi Between Patients",
+            "title": "Easy Run \u2014 4 mi Between Patients",
             "meta": "4.04 mi | 39:02 | 9:39/mi | HR 162 avg / 190 max",
             "sets": [
-              "Mile 1: 10:10/mi (HR 152) — easy start",
+              "Mile 1: 10:10/mi (HR 152) \u2014 easy start",
               "Mile 2: 9:38/mi (HR 163)",
               "Mile 3: 9:40/mi (HR 165)",
-              "Mile 4: 9:08/mi (HR 170) — slight pickup",
-              "HR still elevated post-illness — easy effort felt harder than usual"
+              "Mile 4: 9:08/mi (HR 170) \u2014 slight pickup",
+              "HR still elevated post-illness \u2014 easy effort felt harder than usual"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "First run back since 5K race. Squeezed in between patients. HR higher than expected for easy pace — still recovering. Good to get miles in."
+            "note": "First run back since 5K race. Squeezed in between patients. HR higher than expected for easy pace \u2014 still recovering. Good to get miles in."
           }
         },
         {
@@ -596,21 +608,21 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Easy Run — 4.2 mi (Z2 Attempt)",
+            "title": "Easy Run \u2014 4.2 mi (Z2 Attempt)",
             "meta": "4.23 mi | 45:00 | 10:38/mi | HR 157 avg / 174 max",
             "sets": [
-              "Planned 6-7mi half pace → cut to 4.2mi easy",
+              "Planned 6-7mi half pace \u2192 cut to 4.2mi easy",
               "Mile 1: 9:33/mi (HR 155)",
               "Mile 2: 10:24/mi (HR 164)",
               "Mile 3: 11:11/mi (HR 155)",
               "Mile 4: 11:22/mi (HR 154)",
-              "Tried to find Z2 — mostly stayed in Z3",
-              "3 days protein shake only (Switch On diet phase 1) → energy crash"
+              "Tried to find Z2 \u2014 mostly stayed in Z3",
+              "3 days protein shake only (Switch On diet phase 1) \u2192 energy crash"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Couldn't hold half pace — glycogen depleted from 3-day Switch On diet phase 1. Entering phase 2 tomorrow with carbs at lunch."
+            "note": "Couldn't hold half pace \u2014 glycogen depleted from 3-day Switch On diet phase 1. Entering phase 2 tomorrow with carbs at lunch."
           }
         },
         {
@@ -624,7 +636,7 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim — 2,200-2,500 yd Steady",
+            "title": "Swim \u2014 2,200-2,500 yd Steady",
             "meta": "2,200-2,500 yd | Steady effort",
             "sets": [
               "Warm-up: 400 yd easy free",
@@ -635,7 +647,7 @@
             "equipment": [
               "FORM smart goggles"
             ],
-            "note": "Day after key run — swim for active recovery. Volume OK, keep intensity steady."
+            "note": "Day after key run \u2014 swim for active recovery. Volume OK, keep intensity steady."
           }
         },
         {
@@ -649,7 +661,7 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Shakeout Run — 3 mi + Strides",
+            "title": "Shakeout Run \u2014 3 mi + Strides",
             "meta": "3 mi easy + 4x20s strides | RPE 3-4",
             "sets": [
               "2.5 mi easy jog (10:00/mi)",
@@ -675,7 +687,7 @@
           "changed": true,
           "workout": {
             "title": "Rest Day",
-            "meta": "Full rest — taper week starts tomorrow",
+            "meta": "Full rest \u2014 taper week starts tomorrow",
             "sets": [
               "Complete rest",
               "Foam roll, stretch if needed",
@@ -693,10 +705,10 @@
       "weekDates": "Mar 9-15, 2026",
       "startDate": "2026-03-09",
       "weeklySummary": {
-        "title": "Week 4 — Taper → United NYC Half",
-        "content": "Run 2x (easy only) · Swim 1x · Rest 4x",
+        "title": "Week 4 \u2014 Taper \u2192 United NYC Half",
+        "content": "Run 2x (easy only) \u00b7 Swim 1x \u00b7 Rest 4x",
         "changes": "Full taper for United NYC Half Marathon (Mar 15). Minimal volume, fresh legs priority.",
-        "focus": "🏁 RACE WEEK. Stay fresh, stay healthy, trust the training."
+        "focus": "\ud83c\udfc1 RACE WEEK. Stay fresh, stay healthy, trust the training."
       },
       "days": [
         {
@@ -711,7 +723,7 @@
           "changed": true,
           "workout": {
             "title": "Rest Day",
-            "meta": "Full rest — taper week",
+            "meta": "Full rest \u2014 taper week",
             "sets": [
               "Full rest",
               "Light stretching or foam roll if needed",
@@ -732,11 +744,11 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Easy Run — 3 mi Shake-Out",
+            "title": "Easy Run \u2014 3 mi Shake-Out",
             "meta": "3 mi | 9:30-10:00/mi | HR < 150",
             "sets": [
               "3 mi easy, flat",
-              "Pace: 9:30-10:00/mi — conversational",
+              "Pace: 9:30-10:00/mi \u2014 conversational",
               "2x20s strides at end (smooth, relaxed)",
               "Just keep legs ticking over"
             ],
@@ -757,7 +769,7 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim — 1,500-2,000 yd Easy",
+            "title": "Swim \u2014 1,500-2,000 yd Easy",
             "meta": "1,500-2,000 yd | Easy technique | Active recovery",
             "sets": [
               "Warm-up: 400 yd easy free",
@@ -782,7 +794,7 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Shakeout Run — 2 mi + Strides",
+            "title": "Shakeout Run \u2014 2 mi + Strides",
             "meta": "2 mi easy + 4x20s strides | Last run before race",
             "sets": [
               "1.5 mi easy jog (10:00/mi)",
@@ -807,10 +819,10 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Rest — Pre-Race",
+            "title": "Rest \u2014 Pre-Race",
             "meta": "Full rest | Race in 2 days",
             "sets": [
-              "Complete rest — no exercise",
+              "Complete rest \u2014 no exercise",
               "Carb loading: increase carb intake (rice, pasta, bread)",
               "Hydration: sip water throughout day",
               "Lay out race gear, check weather forecast"
@@ -833,7 +845,7 @@
             "title": "Pre-Race Day",
             "meta": "Rest + Race Prep",
             "sets": [
-              "15 min easy walk if antsy — nothing more",
+              "15 min easy walk if antsy \u2014 nothing more",
               "Carb loading dinner (familiar food only)",
               "Hydration: 2L+ water, stop by 8pm",
               "Lay out everything: bib, shoes, gels, layers",
@@ -849,26 +861,26 @@
           "date": "Mar 15",
           "isoDate": "2026-03-15",
           "sport": "run",
-          "sportLabel": "🏁 RACE",
+          "sportLabel": "\ud83c\udfc1 RACE",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🏁 United NYC Half Marathon",
+            "title": "\ud83c\udfc1 United NYC Half Marathon",
             "meta": "13.1 mi | Target: sub-1:53 (8:35/mi avg)",
             "sets": [
               "Goal: sub-1:53 (8:35/mi avg)",
-              "Mile 1-4: 8:40-8:45 — HOLD BACK, don't get swept up",
-              "Mile 5-8: 8:30-8:35 — settle into rhythm",
-              "Mile 9-12: 8:25-8:30 — maintain, don't fade",
-              "Mile 12-13.1: 7:30 kick — empty the tank",
+              "Mile 1-4: 8:40-8:45 \u2014 HOLD BACK, don't get swept up",
+              "Mile 5-8: 8:30-8:35 \u2014 settle into rhythm",
+              "Mile 9-12: 8:25-8:30 \u2014 maintain, don't fade",
+              "Mile 12-13.1: 7:30 kick \u2014 empty the tank",
               "HR cap miles 1-8: < 175. After mile 8: race it.",
               "Fuel: gel at mile 5 and mile 9, water at every station"
             ],
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Negative split strategy. Post-illness — respect the body but race hard. PR is 1:46, aim sub-1:53 this time. TRUST YOUR TRAINING."
+            "note": "Negative split strategy. Post-illness \u2014 respect the body but race hard. PR is 1:46, aim sub-1:53 this time. TRUST YOUR TRAINING."
           }
         }
       ]
@@ -1059,7 +1071,7 @@
           "isoDate": "2026-03-24",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1068,7 +1080,10 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim",
+          "note": "1.83km, 40min",
+          "sets": "Evening Swim"
         },
         {
           "id": "w6-day-3",
@@ -1077,7 +1092,7 @@
           "isoDate": "2026-03-25",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1089,7 +1104,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike (Zwift)",
+          "note": "14.0km, 30min, HR 148",
+          "sets": "Zone Benchmarking"
         },
         {
           "id": "w6-day-4",
@@ -1098,7 +1116,7 @@
           "isoDate": "2026-03-26",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1110,7 +1128,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim",
+          "note": "1.92km, 43min, HR 134",
+          "sets": "Evening Swim"
         },
         {
           "id": "w6-day-5",
@@ -1119,7 +1140,7 @@
           "isoDate": "2026-03-27",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1128,7 +1149,10 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike (Zwift)",
+          "note": "16.6km, 44min, HR 163",
+          "sets": "Find Your Rhythm"
         },
         {
           "id": "w6-day-6",
@@ -1137,7 +1161,7 @@
           "isoDate": "2026-03-28",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1148,7 +1172,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike (Outdoor)",
+          "note": "57.9km, 139min, HR 158 \u2014 FIRST OUTDOOR LONG RIDE!",
+          "sets": "Morning Ride"
         },
         {
           "id": "w6-day-7",
@@ -1168,7 +1195,42 @@
             "note": ""
           }
         }
-      ]
+      ],
+      "weeklyRecap": {
+        "title": "Week 6 Recap",
+        "bars": [
+          {
+            "label": "Swim",
+            "sport": "swim",
+            "count": 2
+          },
+          {
+            "label": "Bike",
+            "sport": "bike",
+            "count": 3
+          }
+        ],
+        "totals": [
+          {
+            "label": "Sessions",
+            "value": "5"
+          },
+          {
+            "label": "Swim Distance",
+            "value": "3.75km"
+          },
+          {
+            "label": "Bike Distance",
+            "value": "88.5km"
+          }
+        ],
+        "highlights": [
+          "57.9km first outdoor long ride \u2014 huge milestone",
+          "Zwift Zone Benchmarking + Find Your Rhythm",
+          "Bike volume exploding \u2014 3 sessions this week"
+        ],
+        "lookAhead": "Start brick workouts. Add run volume back."
+      }
     },
     {
       "week": 7,
@@ -1207,7 +1269,7 @@
           "isoDate": "2026-03-31",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1216,7 +1278,10 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim",
+          "note": "1.97km, 41min, HR 150",
+          "sets": "Evening Swim"
         },
         {
           "id": "w7-day-3",
@@ -1246,7 +1311,7 @@
           "isoDate": "2026-04-02",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1258,7 +1323,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim + Run",
+          "note": "Swim 2.01km 38min HR 139 + Run 2.56km 16min HR 153",
+          "sets": "Brick session"
         },
         {
           "id": "w7-day-5",
@@ -1285,7 +1353,7 @@
           "isoDate": "2026-04-04",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1296,7 +1364,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike + Swim",
+          "note": "Ride 24.8km 53min HR 164 (first solo!) + Swim 1.37km 29min HR 136",
+          "sets": "First solo outdoor ride"
         },
         {
           "id": "w7-day-7",
@@ -1305,7 +1376,7 @@
           "isoDate": "2026-04-05",
           "sport": "run",
           "sportLabel": "RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1316,9 +1387,56 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim + Run",
+          "note": "Swim 1.28km 28min HR 141 (left breathing) + Run 5.04km 30min HR 163",
+          "sets": "Brick: Night Swim Run"
         }
-      ]
+      ],
+      "weeklyRecap": {
+        "title": "Week 7 Recap",
+        "bars": [
+          {
+            "label": "Swim",
+            "sport": "swim",
+            "count": 3
+          },
+          {
+            "label": "Run",
+            "sport": "run",
+            "count": 2
+          },
+          {
+            "label": "Bike",
+            "sport": "bike",
+            "count": 1
+          }
+        ],
+        "totals": [
+          {
+            "label": "Sessions",
+            "value": "6 (3 bricks)"
+          },
+          {
+            "label": "Swim Distance",
+            "value": "4.66km"
+          },
+          {
+            "label": "Run Distance",
+            "value": "7.6km"
+          },
+          {
+            "label": "Bike Distance",
+            "value": "24.8km"
+          }
+        ],
+        "highlights": [
+          "First solo outdoor ride \u2014 24.8km",
+          "Brick sessions started: Swim+Run x2, Bike+Swim x1",
+          "Left breathing drill focus in swim"
+        ],
+        "lookAhead": "Trail run. Continue bricks. Build run volume."
+      }
     },
     {
       "week": 8,
@@ -1357,7 +1475,7 @@
           "isoDate": "2026-04-07",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1368,7 +1486,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Trail Run",
+          "note": "12.7km, 86min, HR 162 \u2014 Sunrise Trail Run (ankle sprain during this run)",
+          "sets": "Sunrise Trail Run"
         },
         {
           "id": "w8-day-3",
@@ -1397,7 +1518,7 @@
           "isoDate": "2026-04-09",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1408,7 +1529,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Swim",
+          "note": "1.37km, 32min, HR 132",
+          "sets": "Recovery swim"
         },
         {
           "id": "w8-day-5",
@@ -1417,7 +1541,7 @@
           "isoDate": "2026-04-10",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1428,7 +1552,10 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike (Zwift)",
+          "note": "18.3km, 40min, HR 147",
+          "sets": "Understanding Threshold"
         },
         {
           "id": "w8-day-6",
@@ -1437,7 +1564,7 @@
           "isoDate": "2026-04-11",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1446,7 +1573,10 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Bike (Zwift)",
+          "note": "25.5km, 60min, HR 144",
+          "sets": "Foundations"
         },
         {
           "id": "w8-day-7",
@@ -1455,7 +1585,7 @@
           "isoDate": "2026-04-12",
           "sport": "rest",
           "sportLabel": "REST",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1464,13 +1594,61 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "label": "Run (Race)",
+          "note": "6.57km, 32min, HR 178, 4.80/km \u2014 NYRR Run as One 4M (ran on sprained ankle, last run before shutdown)",
+          "sets": "NYRR Run as One 4M Race"
         }
-      ]
+      ],
+      "weeklyRecap": {
+        "title": "Week 8 Recap",
+        "bars": [
+          {
+            "label": "Swim",
+            "sport": "swim",
+            "count": 1
+          },
+          {
+            "label": "Run",
+            "sport": "run",
+            "count": 2
+          },
+          {
+            "label": "Bike",
+            "sport": "bike",
+            "count": 2
+          }
+        ],
+        "totals": [
+          {
+            "label": "Sessions",
+            "value": "5"
+          },
+          {
+            "label": "Swim Distance",
+            "value": "1.37km"
+          },
+          {
+            "label": "Run Distance",
+            "value": "19.3km"
+          },
+          {
+            "label": "Bike Distance",
+            "value": "43.8km"
+          }
+        ],
+        "highlights": [
+          "12.7km sunrise trail run \u2014 first trail!",
+          "NYRR Run as One 4M race \u2014 4.80/km, HR 178",
+          "Ankle sprain on trail run \u2014 running paused after 4M race",
+          "Bike: Zwift threshold + foundations sessions"
+        ],
+        "lookAhead": "Ankle recovery. Bike + swim only. No running until cleared."
+      }
     },
     {
       "week": 9,
-      "phase": "Phase 2: Build 1",
+      "phase": "Phase 2: Build 1 (Modified \u2014 Ankle Injury)",
       "weekDates": "Apr 13-19, 2026",
       "startDate": "2026-04-13",
       "weeklySummary": {
@@ -1612,7 +1790,17 @@
             "note": ""
           }
         }
-      ]
+      ],
+      "weeklyRecap": {
+        "title": "Week 9 \u2014 Ankle Injury Recovery",
+        "bars": [],
+        "totals": [],
+        "highlights": [
+          "Ankle sprain from Week 8 trail run \u2014 running shut down",
+          "Focus: bike + swim only until ankle clears"
+        ],
+        "lookAhead": "Bike + swim. Rehab ankle. Reassess running next week."
+      }
     },
     {
       "week": 10,
@@ -4297,7 +4485,7 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "🏊 🚴 🏃 RACE DAY",
+            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
             "meta": "JONES BEACH 70.3",
             "sets": [
               "TRUST YOUR TRAINING!"
@@ -4332,7 +4520,7 @@
           "changed": false,
           "workout": {
             "title": "REST",
-            "meta": "Celebrate! 🎉",
+            "meta": "Celebrate! \ud83c\udf89",
             "sets": [
               "Easy walk only"
             ],
@@ -5030,7 +5218,7 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "🏊 🚴 🏃 RACE DAY",
+            "title": "\ud83c\udfca \ud83d\udeb4 \ud83c\udfc3 RACE DAY",
             "meta": "BIG APPLE TRI",
             "sets": [
               "Olympic Distance",
