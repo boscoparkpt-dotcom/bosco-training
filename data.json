@@ -1,11 +1,27 @@
 {
-  "version": 9,
+  "version": 10,
   "athlete": "Bosco",
   "races": [
     {
       "name": "Jones Beach 70.3",
       "date": "2026-09-26",
-      "type": "Half Ironman"
+      "type": "Half Ironman",
+      "goal": {
+        "total": "5:30",
+        "tier": "Stretch \u2014 Realistic 5:45-6:00",
+        "splits": [
+          { "label": "Swim", "dist": "1.9km", "time": "35:00", "pace": "1:50/100m" },
+          { "label": "T1", "dist": "", "time": "4:00", "pace": "" },
+          { "label": "Bike", "dist": "90km", "time": "2:50", "pace": "31.8 km/h \u00B7 ~200W" },
+          { "label": "T2", "dist": "", "time": "3:00", "pace": "" },
+          { "label": "Run", "dist": "21.1km", "time": "1:58", "pace": "5:35/km" }
+        ],
+        "gaps": {
+          "swim": "+2-3 min \u2014 endurance @ 1:50/100m for 1.9km",
+          "bike": "+5-10 min \u2014 200W sustained + aero",
+          "run": "+10-15 min \u2014 biggest gap (HM off-bike @ 5:35/km)"
+        }
+      }
     },
     {
       "name": "United NYC Half",
