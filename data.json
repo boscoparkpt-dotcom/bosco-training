@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "athlete": "Bosco",
   "races": [
     {
@@ -2512,14 +2512,13 @@
             "title": "Split: Swim 1500yd EZ (PM) + Zwift Z2 (Evening)",
             "meta": "Active recovery split — 4h+ gap between sessions",
             "sets": [
-              "🏊 PM Swim 1500yd EZ (drill focus, 1:55-2:00/100yd)",
-              "  WU 200yd EZ",
-              "  4×50yd drill (catch-up, fingertip drag)",
-              "  6×100yd EZ @ 1:55-2:00",
-              "  200yd pull EZ + CD 100yd",
-              "🚴 Evening Zwift Z2 45-60min",
-              "  HR 140-150, cadence 85-95",
-              "  Endurance route (Tempus Fugit / Greater London)"
+              "🏊 PM Swim 1500yd EZ — 5:30pm pool",
+              "  WU 200yd EZ @ 2:00-2:05/100yd",
+              "  4×50yd drill (catch-up + fingertip drag) @ 2:00-2:10",
+              "  8×100yd EZ @ 1:55-2:00/100yd",
+              "  100-200yd pull (어깨 보고 결정)",
+              "  CD 100yd EZ",
+              "🚴 Evening Zwift — TBD (내일로 연기 추천)"
             ],
             "equipment": [
               "FORM goggles"
@@ -2533,17 +2532,17 @@
             "soreness": 4,
             "hrv": null,
             "mood": "OK",
-            "notes": "Sleep 1-4am + 5-8:30am (1h 토막). 어깨 DOMS from 5/5 20×100yd. 일어나서 활동하면 OK."
+            "notes": "Sleep 1-4am + 5-8:30am (1h 토막). 낮잠 2h(3-5pm) 추가 ✅ 만회. 어깨 DOMS from 5/5 20×100yd."
           },
           "nutrition": {
             "breakfast": "계란 3개 + 올리브오일 (~21g pro, 0g carb)",
             "lunch": "닭강정 + 밥 1.5공기 (~95g carb, ~30g pro). 식후 산책 ✅",
             "dinner": "TARGET: Zwift 후 carb+protein 회복식",
-            "snacks": "TARGET: 1-2pm 바나나/그래놀라, 5-6pm 운동 사이 snack",
+            "snacks": "낮잠 후 초코우유 large (~50g carb + 15g pro) — pre-swim fuel ideal",
             "fueling": "두 세션 EZ — 물만 OK",
             "hydration": "TARGET: 3L"
           },
-          "coachNote": "Split session 승인. 어깨 피로 + 토막 잠 있어서 두 세션 모두 EZ 강도 유지. 4시간+ 간격으로 brick 아닌 separate session — 누적 피로 관리. 아침 단백질만 → 점심 탄수 충분히 채워야 오후 swim quality + 저녁 Zwift 둘 다 가능. 내일은 본격 1주차 plan으로 복귀.",
+          "coachNote": "낮잠 2h 추가가 토막 잠 만회 핵심. 초코우유 pre-workout 타이밍 완벽. Pool 5:30pm 입수 시 점심부터 4.5h gap + 초코우유 30min 전 = fuel 충분. 저녁 Zwift는 9pm 이후가 되면 수면 영향 커서 내일로 연기 권장. 오늘 swim 후 dinner 제대로 (carb+pro), 일찍 자기 우선.",
           "secondSport": "bike",
           "secondSportLabel": "BIKE"
         },
