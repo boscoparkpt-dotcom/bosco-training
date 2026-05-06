@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "athlete": "Bosco",
   "races": [
     {
@@ -2507,40 +2507,45 @@
           "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Swim 2500yd Easy Technique",
-            "meta": "Drill focus, Z2 effort",
+            "title": "Split: Swim 1500yd EZ (PM) + Zwift Z2 (Evening)",
+            "meta": "Active recovery split — 4h+ gap between sessions",
             "sets": [
-              "WU 400yd EZ",
-              "8×100yd @ 1:50 with 20s rest",
-              "Pull set 600yd",
-              "Drill 4×50yd (catch-up, rolling)",
-              "CD 300yd"
+              "🏊 PM Swim 1500yd EZ (drill focus, 1:55-2:00/100yd)",
+              "  WU 200yd EZ",
+              "  4×50yd drill (catch-up, fingertip drag)",
+              "  6×100yd EZ @ 1:55-2:00",
+              "  200yd pull EZ + CD 100yd",
+              "🚴 Evening Zwift Z2 45-60min",
+              "  HR 140-150, cadence 85-95",
+              "  Endurance route (Tempus Fugit / Greater London)"
             ],
             "equipment": [
               "FORM goggles"
             ],
-            "note": "Z2 effort, drill focus on rolling/catch"
+            "note": "어깨 DOMS 회복 우선 — 두 세션 모두 EZ 강도. Sleep fragmented(6.5h, 1h 토막) 고려해 RPE 4-5만."
           },
           "brick": false,
           "wellness": {
-            "sleep": null,
-            "energy": null,
-            "soreness": null,
+            "sleep": 6.5,
+            "energy": 6,
+            "soreness": 4,
             "hrv": null,
-            "mood": null,
-            "notes": "Pending check-in"
+            "mood": "OK",
+            "notes": "Sleep 1-4am + 5-8:30am (1h 토막). 어깨 DOMS from 5/5 20×100yd. 일어나서 활동하면 OK."
           },
           "nutrition": {
-            "breakfast": null,
-            "lunch": null,
-            "dinner": null,
-            "snacks": null,
-            "hydration": null,
-            "fueling": null
+            "breakfast": "계란 3개 + 올리브오일 (~21g pro, 0g carb)",
+            "lunch": "TARGET: 밥 1.5공기 + 단백질 + 야채 (carb 충분히)",
+            "dinner": "TARGET: Zwift 후 carb+protein 회복식",
+            "snacks": "TARGET: 1-2pm 바나나/그래놀라, 5-6pm 운동 사이 snack",
+            "fueling": "두 세션 EZ — 물만 OK",
+            "hydration": "TARGET: 3L"
           },
-          "coachNote": "오늘 데일리 체크 시작. 운동 후 wellness + 식사 알려주면 코치 노트 작성."
+          "coachNote": "Split session 승인. 어깨 피로 + 토막 잠 있어서 두 세션 모두 EZ 강도 유지. 4시간+ 간격으로 brick 아닌 separate session — 누적 피로 관리. 아침 단백질만 → 점심 탄수 충분히 채워야 오후 swim quality + 저녁 Zwift 둘 다 가능. 내일은 본격 1주차 plan으로 복귀.",
+          "secondSport": "bike",
+          "secondSportLabel": "BIKE"
         },
         {
           "id": "w12-day-4",
