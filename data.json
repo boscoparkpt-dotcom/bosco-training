@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "athlete": "Bosco",
   "races": [
     {
@@ -2537,7 +2537,7 @@
           },
           "nutrition": {
             "breakfast": "계란 3개 + 올리브오일 (~21g pro, 0g carb)",
-            "lunch": "TARGET: 밥 1.5공기 + 단백질 + 야채 (carb 충분히)",
+            "lunch": "닭강정 + 밥 1.5공기 (~95g carb, ~30g pro). 식후 산책 ✅",
             "dinner": "TARGET: Zwift 후 carb+protein 회복식",
             "snacks": "TARGET: 1-2pm 바나나/그래놀라, 5-6pm 운동 사이 snack",
             "fueling": "두 세션 EZ — 물만 OK",
