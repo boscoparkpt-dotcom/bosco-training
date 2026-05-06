@@ -51,6 +51,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .race-banner .gaps-title{font-size:10px;font-weight:800;color:#fff;letter-spacing:.8px;text-transform:uppercase;margin-bottom:4px}
 .race-banner .gap-row{font-size:11px;color:rgba(255,255,255,.92);line-height:1.5}
 .race-banner .gap-sport{font-weight:800;text-transform:uppercase;font-size:10px;letter-spacing:.5px;margin-right:4px}
+.race-banner .scen-title,.race-banner .phase-title,.race-banner .ms-title,.race-banner .eq-title{font-size:10px;font-weight:800;color:#fff;letter-spacing:.8px;text-transform:uppercase;margin:10px 0 6px;padding-top:8px;border-top:1px solid rgba(255,255,255,.25)}
+.race-banner .scen-table{display:flex;flex-direction:column;gap:4px}
+.race-banner .scen-row{display:grid;grid-template-columns:60px 1fr 1fr 1fr 1fr;gap:4px;align-items:center;padding:4px 6px;background:rgba(0,0,0,.18);border-radius:6px;font-size:10px;color:#fff}
+.race-banner .scen-row.realistic{background:rgba(255,255,255,.22);font-weight:800}
+.race-banner .scen-row .scen-name{font-weight:800;font-size:10px;letter-spacing:.3px}
+.race-banner .scen-row .scen-cell{text-align:center;font-variant-numeric:tabular-nums}
+.race-banner .scen-row .scen-cell-h{font-size:9px;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:.4px;text-align:center}
+.race-banner .scen-current{font-size:11px;color:#fde047;margin-top:6px;text-align:center;font-weight:700}
+.race-banner .phase-list{display:flex;flex-direction:column;gap:4px}
+.race-banner .phase-row{padding:6px 8px;background:rgba(0,0,0,.18);border-radius:6px;font-size:11px;color:#fff;line-height:1.4}
+.race-banner .phase-row .phase-name{font-weight:800;font-size:11px}
+.race-banner .phase-row .phase-meta{font-size:10px;color:rgba(255,255,255,.75);margin-top:1px}
+.race-banner .phase-row .phase-focus{font-size:10px;color:rgba(255,255,255,.85);margin-top:2px;font-style:italic}
+.race-banner .ms-list{display:flex;flex-direction:column;gap:3px}
+.race-banner .ms-row{font-size:11px;color:#fff;display:flex;gap:8px;align-items:center;padding:3px 6px;background:rgba(0,0,0,.18);border-radius:5px}
+.race-banner .ms-row .ms-date{font-weight:800;font-size:10px;color:#fde047;min-width:48px;font-variant-numeric:tabular-nums}
+.race-banner .ms-row .ms-d{font-size:9px;color:rgba(255,255,255,.6);min-width:40px;text-align:right}
+.race-banner .eq-list{display:flex;flex-wrap:wrap;gap:4px}
+.race-banner .eq-tag{font-size:10px;padding:3px 8px;border-radius:10px;font-weight:700}
+.race-banner .eq-tag.owned{background:rgba(34,197,94,.3);color:#bbf7d0}
+.race-banner .eq-tag.pending{background:rgba(239,68,68,.35);color:#fecaca}
 
 /* Day Cards */
 .day-card{background:#16213b;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f;transition:border-color .2s}
@@ -58,6 +79,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .day-card.completed{opacity:.5}
 .day-card.completed .day-header::after{content:"\2713";color:#22c55e;font-size:16px;margin-left:8px}
 .day-card.injury{border-color:#f44444;box-shadow:0 0 8px rgba(239,68,68,.15)}
+.day-card.missed{border-color:#dc2626;background:#1f1419;opacity:.75}
+.day-card.missed .day-name{color:#fca5a5}
+.day-card.missed .day-sport.rest{background:#dc2626;color:#fff}
+.missed-note{font-size:12px;color:#fca5a5;margin-top:8px;font-weight:600}
 .day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .day-header:active{background:#1e3a5f}
 .day-left{display:flex;align-items:center;gap:10px}
@@ -140,6 +165,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .cal-cell.sport-strength{border-color:#a855f7}
 .cal-cell.today.sport-swim,.cal-cell.today.sport-bike,.cal-cell.today.sport-run{border-color:#f97316}
 .cal-cell.completed{opacity:.6}
+.cal-cell.missed{background:#1f1419;border-color:#dc2626}
+.cal-cell.missed .cal-date{color:#fca5a5}
+.cal-cell.missed .cal-icon::after{content:" ❌";font-size:11px}
 .cal-detail{margin-top:8px}
 
 #loading{text-align:center;padding:40px;color:#666}
@@ -324,6 +352,56 @@ function renderRaceBanner() {
       if (r.goal.gaps.run) h += `<div class="gap-row"><span class="gap-sport">Run</span>${r.goal.gaps.run}</div>`;
       h += `</div>`;
     }
+    if (r.goal.scenarios && r.goal.scenarios.length) {
+      h += `<div class="scen-title">\u{1F3AF} Finish Scenarios</div>`;
+      h += `<div class="scen-table">`;
+      h += `<div class="scen-row"><div class="scen-cell-h">Tier</div><div class="scen-cell-h">Total</div><div class="scen-cell-h">Swim</div><div class="scen-cell-h">Bike</div><div class="scen-cell-h">Run</div></div>`;
+      r.goal.scenarios.forEach(s => {
+        const cls = s.name === 'Realistic' ? ' realistic' : '';
+        h += `<div class="scen-row${cls}">`;
+        h += `<div class="scen-name">${s.name}</div>`;
+        h += `<div class="scen-cell">${s.total}</div>`;
+        h += `<div class="scen-cell">${s.swim}</div>`;
+        h += `<div class="scen-cell">${s.bike}</div>`;
+        h += `<div class="scen-cell">${s.run}</div>`;
+        h += `</div>`;
+      });
+      h += `</div>`;
+      if (r.goal.currentEstimate) {
+        h += `<div class="scen-current">\u{1F4CD} Current fitness estimate: ${r.goal.currentEstimate}</div>`;
+      }
+    }
+    if (r.goal.phases && r.goal.phases.length) {
+      h += `<div class="phase-title">\u{1F4C5} 5-Phase Roadmap</div>`;
+      h += `<div class="phase-list">`;
+      r.goal.phases.forEach(p => {
+        h += `<div class="phase-row">`;
+        h += `<div class="phase-name">${p.name} \u2022 ${p.weeks}</div>`;
+        h += `<div class="phase-meta">${p.dates}</div>`;
+        if (p.focus) h += `<div class="phase-focus">${p.focus}</div>`;
+        h += `</div>`;
+      });
+      h += `</div>`;
+    }
+    if (r.goal.milestones && r.goal.milestones.length) {
+      h += `<div class="ms-title">\u{1F4CC} Key Milestones</div>`;
+      h += `<div class="ms-list">`;
+      r.goal.milestones.forEach(m => {
+        const md = m.date.slice(5);
+        const dleft = daysUntil(m.date);
+        h += `<div class="ms-row"><span class="ms-date">${md}</span><span style="flex:1">${m.label}</span><span class="ms-d">D-${dleft}</span></div>`;
+      });
+      h += `</div>`;
+    }
+    if (r.goal.equipment && r.goal.equipment.length) {
+      h += `<div class="eq-title">\u{1F6B4} Equipment</div>`;
+      h += `<div class="eq-list">`;
+      r.goal.equipment.forEach(e => {
+        const icon = e.status === 'owned' ? '\u2713' : '\u25CB';
+        h += `<span class="eq-tag ${e.status}">${icon} ${e.item}</span>`;
+      });
+      h += `</div>`;
+    }
     h += `</div>`;
   }
   h += `</div>`;
@@ -337,9 +415,10 @@ function renderDayCard(day, forceOpen) {
   const todayClass = isToday ? ' today' : '';
   const completedClass = day.completed ? ' completed' : '';
   const injuryClass = day.injury ? ' injury' : '';
+  const missedClass = day.missed ? ' missed' : '';
   const openClass = (forceOpen || isToday) ? ' open' : '';
 
-  let h = `<div class="day-card${todayClass}${completedClass}${injuryClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
+  let h = `<div class="day-card${todayClass}${completedClass}${injuryClass}${missedClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
   h += `<div class="day-header">`;
   h += `<div class="day-left"><span class="day-icon">${getIcon(day.sport)}</span><div><span class="day-name">${day.name}</span><span class="day-date">${day.date}</span></div></div>`;
   h += `<div class="badge-row">`;
@@ -368,7 +447,7 @@ function renderDayCard(day, forceOpen) {
     h += `</div>`;
   }
   if (w.note) {
-    const noteClass = day.injury ? 'injury-note' : 'note';
+    const noteClass = day.missed ? 'missed-note' : (day.injury ? 'injury-note' : 'note');
     h += `<div class="${noteClass}">${w.note}</div>`;
   }
   h += `</div></div>`;
@@ -550,6 +629,7 @@ function renderMonthlyView() {
     if (dayData) {
       classes += ` sport-${dayData.sport}`;
       if (dayData.completed) classes += ' completed';
+      if (dayData.missed) classes += ' missed';
     }
 
     h += `<div class="${classes}" onclick="selectCalDay('${iso}')">`;
@@ -589,7 +669,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 10;
+const BUILT_VERSION = 14;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())

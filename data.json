@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 14,
   "athlete": "Bosco",
   "races": [
     {
@@ -7,14 +7,14 @@
       "date": "2026-09-26",
       "type": "Half Ironman",
       "goal": {
-        "total": "5:30",
-        "tier": "Stretch — Realistic 5:45-6:00",
+        "total": "5:40",
+        "tier": "Realistic — current fitness estimate 5:50-6:05",
         "splits": [
           {
             "label": "Swim",
-            "dist": "1.9km",
+            "dist": "2112yd",
             "time": "35:00",
-            "pace": "1:50/100m"
+            "pace": "1:43/100yd"
           },
           {
             "label": "T1",
@@ -24,9 +24,9 @@
           },
           {
             "label": "Bike",
-            "dist": "90km",
-            "time": "2:50",
-            "pace": "31.8 km/h · ~200W"
+            "dist": "56mi",
+            "time": "2:55",
+            "pace": "19.1 mph"
           },
           {
             "label": "T2",
@@ -36,15 +36,147 @@
           },
           {
             "label": "Run",
-            "dist": "21.1km",
+            "dist": "13.1mi",
             "time": "1:58",
-            "pace": "5:35/km"
+            "pace": "8:59/mi"
+          }
+        ],
+        "scenarios": [
+          {
+            "name": "Safe",
+            "total": "6:00-6:10",
+            "swim": "38:00",
+            "swimPace": "1:50/100yd",
+            "bike": "3:05",
+            "bikePace": "18.0 mph",
+            "run": "2:05",
+            "runPace": "9:31/mi",
+            "note": "완주 우선"
+          },
+          {
+            "name": "Realistic",
+            "total": "5:40-5:50",
+            "swim": "35:00",
+            "swimPace": "1:43/100yd",
+            "bike": "2:55",
+            "bikePace": "19.1 mph",
+            "run": "1:58",
+            "runPace": "8:59/mi",
+            "note": "현실적 목표"
+          },
+          {
+            "name": "Stretch",
+            "total": "5:25-5:35",
+            "swim": "33:00",
+            "swimPace": "1:38/100yd",
+            "bike": "2:48",
+            "bikePace": "19.9 mph",
+            "run": "1:53",
+            "runPace": "8:37/mi",
+            "note": "최대치"
+          }
+        ],
+        "currentEstimate": "5:50-6:05",
+        "phases": [
+          {
+            "name": "Re-base + Run Rebuild",
+            "weeks": "W12-15",
+            "dates": "May 5-31",
+            "focus": "산모/아기 회복 우선, 발목 점진 복귀, 컨시스턴시 > 강도"
+          },
+          {
+            "name": "Build 1",
+            "weeks": "W16-19",
+            "dates": "Jun 1-28",
+            "focus": "1900yd TT, 50mi bike, HM TT 1:50 목표"
+          },
+          {
+            "name": "Build 2 / Peak",
+            "weeks": "W20-24",
+            "dates": "Jun 29 - Aug 2",
+            "focus": "70.3 풀 시뮬 7/26, OWS 시작, FTP 245→260W"
+          },
+          {
+            "name": "Sharpening",
+            "weeks": "W25-28",
+            "dates": "Aug 3-30",
+            "focus": "Race-pace 위주, Jones Beach OWS 답사 1-2회"
+          },
+          {
+            "name": "Taper",
+            "weeks": "W29-31",
+            "dates": "Aug 31 - Sep 20",
+            "focus": "볼륨 -50%, 강도 유지, 장비 최종 점검"
+          },
+          {
+            "name": "RACE WEEK",
+            "weeks": "W32",
+            "dates": "Sep 21-26",
+            "focus": "🏁 9/26 Jones Beach 70.3"
+          }
+        ],
+        "milestones": [
+          {
+            "date": "2026-05-31",
+            "label": "5mi run @ HR<165 통증 없이"
+          },
+          {
+            "date": "2026-06-15",
+            "label": "1900yd TT @ 1:48/100yd"
+          },
+          {
+            "date": "2026-06-28",
+            "label": "HM TT 1:50 + 50mi @ 17.4+ mph"
+          },
+          {
+            "date": "2026-07-26",
+            "label": "70.3 풀 시뮬 (2112yd/50mi/10mi)"
+          },
+          {
+            "date": "2026-08-15",
+            "label": "Jones Beach OWS 답사"
+          },
+          {
+            "date": "2026-09-26",
+            "label": "🏁 RACE DAY"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Garmin tactix 8",
+            "status": "owned"
+          },
+          {
+            "item": "FORM goggles",
+            "status": "owned"
+          },
+          {
+            "item": "Trek Domane (current bike)",
+            "status": "owned"
+          },
+          {
+            "item": "Wetsuit",
+            "status": "pending",
+            "note": "fit 필요"
+          },
+          {
+            "item": "Tri Suit",
+            "status": "pending"
+          },
+          {
+            "item": "Elitewheels ENT 2.0 50mm",
+            "status": "pending",
+            "note": "+9-13W = 4-7min"
+          },
+          {
+            "item": "GP5000 S TR 28mm tubeless",
+            "status": "pending"
           }
         ],
         "gaps": {
-          "swim": "+2-3 min — endurance @ 1:50/100m for 1.9km",
-          "bike": "+5-10 min — 200W sustained + aero",
-          "run": "+10-15 min — biggest gap (HM off-bike @ 5:35/km)"
+          "swim": "+2-3 min — 2112yd 연속 TT 검증 필요",
+          "bike": "+5-10 min — 50mi+ outdoor TT 미검증, aero 적응",
+          "run": "+10-15 min — 발목 회복 후 11-14mi long, HM off-bike 8:59/mi"
         }
       }
     },
@@ -230,8 +362,8 @@
           "name": "Friday",
           "date": "Feb 20",
           "isoDate": "2026-02-20",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": true,
@@ -245,8 +377,9 @@
               "Walk breaks OK if needed"
             ],
             "equipment": [],
-            "note": "Light shakeout run. Keep it easy - Sunday's 11mi long run is the priority this week."
-          }
+            "note": "❌ Planned: RUN — no Strava record · Light shakeout run. Keep it easy - Sunday's 11mi long run is the priority this week."
+          },
+          "missed": true
         },
         {
           "id": "w1-day-6",
@@ -312,7 +445,7 @@
               "",
               "── PM RECOVERY RIDE — Zwift (12:17 AM) ──",
               "Zwift: Whole Lotta Lava in Watopia",
-              "4.44 mi (7.1 km) | 20:48",
+              "4.44 mi (4.41mi) | 20:48",
               "Avg power: 112W | Max: 211W",
               "Avg HR: 127 | Max HR: 136 | Suffer score: 8",
               "Cadence: 77 rpm | Perfect recovery effort"
@@ -398,9 +531,9 @@
           "changed": true,
           "workout": {
             "title": "Zwift Recovery Ride + Snow Shoveling",
-            "meta": "7.15 km (4.4 mi) | 20:48 | 112W avg | HR 127 avg | Suffer 8",
+            "meta": "4.44mi (4.4 mi) | 20:48 | 112W avg | HR 127 avg | Suffer 8",
             "sets": [
-              "Zwift: Easy Hour on Whole Lotta Lava — 20:48, 20.6 km/h, 70m elev",
+              "Zwift: Easy Hour on Whole Lotta Lava — 20:48, 12.8 mph, 70m elev",
               "Recovery intensity — Fat 63.5% / Carb 36.5%",
               "Snow shoveling: 68 min, HR avg 115, max 150",
               "Unplanned low-intensity cardio from blizzard cleanup"
@@ -671,8 +804,8 @@
           "name": "Friday",
           "date": "Mar 6",
           "isoDate": "2026-03-06",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": true,
@@ -688,16 +821,17 @@
             "equipment": [
               "FORM smart goggles"
             ],
-            "note": "Day after key run — swim for active recovery. Volume OK, keep intensity steady."
-          }
+            "note": "❌ Planned: SWIM — no Strava record · Day after key run — swim for active recovery. Volume OK, keep intensity steady."
+          },
+          "missed": true
         },
         {
           "id": "w3-day-6",
           "name": "Saturday",
           "date": "Mar 7",
           "isoDate": "2026-03-07",
-          "sport": "run",
-          "sportLabel": "SHAKEOUT",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": true,
@@ -713,8 +847,9 @@
             "equipment": [
               "Garmin tactix 8"
             ],
-            "note": "Keep legs moving. Strides open up stride length and remind neuromuscular system. Nothing hard."
-          }
+            "note": "❌ Planned: SHAKEOUT — no Strava record · Keep legs moving. Strides open up stride length and remind neuromuscular system. Nothing hard."
+          },
+          "missed": true
         },
         {
           "id": "w3-day-7",
@@ -781,7 +916,7 @@
           "isoDate": "2026-03-10",
           "sport": "run",
           "sportLabel": "EASY RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
@@ -806,7 +941,7 @@
           "isoDate": "2026-03-11",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
@@ -831,7 +966,7 @@
           "isoDate": "2026-03-12",
           "sport": "run",
           "sportLabel": "SHAKEOUT",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
@@ -903,7 +1038,7 @@
           "isoDate": "2026-03-15",
           "sport": "run",
           "sportLabel": "🏁 RACE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
@@ -943,8 +1078,8 @@
           "name": "Monday",
           "date": "Mar 16",
           "isoDate": "2026-03-16",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -953,8 +1088,9 @@
             "meta": "500 WU, 6x200 @ moderate, 4x100 pull, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w5-day-2",
@@ -963,7 +1099,7 @@
           "isoDate": "2026-03-17",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -981,7 +1117,7 @@
           "isoDate": "2026-03-18",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1001,7 +1137,7 @@
           "isoDate": "2026-03-19",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1020,8 +1156,8 @@
           "name": "Friday",
           "date": "Mar 20",
           "isoDate": "2026-03-20",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1030,8 +1166,9 @@
             "meta": "400 WU, 2x400 moderate, 6x100 descend, 4x50 sprint, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w5-day-6",
@@ -1040,7 +1177,7 @@
           "isoDate": "2026-03-21",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1060,7 +1197,7 @@
           "isoDate": "2026-03-22",
           "sport": "run",
           "sportLabel": "RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1092,8 +1229,8 @@
           "name": "Monday",
           "date": "Mar 23",
           "isoDate": "2026-03-23",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1102,8 +1239,9 @@
             "meta": "500 WU, 4x300 build, 6x100 @ threshold, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w6-day-2",
@@ -1123,7 +1261,7 @@
             "note": ""
           },
           "label": "Swim",
-          "note": "1.83km, 40min",
+          "note": "1.14mi, 40min",
           "sets": "Evening Swim"
         },
         {
@@ -1147,7 +1285,7 @@
             "note": ""
           },
           "label": "Bike (Zwift)",
-          "note": "14.0km, 30min, HR 148",
+          "note": "8.70mi, 30min, HR 148",
           "sets": "Zone Benchmarking"
         },
         {
@@ -1171,7 +1309,7 @@
             "note": ""
           },
           "label": "Swim",
-          "note": "1.92km, 43min, HR 134",
+          "note": "1.19mi, 43min, HR 134",
           "sets": "Evening Swim"
         },
         {
@@ -1192,7 +1330,7 @@
             "note": ""
           },
           "label": "Bike (Zwift)",
-          "note": "16.6km, 44min, HR 163",
+          "note": "10.31mi, 44min, HR 163",
           "sets": "Find Your Rhythm"
         },
         {
@@ -1215,7 +1353,7 @@
             "note": ""
           },
           "label": "Bike (Outdoor)",
-          "note": "57.9km, 139min, HR 158 — FIRST OUTDOOR LONG RIDE!",
+          "note": "35.98mi, 139min, HR 158 — FIRST OUTDOOR LONG RIDE!",
           "sets": "Morning Ride"
         },
         {
@@ -1223,8 +1361,8 @@
           "name": "Sunday",
           "date": "Mar 29",
           "isoDate": "2026-03-29",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1233,8 +1371,9 @@
             "meta": "13 mi easy",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: RUN — no Strava record"
+          },
+          "missed": true
         }
       ],
       "weeklyRecap": {
@@ -1258,15 +1397,15 @@
           },
           {
             "label": "Swim Distance",
-            "value": "3.75km"
+            "value": "2.33mi"
           },
           {
             "label": "Bike Distance",
-            "value": "88.5km"
+            "value": "55mi"
           }
         ],
         "highlights": [
-          "57.9km first outdoor long ride — huge milestone",
+          "35.98mi first outdoor long ride — huge milestone",
           "Zwift Zone Benchmarking + Find Your Rhythm",
           "Bike volume exploding — 3 sessions this week"
         ],
@@ -1290,8 +1429,8 @@
           "name": "Monday",
           "date": "Mar 30",
           "isoDate": "2026-03-30",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1300,8 +1439,9 @@
             "meta": "500 WU, 3x400 @ moderate, 8x100 descend, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w7-day-2",
@@ -1321,7 +1461,7 @@
             "note": ""
           },
           "label": "Swim",
-          "note": "1.97km, 41min, HR 150",
+          "note": "1.22mi, 41min, HR 150",
           "sets": "Evening Swim"
         },
         {
@@ -1329,8 +1469,8 @@
           "name": "Wednesday",
           "date": "Apr 1",
           "isoDate": "2026-04-01",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1342,8 +1482,9 @@
               "Cadence drills"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: BIKE — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w7-day-4",
@@ -1366,7 +1507,7 @@
             "note": ""
           },
           "label": "Swim + Run",
-          "note": "Swim 2.01km 38min HR 139 + Run 2.56km 16min HR 153",
+          "note": "Swim 1.25mi 38min HR 139 + Run 1.59mi 16min HR 153",
           "sets": "Brick session"
         },
         {
@@ -1374,8 +1515,8 @@
           "name": "Friday",
           "date": "Apr 3",
           "isoDate": "2026-04-03",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1384,8 +1525,9 @@
             "meta": "400 WU, 2x500 moderate, 6x100 pull, 4x50 fast, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w7-day-6",
@@ -1407,7 +1549,7 @@
             "note": ""
           },
           "label": "Bike + Swim",
-          "note": "Ride 24.8km 53min HR 164 (first solo!) + Swim 1.37km 29min HR 136",
+          "note": "Ride 15.41mi 53min HR 164 (first solo!) + Swim 0.85mi 29min HR 136",
           "sets": "First solo outdoor ride"
         },
         {
@@ -1430,7 +1572,7 @@
             "note": ""
           },
           "label": "Swim + Run",
-          "note": "Swim 1.28km 28min HR 141 (left breathing) + Run 5.04km 30min HR 163",
+          "note": "Swim 0.80mi 28min HR 141 (left breathing) + Run 3.13mi 30min HR 163",
           "sets": "Brick: Night Swim Run"
         }
       ],
@@ -1460,19 +1602,19 @@
           },
           {
             "label": "Swim Distance",
-            "value": "4.66km"
+            "value": "2.90mi"
           },
           {
             "label": "Run Distance",
-            "value": "7.6km"
+            "value": "4.72mi"
           },
           {
             "label": "Bike Distance",
-            "value": "24.8km"
+            "value": "15.41mi"
           }
         ],
         "highlights": [
-          "First solo outdoor ride — 24.8km",
+          "First solo outdoor ride — 15.41mi",
           "Brick sessions started: Swim+Run x2, Bike+Swim x1",
           "Left breathing drill focus in swim"
         ],
@@ -1529,7 +1671,7 @@
             "note": ""
           },
           "label": "Trail Run",
-          "note": "12.7km, 86min, HR 162 — Sunrise Trail Run (ankle sprain during this run)",
+          "note": "7.89mi, 86min, HR 162 — Sunrise Trail Run (ankle sprain during this run)",
           "sets": "Sunrise Trail Run"
         },
         {
@@ -1537,8 +1679,8 @@
           "name": "Wednesday",
           "date": "Apr 8",
           "isoDate": "2026-04-08",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1549,8 +1691,9 @@
               "Easy effort"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w8-day-4",
@@ -1572,7 +1715,7 @@
             "note": ""
           },
           "label": "Swim",
-          "note": "1.37km, 32min, HR 132",
+          "note": "0.85mi, 32min, HR 132",
           "sets": "Recovery swim"
         },
         {
@@ -1595,7 +1738,7 @@
             "note": ""
           },
           "label": "Bike (Zwift)",
-          "note": "18.3km, 40min, HR 147",
+          "note": "11.37mi, 40min, HR 147",
           "sets": "Understanding Threshold"
         },
         {
@@ -1616,7 +1759,7 @@
             "note": ""
           },
           "label": "Bike (Zwift)",
-          "note": "25.5km, 60min, HR 144",
+          "note": "15.84mi, 60min, HR 144",
           "sets": "Foundations"
         },
         {
@@ -1637,7 +1780,7 @@
             "note": ""
           },
           "label": "Run (Race)",
-          "note": "6.57km, 32min, HR 178, 4.80/km — NYRR Run as One 4M (ran on sprained ankle, last run before shutdown)",
+          "note": "4.08mi, 32min, HR 178, 7:43/mi — NYRR Run as One 4M (ran on sprained ankle, last run before shutdown)",
           "sets": "NYRR Run as One 4M Race"
         }
       ],
@@ -1667,20 +1810,20 @@
           },
           {
             "label": "Swim Distance",
-            "value": "1.37km"
+            "value": "0.85mi"
           },
           {
             "label": "Run Distance",
-            "value": "19.3km"
+            "value": "12mi"
           },
           {
             "label": "Bike Distance",
-            "value": "43.8km"
+            "value": "27.22mi"
           }
         ],
         "highlights": [
-          "12.7km sunrise trail run — first trail!",
-          "NYRR Run as One 4M race — 4.80/km, HR 178",
+          "7.89mi sunrise trail run — first trail!",
+          "NYRR Run as One 4M race — 7:43/mi, HR 178",
           "Ankle sprain on trail run — running paused after 4M race",
           "Bike: Zwift threshold + foundations sessions"
         ],
@@ -1704,8 +1847,8 @@
           "name": "Monday",
           "date": "Apr 13",
           "isoDate": "2026-04-13",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1714,16 +1857,17 @@
             "meta": "500 WU, 5x300 @ T-pace, 6x100 pull, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w9-day-2",
           "name": "Tuesday",
           "date": "Apr 14",
           "isoDate": "2026-04-14",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1732,8 +1876,9 @@
             "meta": "60 min moderate",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: GROUP RUN — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w9-day-3",
@@ -1749,7 +1894,7 @@
             "title": "BIKE (Indoor)",
             "meta": "Zwift Body Control · 47 min",
             "sets": [
-              "16.4 km / 137W avg / HR 150",
+              "10.19mi / 137W avg / HR 150",
               "Skills-focused session (not threshold as planned)"
             ],
             "equipment": [],
@@ -1772,8 +1917,8 @@
             "title": "DOUBLE BIKE DAY (changed from run)",
             "meta": "AM outdoor + PM Zwift",
             "sets": [
-              "AM: Outdoor Ride 23.3 km / 48 min / NP 211W / HR 162",
-              "PM: Zwift Cadence Mastery 21.1 km / 45 min / 140W / HR 144"
+              "AM: Outdoor Ride 14.48mi / 48 min / NP 211W / HR 162",
+              "PM: Zwift Cadence Mastery 13.11mi / 45 min / 140W / HR 144"
             ],
             "equipment": [],
             "note": "Skipped interval run — doubled up on bike. Good NP 211W on outdoor session."
@@ -1784,8 +1929,8 @@
           "name": "Friday",
           "date": "Apr 17",
           "isoDate": "2026-04-17",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1794,8 +1939,9 @@
             "meta": "400 WU, 3x500 build, 4x100 fast, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w9-day-6",
@@ -1813,9 +1959,9 @@
             "title": "BRICK: 35mi Bike + 5K Run ✅",
             "meta": "Mini duathlon simulation",
             "sets": [
-              "Bike: 57.7 km / 2h 12min / 26.3 km/h avg / NP 211W / HR 155",
-              "Run: 5.2 km / 28:30 / 5:47/km / HR 163",
-              "Elevation 506m · Max speed 56 km/h"
+              "Bike: 35.85mi / 2h 12min / 16.3 mph avg / NP 211W / HR 155",
+              "Run: 3.23mi / 28:30 / 9:18/mi / HR 163",
+              "Elevation 506m · Max speed 34.8 mph"
             ],
             "equipment": [],
             "note": "Big session — strongest brick to date. Analyzed for 5:30 70.3 projection (est 4-7 min gain with ENT 2.0 + tubeless upgrade)."
@@ -1826,8 +1972,8 @@
           "name": "Sunday",
           "date": "Apr 19",
           "isoDate": "2026-04-19",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1836,8 +1982,9 @@
             "meta": "14 mi easy",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: RUN — no Strava record"
+          },
+          "missed": true
         }
       ],
       "weeklyRecap": {
@@ -1876,11 +2023,11 @@
           },
           {
             "label": "Bike",
-            "value": "118.5 km"
+            "value": "73.63mi"
           },
           {
             "label": "Run",
-            "value": "5.2 km"
+            "value": "3.23mi"
           },
           {
             "label": "Brick",
@@ -1888,9 +2035,9 @@
           }
         ],
         "highlights": [
-          "Apr 15 Wed: Zwift Body Control 16.4 km / 47 min (skills focus, swapped from threshold)",
-          "Apr 16 Thu: AM outdoor ride 23.3 km NP 211W + PM Zwift Cadence Mastery 21.1 km — doubled bike, skipped interval run",
-          "Apr 18 Sat BRICK: 57.7 km bike + 5.2 km run (Mini duathlon) — strongest brick yet. NP 211W, HR 155, 506m elev",
+          "Apr 15 Wed: Zwift Body Control 10.19mi / 47 min (skills focus, swapped from threshold)",
+          "Apr 16 Thu: AM outdoor ride 14.48mi NP 211W + PM Zwift Cadence Mastery 13.11mi — doubled bike, skipped interval run",
+          "Apr 18 Sat BRICK: 35.85mi bike + 3.23mi run (Mini duathlon) — strongest brick yet. NP 211W, HR 155, 506m elev",
           "5:30 Jones Beach 70.3 target set — analysis shows run is biggest gap (+10-15 min)",
           "Wheel upgrade decision: Elitewheels ENT 2.0 + tubeless (est +4-7 min on 70.3 bike split)"
         ],
@@ -1914,8 +2061,8 @@
           "name": "Monday",
           "date": "Apr 20",
           "isoDate": "2026-04-20",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1924,8 +2071,9 @@
             "meta": "500 WU, 4x400 moderate, 8x100 descend, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w10-day-2",
@@ -1934,7 +2082,7 @@
           "isoDate": "2026-04-21",
           "sport": "run",
           "sportLabel": "GROUP RUN",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1952,7 +2100,7 @@
           "isoDate": "2026-04-22",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -1971,8 +2119,8 @@
           "name": "Thursday",
           "date": "Apr 23",
           "isoDate": "2026-04-23",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -1984,8 +2132,9 @@
               "CD 1mi"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: GROUP RUN — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w10-day-5",
@@ -1994,7 +2143,7 @@
           "isoDate": "2026-04-24",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -2012,7 +2161,7 @@
           "isoDate": "2026-04-25",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -2030,8 +2179,8 @@
           "name": "Sunday",
           "date": "Apr 26",
           "isoDate": "2026-04-26",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -2042,8 +2191,9 @@
               "Negative split last 4mi"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: RUN — no Strava record"
+          },
+          "missed": true
         }
       ]
     },
@@ -2064,8 +2214,8 @@
           "name": "Monday",
           "date": "Apr 27",
           "isoDate": "2026-04-27",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -2074,16 +2224,17 @@
             "meta": "500 WU, 6x300 @ threshold, 4x100 kick, 200 CD",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: SWIM — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w11-day-2",
           "name": "Tuesday",
           "date": "Apr 28",
           "isoDate": "2026-04-28",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -2092,8 +2243,9 @@
             "meta": "60-65 min",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: GROUP RUN — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w11-day-3",
@@ -2102,7 +2254,7 @@
           "isoDate": "2026-04-29",
           "sport": "bike",
           "sportLabel": "BIKE",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -2121,8 +2273,8 @@
           "name": "Thursday",
           "date": "Apr 30",
           "isoDate": "2026-04-30",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -2134,8 +2286,9 @@
               "CD 1mi"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: GROUP RUN — no Strava record"
+          },
+          "missed": true
         },
         {
           "id": "w11-day-5",
@@ -2144,7 +2297,7 @@
           "isoDate": "2026-05-01",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -2162,7 +2315,7 @@
           "isoDate": "2026-05-02",
           "sport": "bike",
           "sportLabel": "BRICK",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
@@ -2178,8 +2331,8 @@
           "name": "Sunday",
           "date": "May 3",
           "isoDate": "2026-05-03",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "MISSED",
           "completed": false,
           "injury": false,
           "changed": false,
@@ -2188,21 +2341,22 @@
             "meta": "15 mi easy",
             "sets": [],
             "equipment": [],
-            "note": ""
-          }
+            "note": "❌ Planned: RUN — no Strava record"
+          },
+          "missed": true
         }
       ]
     },
     {
       "week": 12,
-      "phase": "Phase 2: Build 1",
+      "phase": "Phase 2: Re-base + Run Rebuild",
       "weekDates": "May 4-10, 2026",
       "startDate": "2026-05-04",
       "weeklySummary": {
-        "title": "Week 12 Plan",
-        "content": "Swim 1x - Bike 2x - Run 2x",
-        "changes": "",
-        "focus": "Phase 2: Build 1"
+        "title": "Week 12 — Post-Baby Re-base",
+        "content": "Swim 2x · Bike 2-3x · Run 1-2x (발목 점진 복귀)",
+        "changes": "👶 첫째 4/26 출생 — 산모/아기 회복 우선",
+        "focus": "Phase 2: Re-base + Run Rebuild"
       },
       "days": [
         {
@@ -2210,17 +2364,20 @@
           "name": "Monday",
           "date": "May 4",
           "isoDate": "2026-05-04",
-          "sport": "rest",
-          "sportLabel": "REST",
-          "completed": false,
+          "sport": "bike",
+          "sportLabel": "BIKE",
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "REST DAY",
-            "meta": "Mobility work",
-            "sets": [],
+            "title": "16mi Outdoor + 15mi Zwift",
+            "meta": "Morning ride + Group Workout 5",
+            "sets": [
+              "Outdoor 16.3mi @ 18.1 mph, HR 157",
+              "Zwift 15.4mi @ 45min, HR 149"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "출산 후 베이스 회복 — 좋은 컨디션"
           }
         },
         {
@@ -2228,17 +2385,22 @@
           "name": "Tuesday",
           "date": "May 5",
           "isoDate": "2026-05-05",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
-          "completed": false,
+          "sport": "swim",
+          "sportLabel": "SWIM",
+          "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "40 min easy",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "Swim 20×100yd workout",
+            "meta": "2350yd, 42min, HR 160",
+            "sets": [
+              "20×100yd 메인",
+              "Pace ~1:48/100yd"
+            ],
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "💯 출산 9일 후 — 베이스 회복 확인"
           }
         },
         {
@@ -2252,13 +2414,18 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "SWIM: 2800yd",
-            "meta": "Easy technique",
+            "title": "Swim 2500yd Easy",
+            "meta": "Technique focus",
             "sets": [
-              "Drill focus"
+              "WU 400yd",
+              "8×100yd @ 1:50 with 20s rest",
+              "Pull set 600yd",
+              "CD 300yd"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "Z2 effort, drill focus"
           }
         },
         {
@@ -2267,16 +2434,20 @@
           "date": "May 7",
           "isoDate": "2026-05-07",
           "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sportLabel": "RUN TEST",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "GROUP RUN",
-            "meta": "40 min easy",
-            "sets": [],
+            "title": "Run Return Test 2mi",
+            "meta": "발목 평가 — 평지만",
+            "sets": [
+              "2mi @ HR<150",
+              "통증 0이면 → Phase 1 진입",
+              "통증 시 → 즉시 정지, walk back"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "⚠️ 4/12 이후 첫 본격 run. 평지 only. 통증 self-monitor."
           }
         },
         {
@@ -2290,9 +2461,12 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "45 min easy",
-            "sets": [],
+            "title": "Zwift 60min Z2",
+            "meta": "회복 페이스",
+            "sets": [
+              "Z2 HR 140-150",
+              "Cadence 85-95"
+            ],
             "equipment": [],
             "note": ""
           }
@@ -2308,13 +2482,14 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "25 mi easy",
+            "title": "Outdoor 31mi Z2",
+            "meta": "Long ride",
             "sets": [
-              "Social ride"
+              "31mi @ HR 145-160",
+              "Steady aerobic"
             ],
             "equipment": [],
-            "note": ""
+            "note": "주말 long ride"
           }
         },
         {
@@ -2328,25 +2503,29 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "REST or EASY SWIM",
-            "meta": "2000yd",
-            "sets": [],
+            "title": "REST + Mobility",
+            "meta": "Family time",
+            "sets": [
+              "발목 isometric",
+              "Calf raise 3×15",
+              "T-spine mobility"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "회복 우선"
           }
         }
       ]
     },
     {
       "week": 13,
-      "phase": "Phase 2: Build 1",
+      "phase": "Phase 2: Re-base + Run Rebuild",
       "weekDates": "May 11-17, 2026",
       "startDate": "2026-05-11",
       "weeklySummary": {
         "title": "Week 13 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 2: Build 1"
+        "focus": "Phase 2: Re-base + Run Rebuild"
       },
       "days": [
         {
@@ -2489,14 +2668,14 @@
     },
     {
       "week": 14,
-      "phase": "Phase 2: Build 1",
+      "phase": "Phase 2: Re-base + Run Rebuild",
       "weekDates": "May 18-24, 2026",
       "startDate": "2026-05-18",
       "weeklySummary": {
         "title": "Week 14 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 2: Build 1"
+        "focus": "Phase 2: Re-base + Run Rebuild"
       },
       "days": [
         {
@@ -2641,14 +2820,14 @@
     },
     {
       "week": 15,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 2: Re-base + Run Rebuild",
       "weekDates": "May 25-31, 2026",
       "startDate": "2026-05-25",
       "weeklySummary": {
         "title": "Week 15 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 2: Re-base + Run Rebuild"
       },
       "days": [
         {
@@ -2791,14 +2970,14 @@
     },
     {
       "week": 16,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 3: Build 1",
       "weekDates": "Jun 1-7, 2026",
       "startDate": "2026-06-01",
       "weeklySummary": {
         "title": "Week 16 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 3: Build 1"
       },
       "days": [
         {
@@ -2943,14 +3122,14 @@
     },
     {
       "week": 17,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 3: Build 1",
       "weekDates": "Jun 8-14, 2026",
       "startDate": "2026-06-08",
       "weeklySummary": {
         "title": "Week 17 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 3: Build 1"
       },
       "days": [
         {
@@ -3091,14 +3270,14 @@
     },
     {
       "week": 18,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 3: Build 1",
       "weekDates": "Jun 15-21, 2026",
       "startDate": "2026-06-15",
       "weeklySummary": {
         "title": "Week 18 Plan",
         "content": "Swim 1x - Bike 2x - Run 2x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 3: Build 1"
       },
       "days": [
         {
@@ -3233,14 +3412,14 @@
     },
     {
       "week": 19,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 3: Build 1",
       "weekDates": "Jun 22-28, 2026",
       "startDate": "2026-06-22",
       "weeklySummary": {
         "title": "Week 19 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 3: Build 1"
       },
       "days": [
         {
@@ -3385,14 +3564,14 @@
     },
     {
       "week": 20,
-      "phase": "Phase 3: Build 2",
+      "phase": "Phase 4: Build 2 / Peak",
       "weekDates": "Jun 29 - Jul 5, 2026",
       "startDate": "2026-06-29",
       "weeklySummary": {
         "title": "Week 20 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 3: Build 2"
+        "focus": "Phase 4: Build 2 / Peak"
       },
       "days": [
         {
@@ -3537,14 +3716,14 @@
     },
     {
       "week": 21,
-      "phase": "Phase 4: Peak",
+      "phase": "Phase 4: Build 2 / Peak",
       "weekDates": "Jul 6-12, 2026",
       "startDate": "2026-07-06",
       "weeklySummary": {
         "title": "Week 21 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 4: Peak"
+        "focus": "Phase 4: Build 2 / Peak"
       },
       "days": [
         {
@@ -3688,14 +3867,14 @@
     },
     {
       "week": 22,
-      "phase": "Phase 4: Peak",
+      "phase": "Phase 4: Build 2 / Peak",
       "weekDates": "Jul 13-19, 2026",
       "startDate": "2026-07-13",
       "weeklySummary": {
         "title": "Week 22 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 4: Peak"
+        "focus": "Phase 4: Build 2 / Peak"
       },
       "days": [
         {
@@ -3842,14 +4021,14 @@
     },
     {
       "week": 23,
-      "phase": "Phase 4: Peak",
+      "phase": "Phase 4: Build 2 / Peak",
       "weekDates": "Jul 20-26, 2026",
       "startDate": "2026-07-20",
       "weeklySummary": {
         "title": "Week 23 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 4: Peak"
+        "focus": "Phase 4: Build 2 / Peak"
       },
       "days": [
         {
@@ -3993,14 +4172,14 @@
     },
     {
       "week": 24,
-      "phase": "Phase 4: Peak",
+      "phase": "Phase 4: Build 2 / Peak",
       "weekDates": "Jul 27 - Aug 2, 2026",
       "startDate": "2026-07-27",
       "weeklySummary": {
         "title": "Week 24 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 4: Peak"
+        "focus": "Phase 4: Build 2 / Peak"
       },
       "days": [
         {
@@ -4142,14 +4321,14 @@
     },
     {
       "week": 25,
-      "phase": "Phase 5: Taper",
+      "phase": "Phase 5: Sharpening",
       "weekDates": "Aug 3-9, 2026",
       "startDate": "2026-08-03",
       "weeklySummary": {
         "title": "Week 25 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 5: Taper"
+        "focus": "Phase 5: Sharpening"
       },
       "days": [
         {
@@ -4291,14 +4470,14 @@
     },
     {
       "week": 26,
-      "phase": "Phase 5: Taper",
+      "phase": "Phase 5: Sharpening",
       "weekDates": "Aug 10-16, 2026",
       "startDate": "2026-08-10",
       "weeklySummary": {
         "title": "Week 26 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Phase 5: Taper"
+        "focus": "Phase 5: Sharpening"
       },
       "days": [
         {
@@ -4440,14 +4619,14 @@
     },
     {
       "week": 27,
-      "phase": "Phase 5: Taper",
+      "phase": "Phase 5: Sharpening",
       "weekDates": "Aug 17-23, 2026",
       "startDate": "2026-08-17",
       "weeklySummary": {
         "title": "Week 27 Plan",
         "content": "Swim 2x - Bike 1x - Run 3x",
         "changes": "",
-        "focus": "Phase 5: Taper"
+        "focus": "Phase 5: Sharpening"
       },
       "days": [
         {
@@ -4593,14 +4772,14 @@
     },
     {
       "week": 28,
-      "phase": "Post-Race & Big Apple Prep",
+      "phase": "Phase 5: Sharpening",
       "weekDates": "Aug 24-30, 2026",
       "startDate": "2026-08-24",
       "weeklySummary": {
         "title": "Week 28 Plan",
         "content": "Swim 1x - Bike 1x - Run 2x",
         "changes": "",
-        "focus": "Post-Race & Big Apple Prep"
+        "focus": "Phase 5: Sharpening"
       },
       "days": [
         {
@@ -4743,14 +4922,14 @@
     },
     {
       "week": 29,
-      "phase": "Post-Race & Big Apple Prep",
+      "phase": "Phase 6: Taper",
       "weekDates": "Aug 31 - Sep 6, 2026",
       "startDate": "2026-08-31",
       "weeklySummary": {
         "title": "Week 29 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Post-Race & Big Apple Prep"
+        "focus": "Phase 6: Taper"
       },
       "days": [
         {
@@ -4885,14 +5064,14 @@
     },
     {
       "week": 30,
-      "phase": "Post-Race & Big Apple Prep",
+      "phase": "Phase 6: Taper",
       "weekDates": "Sep 7-13, 2026",
       "startDate": "2026-09-07",
       "weeklySummary": {
         "title": "Week 30 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Post-Race & Big Apple Prep"
+        "focus": "Phase 6: Taper"
       },
       "days": [
         {
@@ -5033,14 +5212,14 @@
     },
     {
       "week": 31,
-      "phase": "Post-Race & Big Apple Prep",
+      "phase": "Phase 6: Taper",
       "weekDates": "Sep 14-20, 2026",
       "startDate": "2026-09-14",
       "weeklySummary": {
         "title": "Week 31 Plan",
         "content": "Swim 2x - Bike 2x - Run 3x",
         "changes": "",
-        "focus": "Post-Race & Big Apple Prep"
+        "focus": "Phase 6: Taper"
       },
       "days": [
         {
@@ -5182,14 +5361,14 @@
     },
     {
       "week": 32,
-      "phase": "Post-Race & Big Apple Prep",
+      "phase": "RACE WEEK — Jones Beach 70.3",
       "weekDates": "Sep 21-27, 2026",
       "startDate": "2026-09-21",
       "weeklySummary": {
         "title": "Week 32 Plan",
         "content": "Swim 2x - Bike 1x - Run 3x",
         "changes": "",
-        "focus": "Post-Race & Big Apple Prep"
+        "focus": "RACE WEEK — Jones Beach 70.3"
       },
       "days": [
         {
