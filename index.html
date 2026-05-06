@@ -83,6 +83,34 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .day-card.missed .day-name{color:#fca5a5}
 .day-card.missed .day-sport.rest{background:#dc2626;color:#fff}
 .missed-note{font-size:12px;color:#fca5a5;margin-top:8px;font-weight:600}
+.day-card.brick{border-color:#fbbf24;box-shadow:0 0 8px rgba(251,191,36,.2)}
+.brick-badge{font-size:10px;background:linear-gradient(135deg,#fbbf24,#f97316);color:#000;font-weight:800;padding:2px 8px;border-radius:8px;letter-spacing:.5px}
+.coach-note{background:linear-gradient(135deg,#1e3a5f,#16213b);border-left:3px solid #f97316;border-radius:8px;padding:10px 12px;margin-top:10px;font-size:12px;color:#e5e7eb;line-height:1.5}
+.coach-note .coach-title{font-size:10px;font-weight:800;color:#f97316;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
+.section-divider{font-size:10px;font-weight:800;color:#888;letter-spacing:1px;text-transform:uppercase;margin:10px 0 6px;padding-top:8px;border-top:1px solid #1e3a5f}
+.wellness-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-bottom:8px}
+.wellness-cell{background:#0a1a2e;border-radius:8px;padding:6px 4px;text-align:center}
+.wellness-cell .w-val{font-size:14px;font-weight:800;color:#fff}
+.wellness-cell .w-val.empty{color:#444;font-weight:400}
+.wellness-cell .w-label{font-size:9px;color:#778;letter-spacing:.5px;text-transform:uppercase;margin-top:2px}
+.wellness-cell.good .w-val{color:#22c55e}
+.wellness-cell.warn .w-val{color:#fbbf24}
+.wellness-cell.bad .w-val{color:#ef4444}
+.wellness-notes{font-size:11px;color:#aab;font-style:italic;margin-top:4px}
+.nutri-list{display:flex;flex-direction:column;gap:4px}
+.nutri-row{display:flex;font-size:11px;color:#ccc;line-height:1.4}
+.nutri-row .nutri-label{font-weight:800;color:#888;min-width:64px;text-transform:uppercase;font-size:10px;letter-spacing:.5px}
+.nutri-row .nutri-val{flex:1}
+.nutri-row .nutri-val.empty{color:#444;font-style:italic}
+.actual-vs-plan{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px;font-size:11px}
+.actual-vs-plan .col{background:#0a1a2e;border-radius:8px;padding:6px 8px}
+.actual-vs-plan .col-title{font-size:9px;font-weight:800;color:#778;letter-spacing:.5px;margin-bottom:3px;text-transform:uppercase}
+.actual-vs-plan .col-val{color:#fff;line-height:1.4}
+.session-grade{display:inline-block;background:#f97316;color:#fff;font-weight:800;padding:2px 8px;border-radius:8px;font-size:10px;letter-spacing:.5px}
+.session-grade.a{background:#22c55e}
+.session-grade.b{background:#3b82f6}
+.session-grade.c{background:#fbbf24;color:#000}
+.session-grade.d{background:#ef4444}
 .day-header{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .day-header:active{background:#1e3a5f}
 .day-left{display:flex;align-items:center;gap:10px}
@@ -416,15 +444,24 @@ function renderDayCard(day, forceOpen) {
   const completedClass = day.completed ? ' completed' : '';
   const injuryClass = day.injury ? ' injury' : '';
   const missedClass = day.missed ? ' missed' : '';
+  const brickClass = day.brick ? ' brick' : '';
   const openClass = (forceOpen || isToday) ? ' open' : '';
 
-  let h = `<div class="day-card${todayClass}${completedClass}${injuryClass}${missedClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
+  let h = `<div class="day-card${todayClass}${completedClass}${injuryClass}${missedClass}${brickClass}${openClass}" id="${day.id}" onclick="this.classList.toggle('open')">`;
   h += `<div class="day-header">`;
   h += `<div class="day-left"><span class="day-icon">${getIcon(day.sport)}</span><div><span class="day-name">${day.name}</span><span class="day-date">${day.date}</span></div></div>`;
   h += `<div class="badge-row">`;
   h += `<span class="day-sport ${day.sport}">${day.sportLabel}</span>`;
   if (day.secondSportLabel) {
     h += `<span class="day-sport ${day.secondSport}">${day.secondSportLabel}</span>`;
+  }
+  if (day.brick) {
+    const flow = day.brickFlow ? ` ${day.brickFlow.toUpperCase()}` : '';
+    h += `<span class="brick-badge">\u{1F501} BRICK${flow}</span>`;
+  }
+  if (day.sessionGrade) {
+    const gradeClass = day.sessionGrade.charAt(0).toLowerCase();
+    h += `<span class="session-grade ${gradeClass}">${day.sessionGrade}</span>`;
   }
   if (day.changed) {
     h += `<span class="day-sport changed">CHANGED</span>`;
@@ -450,6 +487,66 @@ function renderDayCard(day, forceOpen) {
     const noteClass = day.missed ? 'missed-note' : (day.injury ? 'injury-note' : 'note');
     h += `<div class="${noteClass}">${w.note}</div>`;
   }
+
+  // Actual vs Planned (when both exist)
+  if (day.actual && day.planned) {
+    h += `<div class="actual-vs-plan">`;
+    h += `<div class="col"><div class="col-title">Planned</div><div class="col-val">${day.planned}</div></div>`;
+    h += `<div class="col"><div class="col-title">Actual</div><div class="col-val">${day.actual}</div></div>`;
+    h += `</div>`;
+  }
+
+  // Wellness check-in
+  if (day.wellness) {
+    h += `<div class="section-divider">\u{1F31F} Wellness Check</div>`;
+    h += `<div class="wellness-grid">`;
+    const cells = [
+      {key:'sleep', label:'Sleep', unit:'h'},
+      {key:'energy', label:'Energy', unit:'/10'},
+      {key:'soreness', label:'Soreness', unit:'/10'},
+      {key:'hrv', label:'HRV', unit:''},
+      {key:'mood', label:'Mood', unit:''}
+    ];
+    cells.forEach(c => {
+      const v = day.wellness[c.key];
+      let cls = '';
+      if (typeof v === 'number') {
+        if (c.key === 'energy' || c.key === 'sleep') cls = v >= 7 ? ' good' : v >= 5 ? ' warn' : ' bad';
+        else if (c.key === 'soreness') cls = v <= 3 ? ' good' : v <= 6 ? ' warn' : ' bad';
+      }
+      const valStr = (v === null || v === undefined || v === '') ? '<span class="w-val empty">—</span>' : `<span class="w-val">${v}${c.unit}</span>`;
+      h += `<div class="wellness-cell${cls}">${valStr}<div class="w-label">${c.label}</div></div>`;
+    });
+    h += `</div>`;
+    if (day.wellness.notes) h += `<div class="wellness-notes">${day.wellness.notes}</div>`;
+  }
+
+  // Nutrition log
+  if (day.nutrition) {
+    h += `<div class="section-divider">\u{1F37D}️ Nutrition</div>`;
+    h += `<div class="nutri-list">`;
+    const meals = [
+      {key:'breakfast', label:'Breakfast'},
+      {key:'lunch', label:'Lunch'},
+      {key:'dinner', label:'Dinner'},
+      {key:'snacks', label:'Snacks'},
+      {key:'fueling', label:'Fueling'},
+      {key:'hydration', label:'Hydration'}
+    ];
+    meals.forEach(m => {
+      const v = day.nutrition[m.key];
+      const empty = (v === null || v === undefined || v === '');
+      const valStr = empty ? '<span class="nutri-val empty">—</span>' : `<span class="nutri-val">${v}</span>`;
+      h += `<div class="nutri-row"><span class="nutri-label">${m.label}</span>${valStr}</div>`;
+    });
+    h += `</div>`;
+  }
+
+  // Coach's Note
+  if (day.coachNote) {
+    h += `<div class="coach-note"><div class="coach-title">\u{1F3CB}️ Coach’s Note</div>${day.coachNote}</div>`;
+  }
+
   h += `</div></div>`;
   return h;
 }
@@ -669,7 +766,7 @@ function navMonth(dir) {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 14;
+const BUILT_VERSION = 15;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())

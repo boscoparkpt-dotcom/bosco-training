@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "athlete": "Bosco",
   "races": [
     {
@@ -285,7 +285,8 @@
             ],
             "equipment": [],
             "note": "Knee improved by afternoon. Major streamline breakthrough in coaching."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w1-day-2",
@@ -307,7 +308,8 @@
             ],
             "equipment": [],
             "note": "Solid session applying coaching cues. HR stayed controlled."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w1-day-3",
@@ -328,7 +330,8 @@
             ],
             "equipment": [],
             "note": "Will make up bike volume later in the week if possible."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w1-day-4",
@@ -355,7 +358,8 @@
               "Garmin Watch"
             ],
             "note": "FORM goggles debut! Real-time pace display worked great. HR doesn't sync underwater on Gen 1 (Bluetooth limitation). Solid 2,300 yd session."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w1-day-5",
@@ -379,7 +383,8 @@
             "equipment": [],
             "note": "❌ Planned: RUN — no Strava record · Light shakeout run. Keep it easy - Sunday's 11mi long run is the priority this week."
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w1-day-6",
@@ -415,7 +420,8 @@
               "FORM Goggles"
             ],
             "note": "Bike skipped. Strength was lower body only (~26 min). Swim cut short due to R calf cramp from calf raises earlier. Lesson: space out calf work and swim, or skip calf raises on swim days."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w1-day-7",
@@ -456,7 +462,8 @@
               "Zwift"
             ],
             "note": "Gutted it out on the run — legs heavy from Saturday strength. HR ran high (avg 162). Despite feeling terrible, crushed 25 PRs on hilly Central Park. New longest training run at 13.79 mi. Late night Zwift recovery ride to flush legs — perfect easy spin (HR 127, suffer 8). L ANKLE: ongoing bony tenderness below ATFL, pain at terminal stance/toe off (lateral), no swelling/bruising. Consistent chronic pattern. Lower body very tight/sore (quads, hamstrings, glutes). Monitor ankle through base building."
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -543,7 +550,8 @@
               "Garmin tactix 8"
             ],
             "note": "Blizzard day. Light Zwift spin + extended snow shoveling. Good active recovery volume."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-2",
@@ -563,7 +571,8 @@
             ],
             "equipment": [],
             "note": "Full rest after 7-session Week 1 + snow shoveling Sunday."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-3",
@@ -589,7 +598,8 @@
               "Garmin tactix 8"
             ],
             "note": "Quality tempo session. HR drifted to 181 on 2nd tempo mile — watch cardiac drift on longer efforts. Sauna = good recovery."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-4",
@@ -610,7 +620,8 @@
             ],
             "equipment": [],
             "note": "Illness hit hard. Full rest, medication, hydration."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-5",
@@ -631,7 +642,8 @@
             ],
             "equipment": [],
             "note": "Continued rest. Medication + hydration."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-6",
@@ -653,7 +665,8 @@
             ],
             "equipment": [],
             "note": "Turning corner. Resting up for 5K race tomorrow."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w2-day-7",
@@ -680,7 +693,8 @@
               "Garmin tactix 8"
             ],
             "note": "Perfect negative split execution post-illness. All PRs from 400m+ smashed. 67m elevation gain — hilly course. Raced smart despite 3 sick days."
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -717,7 +731,8 @@
             ],
             "equipment": [],
             "note": "Day after 5K race + still recovering from illness. Complete rest non-negotiable."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w3-day-2",
@@ -743,7 +758,8 @@
               "Garmin tactix 8"
             ],
             "note": "Couldn't run, swam instead. Shorter than planned but good to stay active while recovering."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w3-day-3",
@@ -769,7 +785,8 @@
               "Garmin tactix 8"
             ],
             "note": "First run back since 5K race. Squeezed in between patients. HR higher than expected for easy pace — still recovering. Good to get miles in."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w3-day-4",
@@ -797,7 +814,8 @@
               "Garmin tactix 8"
             ],
             "note": "Couldn't hold half pace — glycogen depleted from 3-day Switch On diet phase 1. Entering phase 2 tomorrow with carbs at lunch."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w3-day-5",
@@ -823,7 +841,8 @@
             ],
             "note": "❌ Planned: SWIM — no Strava record · Day after key run — swim for active recovery. Volume OK, keep intensity steady."
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w3-day-6",
@@ -849,7 +868,8 @@
             ],
             "note": "❌ Planned: SHAKEOUT — no Strava record · Keep legs moving. Strides open up stride length and remind neuromuscular system. Nothing hard."
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w3-day-7",
@@ -871,7 +891,8 @@
             ],
             "equipment": [],
             "note": "Rest before taper week. United NYC Half in 7 days."
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -907,7 +928,8 @@
             ],
             "equipment": [],
             "note": "Taper week begins. Do nothing hard. Trust the fitness you have."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-2",
@@ -932,7 +954,8 @@
               "Garmin tactix 8"
             ],
             "note": "Taper run. Short and easy. Resist the urge to go fast."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-3",
@@ -957,7 +980,8 @@
               "FORM smart goggles"
             ],
             "note": "Last swim before race. Easy effort. Flush out legs, stay loose."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-4",
@@ -982,7 +1006,8 @@
               "Garmin tactix 8"
             ],
             "note": "Final shakeout. Strides for neuromuscular activation. Nothing more. Race in 3 days."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-5",
@@ -1005,7 +1030,8 @@
             ],
             "equipment": [],
             "note": "Two days out. Rest, eat well, prep gear. No last-minute fitness to gain."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-6",
@@ -1029,7 +1055,8 @@
             ],
             "equipment": [],
             "note": "Nothing new on race day. Eat what you know. Wear what you know. Sleep early."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w4-day-7",
@@ -1057,7 +1084,8 @@
               "Garmin tactix 8"
             ],
             "note": "Negative split strategy. Post-illness — respect the body but race hard. PR is 1:46, aim sub-1:53 this time. TRUST YOUR TRAINING."
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -1090,7 +1118,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w5-day-2",
@@ -1108,7 +1137,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w5-day-3",
@@ -1128,7 +1158,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w5-day-4",
@@ -1149,7 +1180,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w5-day-5",
@@ -1168,7 +1200,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w5-day-6",
@@ -1188,7 +1221,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w5-day-7",
@@ -1208,7 +1242,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -1241,7 +1276,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w6-day-2",
@@ -1262,7 +1298,8 @@
           },
           "label": "Swim",
           "note": "1.14mi, 40min",
-          "sets": "Evening Swim"
+          "sets": "Evening Swim",
+          "brick": false
         },
         {
           "id": "w6-day-3",
@@ -1286,7 +1323,8 @@
           },
           "label": "Bike (Zwift)",
           "note": "8.70mi, 30min, HR 148",
-          "sets": "Zone Benchmarking"
+          "sets": "Zone Benchmarking",
+          "brick": false
         },
         {
           "id": "w6-day-4",
@@ -1310,7 +1348,8 @@
           },
           "label": "Swim",
           "note": "1.19mi, 43min, HR 134",
-          "sets": "Evening Swim"
+          "sets": "Evening Swim",
+          "brick": false
         },
         {
           "id": "w6-day-5",
@@ -1331,7 +1370,8 @@
           },
           "label": "Bike (Zwift)",
           "note": "10.31mi, 44min, HR 163",
-          "sets": "Find Your Rhythm"
+          "sets": "Find Your Rhythm",
+          "brick": false
         },
         {
           "id": "w6-day-6",
@@ -1354,7 +1394,8 @@
           },
           "label": "Bike (Outdoor)",
           "note": "35.98mi, 139min, HR 158 — FIRST OUTDOOR LONG RIDE!",
-          "sets": "Morning Ride"
+          "sets": "Morning Ride",
+          "brick": false
         },
         {
           "id": "w6-day-7",
@@ -1373,7 +1414,8 @@
             "equipment": [],
             "note": "❌ Planned: RUN — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         }
       ],
       "weeklyRecap": {
@@ -1441,7 +1483,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w7-day-2",
@@ -1462,7 +1505,8 @@
           },
           "label": "Swim",
           "note": "1.22mi, 41min, HR 150",
-          "sets": "Evening Swim"
+          "sets": "Evening Swim",
+          "brick": false
         },
         {
           "id": "w7-day-3",
@@ -1484,7 +1528,8 @@
             "equipment": [],
             "note": "❌ Planned: BIKE — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w7-day-4",
@@ -1508,7 +1553,9 @@
           },
           "label": "Swim + Run",
           "note": "Swim 1.25mi 38min HR 139 + Run 1.59mi 16min HR 153",
-          "sets": "Brick session"
+          "sets": "Brick session",
+          "brick": true,
+          "brickFlow": "run→swim"
         },
         {
           "id": "w7-day-5",
@@ -1527,7 +1574,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w7-day-6",
@@ -1550,7 +1598,8 @@
           },
           "label": "Bike + Swim",
           "note": "Ride 15.41mi 53min HR 164 (first solo!) + Swim 0.85mi 29min HR 136",
-          "sets": "First solo outdoor ride"
+          "sets": "First solo outdoor ride",
+          "brick": false
         },
         {
           "id": "w7-day-7",
@@ -1573,7 +1622,9 @@
           },
           "label": "Swim + Run",
           "note": "Swim 0.80mi 28min HR 141 (left breathing) + Run 3.13mi 30min HR 163",
-          "sets": "Brick: Night Swim Run"
+          "sets": "Brick: Night Swim Run",
+          "brick": true,
+          "brickFlow": "swim→run"
         }
       ],
       "weeklyRecap": {
@@ -1649,7 +1700,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w8-day-2",
@@ -1672,7 +1724,8 @@
           },
           "label": "Trail Run",
           "note": "7.89mi, 86min, HR 162 — Sunrise Trail Run (ankle sprain during this run)",
-          "sets": "Sunrise Trail Run"
+          "sets": "Sunrise Trail Run",
+          "brick": false
         },
         {
           "id": "w8-day-3",
@@ -1693,7 +1746,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w8-day-4",
@@ -1716,7 +1770,8 @@
           },
           "label": "Swim",
           "note": "0.85mi, 32min, HR 132",
-          "sets": "Recovery swim"
+          "sets": "Recovery swim",
+          "brick": false
         },
         {
           "id": "w8-day-5",
@@ -1739,7 +1794,8 @@
           },
           "label": "Bike (Zwift)",
           "note": "11.37mi, 40min, HR 147",
-          "sets": "Understanding Threshold"
+          "sets": "Understanding Threshold",
+          "brick": false
         },
         {
           "id": "w8-day-6",
@@ -1760,7 +1816,8 @@
           },
           "label": "Bike (Zwift)",
           "note": "15.84mi, 60min, HR 144",
-          "sets": "Foundations"
+          "sets": "Foundations",
+          "brick": false
         },
         {
           "id": "w8-day-7",
@@ -1781,7 +1838,8 @@
           },
           "label": "Run (Race)",
           "note": "4.08mi, 32min, HR 178, 7:43/mi — NYRR Run as One 4M (ran on sprained ankle, last run before shutdown)",
-          "sets": "NYRR Run as One 4M Race"
+          "sets": "NYRR Run as One 4M Race",
+          "brick": false
         }
       ],
       "weeklyRecap": {
@@ -1859,7 +1917,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w9-day-2",
@@ -1878,7 +1937,8 @@
             "equipment": [],
             "note": "❌ Planned: GROUP RUN — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w9-day-3",
@@ -1899,7 +1959,8 @@
             ],
             "equipment": [],
             "note": "Zwift Body Control workout — swapped from threshold block to technique work"
-          }
+          },
+          "brick": false
         },
         {
           "id": "w9-day-4",
@@ -1922,7 +1983,8 @@
             ],
             "equipment": [],
             "note": "Skipped interval run — doubled up on bike. Good NP 211W on outdoor session."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w9-day-5",
@@ -1941,7 +2003,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w9-day-6",
@@ -1965,7 +2028,9 @@
             ],
             "equipment": [],
             "note": "Big session — strongest brick to date. Analyzed for 5:30 70.3 projection (est 4-7 min gain with ENT 2.0 + tubeless upgrade)."
-          }
+          },
+          "brick": true,
+          "brickFlow": "bike→run"
         },
         {
           "id": "w9-day-7",
@@ -1984,7 +2049,8 @@
             "equipment": [],
             "note": "❌ Planned: RUN — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         }
       ],
       "weeklyRecap": {
@@ -2073,7 +2139,8 @@
             "equipment": [],
             "note": "❌ Planned: SWIM — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w10-day-2",
@@ -2091,7 +2158,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w10-day-3",
@@ -2112,7 +2180,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w10-day-4",
@@ -2134,7 +2203,8 @@
             "equipment": [],
             "note": "❌ Planned: GROUP RUN — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         },
         {
           "id": "w10-day-5",
@@ -2152,7 +2222,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w10-day-6",
@@ -2160,19 +2231,26 @@
           "date": "Apr 25",
           "isoDate": "2026-04-25",
           "sport": "bike",
-          "sportLabel": "BIKE",
+          "sportLabel": "BRICK",
           "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "38-40 mi",
+            "title": "🔄 BRICK: 25mi Ride → 2.1mi Run",
+            "meta": "Bike 79min @ 18.9 mph HR 165 + Run 17min @ 8:12/mi HR 169",
             "sets": [
-              "Route with hills"
+              "Bike 25mi @ 18.9 mph (steady-Z3)",
+              "T2 transition ~2min",
+              "Run 2.1mi @ 8:12/mi (off-bike at race pace)"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "✅ Off-bike pace 8:12/mi — already faster than race target 8:59/mi. Strong brick session."
+          },
+          "brick": true,
+          "brickFlow": "bike→run",
+          "secondSport": "run",
+          "secondSportLabel": "RUN",
+          "missed": false
         },
         {
           "id": "w10-day-7",
@@ -2193,7 +2271,8 @@
             "equipment": [],
             "note": "❌ Planned: RUN — no Strava record"
           },
-          "missed": true
+          "missed": true,
+          "brick": false
         }
       ]
     },
@@ -2215,18 +2294,19 @@
           "date": "Apr 27",
           "isoDate": "2026-04-27",
           "sport": "rest",
-          "sportLabel": "MISSED",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "SWIM: 3800yd",
-            "meta": "500 WU, 6x300 @ threshold, 4x100 kick, 200 CD",
+            "title": "REST DAY",
+            "meta": "Post-baby week 1",
             "sets": [],
             "equipment": [],
-            "note": "❌ Planned: SWIM — no Strava record"
+            "note": "산모/아기 회복 우선"
           },
-          "missed": true
+          "missed": false,
+          "brick": false
         },
         {
           "id": "w11-day-2",
@@ -2234,18 +2314,19 @@
           "date": "Apr 28",
           "isoDate": "2026-04-28",
           "sport": "rest",
-          "sportLabel": "MISSED",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "60-65 min",
+            "title": "REST DAY",
+            "meta": "Post-baby",
             "sets": [],
             "equipment": [],
-            "note": "❌ Planned: GROUP RUN — no Strava record"
+            "note": ""
           },
-          "missed": true
+          "missed": false,
+          "brick": false
         },
         {
           "id": "w11-day-3",
@@ -2258,15 +2339,17 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "80 min",
+            "title": "Zwift Standing Skills 51min",
+            "meta": "15.1mi @ HR 148",
             "sets": [
-              "2x15min tempo",
-              "Cadence 85-95rpm"
+              "Z2 endurance",
+              "Cadence drills"
             ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "Post-baby return — easy pace"
+          },
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w11-day-4",
@@ -2274,21 +2357,19 @@
           "date": "Apr 30",
           "isoDate": "2026-04-30",
           "sport": "rest",
-          "sportLabel": "MISSED",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "GROUP INTERVAL RUN",
-            "meta": "WU 1mi",
-            "sets": [
-              "4x1200m @ 10K-HM",
-              "CD 1mi"
-            ],
+            "title": "REST",
+            "meta": "",
+            "sets": [],
             "equipment": [],
-            "note": "❌ Planned: GROUP RUN — no Strava record"
+            "note": ""
           },
-          "missed": true
+          "missed": false,
+          "brick": false
         },
         {
           "id": "w11-day-5",
@@ -2301,12 +2382,19 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "SWIM: 4000yd",
-            "meta": "400 WU, 1x800 steady, 4x200 build, 6x100 fast, 200 CD",
-            "sets": [],
-            "equipment": [],
-            "note": ""
-          }
+            "title": "Swim 1550yd race-pace short",
+            "meta": "27min @ HR 165",
+            "sets": [
+              "Race pace short session",
+              "Best pace 1:45/100yd"
+            ],
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "💯 첫 race-pace session post-baby — pace 그대로"
+          },
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w11-day-6",
@@ -2314,17 +2402,21 @@
           "date": "May 2",
           "isoDate": "2026-05-02",
           "sport": "bike",
-          "sportLabel": "BRICK",
+          "sportLabel": "BIKE",
           "completed": true,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "BRICK: Bike 40mi + Run 3mi",
-            "meta": "Practice T2 transition",
-            "sets": [],
+            "title": "Outdoor 15.6mi Evening Ride",
+            "meta": "49min @ 18.9 mph HR 164",
+            "sets": [
+              "Steady tempo"
+            ],
             "equipment": [],
-            "note": ""
-          }
+            "note": "Solo pace strong — Z3 sustained"
+          },
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w11-day-7",
@@ -2332,18 +2424,19 @@
           "date": "May 3",
           "isoDate": "2026-05-03",
           "sport": "rest",
-          "sportLabel": "MISSED",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "15 mi easy",
+            "title": "REST DAY",
+            "meta": "",
             "sets": [],
             "equipment": [],
-            "note": "❌ Planned: RUN — no Strava record"
+            "note": ""
           },
-          "missed": true
+          "missed": false,
+          "brick": false
         }
       ]
     },
@@ -2378,7 +2471,8 @@
             ],
             "equipment": [],
             "note": "출산 후 베이스 회복 — 좋은 컨디션"
-          }
+          },
+          "brick": false
         },
         {
           "id": "w12-day-2",
@@ -2401,7 +2495,8 @@
               "FORM goggles"
             ],
             "note": "💯 출산 9일 후 — 베이스 회복 확인"
-          }
+          },
+          "brick": false
         },
         {
           "id": "w12-day-3",
@@ -2414,19 +2509,38 @@
           "injury": false,
           "changed": false,
           "workout": {
-            "title": "Swim 2500yd Easy",
-            "meta": "Technique focus",
+            "title": "Swim 2500yd Easy Technique",
+            "meta": "Drill focus, Z2 effort",
             "sets": [
-              "WU 400yd",
+              "WU 400yd EZ",
               "8×100yd @ 1:50 with 20s rest",
               "Pull set 600yd",
+              "Drill 4×50yd (catch-up, rolling)",
               "CD 300yd"
             ],
             "equipment": [
               "FORM goggles"
             ],
-            "note": "Z2 effort, drill focus"
-          }
+            "note": "Z2 effort, drill focus on rolling/catch"
+          },
+          "brick": false,
+          "wellness": {
+            "sleep": null,
+            "energy": null,
+            "soreness": null,
+            "hrv": null,
+            "mood": null,
+            "notes": "Pending check-in"
+          },
+          "nutrition": {
+            "breakfast": null,
+            "lunch": null,
+            "dinner": null,
+            "snacks": null,
+            "hydration": null,
+            "fueling": null
+          },
+          "coachNote": "오늘 데일리 체크 시작. 운동 후 wellness + 식사 알려주면 코치 노트 작성."
         },
         {
           "id": "w12-day-4",
@@ -2448,7 +2562,8 @@
             ],
             "equipment": [],
             "note": "⚠️ 4/12 이후 첫 본격 run. 평지 only. 통증 self-monitor."
-          }
+          },
+          "brick": false
         },
         {
           "id": "w12-day-5",
@@ -2469,7 +2584,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w12-day-6",
@@ -2490,7 +2606,8 @@
             ],
             "equipment": [],
             "note": "주말 long ride"
-          }
+          },
+          "brick": false
         },
         {
           "id": "w12-day-7",
@@ -2512,7 +2629,8 @@
             ],
             "equipment": [],
             "note": "회복 우선"
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -2544,7 +2662,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-2",
@@ -2562,7 +2681,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-3",
@@ -2583,7 +2703,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-4",
@@ -2604,7 +2725,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-5",
@@ -2624,7 +2746,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-6",
@@ -2642,7 +2765,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w13-day-7",
@@ -2662,7 +2786,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -2694,7 +2819,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-2",
@@ -2712,7 +2838,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-3",
@@ -2733,7 +2860,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-4",
@@ -2754,7 +2882,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-5",
@@ -2774,7 +2903,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-6",
@@ -2794,7 +2924,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w14-day-7",
@@ -2814,7 +2945,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -2846,7 +2978,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-2",
@@ -2864,7 +2997,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-3",
@@ -2885,7 +3019,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-4",
@@ -2906,7 +3041,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-5",
@@ -2926,7 +3062,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-6",
@@ -2944,7 +3081,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w15-day-7",
@@ -2964,7 +3102,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -2996,7 +3135,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-2",
@@ -3014,7 +3154,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-3",
@@ -3035,7 +3176,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-4",
@@ -3056,7 +3198,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-5",
@@ -3076,7 +3219,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-6",
@@ -3096,7 +3240,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w16-day-7",
@@ -3116,7 +3261,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3148,7 +3294,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-2",
@@ -3166,7 +3313,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-3",
@@ -3187,7 +3335,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-4",
@@ -3208,7 +3357,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-5",
@@ -3228,7 +3378,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-6",
@@ -3246,7 +3397,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w17-day-7",
@@ -3264,7 +3416,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3296,7 +3449,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-2",
@@ -3314,7 +3468,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-3",
@@ -3334,7 +3489,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-4",
@@ -3352,7 +3508,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-5",
@@ -3370,7 +3527,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-6",
@@ -3388,7 +3546,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w18-day-7",
@@ -3406,7 +3565,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3438,7 +3598,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-2",
@@ -3456,7 +3617,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-3",
@@ -3477,7 +3639,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-4",
@@ -3498,7 +3661,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-5",
@@ -3518,7 +3682,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-6",
@@ -3538,7 +3703,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w19-day-7",
@@ -3558,7 +3724,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3590,7 +3757,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-2",
@@ -3608,7 +3776,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-3",
@@ -3629,7 +3798,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-4",
@@ -3650,7 +3820,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-5",
@@ -3670,7 +3841,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-6",
@@ -3690,7 +3862,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w20-day-7",
@@ -3710,7 +3883,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3742,7 +3916,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-2",
@@ -3760,7 +3935,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-3",
@@ -3780,7 +3956,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-4",
@@ -3801,7 +3978,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-5",
@@ -3821,7 +3999,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-6",
@@ -3841,7 +4020,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w21-day-7",
@@ -3861,7 +4041,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -3893,7 +4074,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-2",
@@ -3911,7 +4093,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-3",
@@ -3932,7 +4115,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-4",
@@ -3953,7 +4137,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-5",
@@ -3973,7 +4158,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-6",
@@ -3994,7 +4180,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w22-day-7",
@@ -4015,7 +4202,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4047,7 +4235,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-2",
@@ -4067,7 +4256,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-3",
@@ -4088,7 +4278,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-4",
@@ -4110,7 +4301,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-5",
@@ -4130,7 +4322,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-6",
@@ -4148,7 +4341,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w23-day-7",
@@ -4166,7 +4360,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4198,7 +4393,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-2",
@@ -4216,7 +4412,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-3",
@@ -4237,7 +4434,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-4",
@@ -4259,7 +4457,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-5",
@@ -4277,7 +4476,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-6",
@@ -4297,7 +4497,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w24-day-7",
@@ -4315,7 +4516,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4347,7 +4549,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-2",
@@ -4367,7 +4570,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-3",
@@ -4388,7 +4592,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-4",
@@ -4410,7 +4615,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-5",
@@ -4428,7 +4634,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-6",
@@ -4446,7 +4653,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w25-day-7",
@@ -4464,7 +4672,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4498,7 +4707,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-2",
@@ -4516,7 +4726,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-3",
@@ -4537,7 +4748,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-4",
@@ -4557,7 +4769,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-5",
@@ -4575,7 +4788,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-6",
@@ -4595,7 +4809,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w26-day-7",
@@ -4613,7 +4828,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4647,7 +4863,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-2",
@@ -4665,7 +4882,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-3",
@@ -4685,7 +4903,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-4",
@@ -4705,7 +4924,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-5",
@@ -4725,7 +4945,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-6",
@@ -4746,7 +4967,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w27-day-7",
@@ -4766,7 +4988,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4800,7 +5023,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-2",
@@ -4818,7 +5042,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-3",
@@ -4838,7 +5063,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-4",
@@ -4858,7 +5084,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-5",
@@ -4876,7 +5103,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-6",
@@ -4896,7 +5124,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w28-day-7",
@@ -4916,7 +5145,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -4948,7 +5178,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-2",
@@ -4966,7 +5197,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-3",
@@ -4984,7 +5216,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-4",
@@ -5004,7 +5237,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-5",
@@ -5022,7 +5256,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-6",
@@ -5040,7 +5275,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w29-day-7",
@@ -5058,7 +5294,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -5090,7 +5327,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-2",
@@ -5108,7 +5346,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-3",
@@ -5129,7 +5368,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-4",
@@ -5150,7 +5390,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-5",
@@ -5170,7 +5411,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-6",
@@ -5188,7 +5430,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w30-day-7",
@@ -5206,7 +5449,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -5238,7 +5482,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-2",
@@ -5256,7 +5501,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-3",
@@ -5277,7 +5523,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-4",
@@ -5299,7 +5546,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-5",
@@ -5317,7 +5565,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-6",
@@ -5337,7 +5586,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w31-day-7",
@@ -5355,7 +5605,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     },
@@ -5387,7 +5638,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-2",
@@ -5405,7 +5657,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-3",
@@ -5425,7 +5678,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-4",
@@ -5443,7 +5697,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-5",
@@ -5461,7 +5716,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-6",
@@ -5479,7 +5735,8 @@
             "sets": [],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         },
         {
           "id": "w32-day-7",
@@ -5500,7 +5757,8 @@
             ],
             "equipment": [],
             "note": ""
-          }
+          },
+          "brick": false
         }
       ]
     }
