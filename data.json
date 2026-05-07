@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "athlete": "Bosco",
   "races": [
     {
@@ -2563,13 +2563,15 @@
             "title": "Outdoor Ride — Closter → Tappan Zee (평지 16mi)",
             "meta": "15-17mi · 평지 · Z2-Z3 · target 18.5-19 mph",
             "sets": [
-              "Closter (Ruckman Rd) → Tappan Zee 평지 루트",
-              "5/2 (15.6mi @ 18.9mph) + 5/4 (16.4mi @ 18.1mph) 동일 루트",
+              "Closter (Ruckman Rd) → Tappan Zee 평지 16mi 루트",
+              "5/2 (18.9 mph) + 5/4 (18.1 mph) 동일 코스",
               "First 20min: Z2 warmup (HR 145-155)",
-              "Middle 25min: Z3 sustained (HR 155-165, 19+ mph 도전)",
+              "Middle 25min: Z3 sustained (HR 155-165)",
               "Last 10min: cooldown easy",
-              "🎯 Aero position 30s × 8회 (race specificity)",
-              "🎯 Pace 19 mph 목표 (5/2 best 18.9 깨기)"
+              "🎯 Aero position: 평지 길게 이어지는 구간 1mi continuous × 4-6회",
+              "  (Rockland Lake 패턴 적용 — 1mi aero / 1mi normal recovery)",
+              "🎯 Pace ceiling: 19+ mph 도전 (5/2 best 18.9 깨기)",
+              "🎯 HR drift 모니터 (같은 페이스에 HR 안정?)"
             ],
             "equipment": [],
             "note": "55min ride라 fueling 가벼움. Carb gel 1개 race rehearsal로 시도. Race target 56mi endurance 검증은 다음 long ride에서."
@@ -2593,7 +2595,7 @@
             "fueling": "Ride: 물 위주 + carb gel 1개 (race rehearsal)",
             "hydration": "500-750ml during ride"
           },
-          "coachNote": "16mi 평지 = base maintenance. Long ride endurance 검증은 별도 (35mi+ 5월 중순). 오늘은 aero position + pace ceiling 도전 + 일관성. 5/2 best 18.9 mph 가능했으니 19+ 노려볼 만."
+          "coachNote": "Rockland Lake 1mi aero 패턴이 너의 base. Tappan Zee 평지 길게 이어지는 구간에서 1mi continuous × 4-6회 = 누적 8-10mi aero. Race day(56mi 대부분 aero) 시뮬 시작. HR drift 안 나오면 race 페이스 sustainability 검증."
         },
         {
           "id": "w12-day-5",
