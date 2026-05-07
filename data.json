@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "athlete": "Bosco",
   "races": [
     {
@@ -2560,18 +2560,16 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Outdoor Ride — Closter → Tappan Zee (평지 16mi)",
-            "meta": "15-17mi · 평지 · Z2-Z3 · target 18.5-19 mph",
+            "title": "Group Outdoor Ride — Closter → Tappan Zee",
+            "meta": "15-17mi · 평지 · 그룹 라이드 (aero 못 함)",
             "sets": [
-              "Closter (Ruckman Rd) → Tappan Zee 평지 16mi 루트",
-              "5/2 (18.9 mph) + 5/4 (18.1 mph) 동일 코스",
-              "First 20min: Z2 warmup (HR 145-155)",
-              "Middle 25min: Z3 sustained (HR 155-165)",
-              "Last 10min: cooldown easy",
-              "🎯 Aero position: 평지 길게 이어지는 구간 1mi continuous × 4-6회",
-              "  (Rockland Lake 패턴 적용 — 1mi aero / 1mi normal recovery)",
-              "🎯 Pace ceiling: 19+ mph 도전 (5/2 best 18.9 깨기)",
-              "🎯 HR drift 모니터 (같은 페이스에 HR 안정?)"
+              "Closter (Ruckman Rd) → Tappan Zee 평지 16mi 그룹 라이드",
+              "🎯 Drafting 연습: 앞 라이더 뒤 30-50cm 안정 추종",
+              "🎯 Pull (리드) 5-10min × 1-2회 시도 = tempo work",
+              "🎯 HR Z2-Z3 유지 (그룹 페이스에 끌려가도 zone 벗어나지 X)",
+              "🎯 Solo 구간(시작/끝 5-10min)에서만 aero 시도 가능",
+              "❌ Drafting 중 aero 금지 (안전), 리드 중 aero 비추 (hand signal 불가)",
+              "Aero 본격 연습은 다음 solo ride로 (Rockland Lake 패턴)"
             ],
             "equipment": [],
             "note": "55min ride라 fueling 가벼움. Carb gel 1개 race rehearsal로 시도. Race target 56mi endurance 검증은 다음 long ride에서."
@@ -2595,7 +2593,7 @@
             "fueling": "Ride: 물 위주 + carb gel 1개 (race rehearsal)",
             "hydration": "500-750ml during ride"
           },
-          "coachNote": "Rockland Lake 1mi aero 패턴이 너의 base. Tappan Zee 평지 길게 이어지는 구간에서 1mi continuous × 4-6회 = 누적 8-10mi aero. Race day(56mi 대부분 aero) 시뮬 시작. HR drift 안 나오면 race 페이스 sustainability 검증."
+          "coachNote": "그룹 라이드에서 aero는 안전 비추 — drafting 중 핸들 컨트롤 부족, 리드 중 hand signal 불가. 내일 가치는 drafting 연습 + 그룹 pull tempo + leg base 유지로 전환. Aero practice는 다음 solo ride로 미루기."
         },
         {
           "id": "w12-day-5",
