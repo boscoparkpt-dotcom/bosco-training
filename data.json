@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "athlete": "Bosco",
   "races": [
     {
@@ -2561,18 +2561,18 @@
           "changed": true,
           "workout": {
             "title": "Group Z4 Ride — Closter → Tappan Zee 18-19mi",
-            "meta": "18-19mi · 평지 · Z4 그룹 라이드 · 12pm 출발",
+            "meta": "16-18mi · 평지 · Z4 그룹 (예상 45-50min, 19-21+ mph)",
             "sets": [
-              "Closter → Tappan Zee 평지 18-19mi 그룹 라이드 12pm",
-              "🎯 Z4 sustained 60-65min (HR 165-175 target)",
-              "🎯 Race specificity = lactate threshold sustainability 검증",
-              "🎯 Drafting 30-50cm 안전 추종, pull 시도 5-10min × 1-2회",
-              "Aero는 solo 구간만 (시작/끝 5-10min)",
-              "Fueling: 60g carb/hr (gel + 음료)",
-              "Hydration: 750ml-1L + electrolyte (Tab/mix 필수)"
+              "Closter → Tappan Zee 평지 그룹 Z4 라이드 12pm",
+              "예상: 45-50min, 19-21+ mph (drafting 효과)",
+              "🎯 Z4 sustained (HR 165-175)",
+              "🎯 Drafting 30-50cm 안전 추종",
+              "🎯 Pull (리드) 5-10min × 1-2회 시도",
+              "🎯 Aero는 solo 구간만 (시작/끝 5-10min, 안전 시)",
+              "Fueling: 50min ride라 가벼움 — gel 1개 + 물+electrolyte"
             ],
             "equipment": [],
-            "note": "Z4 sustained = race specificity. 단 누적 stress (어제 swim race-pace + 오늘 swim B+) 위에 더해짐 → 내일 회복 우선."
+            "note": "Z4 그룹 drafting raw speed 빠름. Race specificity는 lactate threshold sustainability 검증 가치."
           },
           "brick": false,
           "secondSport": null,
@@ -2586,14 +2586,14 @@
             "notes": "Pending AM check-in"
           },
           "nutrition": {
-            "breakfast": "TARGET 9-10am: 오트밀 + 바나나 + 계란 (carb 80-100g + 단백질)",
-            "lunch": "라이드 중 gel/banana, 30min 간격 60g carb/hr",
-            "dinner": "TARGET: Z4 후 풍부한 회복식 carb+protein",
-            "snacks": "11:30am 바나나/gel (출발 30min 전), 2:30pm 회복식 30min 내",
-            "fueling": "Ride 중: gel 1-2개 + 음료, electrolyte (Tab/mix 필수)",
-            "hydration": "Ride: 750ml-1L (5월 햇볕 + Z4)"
+            "breakfast": "TARGET 9-10am: 오트밀 + 계란 + 바나나 (carb 60-80g + 단백질)",
+            "lunch": "TARGET 1-2pm 끝나고 30min 내: carb + protein 회복식",
+            "dinner": "TARGET: 평소대로",
+            "snacks": "11:30am 바나나 (선택)",
+            "fueling": "Ride: gel 1개 race rehearsal + 물 500-750ml + electrolyte 필수",
+            "hydration": "Ride 500-750ml + electrolyte (Tab/mix)"
           },
-          "coachNote": "Z4 sustained 60min+ = race specificity 고가치. 그러나 5/5 swim race-pace + 5/6 swim B+ 누적 위에 추가 stress. 오늘밤 수면 8h+ 필수, fueling 강화 (carb 80-100g pre + 60g/hr during), electrolyte 필수. 내일(5/8) reset day 강력 권고 — easy swim 1500yd OR 완전 rest."
+          "coachNote": "50min Z4 그룹 = lactate threshold 자극 + drafting/pull 그룹 스킬. 1h 미만이라 fueling load 가벼움 (gel 1개로 race rehearsal). Electrolyte는 그대로 필수. 5/5 swim race + 5/6 swim 누적 위라 5/8 reset 유지."
         },
         {
           "id": "w12-day-5",
