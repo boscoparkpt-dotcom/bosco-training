@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "athlete": "Bosco",
   "races": [
     {
@@ -2560,19 +2560,19 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Group Outdoor Ride — Closter → Tappan Zee",
-            "meta": "15-17mi · 평지 · 그룹 라이드 (aero 못 함)",
+            "title": "Group Z4 Ride — Closter → Tappan Zee 18-19mi",
+            "meta": "18-19mi · 평지 · Z4 그룹 라이드 · 12pm 출발",
             "sets": [
-              "Closter (Ruckman Rd) → Tappan Zee 평지 16mi 그룹 라이드",
-              "🎯 Drafting 연습: 앞 라이더 뒤 30-50cm 안정 추종",
-              "🎯 Pull (리드) 5-10min × 1-2회 시도 = tempo work",
-              "🎯 HR Z2-Z3 유지 (그룹 페이스에 끌려가도 zone 벗어나지 X)",
-              "🎯 Solo 구간(시작/끝 5-10min)에서만 aero 시도 가능",
-              "❌ Drafting 중 aero 금지 (안전), 리드 중 aero 비추 (hand signal 불가)",
-              "Aero 본격 연습은 다음 solo ride로 (Rockland Lake 패턴)"
+              "Closter → Tappan Zee 평지 18-19mi 그룹 라이드 12pm",
+              "🎯 Z4 sustained 60-65min (HR 165-175 target)",
+              "🎯 Race specificity = lactate threshold sustainability 검증",
+              "🎯 Drafting 30-50cm 안전 추종, pull 시도 5-10min × 1-2회",
+              "Aero는 solo 구간만 (시작/끝 5-10min)",
+              "Fueling: 60g carb/hr (gel + 음료)",
+              "Hydration: 750ml-1L + electrolyte (Tab/mix 필수)"
             ],
             "equipment": [],
-            "note": "55min ride라 fueling 가벼움. Carb gel 1개 race rehearsal로 시도. Race target 56mi endurance 검증은 다음 long ride에서."
+            "note": "Z4 sustained = race specificity. 단 누적 stress (어제 swim race-pace + 오늘 swim B+) 위에 더해짐 → 내일 회복 우선."
           },
           "brick": false,
           "secondSport": null,
@@ -2586,36 +2586,41 @@
             "notes": "Pending AM check-in"
           },
           "nutrition": {
-            "breakfast": "TARGET: 1h 전 가벼운 carb (토스트+꿀 or 바나나)",
-            "lunch": "TARGET: 라이드 후 회복식 carb+protein",
-            "dinner": "",
-            "snacks": "",
-            "fueling": "Ride: 물 위주 + carb gel 1개 (race rehearsal)",
-            "hydration": "500-750ml during ride"
+            "breakfast": "TARGET 9-10am: 오트밀 + 바나나 + 계란 (carb 80-100g + 단백질)",
+            "lunch": "라이드 중 gel/banana, 30min 간격 60g carb/hr",
+            "dinner": "TARGET: Z4 후 풍부한 회복식 carb+protein",
+            "snacks": "11:30am 바나나/gel (출발 30min 전), 2:30pm 회복식 30min 내",
+            "fueling": "Ride 중: gel 1-2개 + 음료, electrolyte (Tab/mix 필수)",
+            "hydration": "Ride: 750ml-1L (5월 햇볕 + Z4)"
           },
-          "coachNote": "그룹 라이드에서 aero는 안전 비추 — drafting 중 핸들 컨트롤 부족, 리드 중 hand signal 불가. 내일 가치는 drafting 연습 + 그룹 pull tempo + leg base 유지로 전환. Aero practice는 다음 solo ride로 미루기."
+          "coachNote": "Z4 sustained 60min+ = race specificity 고가치. 그러나 5/5 swim race-pace + 5/6 swim B+ 누적 위에 추가 stress. 오늘밤 수면 8h+ 필수, fueling 강화 (carb 80-100g pre + 60g/hr during), electrolyte 필수. 내일(5/8) reset day 강력 권고 — easy swim 1500yd OR 완전 rest."
         },
         {
           "id": "w12-day-5",
           "name": "Friday",
           "date": "May 8",
           "isoDate": "2026-05-08",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "rest",
+          "sportLabel": "RESET",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Zwift 60min Z2",
-            "meta": "회복 페이스",
+            "title": "RESET DAY — 누적 피로 회복",
+            "meta": "Easy swim 1500yd OR 완전 rest",
             "sets": [
-              "Z2 HR 140-150",
-              "Cadence 85-95"
+              "옵션 A: Easy swim 1500yd (recovery, HR<140, 2:00+/100yd)",
+              "옵션 B: 완전 rest + 모빌리티 20min",
+              "🛌 수면 8h+ 절대 우선",
+              "발목 isometric/balance work (sinus tarsi maintenance)"
             ],
             "equipment": [],
-            "note": ""
+            "note": "5/5 swim race-pace + 5/6 swim B+ + 5/7 Z4 ride 60min = 3일 연속 quality stimulus. 회복 안 하면 다음 long session quality 저하."
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null,
+          "coachNote": "Reset day. AM 컨디션 보고 옵션 결정 (energy 7+ → A, 5 이하 → B)."
         },
         {
           "id": "w12-day-6",
