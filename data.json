@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "athlete": "Bosco",
   "races": [
     {
@@ -116,6 +116,10 @@
           }
         ],
         "milestones": [
+          {
+            "date": "2026-05-10",
+            "label": "🏁 NYRR Virtual Brooklyn Half (13.1mi @ 2:00 target)"
+          },
           {
             "date": "2026-05-17",
             "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
@@ -2611,71 +2615,98 @@
           "date": "May 8",
           "isoDate": "2026-05-08",
           "sport": "rest",
-          "sportLabel": "RESET",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "RESET DAY — 누적 피로 회복",
-            "meta": "Easy swim 1500yd OR 완전 rest",
+            "title": "ABSOLUTE REST + 발목 mobility",
+            "meta": "5/10 virtual HM 대비",
             "sets": [
-              "옵션 A: Easy swim 1500yd (recovery, HR<140, 2:00+/100yd)",
-              "옵션 B: 완전 rest + 모빌리티 20min",
               "🛌 수면 8h+ 절대 우선",
-              "발목 isometric/balance work (sinus tarsi maintenance)"
+              "발목 mobility/isometric (ABCs, heel raises 3×15)",
+              "Calf/posterior chain stretch 10min",
+              "어제 ride 회복식 + 충분한 hydration"
             ],
             "equipment": [],
-            "note": "5/5 swim race-pace + 5/6 swim B+ + 5/7 Z4 ride 60min = 3일 연속 quality stimulus. 회복 안 하면 다음 long session quality 저하."
+            "note": "5/10 13.1mi virtual HM 위해 회복 핵심"
           },
           "brick": false,
           "secondSport": null,
           "secondSportLabel": null,
-          "coachNote": "Reset day. AM 컨디션 보고 옵션 결정 (energy 7+ → A, 5 이하 → B)."
+          "coachNote": "Reset day. AM 컨디션 보고 옵션 결정 (energy 7+ → A, 5 이하 → B).",
+          "missed": false
         },
         {
           "id": "w12-day-6",
           "name": "Saturday",
           "date": "May 9",
           "isoDate": "2026-05-09",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "run",
+          "sportLabel": "RUN TEST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Outdoor 31mi Z2",
-            "meta": "Long ride",
+            "title": "🚦 발목 GO/NO-GO Test — EZ 3mi",
+            "meta": "9:30-10:00/mi · HR<145 · 평지",
             "sets": [
-              "31mi @ HR 145-160",
-              "Steady aerobic"
+              "5/10 virtual HM 진행 가능 여부 검증",
+              "Pre-warm: 10min dynamic + 발목 mobility",
+              "3mi EZ 평지, 9:30-10:00/mi",
+              "HR cap 145 (Z2)",
+              "Self-check Mile 0/1/2/3 통증 (0-10)",
+              "GO 기준: 통증 ≤2/10 throughout",
+              "NO-GO 기준: 통증 ≥3/10 → 5/10 virtual race 포기"
             ],
-            "equipment": [],
-            "note": "주말 long ride"
+            "equipment": [
+              "Cushion 신발",
+              "Kinesio tape 발목 (선택)"
+            ],
+            "note": "⚠️ 통증 3/10 이상 시 5/10 NO-GO. Pride 버리고 발목 우선."
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null,
+          "missed": false
         },
         {
           "id": "w12-day-7",
           "name": "Sunday",
           "date": "May 10",
           "isoDate": "2026-05-10",
-          "sport": "rest",
-          "sportLabel": "REST",
+          "sport": "run",
+          "sportLabel": "VIRTUAL HM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "REST + Mobility",
-            "meta": "Family time",
+            "title": "🏁 NYRR Virtual Brooklyn Half — 13.1mi @ 2:00 target",
+            "meta": "9:09/mi target · HR Z2 (145-155) · walk breaks",
             "sets": [
-              "발목 isometric",
-              "Calf raise 3×15",
-              "T-spine mobility"
+              "Pre 1.5-2h: carb 100g (오트밀+토스트+꿀+바나나)",
+              "Pre 30min: gel + 물 500ml + 발목 mobility 10min",
+              "Course: 평지 loop 또는 out-and-back",
+              "Mile 1-3: 9:30/mi WU (절대 fast 시작 X)",
+              "Mile 4-9: 9:09/mi sustained, HR cap 150",
+              "Mile 10-12: 9:09/mi hold, HR cap 155",
+              "Mile 13: 8:30-9:00/mi finishing kick (다리 OK 시)",
+              "🚶 Walk break 30s 매 mile (Galloway)",
+              "Fueling: gel @ Mile 4, 8, 11, water/electrolyte 매 mile",
+              "🚨 통증 3/10 → walk · 5/10 → STOP",
+              "Post: ice 20min × 2-3회, 회복식 carb+pro"
             ],
-            "equipment": [],
-            "note": "회복 우선"
+            "equipment": [
+              "Max cushion 신발 (Hoka Bondi/Clifton)",
+              "Kinesio tape 발목",
+              "Compression sleeve"
+            ],
+            "note": "발목 25일 gap + 4/7 sprain hx → conservative pace strict. Pride < 발목."
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null,
+          "missed": false
         }
       ]
     },
@@ -2715,19 +2746,27 @@
           "name": "Tuesday",
           "date": "May 12",
           "isoDate": "2026-05-12",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "swim",
+          "sportLabel": "EZ SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "65 min",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "EZ Recovery Swim 1500yd",
+            "meta": "Pace 2:00-2:05/100yd · HR<140",
+            "sets": [
+              "WU 200yd",
+              "10×100yd EZ @ 2:00 (20s rest)",
+              "200yd pull EZ",
+              "CD 100yd"
+            ],
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "Recovery focus, 발목 부담 0"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-3",
@@ -2735,21 +2774,22 @@
           "date": "May 13",
           "isoDate": "2026-05-13",
           "sport": "bike",
-          "sportLabel": "BIKE",
+          "sportLabel": "EZ ZWIFT",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "85 min",
+            "title": "Zwift Z2 45min",
+            "meta": "HR 140-150 · cadence 85-95",
             "sets": [
-              "3x12min threshold",
-              "Hill repeats"
+              "Endurance route",
+              "Leg flush, 발목 부담 0"
             ],
             "equipment": [],
-            "note": ""
+            "note": "발목 status reassess 후 다음 plan 결정"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-4",
