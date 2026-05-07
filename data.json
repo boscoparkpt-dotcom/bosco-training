@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "athlete": "Bosco",
   "races": [
     {
@@ -121,7 +121,7 @@
             "label": "🏁 NYRR Virtual Brooklyn Half (13.1mi @ 2:00 target)"
           },
           {
-            "date": "2026-05-17",
+            "date": "2026-05-16",
             "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
           },
           {
@@ -141,8 +141,12 @@
             "label": "HM TT 1:50 + 50mi @ 17.4+ mph"
           },
           {
-            "date": "2026-07-26",
-            "label": "70.3 풀 시뮬 (2112yd/50mi/10mi)"
+            "date": "2026-07-19",
+            "label": "🏆 SuperTri NJ Olympic Race"
+          },
+          {
+            "date": "2026-08-02",
+            "label": "🎯 70.3 풀 시뮬레이션 (1.9km/56mi/13.1mi)"
           },
           {
             "date": "2026-08-15",
@@ -190,6 +194,15 @@
           "bike": "+5-10 min — 50mi+ outdoor TT 미검증, aero 적응",
           "run": "+10-15 min — 발목 회복 후 11-14mi long, HM off-bike 8:59/mi"
         }
+      }
+    },
+    {
+      "name": "SuperTri NJ Olympic",
+      "date": "2026-07-19",
+      "type": "Olympic Triathlon",
+      "goal": {
+        "total": "~2:45",
+        "tier": "First triathlon — completion + transition rehearsal"
       }
     },
     {
@@ -2714,10 +2727,10 @@
       "weekDates": "May 11-17, 2026",
       "startDate": "2026-05-11",
       "weeklySummary": {
-        "title": "Week 13 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
-        "changes": "",
-        "focus": "Phase 2: Re-base + Run Rebuild"
+        "title": "Week 13 — HM Recovery + Wetsuit Adaptation",
+        "content": "Post-HM 회복 우선 · 발목 status monitor · Wetsuit 도착 → 첫 OWS",
+        "changes": "Virtual HM 5/10 후 회복 week + wetsuit 5/11-13 도착",
+        "focus": "Phase 2: Re-base"
       },
       "days": [
         {
@@ -2725,19 +2738,25 @@
           "name": "Monday",
           "date": "May 11",
           "isoDate": "2026-05-11",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "RECOVERY",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 4000yd",
-            "meta": "500 WU, 3x500 @ moderate, 8x100 pull, 200 CD",
-            "sets": [],
+            "title": "REST + 발목 ice/compression",
+            "meta": "Virtual HM 회복",
+            "sets": [
+              "Ice 발목 20min × 2-3회",
+              "Compression + elevation",
+              "발목 isometric만",
+              "NO running"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "발목 status monitor"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-2",
@@ -2751,7 +2770,7 @@
           "changed": true,
           "workout": {
             "title": "EZ Recovery Swim 1500yd",
-            "meta": "Pace 2:00-2:05/100yd · HR<140",
+            "meta": "2:00-2:05/100yd · HR<140",
             "sets": [
               "WU 200yd",
               "10×100yd EZ @ 2:00 (20s rest)",
@@ -2761,7 +2780,7 @@
             "equipment": [
               "FORM goggles"
             ],
-            "note": "Recovery focus, 발목 부담 0"
+            "note": "Recovery swim, 발목 부담 0"
           },
           "brick": false,
           "missed": false
@@ -2777,14 +2796,15 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Zwift Z2 45min",
-            "meta": "HR 140-150 · cadence 85-95",
+            "title": "Zwift Z2 45min · Wetsuit dry try-on",
+            "meta": "HR 140-150",
             "sets": [
-              "Endurance route",
-              "Leg flush, 발목 부담 0"
+              "Endurance Zwift 45min",
+              "🆕 Wetsuit dry try-on (10min pull-up technique)",
+              "발목 mobility"
             ],
             "equipment": [],
-            "note": "발목 status reassess 후 다음 plan 결정"
+            "note": "Wetsuit 도착 가능. 30-day return clock 시작."
           },
           "brick": false,
           "missed": false
@@ -2795,21 +2815,23 @@
           "date": "May 14",
           "isoDate": "2026-05-14",
           "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sportLabel": "RUN TEST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP INTERVAL RUN",
-            "meta": "WU 1mi",
+            "title": "Run Return — EZ 3-4mi",
+            "meta": "9:30-10:00/mi · HR<150 · 평지",
             "sets": [
-              "6x800m @ 5K-10K",
-              "CD 1mi"
+              "발목 status check",
+              "평지 only, cushion 신발",
+              "통증 0-2/10 → continue, 3/10+ → walk back"
             ],
             "equipment": [],
-            "note": ""
+            "note": "5/10 HM 후 발목 reassess"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-5",
@@ -2817,20 +2839,28 @@
           "date": "May 15",
           "isoDate": "2026-05-15",
           "sport": "swim",
-          "sportLabel": "SWIM",
+          "sportLabel": "OWS TEST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 4200yd",
-            "meta": "Open water prep",
+            "title": "🌊 첫 Wetsuit OWS Test",
+            "meta": "30-45min, lake/quiet OW",
             "sets": [
-              "Sighting drills in pool"
+              "Wetsuit fit 검증 in water",
+              "어깨 ROM, sighting, breathing 적응",
+              "500-1000yd EZ 분량",
+              "Pool과 다른 점 monitor",
+              "목/팔/사타구니 chafing check"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Wetsuit",
+              "FORM goggles"
+            ],
+            "note": "30-day return 안에 첫 사용 — fit 안 맞으면 빨리 환불"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-6",
@@ -2838,39 +2868,50 @@
           "date": "May 16",
           "isoDate": "2026-05-16",
           "sport": "bike",
-          "sportLabel": "BRICK",
+          "sportLabel": "OUTDOOR",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BRICK: Bike 42-45mi + Run 3mi",
-            "meta": "Race nutrition practice",
-            "sets": [],
+            "title": "Outdoor Z2-Z3 — 30-35mi (Tappan Zee 1.5x)",
+            "meta": "D-90 ⭐ Bridge extension test",
+            "sets": [
+              "Closter → Tappan Zee + 다리 건너 1mi 정도",
+              "30-35mi 평지 + 약간 bridge",
+              "Z2-Z3 mix (HR 145-160)",
+              "Solo 비드래프팅 race specificity",
+              "Aero practice 1mi × 3-5회",
+              "Fueling 60g carb/hr rehearsal"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "Milestone: 1.5x bridge — 다음 6/21 52mi 빌드업"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w13-day-7",
           "name": "Sunday",
           "date": "May 17",
           "isoDate": "2026-05-17",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "15 mi",
+            "title": "REST + Family + Mobility",
+            "meta": "Recovery day",
             "sets": [
-              "Goal HM pace last 5mi"
+              "발목/posterior chain mobility 15min",
+              "수면 8h+",
+              "Light walk 30min"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Phase 2 Re-base 마무리 주 진입"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         }
       ]
     },
@@ -2880,10 +2921,10 @@
       "weekDates": "May 18-24, 2026",
       "startDate": "2026-05-18",
       "weeklySummary": {
-        "title": "Week 14 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
-        "changes": "",
-        "focus": "Phase 2: Re-base + Run Rebuild"
+        "title": "Week 14 — Normal Training Cadence",
+        "content": "Swim 2x · Bike 2x · Run 2-3x · Brick 1x",
+        "changes": "발목 OK 가정 시 정상 cadence, OWS 1x",
+        "focus": "Phase 2: Re-base"
       },
       "days": [
         {
@@ -2891,19 +2932,20 @@
           "name": "Monday",
           "date": "May 18",
           "isoDate": "2026-05-18",
-          "sport": "swim",
-          "sportLabel": "SWIM",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM: 4200yd",
-            "meta": "500 WU, 2x700 steady, 6x150 build, 200 CD",
+            "title": "REST or mobility",
+            "meta": "Light",
             "sets": [],
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w14-day-2",
@@ -2911,83 +2953,98 @@
           "date": "May 19",
           "isoDate": "2026-05-19",
           "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sportLabel": "RUN",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP TRAIL RUN",
-            "meta": "60 min",
-            "sets": [],
+            "title": "EZ Run 5mi",
+            "meta": "9:00-9:30/mi · HR Z2",
+            "sets": [
+              "평지",
+              "Cushion 신발",
+              "발목 monitor"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "Phase 2 run base 빌드"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w14-day-3",
           "name": "Wednesday",
           "date": "May 20",
           "isoDate": "2026-05-20",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Indoor)",
-            "meta": "90 min",
+            "title": "Swim 2500yd · 8×100 CSS",
+            "meta": "CSS 1:50/100yd",
             "sets": [
-              "4x12min sweet spot",
-              "Race cadence"
+              "WU 400yd",
+              "8×100yd CSS @ 1:50 (15s rest)",
+              "Pull 600yd",
+              "CD 300yd"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "Race-pace 자극 복귀"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w14-day-4",
           "name": "Thursday",
           "date": "May 21",
           "isoDate": "2026-05-21",
-          "sport": "run",
-          "sportLabel": "GROUP RUN",
+          "sport": "bike",
+          "sportLabel": "BIKE",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "GROUP INTERVAL RUN",
-            "meta": "WU 1mi",
+            "title": "Zwift Sweet Spot 60min",
+            "meta": "2×15min @ 215W",
             "sets": [
-              "2x2mi @ HM pace",
-              "CD 1mi"
+              "WU 15min",
+              "2×15min @ 215W (5min easy 사이)",
+              "CD 10min"
             ],
             "equipment": [],
-            "note": ""
+            "note": "FTP 빌드"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w14-day-5",
           "name": "Friday",
           "date": "May 22",
           "isoDate": "2026-05-22",
-          "sport": "swim",
-          "sportLabel": "OWS",
+          "sport": "run",
+          "sportLabel": "RUN",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SWIM OWS if available",
-            "meta": "3000yd open water",
+            "title": "Tempo 6mi (2mi WU + 3mi tempo + 1mi CD)",
+            "meta": "Tempo 8:30/mi",
             "sets": [
-              "Practice sighting, drafting"
+              "2mi @ 9:30/mi WU",
+              "3mi @ 8:30/mi tempo",
+              "1mi @ 9:30/mi CD"
             ],
             "equipment": [],
-            "note": ""
+            "note": "발목 OK 시 tempo 복귀"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         },
         {
           "id": "w14-day-6",
@@ -2995,54 +3052,62 @@
           "date": "May 23",
           "isoDate": "2026-05-23",
           "sport": "bike",
-          "sportLabel": "BIKE",
+          "sportLabel": "BRICK",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "45 mi",
+            "title": "🔄 BRICK: 35mi Outdoor + 3mi Run",
+            "meta": "Bike Z3 + run off-bike 8:45/mi",
             "sets": [
-              "Long steady ride"
+              "Bike: Closter → Tappan Zee 1.5x bridge 30-35mi",
+              "Run: 3mi off-bike @ 8:45/mi"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Brick 복귀, race specificity"
           },
-          "brick": false
+          "brick": false,
+          "secondSport": "run",
+          "secondSportLabel": "RUN",
+          "missed": false
         },
         {
           "id": "w14-day-7",
           "name": "Sunday",
           "date": "May 24",
           "isoDate": "2026-05-24",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "swim",
+          "sportLabel": "OWS",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "13 mi easy",
+            "title": "OWS 1500-2000yd",
+            "meta": "Wetsuit 적응",
             "sets": [
-              "Recovery week mindset"
+              "Wetsuit + sighting",
+              "Drill: bilateral breathing, drafting position"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Wetsuit"
+            ],
+            "note": "OWS 2nd session"
           },
-          "brick": false
+          "brick": false,
+          "missed": false
         }
       ]
     },
     {
       "week": 15,
-      "phase": "Phase 2: Re-base + Run Rebuild",
+      "phase": "Phase 2 → Phase 3 Transition",
       "weekDates": "May 25-31, 2026",
       "startDate": "2026-05-25",
       "weeklySummary": {
-        "title": "Week 15 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
-        "changes": "",
-        "focus": "Phase 2: Re-base + Run Rebuild"
+        "title": "Week 15 — Phase 2 마무리 · Checkpoint",
+        "content": "Volume 점진 ↑ · 5/31 8mi run 통증 0 체크포인트",
+        "changes": "Phase 3 진입 준비",
+        "focus": "Phase 2 마무리 → Phase 3 Build 1"
       },
       "days": [
         {
@@ -3196,10 +3261,10 @@
       "weekDates": "Jun 1-7, 2026",
       "startDate": "2026-06-01",
       "weeklySummary": {
-        "title": "Week 16 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 16 — Build 1 Week 1",
+        "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Phase 3: Build 1"
+        "focus": "Build 1 Week 1 — Volume 빌드"
       },
       "days": [
         {
@@ -3355,10 +3420,10 @@
       "weekDates": "Jun 8-14, 2026",
       "startDate": "2026-06-08",
       "weeklySummary": {
-        "title": "Week 17 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 17 — Build 1 Week 2",
+        "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Phase 3: Build 1"
+        "focus": "Build 1 Week 2 — 1900yd TT 6/15"
       },
       "days": [
         {
@@ -3510,10 +3575,10 @@
       "weekDates": "Jun 15-21, 2026",
       "startDate": "2026-06-15",
       "weeklySummary": {
-        "title": "Week 18 Plan",
-        "content": "Swim 1x - Bike 2x - Run 2x",
+        "title": "Week 18 — Build 1 Week 3",
+        "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Phase 3: Build 1"
+        "focus": "Build 1 Week 3 — Threshold work"
       },
       "days": [
         {
@@ -3659,10 +3724,10 @@
       "weekDates": "Jun 22-28, 2026",
       "startDate": "2026-06-22",
       "weeklySummary": {
-        "title": "Week 19 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 19 — Build 1 Week 4",
+        "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Phase 3: Build 1"
+        "focus": "Build 1 Week 4 — HM TT 6/28 + 50mi @ 17.4+ mph"
       },
       "days": [
         {
@@ -3818,10 +3883,10 @@
       "weekDates": "Jun 29 - Jul 5, 2026",
       "startDate": "2026-06-29",
       "weeklySummary": {
-        "title": "Week 20 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 20 — Build 2 Week 1",
+        "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Phase 4: Build 2 / Peak"
+        "focus": "Build 2 Week 1 — Volume peak 시작"
       },
       "days": [
         {
@@ -3977,10 +4042,10 @@
       "weekDates": "Jul 6-12, 2026",
       "startDate": "2026-07-06",
       "weeklySummary": {
-        "title": "Week 21 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 21 — Build 2 Week 2",
+        "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Phase 4: Build 2 / Peak"
+        "focus": "Build 2 Week 2 — Tappan Zee 52mi (2x) D-day TT"
       },
       "days": [
         {
@@ -4135,10 +4200,10 @@
       "weekDates": "Jul 13-19, 2026",
       "startDate": "2026-07-13",
       "weeklySummary": {
-        "title": "Week 22 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 22 — Build 2 Week 3",
+        "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Phase 4: Build 2 / Peak"
+        "focus": "Build 2 Week 3 — Race week SuperTri NJ Olympic 7/19"
       },
       "days": [
         {
@@ -4272,21 +4337,28 @@
           "date": "Jul 19",
           "isoDate": "2026-07-19",
           "sport": "run",
-          "sportLabel": "RUN",
+          "sportLabel": "🏆 RACE",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "14 mi",
+            "title": "🏆 SuperTri NJ Olympic — Mercer County Park",
+            "meta": "1500m swim · 40km bike · 10km run · 7:30 AM start",
             "sets": [
-              "Last long run",
-              "Goal pace progression"
+              "🏊 1500m Mercer Lake (wetsuit)",
+              "🚴 40km flat bike",
+              "🏃 10km park run",
+              "First triathlon — transition rehearsal 핵심"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Wetsuit Orca Athlex Float",
+              "Tri suit (TBD)"
+            ],
+            "note": "70.3 (9/26) 전 race specificity 검증"
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null
         }
       ]
     },
@@ -4296,10 +4368,10 @@
       "weekDates": "Jul 20-26, 2026",
       "startDate": "2026-07-20",
       "weeklySummary": {
-        "title": "Week 23 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 23 — Build 2 Week 4",
+        "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Phase 4: Build 2 / Peak"
+        "focus": "Build 2 Week 4 — Race recovery + 70.3 sim 준비"
       },
       "days": [
         {
@@ -4432,17 +4504,21 @@
           "name": "Sunday",
           "date": "Jul 26",
           "isoDate": "2026-07-26",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "rest",
+          "sportLabel": "RECOVERY",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "RUN 10 mi easy",
-            "meta": "Volume reduction",
-            "sets": [],
+            "title": "Race Recovery (post-SuperTri)",
+            "meta": "Light recovery",
+            "sets": [
+              "Mobility + ice",
+              "Walk 30min",
+              "Reflection on race learnings"
+            ],
             "equipment": [],
-            "note": ""
+            "note": "70.3 sim 1주 미룸 (8/2)"
           },
           "brick": false
         }
@@ -4454,10 +4530,10 @@
       "weekDates": "Jul 27 - Aug 2, 2026",
       "startDate": "2026-07-27",
       "weeklySummary": {
-        "title": "Week 24 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 24 — Peak",
+        "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Phase 4: Build 2 / Peak"
+        "focus": "Peak — 70.3 풀 sim 8/2 (1.9km swim + 56mi bike + 13.1mi run)"
       },
       "days": [
         {
@@ -4588,19 +4664,28 @@
           "name": "Sunday",
           "date": "Aug 2",
           "isoDate": "2026-08-02",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "swim",
+          "sportLabel": "70.3 SIM",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "10-11 mi easy",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "🎯 70.3 풀 시뮬레이션",
+            "meta": "1.9km swim + 56mi bike + 13.1mi run",
+            "sets": [
+              "🏊 1.9km OWS @ 1:50/100yd",
+              "🚴 56mi solo (Tappan Zee 2x or 동등)",
+              "🏃 13.1mi @ 9:00/mi",
+              "Full nutrition + transition rehearsal"
+            ],
+            "equipment": [
+              "Full race kit"
+            ],
+            "note": "Race day 모든 요소 완전 시뮬"
           },
-          "brick": false
+          "brick": false,
+          "secondSport": "bike",
+          "secondSportLabel": "BIKE+RUN"
         }
       ]
     },
@@ -4610,10 +4695,10 @@
       "weekDates": "Aug 3-9, 2026",
       "startDate": "2026-08-03",
       "weeklySummary": {
-        "title": "Week 25 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 25 — Sharpening",
+        "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Phase 5: Sharpening"
+        "focus": "Sharpening Week 1 — Race-pace 위주"
       },
       "days": [
         {
@@ -4766,10 +4851,10 @@
       "weekDates": "Aug 10-16, 2026",
       "startDate": "2026-08-10",
       "weeklySummary": {
-        "title": "Week 26 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 26 — Sharpening",
+        "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Phase 5: Sharpening"
+        "focus": "Sharpening Week 2 — Brick 2x/wk"
       },
       "days": [
         {
@@ -4922,10 +5007,10 @@
       "weekDates": "Aug 17-23, 2026",
       "startDate": "2026-08-17",
       "weeklySummary": {
-        "title": "Week 27 Plan",
-        "content": "Swim 2x - Bike 1x - Run 3x",
+        "title": "Week 27 — Sharpening",
+        "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Phase 5: Sharpening"
+        "focus": "Sharpening Week 3 — Jones Beach OWS 답사"
       },
       "days": [
         {
@@ -5082,10 +5167,10 @@
       "weekDates": "Aug 24-30, 2026",
       "startDate": "2026-08-24",
       "weeklySummary": {
-        "title": "Week 28 Plan",
-        "content": "Swim 1x - Bike 1x - Run 2x",
+        "title": "Week 28 — Sharpening",
+        "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Phase 5: Sharpening"
+        "focus": "Sharpening Week 4 — Mock race week (D-30)"
       },
       "days": [
         {
@@ -5239,10 +5324,10 @@
       "weekDates": "Aug 31 - Sep 6, 2026",
       "startDate": "2026-08-31",
       "weeklySummary": {
-        "title": "Week 29 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 29 — Taper",
+        "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Phase 6: Taper"
+        "focus": "Taper Week 1 — Volume -30%, intensity 유지"
       },
       "days": [
         {
@@ -5388,10 +5473,10 @@
       "weekDates": "Sep 7-13, 2026",
       "startDate": "2026-09-07",
       "weeklySummary": {
-        "title": "Week 30 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 30 — Taper",
+        "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Phase 6: Taper"
+        "focus": "Taper Week 2 — Volume -50%"
       },
       "days": [
         {
@@ -5543,10 +5628,10 @@
       "weekDates": "Sep 14-20, 2026",
       "startDate": "2026-09-14",
       "weeklySummary": {
-        "title": "Week 31 Plan",
-        "content": "Swim 2x - Bike 2x - Run 3x",
+        "title": "Week 31 — Taper",
+        "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Phase 6: Taper"
+        "focus": "Taper Week 3 — Sharp short, gear 점검"
       },
       "days": [
         {
@@ -5695,14 +5780,14 @@
     },
     {
       "week": 32,
-      "phase": "RACE WEEK — Jones Beach 70.3",
+      "phase": "🏁 RACE WEEK — Jones Beach 70.3",
       "weekDates": "Sep 21-27, 2026",
       "startDate": "2026-09-21",
       "weeklySummary": {
-        "title": "Week 32 Plan",
-        "content": "Swim 2x - Bike 1x - Run 3x",
-        "changes": "",
-        "focus": "RACE WEEK — Jones Beach 70.3"
+        "title": "Race Week — Jones Beach 70.3 9/26",
+        "content": "Short sharp · gear final · race day prep",
+        "changes": "D-day 9/26",
+        "focus": "🏁 RACE: 9/26 Jones Beach 70.3"
       },
       "days": [
         {
@@ -5807,19 +5892,31 @@
           "name": "Saturday",
           "date": "Sep 26",
           "isoDate": "2026-09-26",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "swim",
+          "sportLabel": "🏆 70.3",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "SHAKEOUT",
-            "meta": "15 min jog + 10 min spin",
-            "sets": [],
-            "equipment": [],
-            "note": ""
+            "title": "🏆🏁 IRONMAN 70.3 JONES BEACH",
+            "meta": "1.9km swim · 90km bike · 21.1km run · GO TIME",
+            "sets": [
+              "🏊 1.9km Atlantic OWS (chop ready)",
+              "🚴 90km Wantagh Pkwy 2 laps (crosswind!)",
+              "🏃 21.1km Jones Beach run",
+              "Goal: 5:40 Realistic / 5:25 Stretch"
+            ],
+            "equipment": [
+              "Wetsuit Orca Athlex Float",
+              "Castelli/Zoot Tri suit",
+              "Canyon Ultimate CF 7",
+              "ENT 2.0 wheels"
+            ],
+            "note": "FIRST 70.3. Pacing > Pride. Negative split bike, conservative run."
           },
-          "brick": false
+          "brick": false,
+          "secondSport": "bike",
+          "secondSportLabel": "BIKE+RUN"
         },
         {
           "id": "w32-day-7",
