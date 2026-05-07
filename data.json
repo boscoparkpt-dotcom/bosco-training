@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "athlete": "Bosco",
   "races": [
     {
@@ -2560,19 +2560,19 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Outdoor Long Ride — Closter → Tappan Zee Bridge",
-            "meta": "30-36mi · Z2-Z3 · target avg 17-18 mph · 점심 라이드",
+            "title": "Outdoor Ride — Closter → Tappan Zee (평지 16mi)",
+            "meta": "15-17mi · 평지 · Z2-Z3 · target 18.5-19 mph",
             "sets": [
-              "🚴 Closter (Ruckman Rd) → Tappan Zee Bridge round trip",
-              "거리: 30-36mi (history 패턴 — 3/28 36mi, 4/18 35.8mi)",
-              "First half: Z2 building (HR 145-155)",
-              "Second half: Z3 tempo segments OK (HR 155-165)",
-              "Aero position 30s × 5-8회 의식적 연습",
-              "Fueling: 30min마다 carb (gel/banana), 60g/hr 목표",
-              "Hydration: 750ml/hr (더우면 1L/hr)"
+              "Closter (Ruckman Rd) → Tappan Zee 평지 루트",
+              "5/2 (15.6mi @ 18.9mph) + 5/4 (16.4mi @ 18.1mph) 동일 루트",
+              "First 20min: Z2 warmup (HR 145-155)",
+              "Middle 25min: Z3 sustained (HR 155-165, 19+ mph 도전)",
+              "Last 10min: cooldown easy",
+              "🎯 Aero position 30s × 8회 (race specificity)",
+              "🎯 Pace 19 mph 목표 (5/2 best 18.9 깨기)"
             ],
             "equipment": [],
-            "note": "5월 첫 outdoor long ride. 휠셋/tri suit 없는 base setup으로 fitness 검증."
+            "note": "55min ride라 fueling 가벼움. Carb gel 1개 race rehearsal로 시도. Race target 56mi endurance 검증은 다음 long ride에서."
           },
           "brick": false,
           "secondSport": null,
@@ -2586,14 +2586,14 @@
             "notes": "Pending AM check-in"
           },
           "nutrition": {
-            "breakfast": "TARGET: Pre-ride 1.5h 전 carb 70-100g (오트밀/토스트+꿀+계란)",
-            "lunch": "라이드 중 carb 60g/hr",
-            "dinner": "TARGET: 회복식 carb+protein",
-            "snacks": "출발 30min 전 바나나 or gel (선택)",
-            "fueling": "Ride: gel 1개 + 바나나 + 음료, 30min 간격",
-            "hydration": "Ride: 750-1000ml/hr"
+            "breakfast": "TARGET: 1h 전 가벼운 carb (토스트+꿀 or 바나나)",
+            "lunch": "TARGET: 라이드 후 회복식 carb+protein",
+            "dinner": "",
+            "snacks": "",
+            "fueling": "Ride: 물 위주 + carb gel 1개 (race rehearsal)",
+            "hydration": "500-750ml during ride"
           },
-          "coachNote": "Tappan Zee 루트는 너의 longest outdoor 검증된 공간. 5월 첫 long → 페이스보다 거리 + nutrition rehearsal에 집중. Aero position 의식적 5-8회 연습 = race specificity 시작."
+          "coachNote": "16mi 평지 = base maintenance. Long ride endurance 검증은 별도 (35mi+ 5월 중순). 오늘은 aero position + pace ceiling 도전 + 일관성. 5/2 best 18.9 mph 가능했으니 19+ 노려볼 만."
         },
         {
           "id": "w12-day-5",
