@@ -1,5 +1,5 @@
 {
-  "version": 24,
+  "version": 25,
   "athlete": "Bosco",
   "races": [
     {
@@ -151,7 +151,7 @@
             "status": "owned"
           },
           {
-            "item": "Trek Domane (current bike)",
+            "item": "Canyon Ultimate CF 7 di2 (current bike)",
             "status": "owned"
           },
           {
@@ -2560,19 +2560,20 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Group Z4 Ride — Closter → Tappan Zee 18-19mi",
-            "meta": "16-18mi · 평지 · Z4 그룹 (예상 45-50min, 19-21+ mph)",
+            "title": "Group Z4 Ride — Closter → Tappan Zee 15mi",
+            "meta": "15mi · 평지 420ft · Z4 그룹 (예상 40-43min)",
             "sets": [
-              "Closter → Tappan Zee 평지 그룹 Z4 라이드 12pm",
-              "예상: 45-50min, 19-21+ mph (drafting 효과)",
-              "🎯 Z4 sustained (HR 165-175)",
+              "Closter → Tappan Zee 평지 15mi 그룹 라이드 12pm",
+              "예상: 40-43min @ 21-22+ mph (drafting + Z4)",
+              "Power target: 225W+ (4/24 solo PR baseline 베이스)",
+              "HR Z4 sustained (165-175)",
               "🎯 Drafting 30-50cm 안전 추종",
-              "🎯 Pull (리드) 5-10min × 1-2회 시도",
-              "🎯 Aero는 solo 구간만 (시작/끝 5-10min, 안전 시)",
-              "Fueling: 50min ride라 가벼움 — gel 1개 + 물+electrolyte"
+              "🎯 Pull (리드) 5-10min × 1-2회 = tempo work",
+              "🎯 Group fitness check — 4/24 PR(20.9 mph)보다 빠를 수 있는지",
+              "Aero는 group X (안전), solo 분리 시만 가능"
             ],
             "equipment": [],
-            "note": "Z4 그룹 drafting raw speed 빠름. Race specificity는 lactate threshold sustainability 검증 가치."
+            "note": "4/24 같은 코스 solo PR 20.9 mph @ 225W = race target 19.1 mph 이미 검증. 내일은 lactate threshold/VO2max 자극이 가치."
           },
           "brick": false,
           "secondSport": null,
@@ -2590,10 +2591,10 @@
             "lunch": "TARGET 1-2pm 끝나고 30min 내: carb + protein 회복식",
             "dinner": "TARGET: 평소대로",
             "snacks": "11:30am 바나나 (선택)",
-            "fueling": "Ride: gel 1개 race rehearsal + 물 500-750ml + electrolyte 필수",
+            "fueling": "40-43min ride라 fueling 가벼움 — gel 1개 race rehearsal + 물 500ml + electrolyte 필수",
             "hydration": "Ride 500-750ml + electrolyte (Tab/mix)"
           },
-          "coachNote": "50min Z4 그룹 = lactate threshold 자극 + drafting/pull 그룹 스킬. 1h 미만이라 fueling load 가벼움 (gel 1개로 race rehearsal). Electrolyte는 그대로 필수. 5/5 swim race + 5/6 swim 누적 위라 5/8 reset 유지."
+          "coachNote": "4/24 PR (20.9 mph @ 225W standalone) = race target 19.1 mph 이미 standalone 검증. 다음 검증 대상은 56mi 거리 endurance, 평균 페이스 X. 내일 group Z4는 lactate threshold 자극 + 그룹 스킬. 5월 첫째주 outdoor 베이스 강함."
         },
         {
           "id": "w12-day-5",
