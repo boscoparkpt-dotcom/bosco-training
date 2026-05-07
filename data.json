@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "athlete": "Bosco",
   "races": [
     {
@@ -155,9 +155,9 @@
             "status": "owned"
           },
           {
-            "item": "Wetsuit",
-            "status": "pending",
-            "note": "fit 필요"
+            "item": "Wetsuit (Orca Athlex Float size 8)",
+            "status": "ordered",
+            "note": "Swiminn 주문, 도착 5/11-13"
           },
           {
             "item": "Tri Suit",
