@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "athlete": "Bosco",
   "races": [
     {
@@ -2505,11 +2505,11 @@
           "isoDate": "2026-05-06",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Split: Swim 1500yd EZ (PM) + Zwift Z2 (Evening)",
+            "title": "Swim 1500yd Recovery (DONE) · Zwift skipped",
             "meta": "Active recovery split — 4h+ gap between sessions",
             "sets": [
               "🏊 PM Swim 1500yd EZ — 5:30pm pool",
@@ -2542,32 +2542,58 @@
             "fueling": "두 세션 EZ — 물만 OK",
             "hydration": "TARGET: 3L"
           },
-          "coachNote": "낮잠 2h 추가가 토막 잠 만회 핵심. 초코우유 pre-workout 타이밍 완벽. Pool 5:30pm 입수 시 점심부터 4.5h gap + 초코우유 30min 전 = fuel 충분. 저녁 Zwift는 9pm 이후가 되면 수면 영향 커서 내일로 연기 권장. 오늘 swim 후 dinner 제대로 (carb+pro), 일찍 자기 우선.",
-          "secondSport": "bike",
-          "secondSportLabel": "BIKE"
+          "coachNote": "Pace 1:52/100yd = 평소 EZ avg 그대로 — '의도된 EZ recovery' 보다는 steady Z3 실행. 그러나 HR max 178 친 거 보면 어깨 DOMS 풀려서 push 가능했음 = 어깨 회복 잘 됐다는 신호. 어제 race-pace 다음날 동일 페이스 가능 = 베이스 견고. 내일 outdoor long ride 무리 없음. Zwift 연기 결정 ✅.",
+          "secondSport": null,
+          "secondSportLabel": null,
+          "sessionGrade": "B+",
+          "actual": "Swim 1500yd · 1:52/100yd · HR avg 152 / max 178 · 27.9min",
+          "planned": "Swim 1500yd EZ @ 1:55-2:00/100yd · HR Z2 (140-150)"
         },
         {
           "id": "w12-day-4",
           "name": "Thursday",
           "date": "May 7",
           "isoDate": "2026-05-07",
-          "sport": "run",
-          "sportLabel": "RUN TEST",
+          "sport": "bike",
+          "sportLabel": "OUTDOOR",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "Run Return Test 2mi",
-            "meta": "발목 평가 — 평지만",
+            "title": "Outdoor Long Ride — Closter → Tappan Zee Bridge",
+            "meta": "30-36mi · Z2-Z3 · target avg 17-18 mph · 점심 라이드",
             "sets": [
-              "2mi @ HR<150",
-              "통증 0이면 → Phase 1 진입",
-              "통증 시 → 즉시 정지, walk back"
+              "🚴 Closter (Ruckman Rd) → Tappan Zee Bridge round trip",
+              "거리: 30-36mi (history 패턴 — 3/28 36mi, 4/18 35.8mi)",
+              "First half: Z2 building (HR 145-155)",
+              "Second half: Z3 tempo segments OK (HR 155-165)",
+              "Aero position 30s × 5-8회 의식적 연습",
+              "Fueling: 30min마다 carb (gel/banana), 60g/hr 목표",
+              "Hydration: 750ml/hr (더우면 1L/hr)"
             ],
             "equipment": [],
-            "note": "⚠️ 4/12 이후 첫 본격 run. 평지 only. 통증 self-monitor."
+            "note": "5월 첫 outdoor long ride. 휠셋/tri suit 없는 base setup으로 fitness 검증."
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null,
+          "wellness": {
+            "sleep": null,
+            "energy": null,
+            "soreness": null,
+            "hrv": null,
+            "mood": null,
+            "notes": "Pending AM check-in"
+          },
+          "nutrition": {
+            "breakfast": "TARGET: Pre-ride 1.5h 전 carb 70-100g (오트밀/토스트+꿀+계란)",
+            "lunch": "라이드 중 carb 60g/hr",
+            "dinner": "TARGET: 회복식 carb+protein",
+            "snacks": "출발 30min 전 바나나 or gel (선택)",
+            "fueling": "Ride: gel 1개 + 바나나 + 음료, 30min 간격",
+            "hydration": "Ride: 750-1000ml/hr"
+          },
+          "coachNote": "Tappan Zee 루트는 너의 longest outdoor 검증된 공간. 5월 첫 long → 페이스보다 거리 + nutrition rehearsal에 집중. Aero position 의식적 5-8회 연습 = race specificity 시작."
         },
         {
           "id": "w12-day-5",
