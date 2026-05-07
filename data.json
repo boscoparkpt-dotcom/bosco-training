@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "athlete": "Bosco",
   "races": [
     {
@@ -2556,24 +2556,22 @@
           "isoDate": "2026-05-07",
           "sport": "bike",
           "sportLabel": "OUTDOOR",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Group Z4 Ride — Closter → Tappan Zee 15mi",
-            "meta": "15mi · 평지 420ft · Z4 그룹 (예상 40-43min)",
+            "title": "Solo Long Ride — Tappan Zee 다리 건너 23.8mi",
+            "meta": "23.8mi · 77min · 18.5 mph · NP 211W · 755ft · A+",
             "sets": [
-              "Closter → Tappan Zee 평지 15mi 그룹 라이드 12pm",
-              "예상: 40-43min @ 21-22+ mph (drafting + Z4)",
-              "Power target: 225W+ (4/24 solo PR baseline 베이스)",
-              "HR Z4 sustained (165-175)",
-              "🎯 Drafting 30-50cm 안전 추종",
-              "🎯 Pull (리드) 5-10min × 1-2회 = tempo work",
-              "🎯 Group fitness check — 4/24 PR(20.9 mph)보다 빠를 수 있는지",
-              "Aero는 group X (안전), solo 분리 시만 가능"
+              "그룹 펑크내서 솔로 → race specificity 골드 ⭐",
+              "기본 코스(15mi)에서 다리 건너 NY side 추가 → 23.8mi",
+              "솔로 + crosswind/headwind/tailwind 다 노출 = Jones Beach 70.3 정확한 시뮬",
+              "Mile 2-7 Z4 sustained (HR 167-170) 25min push",
+              "Mile 14-15 26.1 mph downhill, Mile 22-24 finishing kick 강함",
+              "18 PRs (rank 2-3) — long course에서도 fast"
             ],
             "equipment": [],
-            "note": "4/24 같은 코스 solo PR 20.9 mph @ 225W = race target 19.1 mph 이미 검증. 내일은 lactate threshold/VO2max 자극이 가치."
+            "note": "Ashley FL FB 댓글 인사이트: Jones Beach 70.3 = bike loop 2x, bridges crosswind. 오늘 다리 건너 + 솔로 + 바람 = race condition 우연히 정확. Race specificity goldmine."
           },
           "brick": false,
           "secondSport": null,
@@ -2594,7 +2592,10 @@
             "fueling": "40-43min ride라 fueling 가벼움 — gel 1개 race rehearsal + 물 500ml + electrolyte 필수",
             "hydration": "Ride 500-750ml + electrolyte (Tab/mix)"
           },
-          "coachNote": "4/24 PR (20.9 mph @ 225W standalone) = race target 19.1 mph 이미 standalone 검증. 다음 검증 대상은 56mi 거리 endurance, 평균 페이스 X. 내일 group Z4는 lactate threshold 자극 + 그룹 스킬. 5월 첫째주 outdoor 베이스 강함."
+          "coachNote": "이 라이드가 race-specific 가치는 4/24 PR(15mi, 43min, lactate threshold)보다 더 큼 — 솔로 비드래프팅 + crosswind + 23.8mi durability + variable terrain. 7/19 SuperTri NJ Olympic 등록 강력 권고. 누적 stress (5/5 swim race + 5/6 swim B+ + 5/7 935kJ ride) → 5/8 reset 절대 우선, 수면 8h+, AM 컨디션 봐서 옵션 결정.",
+          "sessionGrade": "A+",
+          "actual": "Solo 23.80mi · 18.54 mph · NP 211W · HR avg 159 / max 172 · 755ft elev · 18 PRs",
+          "planned": "Group Z4 16mi @ 21+ mph (5/2-5/4 동일 코스)"
         },
         {
           "id": "w12-day-5",
