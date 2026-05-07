@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "athlete": "Bosco",
   "races": [
     {
@@ -2624,12 +2624,14 @@
             "meta": "5/10 virtual HM 대비",
             "sets": [
               "🛌 수면 8h+ 절대 우선",
+              "🥗 Carb loading 시작 — 오트밀, 밥, pasta, 야채, 단백질 (5-7g/kg = 450-630g carb)",
+              "💧 3-4L 수분 + electrolyte",
               "발목 mobility/isometric (ABCs, heel raises 3×15)",
               "Calf/posterior chain stretch 10min",
-              "어제 ride 회복식 + 충분한 hydration"
+              "❌ 매운 음식, fried, 알코올 X (race week)"
             ],
             "equipment": [],
-            "note": "5/10 13.1mi virtual HM 위해 회복 핵심"
+            "note": "5/10 virtual HM 위해 회복 + carb load 핵심"
           },
           "brick": false,
           "secondSport": null,
@@ -2642,28 +2644,24 @@
           "name": "Saturday",
           "date": "May 9",
           "isoDate": "2026-05-09",
-          "sport": "run",
-          "sportLabel": "RUN TEST",
+          "sport": "rest",
+          "sportLabel": "REST",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🚦 발목 GO/NO-GO Test — EZ 3mi",
-            "meta": "9:30-10:00/mi · HR<145 · 평지",
+            "title": "REST + Carb Top-off + (Optional 1-2mi shake-out)",
+            "meta": "Race day prep",
             "sets": [
-              "5/10 virtual HM 진행 가능 여부 검증",
-              "Pre-warm: 10min dynamic + 발목 mobility",
-              "3mi EZ 평지, 9:30-10:00/mi",
-              "HR cap 145 (Z2)",
-              "Self-check Mile 0/1/2/3 통증 (0-10)",
-              "GO 기준: 통증 ≤2/10 throughout",
-              "NO-GO 기준: 통증 ≥3/10 → 5/10 virtual race 포기"
+              "🛌 수면 8h+ (race quality 결정)",
+              "🥗 Carb top-off: 오트밀 → 밥 1.5공기 → pasta dinner",
+              "💧 3L+ 수분 + electrolyte",
+              "발목 mobility 10min",
+              "Optional: 오후 1-2mi very EZ shake-out (10:00/mi, HR<140) + 4 strides",
+              "❌ 피하기: 매운 음식, fried, 알코올, 새 음식, 과도한 fiber"
             ],
-            "equipment": [
-              "Cushion 신발",
-              "Kinesio tape 발목 (선택)"
-            ],
-            "note": "⚠️ 통증 3/10 이상 시 5/10 NO-GO. Pride 버리고 발목 우선."
+            "equipment": [],
+            "note": "Fully rest OK. Shake-out 권장하지만 본인 컨디션 우선. 발목 mobility 챙기기."
           },
           "brick": false,
           "secondSport": null,
