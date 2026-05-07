@@ -1,5 +1,5 @@
 {
-  "version": 27,
+  "version": 28,
   "athlete": "Bosco",
   "races": [
     {
@@ -117,12 +117,20 @@
         ],
         "milestones": [
           {
+            "date": "2026-05-17",
+            "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
+          },
+          {
             "date": "2026-05-31",
             "label": "5mi run @ HR<165 통증 없이"
           },
           {
             "date": "2026-06-15",
             "label": "1900yd TT @ 1:48/100yd"
+          },
+          {
+            "date": "2026-06-21",
+            "label": "Tappan Zee 2x bridge — 52mi (race distance TT)"
           },
           {
             "date": "2026-06-28",
