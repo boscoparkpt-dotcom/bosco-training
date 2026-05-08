@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 32,
   "athlete": "Bosco",
   "races": [
     {
@@ -4314,22 +4314,30 @@
           "name": "Saturday",
           "date": "Jul 18",
           "isoDate": "2026-07-18",
-          "sport": "bike",
-          "sportLabel": "BIKE",
+          "sport": "rest",
+          "sportLabel": "TRAVEL",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "BIKE (Outdoor)",
-            "meta": "50-55 mi",
+            "title": "Travel + Pre-Race Setup (Princeton)",
+            "meta": "Hotel night before SuperTri NJ Olympic",
             "sets": [
-              "Last long ride",
-              "Race nutrition"
+              "12:30pm 집 출발 (NJ Closter → Princeton 2h)",
+              "3:00pm Pre-Race Meeting (Finish Festival)",
+              "3:30pm Packet pickup + Expo",
+              "4:00pm Course self-tour (transition/swim exit/T1)",
+              "5:00pm 호텔 체크인",
+              "6:30pm Carb-load dinner (pasta + protein)",
+              "8pm Gear 정리 + transition bag setup",
+              "9:30pm 취침"
             ],
             "equipment": [],
-            "note": ""
+            "note": "Race quality 결정 = 수면 + 차분 routine"
           },
-          "brick": false
+          "brick": false,
+          "secondSport": null,
+          "secondSportLabel": null
         },
         {
           "id": "w22-day-7",
@@ -4345,10 +4353,16 @@
             "title": "🏆 SuperTri NJ Olympic — Mercer County Park",
             "meta": "1500m swim · 40km bike · 10km run · 7:30 AM start",
             "sets": [
+              "🏁 Olympic START 7:30 AM",
+              "5:00 AM 기상 + breakfast (오트밀+바나나+토스트+꿀, 2.5h 전)",
+              "6:00 AM 호텔 출발 → 6:15 venue",
+              "6:15-6:45 Body marking + transition setup",
+              "6:45 Wetsuit on (10min pull-up technique)",
+              "7:00-7:25 Warm-up swim + sighting",
               "🏊 1500m Mercer Lake (wetsuit)",
-              "🚴 40km flat bike",
-              "🏃 10km park run",
-              "First triathlon — transition rehearsal 핵심"
+              "🚴 40km flat bike (race target 19+ mph)",
+              "🏃 10km park run (off-bike, race target 8:45/mi)",
+              "Target finish: 2:45-3:00"
             ],
             "equipment": [
               "Wetsuit Orca Athlex Float",
