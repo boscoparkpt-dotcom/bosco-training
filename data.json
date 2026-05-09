@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "athlete": "Bosco",
   "races": [
     {
@@ -2655,49 +2655,72 @@
           "date": "May 9",
           "isoDate": "2026-05-09",
           "sport": "rest",
-          "sportLabel": "RICE",
+          "sportLabel": "RICE+TEST",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "RICE 계속 + Self-Assessment",
-            "meta": "Day 2 ankle recovery",
+            "title": "RICE Day 2 + Pre-Race Self-Test",
+            "meta": "5/10 GO/NO-GO 결정",
             "sets": [
-              "Ice 20min × 4-6회 유지",
-              "Compression + elevation",
-              "Walking 통증 한계 내 only",
-              "Swelling/통증 변화 monitor",
-              "Anterior drawer/talar tilt re-assess"
+              "✅ Calf raise 25× single leg 0-1/10",
+              "추가 test 필수 (오늘):",
+              "  - Single leg balance 30s 눈 감고 (wobble 적음)",
+              "  - Anterior drawer (R vs L laxity 비교)",
+              "  - Lateral lunge 5× (통증 0-1)",
+              "오후: light walk 30min, symptom 변화 monitor",
+              "저녁: Ice × 2-3회 + compression 자고",
+              "Pre-race tape kit 준비 (figure-8 + heel lock)"
             ],
             "equipment": [],
-            "note": "발목 status에 따라 5/10 결정"
+            "note": "3개 추가 test 다 pass → 5/10 GO. 하나라도 fail → NO-GO 강력 권고."
           },
           "brick": false,
           "secondSport": null,
           "secondSportLabel": null,
-          "missed": false
+          "missed": false,
+          "wellness": {
+            "sleep": null,
+            "energy": null,
+            "soreness": 1,
+            "hrv": null,
+            "mood": null,
+            "notes": "발목 press 1-2/10, walking 0/10, calf raise 25× 0-1/10 — Grade 1 mild 가설 강화"
+          }
         },
         {
           "id": "w12-day-7",
           "name": "Sunday",
           "date": "May 10",
           "isoDate": "2026-05-10",
-          "sport": "rest",
-          "sportLabel": "❌ HM 포기",
+          "sport": "run",
+          "sportLabel": "VIRTUAL HM",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "❌ Virtual HM POSTPONED — 발목 우선",
-            "meta": "70.3 priority A > virtual race",
+            "title": "🏁 NYRR Virtual Brooklyn HM — STRICT pacing (발목 mitigation)",
+            "meta": "13.1mi @ 9:30/mi · HR<145 · Walk breaks 매 mile",
             "sets": [
-              "❌ 13.1mi run 절대 X (Grade 2 escalation risk)",
-              "Option A: REST + RICE 계속",
-              "Option B (붓기 빠지고 통증 1/10 미만): EZ swim 1500yd pull-only (kick X)",
-              "Option C: Walking 30min EZ, 통증 0 한계"
+              "Pre 30min: Kinesio tape figure-8 + heel lock + compression sleeve",
+              "Pre-warm 15min dynamic + ankle ABCs + 5min EZ jog",
+              "Course: 평지 5km loop × 4-5회 (DNF 시 즉시 home)",
+              "Mile 1-3: 10:00/mi WU, HR<140, 통증 0-1 only",
+              "Mile 4-9: 9:30/mi sustained, HR<145",
+              "Mile 10-12: 9:30-9:45/mi hold",
+              "Mile 13: 9:00-9:30/mi 마무리 (다리 OK 시)",
+              "🚶 Walk 30-60s 매 mile (Galloway)",
+              "Fueling: gel @ Mile 4, 8, 11 + 수분 매 mile",
+              "신발: Max cushion (Hoka Bondi/Clifton, race shoes X)",
+              "Post: ice 20min × 2-3회, ibuprofen 400mg 저녁"
             ],
-            "equipment": [],
-            "note": "Brooklyn Half virtual 매년 있음. 70.3 첫 출전은 X."
+            "equipment": [
+              "Max cushion 신발",
+              "Kinesio tape",
+              "Compression sleeve",
+              "Tri belt for bib"
+            ],
+            "note": "🚨 STOP triggers: 통증 5/10 / sharp pain / limp / swelling / Mile 1 통증 3+. 9/26 70.3 priority A — DNF OK."
           },
           "brick": false,
           "secondSport": null,
