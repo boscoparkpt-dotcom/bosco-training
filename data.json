@@ -1,5 +1,5 @@
 {
-  "version": 32,
+  "version": 33,
   "athlete": "Bosco",
   "races": [
     {
@@ -116,10 +116,6 @@
           }
         ],
         "milestones": [
-          {
-            "date": "2026-05-10",
-            "label": "🏁 NYRR Virtual Brooklyn Half (13.1mi @ 2:00 target)"
-          },
           {
             "date": "2026-05-16",
             "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
@@ -2628,23 +2624,24 @@
           "date": "May 8",
           "isoDate": "2026-05-08",
           "sport": "rest",
-          "sportLabel": "REST",
+          "sportLabel": "INJURY",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "ABSOLUTE REST + 발목 mobility",
-            "meta": "5/10 virtual HM 대비",
+            "title": "🚨 발목 재손상 — RICE Protocol",
+            "meta": "L ankle re-sprain at PT Olympics (풍선 터뜨리기)",
             "sets": [
-              "🛌 수면 8h+ 절대 우선",
-              "🥗 Carb loading 시작 — 오트밀, 밥, pasta, 야채, 단백질 (5-7g/kg = 450-630g carb)",
-              "💧 3-4L 수분 + electrolyte",
-              "발목 mobility/isometric (ABCs, heel raises 3×15)",
-              "Calf/posterior chain stretch 10min",
-              "❌ 매운 음식, fried, 알코올 X (race week)"
+              "Mechanism: Lateral cutting movement (inversion)",
+              "Grade 1 most likely — ATFL/CFL",
+              "🧊 Ice 20min × 4-6회 (오늘부터)",
+              "Compression sleeve + elevation",
+              "NSAID (ibuprofen 400mg) 필요 시",
+              "Self-assess: ATFL palpation, anterior drawer, single leg balance",
+              "Squeeze test 양성 시 ER (syndesmotic 배제)"
             ],
             "equipment": [],
-            "note": "5/10 virtual HM 위해 회복 + carb load 핵심"
+            "note": "⚠️ 5/10 Virtual HM 절대 NO-GO. Reinjury 위에 13.1mi = Grade 2 escalation."
           },
           "brick": false,
           "secondSport": null,
@@ -2658,23 +2655,22 @@
           "date": "May 9",
           "isoDate": "2026-05-09",
           "sport": "rest",
-          "sportLabel": "REST",
+          "sportLabel": "RICE",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "REST + Carb Top-off + (Optional 1-2mi shake-out)",
-            "meta": "Race day prep",
+            "title": "RICE 계속 + Self-Assessment",
+            "meta": "Day 2 ankle recovery",
             "sets": [
-              "🛌 수면 8h+ (race quality 결정)",
-              "🥗 Carb top-off: 오트밀 → 밥 1.5공기 → pasta dinner",
-              "💧 3L+ 수분 + electrolyte",
-              "발목 mobility 10min",
-              "Optional: 오후 1-2mi very EZ shake-out (10:00/mi, HR<140) + 4 strides",
-              "❌ 피하기: 매운 음식, fried, 알코올, 새 음식, 과도한 fiber"
+              "Ice 20min × 4-6회 유지",
+              "Compression + elevation",
+              "Walking 통증 한계 내 only",
+              "Swelling/통증 변화 monitor",
+              "Anterior drawer/talar tilt re-assess"
             ],
             "equipment": [],
-            "note": "Fully rest OK. Shake-out 권장하지만 본인 컨디션 우선. 발목 mobility 챙기기."
+            "note": "발목 status에 따라 5/10 결정"
           },
           "brick": false,
           "secondSport": null,
@@ -2686,33 +2682,22 @@
           "name": "Sunday",
           "date": "May 10",
           "isoDate": "2026-05-10",
-          "sport": "run",
-          "sportLabel": "VIRTUAL HM",
+          "sport": "rest",
+          "sportLabel": "❌ HM 포기",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "🏁 NYRR Virtual Brooklyn Half — 13.1mi @ 2:00 target",
-            "meta": "9:09/mi target · HR Z2 (145-155) · walk breaks",
+            "title": "❌ Virtual HM POSTPONED — 발목 우선",
+            "meta": "70.3 priority A > virtual race",
             "sets": [
-              "Pre 1.5-2h: carb 100g (오트밀+토스트+꿀+바나나)",
-              "Pre 30min: gel + 물 500ml + 발목 mobility 10min",
-              "Course: 평지 loop 또는 out-and-back",
-              "Mile 1-3: 9:30/mi WU (절대 fast 시작 X)",
-              "Mile 4-9: 9:09/mi sustained, HR cap 150",
-              "Mile 10-12: 9:09/mi hold, HR cap 155",
-              "Mile 13: 8:30-9:00/mi finishing kick (다리 OK 시)",
-              "🚶 Walk break 30s 매 mile (Galloway)",
-              "Fueling: gel @ Mile 4, 8, 11, water/electrolyte 매 mile",
-              "🚨 통증 3/10 → walk · 5/10 → STOP",
-              "Post: ice 20min × 2-3회, 회복식 carb+pro"
+              "❌ 13.1mi run 절대 X (Grade 2 escalation risk)",
+              "Option A: REST + RICE 계속",
+              "Option B (붓기 빠지고 통증 1/10 미만): EZ swim 1500yd pull-only (kick X)",
+              "Option C: Walking 30min EZ, 통증 0 한계"
             ],
-            "equipment": [
-              "Max cushion 신발 (Hoka Bondi/Clifton)",
-              "Kinesio tape 발목",
-              "Compression sleeve"
-            ],
-            "note": "발목 25일 gap + 4/7 sprain hx → conservative pace strict. Pride < 발목."
+            "equipment": [],
+            "note": "Brooklyn Half virtual 매년 있음. 70.3 첫 출전은 X."
           },
           "brick": false,
           "secondSport": null,
@@ -2738,22 +2723,21 @@
           "name": "Monday",
           "date": "May 11",
           "isoDate": "2026-05-11",
-          "sport": "rest",
-          "sportLabel": "RECOVERY",
+          "sport": "bike",
+          "sportLabel": "EZ ZWIFT",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "REST + 발목 ice/compression",
-            "meta": "Virtual HM 회복",
+            "title": "Zwift Z2 45min (발목 부담 0)",
+            "meta": "HR 140-150 · Endurance",
             "sets": [
-              "Ice 발목 20min × 2-3회",
-              "Compression + elevation",
-              "발목 isometric만",
-              "NO running"
+              "발목 부담 없는 옵션",
+              "Cadence 85-95",
+              "Z2 endurance"
             ],
             "equipment": [],
-            "note": "발목 status monitor"
+            "note": "안장 위 = 발목 보호"
           },
           "brick": false,
           "missed": false
@@ -2766,21 +2750,23 @@
           "sport": "swim",
           "sportLabel": "EZ SWIM",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "EZ Recovery Swim 1500yd",
+            "title": "EZ Swim 1500yd (Pull only, kick 최소)",
             "meta": "2:00-2:05/100yd · HR<140",
             "sets": [
               "WU 200yd",
-              "10×100yd EZ @ 2:00 (20s rest)",
-              "200yd pull EZ",
+              "6×100yd EZ pull (buoy)",
+              "200yd pull",
+              "발목 보호 — flutter kick 최소화",
               "CD 100yd"
             ],
             "equipment": [
-              "FORM goggles"
+              "FORM goggles",
+              "Pull buoy"
             ],
-            "note": "Recovery swim, 발목 부담 0"
+            "note": "Pull 위주 = 다리 의존 X"
           },
           "brick": false,
           "missed": false
@@ -2790,21 +2776,23 @@
           "name": "Wednesday",
           "date": "May 13",
           "isoDate": "2026-05-13",
-          "sport": "bike",
-          "sportLabel": "EZ ZWIFT",
+          "sport": "rest",
+          "sportLabel": "RICE",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "Zwift Z2 45min · Wetsuit dry try-on",
-            "meta": "HR 140-150",
+            "title": "RICE + Isometric Rehab Start",
+            "meta": "발목 status 4-day check",
             "sets": [
-              "Endurance Zwift 45min",
-              "🆕 Wetsuit dry try-on (10min pull-up technique)",
-              "발목 mobility"
+              "Ice continue",
+              "Isometric 4-way ankle (eversion 강조)",
+              "Towel scrunches 3×20",
+              "Single leg balance 시작 (눈 뜨고 30s)",
+              "Calf stretch gentle"
             ],
             "equipment": [],
-            "note": "Wetsuit 도착 가능. 30-day return clock 시작."
+            "note": "Swelling 빠지면 시작"
           },
           "brick": false,
           "missed": false
@@ -2814,21 +2802,21 @@
           "name": "Thursday",
           "date": "May 14",
           "isoDate": "2026-05-14",
-          "sport": "run",
-          "sportLabel": "RUN TEST",
+          "sport": "bike",
+          "sportLabel": "EZ ZWIFT",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "Run Return — EZ 3-4mi",
-            "meta": "9:30-10:00/mi · HR<150 · 평지",
+            "title": "Zwift Z2 45min",
+            "meta": "HR 140-150",
             "sets": [
-              "발목 status check",
-              "평지 only, cushion 신발",
-              "통증 0-2/10 → continue, 3/10+ → walk back"
+              "발목 부담 0",
+              "Endurance route",
+              "Cadence 85-95"
             ],
             "equipment": [],
-            "note": "5/10 HM 후 발목 reassess"
+            "note": "발목 OK 가정 시"
           },
           "brick": false,
           "missed": false
@@ -2841,23 +2829,23 @@
           "sport": "swim",
           "sportLabel": "OWS TEST",
           "completed": false,
-          "injury": false,
+          "injury": true,
           "changed": true,
           "workout": {
-            "title": "🌊 첫 Wetsuit OWS Test",
-            "meta": "30-45min, lake/quiet OW",
+            "title": "🌊 첫 Wetsuit OWS — 발목 monitor",
+            "meta": "30-45min EZ, 발목 통증 시 즉시 stop",
             "sets": [
-              "Wetsuit fit 검증 in water",
-              "어깨 ROM, sighting, breathing 적응",
-              "500-1000yd EZ 분량",
-              "Pool과 다른 점 monitor",
-              "목/팔/사타구니 chafing check"
+              "Wetsuit fit in water",
+              "500-1000yd EZ",
+              "Pull-focused",
+              "Kick 최소 (drag minimal kick OK)",
+              "발목 통증 시 abort"
             ],
             "equipment": [
               "Wetsuit",
               "FORM goggles"
             ],
-            "note": "30-day return 안에 첫 사용 — fit 안 맞으면 빨리 환불"
+            "note": "30-day return 안에 첫 사용"
           },
           "brick": false,
           "missed": false
@@ -2873,18 +2861,17 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Outdoor Z2-Z3 — 30-35mi (Tappan Zee 1.5x)",
-            "meta": "D-90 ⭐ Bridge extension test",
+            "title": "Tappan Zee 1.5x — 30-35mi (발목 OK 시)",
+            "meta": "D-90 ⭐ Bridge extension",
             "sets": [
-              "Closter → Tappan Zee + 다리 건너 1mi 정도",
-              "30-35mi 평지 + 약간 bridge",
-              "Z2-Z3 mix (HR 145-160)",
+              "발목 OK 시 진행 (통증 0/10 walking)",
+              "30-35mi outdoor",
               "Solo 비드래프팅 race specificity",
-              "Aero practice 1mi × 3-5회",
-              "Fueling 60g carb/hr rehearsal"
+              "Z2-Z3 (HR 145-160)",
+              "Aero practice 1mi × 3-5회"
             ],
             "equipment": [],
-            "note": "Milestone: 1.5x bridge — 다음 6/21 52mi 빌드업"
+            "note": "Milestone: 1.5x bridge"
           },
           "brick": false,
           "missed": false
@@ -2900,15 +2887,16 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "REST + Family + Mobility",
-            "meta": "Recovery day",
+            "title": "REST + 발목 reassess",
+            "meta": "Run return 가능 결정",
             "sets": [
-              "발목/posterior chain mobility 15min",
-              "수면 8h+",
-              "Light walk 30min"
+              "발목 status 종합 평가",
+              "walking gait normal?",
+              "Single leg balance 30s OK?",
+              "발목 stable 시 5/19+ short run test 가능"
             ],
             "equipment": [],
-            "note": "Phase 2 Re-base 마무리 주 진입"
+            "note": "5/18부터 점진 run return 가능 여부 결정"
           },
           "brick": false,
           "missed": false
