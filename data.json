@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "athlete": "Bosco",
   "races": [
     {
@@ -2654,26 +2654,24 @@
           "name": "Saturday",
           "date": "May 9",
           "isoDate": "2026-05-09",
-          "sport": "rest",
-          "sportLabel": "RICE+TEST",
-          "completed": false,
+          "sport": "swim",
+          "sportLabel": "🏆 PR SWIM",
+          "completed": true,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "RICE Day 2 + Pre-Race Self-Test",
-            "meta": "5/10 GO/NO-GO 결정",
+            "title": "🏆 1500yd PR — 1:38/100yd avg (Pull-only 발목 보호)",
+            "meta": "1500yd · 24.7min · PR pace · best 100yd 1:27",
             "sets": [
-              "✅ Calf raise 25× single leg 0-1/10",
-              "추가 test 필수 (오늘):",
-              "  - Single leg balance 30s 눈 감고 (wobble 적음)",
-              "  - Anterior drawer (R vs L laxity 비교)",
-              "  - Lateral lunge 5× (통증 0-1)",
-              "오후: light walk 30min, symptom 변화 monitor",
-              "저녁: Ice × 2-3회 + compression 자고",
-              "Pre-race tape kit 준비 (figure-8 + heel lock)"
+              "Pull buoy + 다리 거의 안 씀 (발목 보호)",
+              "Negative split — Lap 5 (1:45) → Lap 23 (1:27)",
+              "Best 100yd: 1:27 ⭐ Race stretch goal 페이스 도달",
+              "HR Z3 (149 avg) — efficiency gain (effort X)",
+              "Insight: Pull-only가 더 빠름 = form/drag/body position 효과",
+              "Race day: 2-beat kick 전략 검증됨"
             ],
             "equipment": [],
-            "note": "3개 추가 test 다 pass → 5/10 GO. 하나라도 fail → NO-GO 강력 권고."
+            "note": "PR DAY. Pull-only paradox: leg 안 써도 (또는 안 쓰니까) PR. 70.3 swim leg 자신감 ↑."
           },
           "brick": false,
           "secondSport": null,
@@ -2686,7 +2684,11 @@
             "hrv": null,
             "mood": null,
             "notes": "발목 press 1-2/10, walking 0/10, calf raise 25× 0-1/10 — Grade 1 mild 가설 강화"
-          }
+          },
+          "sessionGrade": "A+",
+          "actual": "Swim 1500yd · 1:38/100yd PR · HR avg 149 / max 174 · best 100yd 1:27",
+          "planned": "EZ recovery swim 1500yd @ 2:00/100yd",
+          "coachNote": "Stretch goal 1:38/100yd 페이스 standalone 검증. 발목 protect + PR 동시 달성 = ideal session. 내일 HM 위해 효과 적정 (Suffer 77, recoverable). 9-10pm 취침 절대 우선."
         },
         {
           "id": "w12-day-7",
