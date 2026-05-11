@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "athlete": "Bosco",
   "races": [
     {
@@ -2697,24 +2697,22 @@
           "isoDate": "2026-05-10",
           "sport": "run",
           "sportLabel": "VIRTUAL HM",
-          "completed": false,
+          "completed": true,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "🏁 NYRR Virtual Brooklyn HM — STRICT pacing (발목 mitigation)",
-            "meta": "13.1mi @ 9:30/mi · HR<145 · Walk breaks 매 mile",
+            "title": "🏁 Virtual Brooklyn Half — 2:11 finish, 발목 OK",
+            "meta": "13.14mi · 10:01/mi avg · HR 159 · Central Park hilly 630ft",
             "sets": [
-              "Pre 30min: Kinesio tape figure-8 + heel lock + compression sleeve",
-              "Pre-warm 15min dynamic + ankle ABCs + 5min EZ jog",
-              "Course: 평지 5km loop × 4-5회 (DNF 시 즉시 home)",
-              "Mile 1-3: 10:00/mi WU, HR<140, 통증 0-1 only",
-              "Mile 4-9: 9:30/mi sustained, HR<145",
-              "Mile 10-12: 9:30-9:45/mi hold",
-              "Mile 13: 9:00-9:30/mi 마무리 (다리 OK 시)",
-              "🚶 Walk 30-60s 매 mile (Galloway)",
-              "Fueling: gel @ Mile 4, 8, 11 + 수분 매 mile",
-              "신발: Max cushion (Hoka Bondi/Clifton, race shoes X)",
-              "Post: ice 20min × 2-3회, ibuprofen 400mg 저녁"
+              "✅ 발목 통증 0 throughout (Grade 1 mild confirmed)",
+              "⚠️ Mile 1 8:55/mi too fast (10:00 WU plan 위반)",
+              "Mile 2-9: 9:20-10:06/mi sustained, HR 160-165",
+              "Mile 10-13 fade: 페이스↓ HR↓ (over-cook 안 함)",
+              "Last mile 13: 10:51/mi finishing",
+              "👟 Quicklace 실험 → 첫 6-7mi 왼발바닥 쥐 (intrinsic over-stim)",
+              "😴 수면 부족 (race -1) → Suffer 275",
+              "🥤 Last miles gel/water 부족 → 길거리 콜라로 마무리 ⭐",
+              "📊 PR count: 1, achievements: 82 (Central Park segments)"
             ],
             "equipment": [
               "Max cushion 신발",
@@ -2722,12 +2720,16 @@
               "Compression sleeve",
               "Tri belt for bib"
             ],
-            "note": "🚨 STOP triggers: 통증 5/10 / sharp pain / limp / swelling / Mile 1 통증 3+. 9/26 70.3 priority A — DNF OK."
+            "note": "Sleep deficit + fueling shortage + Quicklace → fade. 발목 zero issue = Grade 1 mild confirmed. Race day learning 3개: (1) 신상 X (2) 수면 (3) backup fuel."
           },
           "brick": false,
           "secondSport": null,
           "secondSportLabel": null,
-          "missed": false
+          "missed": false,
+          "sessionGrade": "B+",
+          "actual": "13.14mi · 2:11:42 · 10:01/mi · HR 159 · 630ft · Central Park (hilly)",
+          "planned": "13.1mi @ 9:09/mi target 2:00 · 평지",
+          "coachNote": "발목 reinjury 위에서 13.1mi 완주 + zero pain = excellent durability sign. Fade는 sleep+fueling, fitness X. 콜라 backup instinct 정확 (Ironman aid station standard). 3 lessons race-day prep gold. Tomorrow REST + sleep debt repay."
         }
       ]
     },
