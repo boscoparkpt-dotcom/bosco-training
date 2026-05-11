@@ -196,6 +196,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .cal-cell.missed{background:#1f1419;border-color:#dc2626}
 .cal-cell.missed .cal-date{color:#fca5a5}
 .cal-cell.missed .cal-icon::after{content:" ❌";font-size:11px}
+
+/* Library View */
+.lib-cat{font-size:11px;font-weight:800;color:#f97316;letter-spacing:1px;text-transform:uppercase;margin:14px 0 8px;padding:4px 10px;background:#0a1a2e;border-radius:6px;display:inline-block}
+.lib-card{background:#16213b;border-radius:14px;margin-bottom:10px;overflow:hidden;border:1px solid #1e3a5f}
+.lib-card.open .lib-arrow{transform:rotate(90deg)}
+.lib-header{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.lib-header:active{background:#1e3a5f}
+.lib-icon{font-size:22px;margin-right:10px}
+.lib-meta{flex:1}
+.lib-title{font-weight:800;font-size:14px;color:#fff;line-height:1.3}
+.lib-sub{font-size:11px;color:#889;margin-top:2px}
+.lib-arrow{font-size:16px;color:#555;transition:transform .2s}
+.lib-body{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 14px}
+.lib-card.open .lib-body{max-height:5000px;padding:0 14px 12px}
+.lib-item{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:start;padding:8px 0;border-bottom:1px dashed #1e3a5f;font-size:12px;line-height:1.4}
+.lib-item:last-child{border-bottom:none}
+.lib-item .item-name{font-weight:700;color:#fff}
+.lib-item .item-rx{font-weight:800;color:#fbbf24;font-variant-numeric:tabular-nums;text-align:right;min-width:90px}
+.lib-item .item-notes{grid-column:1/-1;font-size:11px;color:#aab;font-style:italic;margin-top:2px}
+.lib-notes{font-size:11px;color:#f97316;margin-top:10px;padding-top:8px;border-top:1px solid #1e3a5f;font-style:italic;line-height:1.5}
 .cal-detail{margin-top:8px}
 
 #loading{text-align:center;padding:40px;color:#666}
@@ -273,7 +293,7 @@ function isCurrentWeek(week) {
 // ── Hash Persistence ──
 function readHash() {
   const h = location.hash.slice(1);
-  if (h === 'day' || h === 'week' || h === 'month') state.view = h;
+  if (h === 'day' || h === 'week' || h === 'month' || h === 'lib') state.view = h;
 }
 
 function writeHash() {
@@ -312,6 +332,7 @@ function render() {
   if (state.view === 'day') html += renderDailyView();
   else if (state.view === 'week') html += renderWeeklyView();
   else if (state.view === 'month') html += renderMonthlyView();
+  else if (state.view === 'lib') html += renderLibraryView();
 
   app.innerHTML = html;
   writeHash();
@@ -319,12 +340,16 @@ function render() {
 
 // ── View Tabs ──
 function renderTabs() {
-  const tabs = ['day','week','month'];
+  const tabs = [
+    {id:'day', label:'Day'},
+    {id:'week', label:'Week'},
+    {id:'month', label:'Month'},
+    {id:'lib', label:'Lib'}
+  ];
   let h = '<div class="view-tabs">';
   tabs.forEach(t => {
-    const active = state.view === t ? ' active' : '';
-    const label = t.charAt(0).toUpperCase() + t.slice(1);
-    h += `<div class="view-tab${active}" onclick="switchView('${t}')">${label}</div>`;
+    const active = state.view === t.id ? ' active' : '';
+    h += `<div class="view-tab${active}" onclick="switchView('${t.id}')">${t.label}</div>`;
   });
   h += '</div>';
   return h;
@@ -332,6 +357,9 @@ function renderTabs() {
 
 function switchView(v) {
   state.view = v;
+
+  // Library view doesn't need sync logic
+  if (v === 'lib') { render(); return; }
 
   // Sync: if switching to week from day, jump to the week containing dayDate
   if (v === 'week' && state.dayDate) {
@@ -765,8 +793,47 @@ function navMonth(dir) {
   render();
 }
 
+// ── LIBRARY VIEW ──
+function renderLibraryView() {
+  const lib = state.data.library;
+  if (!lib || !lib.length) return '<div class="empty-state">No library yet</div>';
+
+  // Group by category
+  const groups = {};
+  lib.forEach(item => {
+    const c = item.category || 'Other';
+    if (!groups[c]) groups[c] = [];
+    groups[c].push(item);
+  });
+
+  let h = '';
+  Object.keys(groups).forEach(cat => {
+    h += `<div class="lib-cat">${cat}</div>`;
+    groups[cat].forEach(card => {
+      h += `<div class="lib-card" id="${card.id}" onclick="this.classList.toggle('open')">`;
+      h += `<div class="lib-header">`;
+      h += `<span class="lib-icon">${card.icon || '\u{1F4D6}'}</span>`;
+      h += `<div class="lib-meta"><div class="lib-title">${card.title}</div>`;
+      if (card.subtitle) h += `<div class="lib-sub">${card.subtitle}</div>`;
+      h += `</div>`;
+      h += `<span class="lib-arrow">›</span></div>`;
+      h += `<div class="lib-body">`;
+      (card.items || []).forEach(it => {
+        h += `<div class="lib-item">`;
+        h += `<div class="item-name">${it.name}</div>`;
+        h += `<div class="item-rx">${it.prescription || ''}</div>`;
+        if (it.notes) h += `<div class="item-notes">${it.notes}</div>`;
+        h += `</div>`;
+      });
+      if (card.notes) h += `<div class="lib-notes">${card.notes}</div>`;
+      h += `</div></div>`;
+    });
+  });
+  return h;
+}
+
 // ── Load Data ──
-const BUILT_VERSION = 15;
+const BUILT_VERSION = 16;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())

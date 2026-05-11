@@ -1,5 +1,5 @@
 {
-  "version": 39,
+  "version": 40,
   "athlete": "Bosco",
   "races": [
     {
@@ -6002,6 +6002,313 @@
           "brick": false
         }
       ]
+    }
+  ],
+  "library": [
+    {
+      "id": "weight-a",
+      "category": "Weight Training",
+      "icon": "🏋️",
+      "title": "Weight A — Lower Body + Core",
+      "subtitle": "45min · 2x/wk · Run power + 발목 강화",
+      "items": [
+        {
+          "name": "Goblet Squat",
+          "prescription": "4×8",
+          "notes": "Knee tracking outside toe, full depth, 2s descend"
+        },
+        {
+          "name": "Single-leg RDL (Romanian DL)",
+          "prescription": "3×8 each",
+          "notes": "Hip hinge, soft knee, hamstring stretch · 발목 stability 보너스"
+        },
+        {
+          "name": "Walking Lunge (BW or DB)",
+          "prescription": "3×10 each",
+          "notes": "평지 only, knee tracking"
+        },
+        {
+          "name": "Single-leg Calf Raise (slow eccentric)",
+          "prescription": "3×15",
+          "notes": "3-sec lower phase, 발목 강화 강조"
+        },
+        {
+          "name": "Plank",
+          "prescription": "3×60s",
+          "notes": "Hip neutral, glute squeeze"
+        },
+        {
+          "name": "Bird Dog",
+          "prescription": "3×10 each",
+          "notes": "Slow controlled, hip stable"
+        }
+      ],
+      "notes": "무릎/발목 통증 시 즉시 stop. Progress: weight ↑ 2-3주마다 5%."
+    },
+    {
+      "id": "weight-b",
+      "category": "Weight Training",
+      "icon": "🏋️",
+      "title": "Weight B — Upper/Posterior + Swim Power",
+      "subtitle": "45min · 2x/wk · Swim catch + Aero posture",
+      "items": [
+        {
+          "name": "Pull-up (or Lat Pull-down)",
+          "prescription": "4×8",
+          "notes": "Swim catch power, scapula retract"
+        },
+        {
+          "name": "Single-arm DB Row",
+          "prescription": "3×10 each",
+          "notes": "Pulling motion, lat focus"
+        },
+        {
+          "name": "DB Press (overhead or bench)",
+          "prescription": "3×10",
+          "notes": "Push balance"
+        },
+        {
+          "name": "Cable Face Pull",
+          "prescription": "3×15",
+          "notes": "Posture for aero bike position"
+        },
+        {
+          "name": "Hanging Knee Raise",
+          "prescription": "3×10",
+          "notes": "Core / hip flexor"
+        },
+        {
+          "name": "Side Plank",
+          "prescription": "3×45s each",
+          "notes": "Hip stability for run gait"
+        }
+      ],
+      "notes": "Pull-up scaling: lat pull-down or band-assist if needed."
+    },
+    {
+      "id": "ankle-rehab",
+      "category": "Rehab",
+      "icon": "🦶",
+      "title": "발목 Daily Rehab",
+      "subtitle": "5-10min · DAILY · Sinus tarsi syndrome + 4/7 sprain hx",
+      "items": [
+        {
+          "name": "Theraband 4-way",
+          "prescription": "15reps each (DF/PF/INV/EV)",
+          "notes": "⭐ EV (eversion) 강조 — peroneal 강화"
+        },
+        {
+          "name": "Single-leg Balance (눈 감고)",
+          "prescription": "30s × 3",
+          "notes": "Proprioception, foam pad 진전"
+        },
+        {
+          "name": "Single-leg Calf Raise (slow eccentric)",
+          "prescription": "2×15",
+          "notes": "3s lower phase"
+        },
+        {
+          "name": "Towel Scrunches",
+          "prescription": "2×20",
+          "notes": "Intrinsic foot muscle"
+        },
+        {
+          "name": "Y-Balance Reaches",
+          "prescription": "3 directions × 5 (anterior/PM/PL)",
+          "notes": "Dynamic balance"
+        },
+        {
+          "name": "Lateral Lunge (BW)",
+          "prescription": "2×8 each",
+          "notes": "Frontal plane stability"
+        }
+      ],
+      "notes": "통증 0 + stable 4주 후 → unstable surface (foam pad) + lateral hop 추가. 통증 발생 시 한 단계 후퇴."
+    },
+    {
+      "id": "swim-drills",
+      "category": "Swim Technique",
+      "icon": "🏊",
+      "title": "Swim Drills",
+      "subtitle": "Drill set · Form focus · 1500-2500yd workout",
+      "items": [
+        {
+          "name": "Catch-up",
+          "prescription": "50yd × 4",
+          "notes": "양팔 만날 때까지 대기. Glide phase + hip rotation 의식"
+        },
+        {
+          "name": "Fingertip Drag",
+          "prescription": "50yd × 4",
+          "notes": "High elbow recovery. 손가락 끝 수면 살짝. 어깨 회전"
+        },
+        {
+          "name": "Kick on Side",
+          "prescription": "50yd × 4",
+          "notes": "Streamline + hip rotation feel"
+        },
+        {
+          "name": "Pull-only (buoy + bands)",
+          "prescription": "200-400yd",
+          "notes": "⭐ 89-90kg 케이스 PR pace nucleus. Body position 향상"
+        },
+        {
+          "name": "Bilateral Breathing",
+          "prescription": "매 3 strokes",
+          "notes": "OWS race condition, 양쪽 호흡"
+        },
+        {
+          "name": "Sighting Drill",
+          "prescription": "매 6-8 strokes",
+          "notes": "Buoy lift, head up 0.5s only"
+        },
+        {
+          "name": "CSS Intervals",
+          "prescription": "8-10×100yd @ 1:48-1:50",
+          "notes": "Race-pace 자극, 15s rest"
+        }
+      ],
+      "notes": "5/9 PR (1:38/100yd avg) = pull-only + form focus 효과. Race day 2-beat kick 전략 검증됨."
+    },
+    {
+      "id": "wetsuit-puton",
+      "category": "Race Day",
+      "icon": "🌊",
+      "title": "Wetsuit Pull-up Technique (10min)",
+      "subtitle": "제대로 입어야 사이즈 정확 판단. Reddit 검증",
+      "items": [
+        {
+          "name": "1. 발에 비닐봉지",
+          "prescription": "Race day TT",
+          "notes": "슬립 도움 — race transition"
+        },
+        {
+          "name": "2. 발목부터 inch-up",
+          "prescription": "1-2cm씩 천천히",
+          "notes": "무릎 → 허벅지 → 사타구니"
+        },
+        {
+          "name": "3. 사타구니 excess 모음",
+          "prescription": "Lift up",
+          "notes": "Material reserve for upper body"
+        },
+        {
+          "name": "4. 팔도 같은 방법",
+          "prescription": "손목부터 inch-up",
+          "notes": "겨드랑이/어깨에 excess 모음"
+        },
+        {
+          "name": "5. 몸통 inch up",
+          "prescription": "앞으로 숙이고",
+          "notes": "사타구니 material → 가슴 → 어깨 → 목"
+        },
+        {
+          "name": "6. 목 air bubble release",
+          "prescription": "손가락 넣어",
+          "notes": "Trapped air 빼기"
+        },
+        {
+          "name": "7. Zipper",
+          "prescription": "마지막",
+          "notes": "Reach back, hooked cord"
+        }
+      ],
+      "notes": "⚠️ 그냥 당겨 입으면 사이즈 잘못 판단 80%. 정성껏 10분이 fit 결정."
+    },
+    {
+      "id": "race-day-protocol",
+      "category": "Race Day",
+      "icon": "🏁",
+      "title": "Race Day Protocol",
+      "subtitle": "Pre-race -2/-1 + Race morning · 5/10 HM lesson 기반",
+      "items": [
+        {
+          "name": "Race -2 days (Fri)",
+          "prescription": "Carb load 5-7g/kg",
+          "notes": "90kg = 450-630g carb · Hydration 3-4L"
+        },
+        {
+          "name": "Race -1 day (Sat)",
+          "prescription": "Sleep 8-9h",
+          "notes": "⭐ 가장 중요. 호텔 1박 또는 가족 support"
+        },
+        {
+          "name": "Race AM breakfast",
+          "prescription": "2.5h 전 100g carb",
+          "notes": "오트밀 + 바나나 + 토스트+꿀 + 커피"
+        },
+        {
+          "name": "Pre-race 30min",
+          "prescription": "Gel + 250ml 물",
+          "notes": "Last fuel before start"
+        },
+        {
+          "name": "Bike fueling (70.3)",
+          "prescription": "60-90g carb/hr",
+          "notes": "Gel/sport drink/banana, 3h race"
+        },
+        {
+          "name": "Run fueling (70.3)",
+          "prescription": "30-60g carb/hr",
+          "notes": "Aid station 콜라 OK ⭐"
+        },
+        {
+          "name": "Hydration",
+          "prescription": "500-750ml/hr",
+          "notes": "+ electrolyte (Tab/mix) 필수"
+        },
+        {
+          "name": "Backup",
+          "prescription": "+2 gel extra",
+          "notes": "Race 시간 길어질 가능성"
+        }
+      ],
+      "notes": "⭐ Race day 신상 X — 4-6주 검증된 gear만. Quicklace 실수 lesson."
+    },
+    {
+      "id": "mobility",
+      "category": "Mobility",
+      "icon": "🧘",
+      "title": "Daily Mobility (10-15min)",
+      "subtitle": "Run/bike posture · Recovery",
+      "items": [
+        {
+          "name": "Calf Stretch (gastroc + soleus)",
+          "prescription": "30s × 2 each",
+          "notes": "Run/bike recovery"
+        },
+        {
+          "name": "Hip Flexor Stretch",
+          "prescription": "30s × 2 each",
+          "notes": "Long bike position 회복"
+        },
+        {
+          "name": "Pigeon Pose",
+          "prescription": "60s each",
+          "notes": "Hip external rotation, glute med"
+        },
+        {
+          "name": "T-spine Rotation",
+          "prescription": "10 each",
+          "notes": "Aero posture mobility"
+        },
+        {
+          "name": "Lat Stretch",
+          "prescription": "30s each",
+          "notes": "Swim catch 위해"
+        },
+        {
+          "name": "Foam Roll Quads/IT band",
+          "prescription": "30s each",
+          "notes": "Run recovery"
+        },
+        {
+          "name": "Foam Roll Calves",
+          "prescription": "30s each",
+          "notes": "Foot intrinsic + plantar fascia 회복"
+        }
+      ],
+      "notes": "Daily 10-15min — 큰 운동 후 회복에 직결."
     }
   ]
 }
