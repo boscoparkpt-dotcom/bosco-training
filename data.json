@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "athlete": "Bosco",
   "races": [
     {
@@ -197,8 +197,8 @@
       "date": "2026-07-19",
       "type": "Olympic Triathlon",
       "goal": {
-        "total": "~2:45",
-        "tier": "First triathlon — completion + transition rehearsal"
+        "total": "Completion goal",
+        "tier": "Rehearsal race — 당일 출발, 완주 + 데이터"
       }
     },
     {
@@ -4217,7 +4217,7 @@
       "weeklySummary": {
         "title": "Week 22 — Build 2 Week 3",
         "content": "Race-pace 자극 + 70.3 specificity",
-        "changes": "",
+        "changes": "당일 출발 결정 (baby + 산모 우선). Completion + data 목표.",
         "focus": "Build 2 Week 3 — Race week SuperTri NJ Olympic 7/19"
       },
       "days": [
@@ -4330,25 +4330,23 @@
           "date": "Jul 18",
           "isoDate": "2026-07-18",
           "sport": "rest",
-          "sportLabel": "TRAVEL",
+          "sportLabel": "PRE-RACE",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Travel + Pre-Race Setup (Princeton)",
-            "meta": "Hotel night before SuperTri NJ Olympic",
+            "title": "Pre-Race — Carb Load + Early Sleep",
+            "meta": "당일 출발 plan, sleep banking",
             "sets": [
-              "12:30pm 집 출발 (NJ Closter → Princeton 2h)",
-              "3:00pm Pre-Race Meeting (Finish Festival)",
-              "3:30pm Packet pickup + Expo",
-              "4:00pm Course self-tour (transition/swim exit/T1)",
-              "5:00pm 호텔 체크인",
-              "6:30pm Carb-load dinner (pasta + protein)",
-              "8pm Gear 정리 + transition bag setup",
-              "9:30pm 취침"
+              "평소대로 carb load + 가벼운 mobility",
+              "Gear setup 100% — race kit, gels, bottles, wetsuit, tri suit",
+              "Course map + race instructions PDF 미리 study",
+              "산모와 baby care 협의 — Sat night 본인 sleep priority",
+              "7-8pm 저녁 (pasta + chicken, light)",
+              "8pm 취침 (alarm 3am)"
             ],
             "equipment": [],
-            "note": "Race quality 결정 = 수면 + 차분 routine"
+            "note": "당일 출발 = sleep banking 절대 필수"
           },
           "brick": false,
           "secondSport": null,
@@ -4359,35 +4357,36 @@
           "name": "Sunday",
           "date": "Jul 19",
           "isoDate": "2026-07-19",
-          "sport": "run",
-          "sportLabel": "🏆 RACE",
+          "sport": "swim",
+          "sportLabel": "🏆 OLYMPIC",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🏆 SuperTri NJ Olympic — Mercer County Park",
-            "meta": "1500m swim · 40km bike · 10km run · 7:30 AM start",
+            "title": "🏆 SuperTri NJ Olympic — 당일 출발, Completion Goal",
+            "meta": "3:00 AM 기상 · 7:30 Olympic start · 완주 + 데이터",
             "sets": [
-              "🏁 Olympic START 7:30 AM",
-              "5:00 AM 기상 + breakfast (오트밀+바나나+토스트+꿀, 2.5h 전)",
-              "6:00 AM 호텔 출발 → 6:15 venue",
-              "6:15-6:45 Body marking + transition setup",
-              "6:45 Wetsuit on (10min pull-up technique)",
-              "7:00-7:25 Warm-up swim + sighting",
-              "🏊 1500m Mercer Lake (wetsuit)",
-              "🚴 40km flat bike (race target 19+ mph)",
-              "🏃 10km park run (off-bike, race target 8:45/mi)",
-              "Target finish: 2:45-3:00"
+              "3:00 AM 기상 + breakfast",
+              "3:45 출발 (Closter → Mercer Park 2h)",
+              "5:45 도착, race-day packet pickup",
+              "6:15 body marking + transition setup",
+              "6:45 wetsuit + warm-up swim",
+              "🏁 7:30 Olympic START",
+              "🏊 1500m Mercer Lake (wetsuit) — race-pace EZ",
+              "🚴 40km flat bike (sustainable, no PR push)",
+              "🏃 10km park run (off-bike, 9:00/mi safe)",
+              "Target: 2:45-3:00 finish",
+              "데이터 챙기기: transition time, OWS feel, fueling, 발목 status"
             ],
             "equipment": [
               "Wetsuit Orca Athlex Float",
-              "Tri suit (TBD)"
+              "Tri suit"
             ],
-            "note": "70.3 (9/26) 전 race specificity 검증"
+            "note": "Rehearsal race for 9/26 70.3. PR X, completion + data 핵심."
           },
           "brick": false,
-          "secondSport": null,
-          "secondSportLabel": null
+          "secondSport": "bike",
+          "secondSportLabel": "BIKE+RUN"
         }
       ]
     },
