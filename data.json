@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 39,
   "athlete": "Bosco",
   "races": [
     {
@@ -116,6 +116,10 @@
           }
         ],
         "milestones": [
+          {
+            "date": "2026-05-15",
+            "label": "🌊 First Wetsuit OWS Test"
+          },
           {
             "date": "2026-05-16",
             "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
@@ -2739,10 +2743,10 @@
       "weekDates": "May 11-17, 2026",
       "startDate": "2026-05-11",
       "weeklySummary": {
-        "title": "Week 13 — HM Recovery + Wetsuit Adaptation",
-        "content": "Post-HM 회복 우선 · 발목 status monitor · Wetsuit 도착 → 첫 OWS",
-        "changes": "Virtual HM 5/10 후 회복 week + wetsuit 5/11-13 도착",
-        "focus": "Phase 2: Re-base"
+        "title": "Week 13 — HM Recovery + Weight Intro + First OWS",
+        "content": "Swim 2x · Bike 2x · Weight 2x · OWS 1x · 발목 daily · Run 0",
+        "changes": "Weight training + 발목 강화 추가. OWS 5/15.",
+        "focus": "Phase 2: Re-base + Strength intro"
       },
       "days": [
         {
@@ -2750,21 +2754,25 @@
           "name": "Monday",
           "date": "May 11",
           "isoDate": "2026-05-11",
-          "sport": "bike",
-          "sportLabel": "EZ ZWIFT",
+          "sport": "rest",
+          "sportLabel": "RECOVERY",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "Zwift Z2 45min (발목 부담 0)",
-            "meta": "HR 140-150 · Endurance",
+            "title": "Post-HM Recovery + Sleep Debt + Daily 발목",
+            "meta": "Sleep + carb 보충 + mobility",
             "sets": [
-              "발목 부담 없는 옵션",
-              "Cadence 85-95",
-              "Z2 endurance"
+              "🛌 일찍 자기 — sleep debt repay 절대 우선",
+              "Ice 발목 20min × 2-3회",
+              "Carb 보충 +1500kcal",
+              "발목 daily rehab 5min:",
+              "  Theraband 4-way 15reps each (EV 강조)",
+              "  Single-leg balance 30s × 3",
+              "  Calf raise slow 2×15"
             ],
             "equipment": [],
-            "note": "안장 위 = 발목 보호"
+            "note": "NO running, walking OK"
           },
           "brick": false,
           "missed": false
@@ -2775,25 +2783,26 @@
           "date": "May 12",
           "isoDate": "2026-05-12",
           "sport": "swim",
-          "sportLabel": "EZ SWIM",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "EZ Swim 1500yd (Pull only, kick 최소)",
-            "meta": "2:00-2:05/100yd · HR<140",
+            "title": "Swim 2000yd EZ Technique",
+            "meta": "Pace 1:55-2:00/100yd · HR<145",
             "sets": [
-              "WU 200yd",
-              "6×100yd EZ pull (buoy)",
-              "200yd pull",
-              "발목 보호 — flutter kick 최소화",
-              "CD 100yd"
+              "WU 300yd",
+              "8×100yd EZ @ 1:55 (15s rest)",
+              "400yd pull",
+              "4×50yd drill (catch-up, fingertip drag)",
+              "CD 200yd",
+              "발목 daily 5min"
             ],
             "equipment": [
               "FORM goggles",
               "Pull buoy"
             ],
-            "note": "Pull 위주 = 다리 의존 X"
+            "note": "Recovery + technique focus"
           },
           "brick": false,
           "missed": false
@@ -2803,47 +2812,60 @@
           "name": "Wednesday",
           "date": "May 13",
           "isoDate": "2026-05-13",
-          "sport": "rest",
-          "sportLabel": "RICE",
+          "sport": "bike",
+          "sportLabel": "BIKE + STRENGTH",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "RICE + Isometric Rehab Start",
-            "meta": "발목 status 4-day check",
+            "title": "Zwift Z2 60min + Weight A (Lower)",
+            "meta": "Bike AM Z2 + Weight PM 45min",
             "sets": [
-              "Ice continue",
-              "Isometric 4-way ankle (eversion 강조)",
-              "Towel scrunches 3×20",
-              "Single leg balance 시작 (눈 뜨고 30s)",
-              "Calf stretch gentle"
+              "🚴 AM: Zwift Z2 60min, HR 140-150, cadence 85-95",
+              "🆕 Wetsuit dry try-on 10min (pull-up technique)",
+              "🏋️ PM Weight A — Lower body 45min:",
+              "  Goblet Squat 4×8",
+              "  Single-leg RDL 3×8 each",
+              "  Walking lunge 3×10 each",
+              "  Single-leg calf raise (slow eccentric) 3×15",
+              "  Plank 3×60s, Bird dog 3×10",
+              "발목 daily 5min"
             ],
             "equipment": [],
-            "note": "Swelling 빠지면 시작"
+            "note": "Weight intro — run-specific power + 발목 강화"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "secondSport": "strength",
+          "secondSportLabel": "WEIGHT A"
         },
         {
           "id": "w13-day-4",
           "name": "Thursday",
           "date": "May 14",
           "isoDate": "2026-05-14",
-          "sport": "bike",
-          "sportLabel": "EZ ZWIFT",
+          "sport": "swim",
+          "sportLabel": "SWIM",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "Zwift Z2 45min",
-            "meta": "HR 140-150",
+            "title": "Swim 2500yd CSS + Drills",
+            "meta": "CSS 1:50/100yd · HR Z3",
             "sets": [
-              "발목 부담 0",
-              "Endurance route",
-              "Cadence 85-95"
+              "WU 400yd",
+              "8×100yd CSS @ 1:50 (15s rest)",
+              "Pull 600yd",
+              "6×50yd drill (catch-up, fingertip drag, kick on side)",
+              "CD 300yd",
+              "Wetsuit try in pool 5-10min (가능 시)",
+              "발목 daily 5min"
             ],
-            "equipment": [],
-            "note": "발목 OK 가정 시"
+            "equipment": [
+              "FORM goggles",
+              "Pull buoy"
+            ],
+            "note": "Race-pace 자극 + drill"
           },
           "brick": false,
           "missed": false
@@ -2854,28 +2876,37 @@
           "date": "May 15",
           "isoDate": "2026-05-15",
           "sport": "swim",
-          "sportLabel": "OWS TEST",
+          "sportLabel": "🌊 OWS",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "🌊 첫 Wetsuit OWS — 발목 monitor",
-            "meta": "30-45min EZ, 발목 통증 시 즉시 stop",
+            "title": "🌊 First Wetsuit OWS + PM Weight B",
+            "meta": "OWS AM 30-45min + Weight PM 45min",
             "sets": [
-              "Wetsuit fit in water",
-              "500-1000yd EZ",
-              "Pull-focused",
-              "Kick 최소 (drag minimal kick OK)",
-              "발목 통증 시 abort"
+              "🌊 AM 6am OWS (location TBD)",
+              "  500yd EZ wetsuit 적응",
+              "  500yd sighting drill (매 6-8 strokes lift)",
+              "  500yd bilateral breathing",
+              "  Chafing check (목/팔/사타구니)",
+              "🏋️ PM Weight B — Upper/Posterior 45min:",
+              "  Pull-up 4×8",
+              "  Single-arm DB row 3×10 each",
+              "  DB press 3×10",
+              "  Cable face pull 3×15",
+              "  Hanging knee raise 3×10",
+              "  Side plank 3×45s each"
             ],
             "equipment": [
-              "Wetsuit",
+              "Wetsuit Orca Athlex Float",
               "FORM goggles"
             ],
-            "note": "30-day return 안에 첫 사용"
+            "note": "30-day return clock 안에 첫 사용. Fit 검증."
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "secondSport": "strength",
+          "secondSportLabel": "WEIGHT B"
         },
         {
           "id": "w13-day-6",
@@ -2888,17 +2919,19 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Tappan Zee 1.5x — 30-35mi (발목 OK 시)",
-            "meta": "D-90 ⭐ Bridge extension",
+            "title": "Tappan Zee 1.5x — 30-35mi outdoor",
+            "meta": "D-90 ⭐ Bridge extension test",
             "sets": [
-              "발목 OK 시 진행 (통증 0/10 walking)",
-              "30-35mi outdoor",
+              "Closter → Tappan Zee + 다리 일부 건너기 (1.5x)",
+              "30-35mi 평지 + 약간 bridge",
               "Solo 비드래프팅 race specificity",
-              "Z2-Z3 (HR 145-160)",
-              "Aero practice 1mi × 3-5회"
+              "Z2-Z3 mix (HR 145-160)",
+              "Aero 1mi continuous × 3-5회",
+              "Fueling: gel 60g/hr rehearsal",
+              "발목 daily 5min"
             ],
             "equipment": [],
-            "note": "Milestone: 1.5x bridge"
+            "note": "5/16 Milestone: 1.5x bridge. Race specificity continued."
           },
           "brick": false,
           "missed": false
@@ -2914,16 +2947,16 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "REST + 발목 reassess",
-            "meta": "Run return 가능 결정",
+            "title": "REST + Mobility + 발목 reassess",
+            "meta": "Week recovery + run return 결정",
             "sets": [
-              "발목 status 종합 평가",
-              "walking gait normal?",
-              "Single leg balance 30s OK?",
-              "발목 stable 시 5/19+ short run test 가능"
+              "Family time",
+              "발목 daily 10min (확장 — Y-balance, lateral lunge)",
+              "Run return 가능 여부 reassess",
+              "발목 stable 시 5/18-19 short run test 3mi"
             ],
             "equipment": [],
-            "note": "5/18부터 점진 run return 가능 여부 결정"
+            "note": "5/18+ run 점진 복귀 결정"
           },
           "brick": false,
           "missed": false
