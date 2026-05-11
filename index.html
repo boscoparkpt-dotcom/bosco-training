@@ -216,6 +216,24 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .lib-item .item-rx{font-weight:800;color:#fbbf24;font-variant-numeric:tabular-nums;text-align:right;min-width:90px}
 .lib-item .item-notes{grid-column:1/-1;font-size:11px;color:#aab;font-style:italic;margin-top:2px}
 .lib-notes{font-size:11px;color:#f97316;margin-top:10px;padding-top:8px;border-top:1px solid #1e3a5f;font-style:italic;line-height:1.5}
+
+/* Inline mini-library within day card */
+.linked-lib{margin-top:10px}
+.linked-lib-card{background:#0a1a2e;border-radius:10px;margin-bottom:6px;overflow:hidden;border:1px solid #1e3a5f}
+.linked-lib-card.open .linked-lib-arrow{transform:rotate(90deg)}
+.linked-lib-head{display:flex;align-items:center;padding:8px 10px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.linked-lib-head:active{background:#16213b}
+.linked-lib-icon{font-size:16px;margin-right:8px}
+.linked-lib-title{flex:1;font-size:12px;font-weight:700;color:#fff;line-height:1.3}
+.linked-lib-sub{font-size:10px;color:#778;margin-top:1px}
+.linked-lib-arrow{font-size:14px;color:#555;transition:transform .2s}
+.linked-lib-body{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 10px}
+.linked-lib-card.open .linked-lib-body{max-height:3000px;padding:0 10px 10px}
+.linked-lib-item{display:grid;grid-template-columns:1fr auto;gap:6px;padding:6px 0;border-bottom:1px dashed #1e3a5f;font-size:11px;line-height:1.4}
+.linked-lib-item:last-child{border-bottom:none}
+.linked-lib-item .item-name{font-weight:700;color:#fff}
+.linked-lib-item .item-rx{font-weight:800;color:#fbbf24;font-variant-numeric:tabular-nums;text-align:right;min-width:80px;font-size:11px}
+.linked-lib-item .item-notes{grid-column:1/-1;font-size:10px;color:#aab;font-style:italic;margin-top:2px}
 .cal-detail{margin-top:8px}
 
 #loading{text-align:center;padding:40px;color:#666}
@@ -575,6 +593,33 @@ function renderDayCard(day, forceOpen) {
     h += `<div class="coach-note"><div class="coach-title">\u{1F3CB}️ Coach’s Note</div>${day.coachNote}</div>`;
   }
 
+  // Linked Library (inline mini-cards for weight/rehab/drills)
+  if (day.library && day.library.length && state.data.library) {
+    h += `<div class="section-divider">\u{1F4DA} Linked Workouts</div>`;
+    h += `<div class="linked-lib">`;
+    day.library.forEach(libId => {
+      const libCard = state.data.library.find(c => c.id === libId);
+      if (!libCard) return;
+      h += `<div class="linked-lib-card" onclick="event.stopPropagation();this.classList.toggle('open')">`;
+      h += `<div class="linked-lib-head">`;
+      h += `<span class="linked-lib-icon">${libCard.icon || '\u{1F4D6}'}</span>`;
+      h += `<div style="flex:1"><div class="linked-lib-title">${libCard.title}</div>`;
+      if (libCard.subtitle) h += `<div class="linked-lib-sub">${libCard.subtitle}</div>`;
+      h += `</div><span class="linked-lib-arrow">›</span></div>`;
+      h += `<div class="linked-lib-body">`;
+      (libCard.items || []).forEach(it => {
+        h += `<div class="linked-lib-item">`;
+        h += `<div class="item-name">${it.name}</div>`;
+        h += `<div class="item-rx">${it.prescription || ''}</div>`;
+        if (it.notes) h += `<div class="item-notes">${it.notes}</div>`;
+        h += `</div>`;
+      });
+      if (libCard.notes) h += `<div class="lib-notes">${libCard.notes}</div>`;
+      h += `</div></div>`;
+    });
+    h += `</div>`;
+  }
+
   h += `</div></div>`;
   return h;
 }
@@ -833,7 +878,7 @@ function renderLibraryView() {
 }
 
 // ── Load Data ──
-const BUILT_VERSION = 16;
+const BUILT_VERSION = 17;
 
 function fetchData() {
   return fetch(DATA_URL + '?v=' + Date.now())

@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "athlete": "Bosco",
   "races": [
     {
@@ -334,7 +334,10 @@
             "equipment": [],
             "note": "Solid session applying coaching cues. HR stayed controlled."
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w1-day-3",
@@ -384,7 +387,10 @@
             ],
             "note": "FORM goggles debut! Real-time pace display worked great. HR doesn't sync underwater on Gen 1 (Bluetooth limitation). Solid 2,300 yd session."
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w1-day-5",
@@ -784,7 +790,10 @@
             ],
             "note": "Couldn't run, swam instead. Shorter than planned but good to stay active while recovering."
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w3-day-3",
@@ -1006,7 +1015,10 @@
             ],
             "note": "Last swim before race. Easy effort. Flush out legs, stay loose."
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w4-day-4",
@@ -1396,7 +1408,10 @@
           "label": "Bike (Zwift)",
           "note": "10.31mi, 44min, HR 163",
           "sets": "Find Your Rhythm",
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w6-day-6",
@@ -2248,7 +2263,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w10-day-6",
@@ -2419,7 +2437,10 @@
             "note": "💯 첫 race-pace session post-baby — pace 그대로"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w11-day-6",
@@ -2521,7 +2542,10 @@
             ],
             "note": "💯 출산 9일 후 — 베이스 회복 확인"
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w12-day-3",
@@ -2572,7 +2596,10 @@
           "secondSportLabel": null,
           "sessionGrade": "B+",
           "actual": "Swim 1500yd · 1:52/100yd · HR avg 152 / max 178 · 27.9min",
-          "planned": "Swim 1500yd EZ @ 1:55-2:00/100yd · HR Z2 (140-150)"
+          "planned": "Swim 1500yd EZ @ 1:55-2:00/100yd · HR Z2 (140-150)",
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w12-day-4",
@@ -2692,7 +2719,10 @@
           "sessionGrade": "A+",
           "actual": "Swim 1500yd · 1:38/100yd PR · HR avg 149 / max 174 · best 100yd 1:27",
           "planned": "EZ recovery swim 1500yd @ 2:00/100yd",
-          "coachNote": "Stretch goal 1:38/100yd 페이스 standalone 검증. 발목 protect + PR 동시 달성 = ideal session. 내일 HM 위해 효과 적정 (Suffer 77, recoverable). 9-10pm 취침 절대 우선."
+          "coachNote": "Stretch goal 1:38/100yd 페이스 standalone 검증. 발목 protect + PR 동시 달성 = ideal session. 내일 HM 위해 효과 적정 (Suffer 77, recoverable). 9-10pm 취침 절대 우선.",
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w12-day-7",
@@ -2775,7 +2805,10 @@
             "note": "NO running, walking OK"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w13-day-2",
@@ -2805,7 +2838,11 @@
             "note": "Recovery + technique focus"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w13-day-3",
@@ -2837,7 +2874,11 @@
           "brick": false,
           "missed": false,
           "secondSport": "strength",
-          "secondSportLabel": "WEIGHT A"
+          "secondSportLabel": "WEIGHT A",
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w13-day-4",
@@ -2868,7 +2909,11 @@
             "note": "Race-pace 자극 + drill"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w13-day-5",
@@ -2906,7 +2951,13 @@
           "brick": false,
           "missed": false,
           "secondSport": "strength",
-          "secondSportLabel": "WEIGHT B"
+          "secondSportLabel": "WEIGHT B",
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w13-day-6",
@@ -2934,7 +2985,10 @@
             "note": "5/16 Milestone: 1.5x bridge. Race specificity continued."
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w13-day-7",
@@ -2959,7 +3013,10 @@
             "note": "5/18+ run 점진 복귀 결정"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -2993,7 +3050,10 @@
             "note": ""
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w14-day-2",
@@ -3017,7 +3077,10 @@
             "note": "Phase 2 run base 빌드"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w14-day-3",
@@ -3044,7 +3107,12 @@
             "note": "Race-pace 자극 복귀"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a",
+            "swim-drills"
+          ]
         },
         {
           "id": "w14-day-4",
@@ -3068,7 +3136,10 @@
             "note": "FTP 빌드"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w14-day-5",
@@ -3092,7 +3163,11 @@
             "note": "발목 OK 시 tempo 복귀"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b"
+          ]
         },
         {
           "id": "w14-day-6",
@@ -3117,7 +3192,10 @@
           "brick": false,
           "secondSport": "run",
           "secondSportLabel": "RUN",
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w14-day-7",
@@ -3142,7 +3220,12 @@
             "note": "OWS 2nd session"
           },
           "brick": false,
-          "missed": false
+          "missed": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         }
       ]
     },
@@ -3175,7 +3258,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w15-day-2",
@@ -3194,7 +3281,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w15-day-3",
@@ -3216,7 +3306,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w15-day-4",
@@ -3238,7 +3332,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w15-day-5",
@@ -3259,7 +3356,13 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w15-day-6",
@@ -3278,7 +3381,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w15-day-7",
@@ -3299,7 +3405,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -3332,7 +3441,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w16-day-2",
@@ -3351,7 +3464,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w16-day-3",
@@ -3373,7 +3489,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w16-day-4",
@@ -3395,7 +3515,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w16-day-5",
@@ -3416,7 +3539,13 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w16-day-6",
@@ -3437,7 +3566,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w16-day-7",
@@ -3458,7 +3590,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -3491,7 +3626,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w17-day-2",
@@ -3510,7 +3649,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w17-day-3",
@@ -3532,7 +3674,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w17-day-4",
@@ -3554,7 +3700,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w17-day-5",
@@ -3575,7 +3724,13 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w17-day-6",
@@ -3594,7 +3749,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w17-day-7",
@@ -3613,7 +3771,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -3646,7 +3807,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w18-day-2",
@@ -3686,7 +3850,12 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a",
+            "swim-drills"
+          ]
         },
         {
           "id": "w18-day-4",
@@ -3724,7 +3893,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b"
+          ]
         },
         {
           "id": "w18-day-6",
@@ -3762,7 +3935,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -3795,7 +3971,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w19-day-2",
@@ -3814,7 +3993,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w19-day-3",
@@ -3836,7 +4018,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-a"
+          ]
         },
         {
           "id": "w19-day-4",
@@ -3858,7 +4043,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w19-day-5",
@@ -3879,7 +4067,12 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w19-day-6",
@@ -3900,7 +4093,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w19-day-7",
@@ -3954,7 +4150,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w20-day-2",
@@ -3995,7 +4195,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w20-day-4",
@@ -4038,7 +4242,13 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w20-day-6",
@@ -4080,7 +4290,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -4113,7 +4326,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w21-day-2",
@@ -4132,7 +4348,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w21-day-3",
@@ -4153,7 +4372,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-a"
+          ]
         },
         {
           "id": "w21-day-4",
@@ -4175,7 +4397,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w21-day-5",
@@ -4196,7 +4421,12 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-b",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w21-day-6",
@@ -4217,7 +4447,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w21-day-7",
@@ -4271,7 +4504,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w22-day-2",
@@ -4312,7 +4549,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w22-day-4",
@@ -4355,7 +4595,12 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w22-day-6",
@@ -4419,7 +4664,11 @@
           },
           "brick": false,
           "secondSport": "bike",
-          "secondSportLabel": "BIKE+RUN"
+          "secondSportLabel": "BIKE+RUN",
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         }
       ]
     },
@@ -4452,7 +4701,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w23-day-2",
@@ -4473,7 +4725,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w23-day-3",
@@ -4518,7 +4773,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w23-day-5",
@@ -4539,7 +4797,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills",
+            "wetsuit-puton"
+          ]
         },
         {
           "id": "w23-day-6",
@@ -4558,7 +4820,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w23-day-7",
@@ -4614,7 +4879,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w24-day-2",
@@ -4655,7 +4924,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w24-day-4",
@@ -4697,7 +4969,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w24-day-6",
@@ -4746,7 +5022,11 @@
           },
           "brick": false,
           "secondSport": "bike",
-          "secondSportLabel": "BIKE+RUN"
+          "secondSportLabel": "BIKE+RUN",
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         }
       ]
     },
@@ -4779,7 +5059,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w25-day-2",
@@ -4800,7 +5083,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w25-day-3",
@@ -4822,7 +5108,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-a"
+          ]
         },
         {
           "id": "w25-day-4",
@@ -4845,7 +5134,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w25-day-5",
@@ -4864,7 +5156,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "weight-b",
+            "swim-drills"
+          ]
         },
         {
           "id": "w25-day-6",
@@ -4883,7 +5179,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w25-day-7",
@@ -4937,7 +5236,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w26-day-2",
@@ -4978,7 +5281,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-a"
+          ]
         },
         {
           "id": "w26-day-4",
@@ -5018,7 +5325,12 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "weight-b",
+            "swim-drills"
+          ]
         },
         {
           "id": "w26-day-6",
@@ -5058,7 +5370,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -5093,7 +5408,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w27-day-2",
@@ -5112,7 +5430,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w27-day-3",
@@ -5154,7 +5475,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w27-day-5",
@@ -5175,7 +5499,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w27-day-6",
@@ -5197,7 +5524,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w27-day-7",
@@ -5253,7 +5583,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w28-day-2",
@@ -5293,7 +5626,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w28-day-4",
@@ -5333,7 +5670,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w28-day-6",
@@ -5375,7 +5715,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -5408,7 +5751,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w29-day-2",
@@ -5427,7 +5773,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w29-day-3",
@@ -5467,7 +5816,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w29-day-5",
@@ -5486,7 +5838,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w29-day-6",
@@ -5505,7 +5860,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w29-day-7",
@@ -5557,7 +5915,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w30-day-2",
@@ -5598,7 +5960,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w30-day-4",
@@ -5641,7 +6006,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w30-day-6",
@@ -5679,7 +6048,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     },
@@ -5712,7 +6084,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w31-day-2",
@@ -5731,7 +6106,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w31-day-3",
@@ -5776,7 +6154,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w31-day-5",
@@ -5795,7 +6176,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w31-day-6",
@@ -5816,7 +6200,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w31-day-7",
@@ -5868,7 +6255,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w32-day-2",
@@ -5908,7 +6299,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         },
         {
           "id": "w32-day-4",
@@ -5946,7 +6340,11 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab",
+            "swim-drills"
+          ]
         },
         {
           "id": "w32-day-6",
@@ -5977,7 +6375,10 @@
           },
           "brick": false,
           "secondSport": "bike",
-          "secondSportLabel": "BIKE+RUN"
+          "secondSportLabel": "BIKE+RUN",
+          "library": [
+            "swim-drills"
+          ]
         },
         {
           "id": "w32-day-7",
@@ -5999,7 +6400,10 @@
             "equipment": [],
             "note": ""
           },
-          "brick": false
+          "brick": false,
+          "library": [
+            "ankle-rehab"
+          ]
         }
       ]
     }
