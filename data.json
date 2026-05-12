@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 44,
   "athlete": "Bosco",
   "races": [
     {
@@ -2776,7 +2776,8 @@
         "title": "Week 13 — HM Recovery + Weight Intro + First OWS",
         "content": "Swim 2x · Bike 2x · Weight 2x · OWS 1x · 발목 daily · Run 0",
         "changes": "Weight training + 발목 강화 추가. OWS 5/15.",
-        "focus": "Phase 2: Re-base + Strength intro"
+        "focus": "Phase 2: Re-base + Strength intro",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3029,7 +3030,8 @@
         "title": "Week 14 — Normal Training Cadence",
         "content": "Swim 2x · Bike 2x · Run 2-3x · Brick 1x",
         "changes": "발목 OK 가정 시 정상 cadence, OWS 1x",
-        "focus": "Phase 2: Re-base"
+        "focus": "Phase 2: Re-base",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3238,7 +3240,8 @@
         "title": "Week 15 — Phase 2 마무리 · Checkpoint",
         "content": "Volume 점진 ↑ · 5/31 8mi run 통증 0 체크포인트",
         "changes": "Phase 3 진입 준비",
-        "focus": "Phase 2 마무리 → Phase 3 Build 1"
+        "focus": "Phase 2 마무리 → Phase 3 Build 1",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3421,7 +3424,8 @@
         "title": "Week 16 — Build 1 Week 1",
         "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Build 1 Week 1 — Volume 빌드"
+        "focus": "Build 1 Week 1 — Volume 빌드",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3606,7 +3610,8 @@
         "title": "Week 17 — Build 1 Week 2",
         "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Build 1 Week 2 — 1900yd TT 6/15"
+        "focus": "Build 1 Week 2 — 1900yd TT 6/15",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3787,7 +3792,8 @@
         "title": "Week 18 — Build 1 Week 3",
         "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Build 1 Week 3 — Threshold work"
+        "focus": "Build 1 Week 3 — Threshold work",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -3951,7 +3957,8 @@
         "title": "Week 19 — Build 1 Week 4",
         "content": "Swim 2-3x · Bike 3x · Run 3x · Brick 1x · OWS 1x",
         "changes": "",
-        "focus": "Build 1 Week 4 — HM TT 6/28 + 50mi @ 17.4+ mph"
+        "focus": "Build 1 Week 4 — HM TT 6/28 + 50mi @ 17.4+ mph",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -4130,7 +4137,8 @@
         "title": "Week 20 — Build 2 Week 1",
         "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Build 2 Week 1 — Volume peak 시작"
+        "focus": "Build 2 Week 1 — Volume peak 시작",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -4306,7 +4314,8 @@
         "title": "Week 21 — Build 2 Week 2",
         "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Build 2 Week 2 — Tappan Zee 52mi (2x) D-day TT"
+        "focus": "Build 2 Week 2 — Tappan Zee 52mi (2x) D-day TT",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -4484,7 +4493,8 @@
         "title": "Week 22 — Build 2 Week 3",
         "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "당일 출발 결정 (baby + 산모 우선). Completion + data 목표.",
-        "focus": "Build 2 Week 3 — Race week SuperTri NJ Olympic 7/19"
+        "focus": "Build 2 Week 3 — Race week SuperTri NJ Olympic 7/19",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -4681,7 +4691,8 @@
         "title": "Week 23 — Build 2 Week 4",
         "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Build 2 Week 4 — Race recovery + 70.3 sim 준비"
+        "focus": "Build 2 Week 4 — Race recovery + 70.3 sim 준비",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -4859,7 +4870,8 @@
         "title": "Week 24 — Peak",
         "content": "Race-pace 자극 + 70.3 specificity",
         "changes": "",
-        "focus": "Peak — 70.3 풀 sim 8/2 (1.9km swim + 56mi bike + 13.1mi run)"
+        "focus": "Peak — 70.3 풀 sim 8/2 (1.9km swim + 56mi bike + 13.1mi run)",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5039,7 +5051,8 @@
         "title": "Week 25 — Sharpening",
         "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Sharpening Week 1 — Race-pace 위주"
+        "focus": "Sharpening Week 1 — Race-pace 위주",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5214,7 +5227,8 @@
         "title": "Week 26 — Sharpening",
         "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Sharpening Week 2 — Brick 2x/wk"
+        "focus": "Sharpening Week 2 — Brick 2x/wk",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5386,7 +5400,8 @@
         "title": "Week 27 — Sharpening",
         "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Sharpening Week 3 — Jones Beach OWS 답사"
+        "focus": "Sharpening Week 3 — Jones Beach OWS 답사",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5561,7 +5576,8 @@
         "title": "Week 28 — Sharpening",
         "content": "Race-pace 자극 + Jones Beach OWS 답사",
         "changes": "",
-        "focus": "Sharpening Week 4 — Mock race week (D-30)"
+        "focus": "Sharpening Week 4 — Mock race week (D-30)",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5731,7 +5747,8 @@
         "title": "Week 29 — Taper",
         "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Taper Week 1 — Volume -30%, intensity 유지"
+        "focus": "Taper Week 1 — Volume -30%, intensity 유지",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -5895,7 +5912,8 @@
         "title": "Week 30 — Taper",
         "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Taper Week 2 — Volume -50%"
+        "focus": "Taper Week 2 — Volume -50%",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -6064,7 +6082,8 @@
         "title": "Week 31 — Taper",
         "content": "Volume cut, intensity 유지, race day prep",
         "changes": "",
-        "focus": "Taper Week 3 — Sharp short, gear 점검"
+        "focus": "Taper Week 3 — Sharp short, gear 점검",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
@@ -6235,7 +6254,8 @@
         "title": "Race Week — Jones Beach 70.3 9/26",
         "content": "Short sharp · gear final · race day prep",
         "changes": "D-day 9/26",
-        "focus": "🏁 RACE: 9/26 Jones Beach 70.3"
+        "focus": "🏁 RACE: 9/26 Jones Beach 70.3",
+        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
       },
       "days": [
         {
