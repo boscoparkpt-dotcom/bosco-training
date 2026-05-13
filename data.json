@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "athlete": "Bosco",
   "races": [
     {
@@ -2855,20 +2855,18 @@
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "Swim 1700yd CSS + Drill",
-            "meta": "35-40min · Light-moderate (내일 tempo 위해)",
+            "title": "Swim 1600yd Simple",
+            "meta": "35min · 3-part set",
             "sets": [
-              "WU 300yd EZ pull",
-              "4×50yd drill",
-              "6×100yd CSS @ 1:48",
-              "200yd pull EZ",
-              "CD 200yd"
+              "300 WU EZ",
+              "10×100 @ 1:48 (buoy, 15s rest)",
+              "300 CD EZ"
             ],
             "equipment": [
               "FORM goggles",
               "Pull buoy"
             ],
-            "note": "다리 fresh 유지 (내일 5:30am tempo)"
+            "note": "외우기 쉬운 3-part. 다리 fresh (내일 tempo)."
           },
           "brick": false,
           "missed": false,
