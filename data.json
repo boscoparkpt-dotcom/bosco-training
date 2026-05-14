@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 48,
   "athlete": "Bosco",
   "races": [
     {
@@ -2977,22 +2977,27 @@
           "date": "May 17",
           "isoDate": "2026-05-17",
           "sport": "run",
-          "sportLabel": "SOCIAL RUN",
+          "sportLabel": "MENTOR RUN",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Run with Dr. Junho Lee — 5-7mi EZ",
-            "meta": "9:00/mi social pace · HR<155 Z2",
+            "title": "Run with Dr. Junho Lee — GWB Hudson Route",
+            "meta": "7:00 AM · Fort Lee NJ → GWB → Hudson · 5-7mi @ 9:00/mi",
             "sets": [
-              "Bergen County 평지",
-              "Dr. Lee mentor (10× 70.3, AWA Silver)",
-              "NJ Challenge + NY 70.3 경험 질문"
+              "7:00 AM 조지 워싱턴 브리지 NJ side 입구 미팅",
+              "Route: Fort Lee NJ → GWB cross → Hudson Greenway (NY side)",
+              "본인 turn-around 2.5-3.5mi point → return",
+              "Total 5-7mi @ 9:00/mi EZ Z2 (HR<155)",
+              "Mentor Q: NY 70.3, NJ Challenge, OWS, Wetsuit tips"
             ],
             "equipment": [
-              "Cushion shoes"
+              "Cushion shoes",
+              "Water bottle 500ml",
+              "Gel 1",
+              "Electrolyte"
             ],
-            "note": "5-7mi EZ only. 그분 long run plan이면 turn-around 5-7mi. Race 코스 정보 gold."
+            "note": "Dr. Lee = 10× 70.3 + AWA Silver. NJ Challenge + NY 70.3 둘 다 경험. 페이스 따라가지 X — 본인 5-7mi turn-around. 다리 위 햇볕 = sun protection."
           },
           "brick": false,
           "missed": false,
