@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "athlete": "Bosco",
   "races": [
     {
@@ -2851,7 +2851,7 @@
           "isoDate": "2026-05-13",
           "sport": "swim",
           "sportLabel": "SWIM",
-          "completed": false,
+          "completed": true,
           "injury": true,
           "changed": true,
           "workout": {
@@ -2875,7 +2875,11 @@
           "library": [
             "ankle-rehab",
             "weight-a"
-          ]
+          ],
+          "sessionGrade": "A",
+          "actual": "1750yd · 1:40/100yd · HR avg 149 / max 170 · Best 250yd 1:36 + 75yd 1:21",
+          "planned": "1600yd 3-part · 1:48/100yd CSS",
+          "coachNote": "5월 swim trend 일관 1:38-1:43 = race Stretch target zone. Negative split + Lap 25 75yd @ 1:21 = strong sprint. 다리 fresh, 내일 tempo run leg 영향 0. Suffer 82 manageable."
         },
         {
           "id": "w13-day-4",
