@@ -1,5 +1,5 @@
 {
-  "version": 48,
+  "version": 49,
   "athlete": "Bosco",
   "races": [
     {
@@ -2886,18 +2886,20 @@
           "name": "Thursday",
           "date": "May 14",
           "isoDate": "2026-05-14",
-          "sport": "run",
-          "sportLabel": "TEMPO",
-          "completed": false,
+          "sport": "bike",
+          "sportLabel": "Z2 ZWIFT",
+          "completed": true,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "NVD Group Tempo Run — 5mi",
-            "meta": "5:30am · 3×12min @ 8:30/mi (본인 zone)",
+            "title": "Z2 Zwift Recovery Ride (eve)",
+            "meta": "45min · 10mi · HR Z2 (128 avg) · NP 148W · Lap 17 tempo finish",
             "sets": [
-              "WU 1.5mi @ 9:30/mi",
-              "3×12min @ 8:30/mi (3min jog 사이)",
-              "CD 1mi"
+              "Plan: AM tempo run (missed — baby/sleep)",
+              "Reality: 점심 nap + 저녁 Zwift 45min",
+              "Z2 strict HR 128 avg · NP 148W (race target 71%)",
+              "Lap 17 마무리 push 3.76mi @ 20mph @ 163W tempo",
+              "Suffer 21 = recovery zone, fitness 유지"
             ],
             "equipment": [
               "Cushion shoes"
@@ -2909,7 +2911,11 @@
           "library": [
             "ankle-rehab",
             "swim-drills"
-          ]
+          ],
+          "sessionGrade": "A",
+          "actual": "Zwift 10.31mi · 45min · Avg 142W NP 148W · HR 128/152 · Suffer 21",
+          "planned": "AM tempo 3×12min @ 8:30/mi (missed — baby/sleep)",
+          "coachNote": "Forced AM tempo X = correct decision. 5h sleep + baby + work에 light Zwift는 wise. 5/17 GWB leg fresh 보존. 'Plan대로 X = 본인이 better choice' — 신생아 dad sustainability key."
         },
         {
           "id": "w13-day-5",
