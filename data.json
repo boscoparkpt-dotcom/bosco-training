@@ -1,5 +1,5 @@
 {
-  "version": 49,
+  "version": 50,
   "athlete": "Bosco",
   "races": [
     {
@@ -2922,23 +2922,23 @@
           "name": "Friday",
           "date": "May 15",
           "isoDate": "2026-05-15",
-          "sport": "strength",
-          "sportLabel": "WEIGHT A",
+          "sport": "run",
+          "sportLabel": "LIGHT RUN",
           "completed": false,
           "injury": true,
           "changed": true,
           "workout": {
-            "title": "Weight A — Lower Body + Core",
-            "meta": "45min · Strength intro",
+            "title": "Light Run — Leg Priming",
+            "meta": "1-2mi @ 9:30/mi · Energy 따라",
             "sets": [
-              "Goblet Squat 4×8",
-              "Single-leg RDL 3×8",
-              "Reverse lunge 3×8",
-              "Calf raise 3×15",
-              "Plank+Bird dog"
+              "Energy 7+: 2mi EZ + 4 strides",
+              "Energy 5-6: 1mi EZ",
+              "Energy <5: Skip"
             ],
-            "equipment": [],
-            "note": "OWS 시즌 X (5/29 후) → Weight A 이동"
+            "equipment": [
+              "Asics Megablast"
+            ],
+            "note": "내일 brick + 5/17 GWB leg-heavy week. 오늘 light only."
           },
           "brick": false,
           "missed": false,
@@ -2957,25 +2957,34 @@
           "date": "May 16",
           "isoDate": "2026-05-16",
           "sport": "bike",
-          "sportLabel": "EVENING ZWIFT",
+          "sportLabel": "BRICK",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Evening Zwift Z2 — 60min",
-            "meta": "Clinic day 후 light · HR 140-150",
+            "title": "🔄 BRICK — Tappan Zee 23mi + 2mi Run",
+            "meta": "6:00 AM start · 23mi bike + 2mi brick run",
             "sets": [
-              "Z2 endurance",
-              "Cadence 85-95"
+              "6:00 AM 출발 · Bardonia → Tappan Zee + bridge cross 23mi",
+              "Target: 18-19 mph (5/7 PR baseline)",
+              "HR Z2-Z3 · 1mi aero × 4-6 (race specificity)",
+              "T2 2-3min transition rehearsal",
+              "2mi brick run @ 9:00/mi (Olympic race-pace proxy)",
+              "Finish ~7:30 AM (clinic 9am 전)"
             ],
-            "equipment": [],
-            "note": "Pre-clinic 5am 새벽 outdoor 무리 X → 저녁 indoor"
+            "equipment": [
+              "Bike + bottle 500ml + 2 gels"
+            ],
+            "note": "Race specificity ⭐ Solo non-drafting + bridge crosswind + brick = 7/19+9/26 race condition simulation."
           },
-          "brick": false,
+          "brick": true,
           "missed": false,
           "library": [
             "ankle-rehab"
-          ]
+          ],
+          "secondSport": "run",
+          "secondSportLabel": "RUN",
+          "brickFlow": "bike→run"
         },
         {
           "id": "w13-day-7",
