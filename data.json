@@ -1,5 +1,5 @@
 {
-  "version": 52,
+  "version": 53,
   "athlete": "Bosco",
   "races": [
     {
@@ -121,12 +121,16 @@
             "label": "🌊 First Wetsuit OWS Test"
           },
           {
-            "date": "2026-05-16",
-            "label": "Tappan Zee 1.5x bridge — 30-35mi (extension test)"
-          },
-          {
             "date": "2026-05-31",
             "label": "5mi run @ HR<165 통증 없이"
+          },
+          {
+            "date": "2026-06-07",
+            "label": "🚴 45mi Long Ride"
+          },
+          {
+            "date": "2026-06-14",
+            "label": "🚴 50mi Long Ride — first 50!"
           },
           {
             "date": "2026-06-15",
@@ -3266,11 +3270,10 @@
       "weekDates": "May 25-31, 2026",
       "startDate": "2026-05-25",
       "weeklySummary": {
-        "title": "Week 15 — Phase 2 마무리 · Checkpoint",
-        "content": "Volume 점진 ↑ · 5/31 8mi run 통증 0 체크포인트",
-        "changes": "Phase 3 진입 준비",
-        "focus": "Phase 2 마무리 → Phase 3 Build 1",
-        "weekStructure": "Mon rest · Tue swim+Wt A · Wed bike · Thu swim+Wt B · Fri OWS · Sat pre-clinic light · Sun LONG+BRICK"
+        "title": "Week 15 — First 40mi Outdoor + Memorial Day",
+        "content": "Run base + 5/31 40mi (longest in 2026)",
+        "changes": "Phase 2 마무리 · 50mi build 시작",
+        "focus": "Long ride extension"
       },
       "days": [
         {
@@ -3423,19 +3426,26 @@
           "name": "Sunday",
           "date": "May 31",
           "isoDate": "2026-05-31",
-          "sport": "run",
-          "sportLabel": "RUN",
+          "sport": "bike",
+          "sportLabel": "🚴 LONGEST",
           "completed": false,
           "injury": false,
-          "changed": false,
+          "changed": true,
           "workout": {
-            "title": "LONG RUN",
-            "meta": "15 mi",
+            "title": "🚴 40mi Outdoor — Tappan Zee + Extend ⭐",
+            "meta": "D-119 to 70.3 · First 40mi (over 36mi PR)",
             "sets": [
-              "Easy effort"
+              "Route: Bardonia → Tappan Zee + bridge full cross + extend NY side",
+              "40mi target @ 18-19 mph",
+              "Z2-Z3 (HR 145-160)",
+              "Aero 1mi × 6-8 (race specificity)",
+              "Fueling rehearsal (4 gels, 2-3L 음료)",
+              "Solo non-drafting = race condition"
             ],
-            "equipment": [],
-            "note": ""
+            "equipment": [
+              "Bike + 2 bottles + 4 gels + electrolyte"
+            ],
+            "note": "50mi build 시작 (35→40→45→50→52→56). 발목 + nutrition rehearsal 핵심."
           },
           "brick": false,
           "library": [
