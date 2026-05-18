@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 52,
   "athlete": "Bosco",
   "races": [
     {
@@ -3226,22 +3226,27 @@
           "name": "Sunday",
           "date": "May 24",
           "isoDate": "2026-05-24",
-          "sport": "bike",
-          "sportLabel": "GROUP RIDE",
+          "sport": "swim",
+          "sportLabel": "PACK SWIM",
           "completed": false,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🚴 나누엣 24mi Group Ride",
-            "meta": "5:30 AM · Z3 endurance · 24mi",
+            "title": "🏊 Pack Swim 2100yd — 100yd Lead Rotation",
+            "meta": "5:30-6:30 AM · 21×100yd · race specificity ⭐",
             "sets": [
-              "나누엣 5:30 AM",
-              "24mi @ Z3 (HR 155-165)",
-              "Race specificity",
-              "Aero practice 가능 시 1mi × 4"
+              "5:30 AM 도착 (15min 일찍 WU)",
+              "WU 200yd",
+              "Main: 21×100yd pack with lead rotation",
+              "Lead 본인 turn: 1:40-1:45/100yd (race pace)",
+              "Draft positions: recover, contact 적응",
+              "CD 200yd",
+              "Total ~2100yd, 45-60min"
             ],
-            "equipment": [],
-            "note": "Race target +5% = 본인 19-20 mph."
+            "equipment": [
+              "FORM goggles"
+            ],
+            "note": "Race specificity ⭐ — pack swim + drafting + contact = OWS race start 시뮬"
           },
           "brick": false,
           "missed": false,
@@ -3249,7 +3254,9 @@
             "ankle-rehab",
             "swim-drills",
             "wetsuit-puton"
-          ]
+          ],
+          "secondSport": null,
+          "secondSportLabel": null
         }
       ]
     },
