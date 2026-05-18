@@ -1,5 +1,5 @@
 {
-  "version": 53,
+  "version": 54,
   "athlete": "Bosco",
   "races": [
     {
@@ -121,6 +121,10 @@
             "label": "🌊 First Wetsuit OWS Test"
           },
           {
+            "date": "2026-05-29",
+            "label": "🌊 First OWS no-wetsuit test (Mercer race prep)"
+          },
+          {
             "date": "2026-05-31",
             "label": "5mi run @ HR<165 통증 없이"
           },
@@ -205,8 +209,8 @@
       "date": "2026-07-19",
       "type": "Olympic Triathlon",
       "goal": {
-        "total": "Completion goal",
-        "tier": "Rehearsal race — 당일 출발, 완주 + 데이터"
+        "total": "3:00 (No wetsuit re-estimate)",
+        "tier": "Rehearsal race · 당일 출발 · ⚠️ NO WETSUIT (Mercer Lake July >78°F)"
       }
     },
     {
@@ -3055,19 +3059,19 @@
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "Swim Recovery 1500-1800yd",
-            "meta": "EZ-CSS · 1:45-1:50/100yd",
+            "title": "Swim 1400yd — Buoy Reduce 시작",
+            "meta": "30min · 50% no-buoy (no wetsuit race prep)",
             "sets": [
-              "WU 300yd",
-              "6×100yd @ 1:48 (15s rest)",
-              "Pull 400yd",
-              "CD 200yd"
+              "300 WU EZ (buoy)",
+              "4×100 @ 1:50 (NO buoy, full swim) — kick activation",
+              "4×100 @ 1:50 (buoy, EZ)",
+              "300 CD (no buoy)"
             ],
             "equipment": [
               "FORM goggles",
               "Pull buoy"
             ],
-            "note": "내일 5:30am 인터벌 위해 light. Sleep 우선."
+            "note": "7/19 NO WETSUIT → buoy pants 점진 reduce. Kick gentle (발목 protect)."
           },
           "brick": false,
           "missed": false,
