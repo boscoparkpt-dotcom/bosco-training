@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "athlete": "Bosco",
   "races": [
     {
@@ -3086,12 +3086,12 @@
           "isoDate": "2026-05-19",
           "sport": "bike",
           "sportLabel": "GROUP INTERVAL",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🚴 럭맨파크 → 테판지 왕복 인터벌",
-            "meta": "5:30 AM · 5×5min @ 본인 220-235W (그룹 240-250)",
+            "title": "🚴 Group Brick — 21mi + 1mi (A-)",
+            "meta": "NP 213W race target +6% · 14 PRs · 어렵지만 OK",
             "sets": [
               "럭맨 Park 5:30 AM",
               "WU 10min",
@@ -3103,11 +3103,17 @@
             "equipment": [],
             "note": "Race target 200W +10-15% = 본인 220-235W. Z4-Z5 LT-VO2. 발목 monitor."
           },
-          "brick": false,
+          "brick": true,
           "missed": false,
           "library": [
             "ankle-rehab"
-          ]
+          ],
+          "sessionGrade": "A-",
+          "actual": "Bike 21.2mi @ NP 213W HR 156 + Brick run 1.04mi @ 9:09/mi · 14 PRs",
+          "brickFlow": "bike→run",
+          "secondSport": "run",
+          "secondSportLabel": "BRICK RUN",
+          "coachNote": "NP 213W = 4/24 PR level 유지. '어렵게 느낌' = sleep 5h + 누적, but performance objective OK. Race specificity 검증."
         },
         {
           "id": "w14-day-3",
