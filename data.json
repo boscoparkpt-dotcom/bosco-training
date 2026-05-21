@@ -1,5 +1,5 @@
 {
-  "version": 55,
+  "version": 56,
   "athlete": "Bosco",
   "races": [
     {
@@ -3153,12 +3153,12 @@
           "isoDate": "2026-05-21",
           "sport": "run",
           "sportLabel": "TRACK INTERVAL",
-          "completed": false,
+          "completed": true,
           "injury": false,
           "changed": true,
           "workout": {
-            "title": "🏃 NVD 트랙 인터벌",
-            "meta": "5:30 AM · 본인 zone 8:00-8:30/mi (그룹 7:00 빠름)",
+            "title": "🏃 Track 800m × 6 — B+",
+            "meta": "5K pace -22s zone · Z4-Z5 · 그룹 7:00 안 따라감",
             "sets": [
               "WU 1.5mi",
               "Intervals 본인 8:00-8:30/mi",
@@ -3174,7 +3174,10 @@
           "missed": false,
           "library": [
             "ankle-rehab"
-          ]
+          ],
+          "sessionGrade": "B+",
+          "actual": "Track 6×800m · 4.52mi · 8:50/mi avg (intervals 7:50-8:11) · HR 158/180 · 본인 zone 사수",
+          "coachNote": "Wednesday crash 후 회복 + quality intervals. Achievements 0 = 본인 zone 사수 wisdom. Race-specific zone (Olympic -40s, 70.3 -69s). Lap 4 fade = cumulative."
         },
         {
           "id": "w14-day-5",
