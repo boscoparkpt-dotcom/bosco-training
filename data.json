@@ -6485,81 +6485,81 @@
       "id": "weight-a",
       "category": "Weight Training",
       "icon": "🏋️",
-      "title": "Weight A — Lower Body + Core",
-      "subtitle": "45min · 2x/wk · Run power + 발목 강화",
+      "title": "Weight A — Lower + Pull",
+      "subtitle": "30-40min · 2x/wk · In-season heavy · bike/run power",
       "items": [
         {
-          "name": "Goblet Squat",
-          "prescription": "4×8",
-          "notes": "Knee tracking outside toe, full depth, 2s descend"
+          "name": "Trap-bar Deadlift (or Back Squat)",
+          "prescription": "4×4 · RPE8",
+          "notes": "Bike power·전신. Explosive concentric, 실패 금지(1-2 RIR)"
         },
         {
-          "name": "Single-leg RDL (Romanian DL)",
-          "prescription": "3×8 each",
-          "notes": "Hip hinge, soft knee, hamstring stretch · 발목 stability 보너스"
+          "name": "Romanian Deadlift",
+          "prescription": "3×6 · RPE7-8",
+          "notes": "Hip hinge, posterior chain·hamstring · 발목 보호"
         },
         {
-          "name": "Walking Lunge (BW or DB)",
-          "prescription": "3×10 each",
-          "notes": "평지 only, knee tracking"
+          "name": "Bulgarian Split Squat",
+          "prescription": "3×6 each",
+          "notes": "단일다리 균형·run. 불안정하면 box step-up으로"
         },
         {
-          "name": "Single-leg Calf Raise (slow eccentric)",
-          "prescription": "3×15",
-          "notes": "3-sec lower phase, 발목 강화 강조"
+          "name": "Pull-up (or Lat Pulldown)",
+          "prescription": "3×6-8 · RPE8",
+          "notes": "Swim pull power, scapula retract"
         },
         {
-          "name": "Plank",
-          "prescription": "3×60s",
-          "notes": "Hip neutral, glute squeeze"
+          "name": "Standing Calf Raise",
+          "prescription": "3×10",
+          "notes": "발목/calf durability. 점진적 증량, 통증 0에서만 (post-tib 이력)"
         },
         {
-          "name": "Bird Dog",
-          "prescription": "3×10 each",
-          "notes": "Slow controlled, hip stable"
+          "name": "Pallof Press",
+          "prescription": "2×10 each",
+          "notes": "Anti-rotation core"
         }
       ],
-      "notes": "무릎/발목 통증 시 즉시 stop. Progress: weight ↑ 2-3주마다 5%."
+      "notes": "In-season maximal strength: 무거운 무게·explosive intent·실패까지 X. 다음날 hard bike/run 금지(quality 충돌). 발목 통증 시 즉시 stop. Race 3주 전 볼륨 절반, race week skip."
     },
     {
       "id": "weight-b",
       "category": "Weight Training",
       "icon": "🏋️",
-      "title": "Weight B — Upper/Posterior + Swim Power",
-      "subtitle": "45min · 2x/wk · Swim catch + Aero posture",
+      "title": "Weight B — Upper + Power + Single-leg",
+      "subtitle": "30-40min · 2x/wk · In-season heavy · swim/posture",
       "items": [
         {
-          "name": "Pull-up (or Lat Pull-down)",
-          "prescription": "4×8",
-          "notes": "Swim catch power, scapula retract"
+          "name": "Hip Thrust (or Trap-bar DL)",
+          "prescription": "4×5 · RPE8",
+          "notes": "Glute power·bike/run. Explosive drive"
         },
         {
-          "name": "Single-arm DB Row",
-          "prescription": "3×10 each",
-          "notes": "Pulling motion, lat focus"
+          "name": "DB Bench Press",
+          "prescription": "3×6-8 · RPE7-8",
+          "notes": "상체 push·swim 자세 balance"
         },
         {
-          "name": "DB Press (overhead or bench)",
-          "prescription": "3×10",
-          "notes": "Push balance"
+          "name": "Single-leg RDL",
+          "prescription": "3×6 each",
+          "notes": "발목/고관절 안정성·run. Hip hinge, soft knee"
         },
         {
-          "name": "Cable Face Pull",
-          "prescription": "3×15",
-          "notes": "Posture for aero bike position"
+          "name": "Seated Cable Row",
+          "prescription": "3×8 · RPE8",
+          "notes": "Swim pull, posture for aero bike position"
         },
         {
-          "name": "Hanging Knee Raise",
-          "prescription": "3×10",
-          "notes": "Core / hip flexor"
+          "name": "Box Step-up",
+          "prescription": "3×8 each",
+          "notes": "단일다리·leg. 평지 통제된 ROM"
         },
         {
           "name": "Side Plank",
-          "prescription": "3×45s each",
-          "notes": "Hip stability for run gait"
+          "prescription": "2×30s each",
+          "notes": "Lateral core·run gait 안정"
         }
       ],
-      "notes": "Pull-up scaling: lat pull-down or band-assist if needed."
+      "notes": "In-season: RPE7-8, 1-2 RIR로 실패 회피. 점프/플라이오 제외(발목 부하). Pull 안 되면 band-assist. 다음날 hard 세션 금지."
     },
     {
       "id": "ankle-rehab",
