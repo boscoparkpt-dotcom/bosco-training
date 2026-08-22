@@ -1,5 +1,5 @@
 {
- "version": 58,
+ "version": 59,
  "athlete": "Bosco",
  "races": [
   {
@@ -144,7 +144,7 @@
      },
      {
       "date": "2026-08-29",
-      "label": "🏃 롱런 8mi"
+      "label": "🏃 롱런 9mi"
      },
      {
       "date": "2026-09-01",
@@ -156,7 +156,7 @@
      },
      {
       "date": "2026-09-05",
-      "label": "🏃 롱런 9-10mi"
+      "label": "🏃 ★최장 롱런 11-12mi"
      },
      {
       "date": "2026-09-13",
@@ -5626,22 +5626,26 @@
      "name": "Sunday",
      "date": "Aug 23",
      "isoDate": "2026-08-23",
-     "sport": "bike",
-     "sportLabel": "BIKE",
+     "sport": "run",
+     "sportLabel": "RUN",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "LONG RIDE 40mi (그룹)",
-      "meta": "IF 0.70-0.75 · 앉아서 · 평지 위주",
+      "title": "TEAM LONG RUN 7mi easy",
+      "meta": "평지 · HR ≤155 · out-and-back 3.5mi 반환",
       "sets": [
-       "그룹이 밀어붙이면 뒤에서",
-       "연료 60-90g 탄수/hr ★기록할 것"
+       "어제 6.57mi 대비 +7% (10%룰)",
+       "팀이 더 가면 7에서 빠지기",
+       "피로한 다리 러닝 = 70.3 런 특이성"
       ],
       "equipment": [],
-      "note": "새벽 팀 라이딩은 유지 (출석 압박 덕에 성사율 높음)."
+      "note": "계획 변경: 일 라이드 40mi → 팀 롱런. 런이 유일한 리미터, 바이크는 8/1 63mi·8/9 AG2위로 검증됨."
      },
-     "brick": false
+     "brick": false,
+     "library": [
+      "ankle-rehab"
+     ]
     }
    ]
   },
@@ -5652,9 +5656,9 @@
    "startDate": "2026-08-24",
    "weeklySummary": {
     "title": "Week 28 — Run Rebuild W2",
-    "content": "롱런 8mi · 브릭 재도입 · 러닝 ~19mi",
+    "content": "롱런 9mi · 브릭 재도입 · 러닝 ~20mi",
     "changes": "",
-    "focus": "🔒 필수 = 토 롱런 8mi + 일 롱라이드",
+    "focus": "🔒 필수 = 롱런 9mi + 롱라이드",
     "weekStructure": "월 휴식 · 화 바이크+브릭 · 수 이지런 · 목 스윔+Wt A · 금 OWS · 토 롱런 8mi · 일 라이드 45mi"
    },
    "days": [
@@ -5796,8 +5800,8 @@
      "injury": false,
      "changed": false,
      "workout": {
-      "title": "🔒 LONG RUN 8mi easy",
-      "meta": "평지 · HR ≤157 · 마지막 2mi만 9:10 시도 가능",
+      "title": "🔒 LONG RUN 9mi easy",
+      "meta": "평지 · HR ≤157 · 마지막 2mi 9:10 시도 가능",
       "sets": [
        "연료: 40분 지점 젤 1개",
        "전해질"
@@ -5840,9 +5844,9 @@
    "startDate": "2026-08-31",
    "weeklySummary": {
     "title": "Week 29 — Race-Specific Build",
-    "content": "롱런 9-10mi · ★웻수트 연속 OWS 기준선 · FTP/LTHR 재측정",
+    "content": "★최장 롱런 11-12mi · 웻수트 연속 OWS · FTP/LTHR 재측정",
     "changes": "★미해결 3건 처리 주간: ①웻수트 연속 OWS 한 번도 못 잼(3회 연기) ②FTP 245 낡음(Garmin 264 추정) ③LTHR 176 낡음(8/9 런 22:42를 avg 178로 뜀 → 실제 180-182 추정)",
-    "focus": "🔒 롱런 9-10mi + 🔒 OWS 웻수트 연속 + 측정 2건",
+    "focus": "🔒 롱런 11-12mi + 🔒 OWS 웻수트 연속 + 측정 2건",
     "weekStructure": "월 휴식 · 화 FTP 20min TT · 수 템포 4×8 · 목 스윔+Wt B · 금 ★OWS 웻수트 연속 · 토 롱런 9-10mi · 일 라이드 50mi"
    },
    "days": [
@@ -5983,14 +5987,15 @@
      "injury": false,
      "changed": false,
      "workout": {
-      "title": "🔒 LONG RUN 9-10mi",
-      "meta": "마지막 3mi @ 9:10/mi HR 155-160 시도",
+      "title": "🔒 LONG RUN 11-12mi ★최장",
+      "meta": "시즌 최장 롱런 · 마지막 3mi @ 9:10/mi HR 155-160",
       "sets": [
-       "연료: 40분마다 젤",
+       "★레이스 3주 전 거리 확인",
+       "연료 40분마다 젤 — 실제 g/hr 기록",
        "전해질 필수"
       ],
       "equipment": [],
-      "note": "70.3 RP를 롱런 후반부에 심는 첫 세션."
+      "note": "레이스 13.1 전에 12마일을 미리 찍는 자리. 2월 13.79mi·5월 13.1mi 이력 있음. 9/13 브릭(50mi+8-10mi)이 이보다 더 어려운 피크 세션."
      },
      "brick": false,
      "library": [
