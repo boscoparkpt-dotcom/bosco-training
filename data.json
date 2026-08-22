@@ -1,5 +1,5 @@
 {
- "version": 57,
+ "version": 58,
  "athlete": "Bosco",
  "races": [
   {
@@ -5464,7 +5464,7 @@
    "weeklySummary": {
     "title": "Week 27 — Run Rebuild W1 (재설계)",
     "content": "러닝 재시작. 롱런 6-7mi가 이번 주 유일한 필수. 러닝 4mi→16mi 복귀 첫 주",
-    "changes": "★플랜 전면 재설계 8/18. 구 플랜은 8/23을 레이스데이로 잘못 표기. 7/26 발목 2회 염좌 + 8/9 종아리 쥐로 5주간 러닝 거의 0 → 롱런 계단부터 다시.",
+    "changes": "★플랜 전면 재설계 8/18. 구 플랜은 8/23을 레이스데이로 잘못 표기. 7/26 발목 2회 염좌 + 8/9 종아리 쥐로 5주간 러닝 거의 0 → 롱런 계단부터 다시. 8/22 롱런 6.57mi 완료(계획 6-7mi 달성, 하루 일찍). 수 템포·금 OWS는 스킵.",
     "focus": "🔒 필수 = 토 롱런 6-7mi. 나머지는 보너스.",
     "weekStructure": "월 런(완료) · 화 바이크 threshold(완료) · 수 템포 · 목 스윔/오프 · 금 OWS · 토 롱런 · 일 그룹라이드"
    },
@@ -5602,19 +5602,19 @@
      "isoDate": "2026-08-22",
      "sport": "run",
      "sportLabel": "LONG RUN",
-     "completed": false,
+     "completed": true,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "🔒 LONG RUN 6-7mi easy",
-      "meta": "평지 · HR ≤155 · 페이스 무시",
+      "title": "LONG RUN ✅ 6.57mi — Fort Lee",
+      "meta": "9:10/mi · +604ft · HR 165/184 · TE 4.2",
       "sets": [
-       "연료: 전 탄수 30-50g",
-       "전해질 핸드헬드",
-       "★이번 주 필수 세션"
+       "★네거티브 스플릿: mi6 8:12, 마지막 0.57mi 7:37",
+       "★평균 9:10/mi = 70.3 레이스페이스 (언덕 604ft 포함)",
+       "7/26 스윔런 이후 최장 러닝"
       ],
       "equipment": [],
-      "note": "9/20 브롱스 10mi + 9/26을 향한 롱런 계단 1단계. 6→8→9-10→(피크브릭)→10(브롱스)."
+      "note": "계획은 평지 이지(HR<155)였으나 실제는 힐 + HR 165. 다만 이번 블록 처음으로 롱런을 후반에 살림 — 스윔런/8-20 인터벌의 페이드 패턴을 깼음."
      },
      "brick": false,
      "library": [
