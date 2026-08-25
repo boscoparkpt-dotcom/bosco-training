@@ -1,5 +1,5 @@
 {
- "version": 60,
+ "version": 61,
  "athlete": "Bosco",
  "races": [
   {
@@ -5658,9 +5658,9 @@
    "weeklySummary": {
     "title": "Week 28 — Run Rebuild W2",
     "content": "롱런 9mi · 브릭 재도입 · 러닝 ~20mi",
-    "changes": "",
+    "changes": "수/목 스왑(목 비). 금 OWS는 그날만 개방=이동 불가. 토 비오면 롱런→일요일.",
     "focus": "🔒 필수 = 롱런 9mi + 롱라이드",
-    "weekStructure": "월 휴식 · 화 바이크+브릭 · 수 이지런 · 목 스윔+Wt A · 금 OWS · 토 롱런 8mi · 일 라이드 45mi"
+    "weekStructure": "월 스윔 · 화 바이크(완료) · 수 템포런 · 목 스윔+Wt(비) · 금 OWS고정 · 토 롱런 9mi · 일 예비"
    },
    "days": [
     {
@@ -5668,19 +5668,15 @@
      "name": "Monday",
      "date": "Aug 24",
      "isoDate": "2026-08-24",
-     "sport": "rest",
-     "sportLabel": "REST",
-     "completed": false,
+     "sport": "swim",
+     "sportLabel": "SWIM",
+     "completed": true,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "REST + 모빌리티",
-      "meta": "발목/종아리 루틴",
-      "sets": [
-       "밸런스 눈감고 SL 30s ×3",
-       "밴드 eversion 3×15",
-       "SL heel raise"
-      ],
+      "title": "SWIM 2200yd ✅",
+      "meta": "(가민 미동기화)",
+      "sets": [],
       "equipment": [],
       "note": ""
      },
@@ -5696,21 +5692,23 @@
      "date": "Aug 25",
      "isoDate": "2026-08-25",
      "sport": "bike",
-     "sportLabel": "BIKE+BRICK",
-     "completed": false,
+     "sportLabel": "BIKE",
+     "completed": true,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "BIKE 60min + 브릭런 15min",
-      "meta": "바이크 IF 0.75-0.80 · 브릭 9:10/mi 감각",
+      "title": "BIKE ✅ 40.31mi — 9W/Tappan Zee",
+      "meta": "18.7mph · NP 215 · IF 0.817 · +1,772ft · HR 157/172 · TE 4.0",
       "sets": [
-       "바이크 3×8min @ 200-210W",
-       "브릭 15min @ 9:10-9:30/mi"
+       "★디커플링 없음: 전반 NP205/HR156 → 후반 NP222/HR158 (파워+8.5%, HR+1%)",
+       "★맞바람 + 최대 클라이밍(L7 +407ft) 후 L8을 21.8mph로 마무리",
+       "★바이크 durability 검증 완료 — 8/1 63mi·8/9 AG2위와 함께 3번째",
+       "⚠️연료 실측: 사전 떡 60-70g + 젤 2개 44g = 약 20g/hr (목표 60-90g/hr)"
       ],
       "equipment": [],
-      "note": "브릭 재도입. 짧게 시작."
+      "note": "2시간은 글리코겐으로 커버됐지만 9/26은 6시간. 20g/hr로는 런에서 빔. 9/13 브릭에서 75-100g/hr 테스트 필수. 케이던스 81(야외 언덕) vs ROUVY 84.6(평지) — 레이스는 평지라 84-86 예상."
      },
-     "brick": true,
+     "brick": false,
      "library": [
       "ankle-rehab"
      ]
@@ -5724,15 +5722,17 @@
      "sportLabel": "RUN",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "RUN 5mi easy + 스트라이드 4×30s",
-      "meta": "밤 트랙 · HR ≤157",
+      "title": "RUN 6mi + 템포 3×8min",
+      "meta": "밤 트랙 · 8:00-8:15/mi · 회복 2min",
       "sets": [
-       "스트라이드는 8:00/mi 감각 — 5:45 금지"
+       "W/U 1.5mi easy",
+       "3×8min @ 8:00-8:15 (HR 165-172), 회복 2min",
+       "C/D 1mi"
       ],
       "equipment": [],
-      "note": "8/5에 8:00 시켰는데 5:45 뛴 전례 있음. 스트라이드는 이코노미용이지 인터벌 아님."
+      "note": "수/목 스왑 — 목요일 비 + 롱런 전 회복 이틀 확보. 인터벌 대신 템포(8/20 800m: 7:21→8:27 붕괴, HR 164-166 평평 = 근지구력 한계)."
      },
      "brick": false,
      "library": [
@@ -5748,13 +5748,12 @@
      "sportLabel": "SWIM+WEIGHT",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "SWIM 2500yd + Weight A",
-      "meta": "지구력 세트",
+      "title": "SWIM 2000-2500yd + Weight A",
+      "meta": "☔비 예보 → 실내",
       "sets": [
-       "3×500 @ 이지-중",
-       "웨이트 A (하체+풀)"
+       "웨이트 A (하체+풀) — 발목/종아리 보강"
       ],
       "equipment": [],
       "note": ""
@@ -5774,15 +5773,17 @@
      "sportLabel": "OWS",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "OWS 1500-2000yd or 오프",
-      "meta": "웻수트",
+      "title": "★OWS 웻수트 연속 1500-2000yd",
+      "meta": "금요일만 개방 — 이동 불가",
       "sets": [
-       "연속 스윔, 정지 최소화"
+       "웻수트 착용, 무정지 연속",
+       "사이팅 6스트로크마다",
+       "★고글은 캡 위"
       ],
       "equipment": [],
-      "note": ""
+      "note": "★3회 연기된 세션. 8/9 논웻 1:59/100yd(AG 8/34) → 웻수트 1:50-1:55 예상. 이거 하나로 9/26 스윔 계획 확정."
      },
      "brick": false,
      "library": [
@@ -5824,12 +5825,12 @@
      "sportLabel": "BIKE",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "LONG RIDE 45mi",
-      "meta": "IF 0.72-0.76",
+      "title": "예비 슬롯 — 이지 라이딩 or 휴식",
+      "meta": "토요일 롱런 완료 시 이지/휴식, 비로 못 했으면 롱런",
       "sets": [
-       "연료 60-90g/hr 기록"
+       "브릭 없음 — 이번 주 러닝 19mi(2주 전 3.2mi)"
       ],
       "equipment": [],
       "note": ""
