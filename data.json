@@ -5656,11 +5656,11 @@
    "weekDates": "Aug 24-30, 2026",
    "startDate": "2026-08-24",
    "weeklySummary": {
-    "title": "Week 28 — Run Rebuild W2",
-    "content": "롱런 9mi · 브릭 재도입 · 러닝 ~20mi",
-    "changes": "수/목 스왑(목 비). 금 OWS는 그날만 개방=이동 불가. 토 비오면 롱런→일요일.",
-    "focus": "🔒 필수 = 롱런 9mi + 롱라이드",
-    "weekStructure": "월 스윔 · 화 바이크(완료) · 수 템포런 · 목 스윔+Wt(비) · 금 OWS고정 · 토 롱런 9mi · 일 예비"
+    "title": "Week 28 — Run Rebuild W2 (재배치)",
+    "content": "★일요일 롱런 13.1mi (본인 결정) · 금 OWS 웻수트 · 토 롱라이드+브릭 2mi",
+    "changes": "8/27 목 세션 미실시 → 금·토·일 3연속으로 재배치. 토 롱런 9mi → 롱라이드+브릭런 2mi로 교체, 일요일에 13.1mi 배치.",
+    "focus": "🔒 금 OWS 웻수트 · 🔒🔒 일 13.1mi (run/walk)",
+    "weekStructure": "월 스윔✅ · 화 바이크✅ · 수 오프 · 목 미실시 · 금 ★OWS 웻수트 · 토 롱라이드+브릭2 · 일 ★★롱런 13.1mi"
    },
    "days": [
     {
@@ -5718,21 +5718,17 @@
      "name": "Wednesday",
      "date": "Aug 26",
      "isoDate": "2026-08-26",
-     "sport": "run",
-     "sportLabel": "RUN",
+     "sport": "rest",
+     "sportLabel": "SKIPPED",
      "completed": false,
      "injury": false,
      "changed": true,
      "workout": {
-      "title": "RUN 6mi + 템포 3×8min",
-      "meta": "밤 트랙 · 8:00-8:15/mi · 회복 2min",
-      "sets": [
-       "W/U 1.5mi easy",
-       "3×8min @ 8:00-8:15 (HR 165-172), 회복 2min",
-       "C/D 1mi"
-      ],
+      "title": "미실시",
+      "meta": "수/목 스왑 후 소화 안 됨",
+      "sets": [],
       "equipment": [],
-      "note": "수/목 스왑 — 목요일 비 + 롱런 전 회복 이틀 확보. 인터벌 대신 템포(8/20 800m: 7:21→8:27 붕괴, HR 164-166 평평 = 근지구력 한계)."
+      "note": ""
      },
      "brick": false,
      "library": [
@@ -5744,19 +5740,19 @@
      "name": "Thursday",
      "date": "Aug 27",
      "isoDate": "2026-08-27",
-     "sport": "swim",
-     "sportLabel": "SWIM+WEIGHT",
+     "sport": "rest",
+     "sportLabel": "MISSED",
      "completed": false,
      "injury": false,
      "changed": true,
      "workout": {
-      "title": "SWIM 2000-2500yd + Weight A",
-      "meta": "☔비 예보 → 실내",
+      "title": "미실시 — 세션 없음",
+      "meta": "본인 보고 (8/27)",
       "sets": [
-       "웨이트 A (하체+풀) — 발목/종아리 보강"
+       "런 마지막 = 8/22 (6.57mi). 공백 8일."
       ],
       "equipment": [],
-      "note": ""
+      "note": "금·토·일 3연속 부하로 재배치. 그만큼 일요일 13mi 리스크가 올라감 — run/walk 필수."
      },
      "brick": false,
      "library": [
@@ -5775,15 +5771,16 @@
      "injury": false,
      "changed": true,
      "workout": {
-      "title": "★OWS 웻수트 연속 1500-2000yd",
-      "meta": "금요일만 개방 — 이동 불가",
+      "title": "★OWS 웻수트 연속 1600-2000yd (확정)",
+      "meta": "금요일만 개방 — 이동 불가 · 4회 연기 끝",
       "sets": [
        "웻수트 착용, 무정지 연속",
        "사이팅 6스트로크마다",
-       "★고글은 캡 위"
+       "★고글은 캡 위 (SuperTri 사고 원인 = 루틴 변경)",
+       "웻수트 착탈 타이밍 계측"
       ],
       "equipment": [],
-      "note": "★3회 연기된 세션. 8/9 논웻 1:59/100yd(AG 8/34) → 웻수트 1:50-1:55 예상. 이거 하나로 9/26 스윔 계획 확정."
+      "note": "8/9 논웻 1:59/100yd(AG 8/34) → 웻수트 1:50-1:55 예상. 이 세션 하나로 9/26 스윔 스플릿 확정. 내일 롱라이드 있으니 race effort는 마지막 400yd만."
      },
      "brick": false,
      "library": [
@@ -5796,22 +5793,23 @@
      "name": "Saturday",
      "date": "Aug 29",
      "isoDate": "2026-08-29",
-     "sport": "run",
-     "sportLabel": "LONG RUN",
+     "sport": "bike",
+     "sportLabel": "BRICK",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "🔒 LONG RUN 9mi easy",
-      "meta": "평지 · HR ≤157 · 마지막 2mi 9:10 시도 가능",
+      "title": "LONG RIDE 35-40mi + 브릭런 2mi",
+      "meta": "IF ≤0.70 (내일 13mi 보호) · 브릭런 10:30-11:00/mi",
       "sets": [
-       "연료: 40분 지점 젤 1개",
-       "전해질"
+       "라이드: NP 175-185W 상한. 절대 밀지 말 것 — 내일이 메인",
+       "브릭런 2mi: 오프바이크 다리 감각만, 페이스 억제",
+       "연료 실전: 60-90g CHO/hr 테스트 (8/25 실측 20g/hr = 부족)"
       ],
       "equipment": [],
-      "note": "+25% 증가. 발목/종아리 이상 신호 = 즉시 중단."
+      "note": "★원래 계획은 롱라이드 45-50mi였으나 일요일 13.1mi가 메인이 되면서 하향. 여기서 IF 0.8로 타면 내일 13mi는 실패한다."
      },
-     "brick": false,
+     "brick": true,
      "library": [
       "ankle-rehab"
      ]
@@ -5821,19 +5819,23 @@
      "name": "Sunday",
      "date": "Aug 30",
      "isoDate": "2026-08-30",
-     "sport": "bike",
-     "sportLabel": "BIKE",
+     "sport": "run",
+     "sportLabel": "LONG RUN",
      "completed": false,
      "injury": false,
      "changed": true,
      "workout": {
-      "title": "예비 슬롯 — 이지 라이딩 or 휴식",
-      "meta": "토요일 롱런 완료 시 이지/휴식, 비로 못 했으면 롱런",
+      "title": "🔒🔒 LONG RUN 13.1mi — run/walk",
+      "meta": "평지 · 10min run / 1min walk · 전체 10:45-11:15/mi · HR ≤155",
       "sets": [
-       "브릭 없음 — 이번 주 러닝 19mi(2주 전 3.2mi)"
+       "★페이스 아니라 완주가 목표. 10:00/mi로 연속 시도 금지",
+       "10min 런 / 1min 워크 = 레이스 aid station 전략 그대로 리허설",
+       "연료: 40분마다 젤 1개 (총 2-3개) + 전해질, 물 휴대",
+       "마지막 2mi만 여유 있으면 10:00/mi 시도",
+       "⚠️중단 기준: 발목 날카로운 통증 · 절뚝임 · 폼 붕괴"
       ],
       "equipment": [],
-      "note": ""
+      "note": "★본인 결정. 8/22 6.57mi 대비 +99%, 어제 라이딩 다음날. 10%룰·발목(7/26 우측 Grade I) 이탈이 명백하므로 run/walk + 11:00/mi로 리스크를 낮춰 실행한다. 성공 시 sub-6의 마지막 미검증 항목(런 durability)이 4주 앞당겨 해결됨. 이후 7-10일은 회복 우선."
      },
      "brick": false
     }
@@ -5846,10 +5848,10 @@
    "startDate": "2026-08-31",
    "weeklySummary": {
     "title": "Week 29 — Race-Specific Build",
-    "content": "★최장 롱런 11-12mi · 웻수트 연속 OWS · FTP/LTHR 재측정",
-    "changes": "★미해결 3건 처리 주간: ①웻수트 연속 OWS 한 번도 못 잼(3회 연기) ②FTP 245 낡음(Garmin 264 추정) ③LTHR 176 낡음(8/9 런 22:42를 avg 178로 뜀 → 실제 180-182 추정)",
-    "focus": "🔒 롱런 11-12mi + 🔒 OWS 웻수트 연속 + 측정 2건",
-    "weekStructure": "월 휴식 · 화 FTP 20min TT · 수 템포 4×8 · 목 스윔+Wt B · 금 ★OWS 웻수트 연속 · 토 롱런 9-10mi · 일 라이드 50mi"
+    "content": "8/30 13.1mi 후속 — 회복 우선 · FTP/LTHR 재측정 · 롱라이드 50mi",
+    "changes": "★롱런 11-12mi → 8-9mi 이지로 하향. 8/30에 13.1mi를 이미 소화했으므로 최장 롱런 목표는 달성. 이 주는 발목·근육 회복이 우선.",
+    "focus": "🔒 발목 무통 확인 + FTP/LTHR 측정 + 롱라이드 50mi",
+    "weekStructure": "월 휴식 · 화 FTP 20min TT · 수 이지런 4mi · 목 스윔+Wt B · 금 OWS · 토 롱런 8-9mi 이지 · 일 라이드 50mi"
    },
    "days": [
     {
@@ -5909,17 +5911,16 @@
      "sportLabel": "RUN",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "RUN 6mi + 템포 4×8min",
-      "meta": "밤 트랙 · 8:00-8:15/mi · 회복 2min",
+      "title": "RUN 4mi easy — 발목 체크",
+      "meta": "밤 트랙 · HR ≤150 · 10:00-10:30/mi",
       "sets": [
-       "W/U 1.5mi",
-       "4×8min",
-       "C/D 1mi"
+       "13.1mi 후 첫 런 = 진단 세션. 템포 아님",
+       "발목/종아리 이상 시 즉시 종료 후 스윔으로 대체"
       ],
       "equipment": [],
-      "note": ""
+      "note": "★템포 4×8min에서 하향. 13.1mi 이틀 뒤 퀄리티는 부상 직행."
      },
      "brick": false,
      "library": [
@@ -5987,17 +5988,16 @@
      "sportLabel": "LONG RUN",
      "completed": false,
      "injury": false,
-     "changed": false,
+     "changed": true,
      "workout": {
-      "title": "🔒 LONG RUN 11-12mi ★최장",
-      "meta": "시즌 최장 롱런 · 마지막 3mi @ 9:10/mi HR 155-160",
+      "title": "LONG RUN 8-9mi easy",
+      "meta": "평지 · HR ≤155 · 10:15-10:45/mi · 마지막 2mi 10:00 시도 가능",
       "sets": [
-       "★레이스 3주 전 거리 확인",
-       "연료 40분마다 젤 — 실제 g/hr 기록",
-       "전해질 필수"
+       "연료: 40분 지점 젤 1개",
+       "13.1mi가 아프지 않았을 때만 실행. 잔통 있으면 6mi로 축소"
       ],
       "equipment": [],
-      "note": "레이스 13.1 전에 12마일을 미리 찍는 자리. 2월 13.79mi·5월 13.1mi 이력 있음. 9/13 브릭(50mi+8-10mi)이 이보다 더 어려운 피크 세션."
+      "note": "★11-12mi에서 하향. 최장 롱런은 8/30에 이미 찍었다. 남은 과제는 '오프바이크' 런이지 더 긴 스탠드얼론 롱런이 아님 → 9/13 피크 브릭이 진짜 시험."
      },
      "brick": false,
      "library": [
