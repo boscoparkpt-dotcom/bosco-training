@@ -5918,16 +5918,16 @@
      "injury": false,
      "changed": true,
      "workout": {
-      "title": "RUN 4mi easy — 발/발목 진단 세션 + 근력",
+      "title": "RUN 4mi easy — 발/폼 확인 + 근력",
       "meta": "HR ≤150 · 10:00-10:30/mi · flat",
       "sets": [
-       "★13.1 후 첫 런 = 진단이다. 템포·인터벌 금지",
-       "체크 포인트: ①우측 발목(sinus tarsi) ②아치·1st MTH hot spot 부위 ③케이던스 85 유지되는지",
+       "★13.1 후 첫 런. 템포·인터벌 금지",
+       "체크: 아치·1st MTH hot spot 부위 반응 + 케이던스 85 유지되는지",
        "근력: foot intrinsics + tib post — short foot, toe yoga, towel-under-toes heel raise, SL calf raise",
        "★양말/윤활제 조합 1차 테스트 (이중층 or Injinji 라이너 + 아치·1st MTH 윤활제)"
       ],
       "equipment": [],
-      "note": "이번 주 유일한 목적은 회복 확인이다. 13.1의 값은 이미 받았고, 지금 더 쌓을 게 아니라 소화할 때. 이상 있으면 바로 백오프."
+      "note": "이번 주 목적은 회복 확인. 13.1의 값은 이미 받았고 지금은 소화할 때."
      },
      "brick": false,
      "library": [
@@ -6427,7 +6427,7 @@
    "weeklySummary": {
     "title": "🏁 Race Week — Jones Beach 70.3 (9/26 토)",
     "content": "짧고 날카롭게 · 장비 최종 · Nothing new",
-    "changes": "🚨9/21 All of Pain 첫 출근(M/W/F 10-8) + 화·목 육아 + 9/26 토요일이 근무일. 훈련 최소화가 전략적으로 옳다. ★9/26 휴무 확정 여부 아직 미확인 — 최우선 확인 사항",
+    "changes": "9/21 All of Pain 첫 출근(M/W/F 10-8) + 화·목 육아. 9/26 레이스 휴무는 본인이 이미 정리 완료. 훈련 최소화가 전략적으로 옳다.",
     "focus": "🏁 9/26 Jones Beach 70.3 · sub-6",
     "weekStructure": "월 첫 출근+이지스윔 · 화 OFF(육아)+저녁 이지런 · 수 바이크 오프너 · 목 OFF(육아)+저녁 스윔 · 금 오프너+패킷 · 토 🏁RACE"
    },
